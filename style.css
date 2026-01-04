@@ -6627,6 +6627,238 @@ html:not(.dark) .highlight .chroma .w {
   inherits: false;
   initial-value: "";
 }
-      [x-cloak] {
-        display: none !important
-      }
+ul.lmlTitles-titleList li,ul.lmlIncips-incipList li,ul.lmlCorr-siglaList li {
+  margin-top:1em;
+  list-style-type:none
+}
+ul.lmlTitles-siglaList li,
+ul.lmlCorr-fileList li {
+  margin-top:0;
+  list-style-type:square
+}
+ul.lmlTitles-siglasList li ul li,
+ul.lmlIncips-siglaList li ul li {
+  list-style-type:disc
+}
+ul.lmlIncips-siglaList li {
+  margin:0;
+  list-style-type:none
+}
+span.guidelines {
+  font-family: "PT Sans","Open Sans","Lucida Sans Unicode","Lucida Grande",Arial,sans-serif;
+  font-size: 0.85em;
+  margin: 10px 0 10px 0;
+}
+span.expando {
+  font-family:Vollkorn,Georgia,Garamon,"Times New Roman",serif;
+  font-size:1em
+}
+span.expando:hover {
+  cursor:pointer;
+  cursor:hand;
+  color:black
+}
+span.expando:hover span.plus-minus {
+  color:#c00
+}
+span.expando span.plus-minus {
+  font-family:monospace;
+  font-size:.9em
+}
+div.expando-data {
+  font-size:1em
+}
+ul.tmlTitles-titleList,
+ul.tmlIncips-incipList,
+ul.contribList,
+ul.lmlConcordance {
+  list-style-type:none;
+  padding-left:.25em
+}
+ul.tmlTitles-titleList li,
+ul.tmlIncips-incipList li,
+ul.contribList li,
+ul.lmlConcordance li {
+  margin-bottom:.3em
+}
+ul.tmlTitles-titleList li span.inlineDisplay,
+ul.tmlIncips-incipList li span.inlineDisplay,
+ul.contribList li span.inlineDisplay,
+ul.lmlConcordance li span.inlineDisplay {
+  display:inline-block;
+  min-width:25px;
+  float:left
+}
+ul.tmlTitles-titleList span.title,
+ul.tmlIncips-incipList span.title,
+ul.contribList span.title,
+ul.lmlConcordance span.title {
+  font-style:italic
+}
+ul.tmlSources-titleList,
+ul.tmlTitles-fileList,
+ul.tmlIncips-fileList,
+ul.contrib-fileList,
+ul.groveConcord-fileList,
+ul.browse-indexList {
+  list-style-type:none;
+  padding-left:0;
+  accent-color: ;
+}
+ul.tmlSources-titleList li,
+ul.tmlTitles-fileList li,
+ul.tmlIncips-fileList li,
+ul.contrib-fileList li,
+ul.groveConcord-fileList li,
+ul.browse-indexList li {
+  margin-top:.25em;
+  list-style-type:none
+}
+ul.tmlSources-titleList li span.title,
+ul.tmlTitles-fileList li span.title,
+ul.tmlIncips-fileList li span.title,
+ul.contrib-fileList li span.title,
+ul.groveConcord-fileList li span.title,
+ul.browse-indexList li span.title {
+  font-style:italic
+}
+ul.tmlSources-titleList li span.fnft,
+ul.tmlTitles-fileList li span.fnft,
+ul.tmlIncips-fileList li span.fnft,
+ul.contrib-fileList li span.fnft,
+ul.groveConcord-fileList li span.fnft,
+ul.browse-indexList li span.fnft {
+  font-variant:small-caps
+}
+ul.tmlSources-titleList li p.source,
+ul.tmlTitles-fileList li p.source,
+ul.tmlIncips-fileList li p.source,
+ul.contrib-fileList li p.source,
+ul.groveConcord-fileList li p.source,
+ul.browse-indexList li p.source {
+  margin:.25em auto .75em 1.5em;
+  font-size:.9em
+}
+ul.tmlSources-titleList li p.title,
+ul.tmlTitles-fileList li p.title,
+ul.tmlIncips-fileList li p.title,
+ul.contrib-fileList li p.title,
+ul.groveConcord-fileList li p.title,
+ul.browse-indexList li p.title {
+  margin:.25em auto .75em 1.5em
+}
+ul.lmlConcordance-tmlList {
+  list-style-type:none
+}
+ul.lmlConcordance-tmlList li.canonical:before {
+  float:left;
+  font-family:FontAwesome;
+  font-size:1em;
+  margin-left:-1em;
+  padding-right:.25em;
+  content:"\f101"
+}
+table#lmlSortFormTable {
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+  background-color:#e6e6ec;
+  font-family:"PT Sans","Open Sans","Lucida Sans Unicode","Lucida Grande",Arial,sans-serif;
+  font-size:.9em
+}
+table#lmlSortFormTable td.label {
+  font-variant:small-caps;
+  padding-right:1em
+}
+div.lml_entry {
+  border-top:1px solid black;
+  padding-left:2em
+}
+div.lml_entry p {
+  margin:.25em
+}
+div.lml_entry p.sort {
+  font-weight:bold;
+  margin-left:-2em
+}
+div.lml_entry ul li {
+  list-style-type:none
+}
+div.lml_entry ul li:before {
+  content:"• ";
+  font-size:1.25em
+}
+div.lml_entry ul li.canonical:before {
+  content:"→ ";
+  color:red
+}
+p#lml_entry_demo {
+  padding-left:2em;
+  margin:.25em
+}
+#authForm {
+  width:55%;
+  float:left
+}
+#authForm table td {
+  vertical-align:top
+}
+input[type="checkbox"] {
+  margin-right:1em
+}
+span.tml,
+span.lml {
+  margin-left:1em;
+  color:#888;
+  font-size:90%;
+  font-family:"PT Sans","Open Sans","Lucida Sans Unicode","Lucida Grande",Arial,sans-serif
+}
+span.tml {
+  display:none
+}
+table#lib-sigla,
+table#lib-sigla tr,
+table#lib-sigla td,
+table#lib-sigla th {
+  padding:.4em;
+  border-collapse:collapse
+}
+table#lib-sigla th {
+  text-align:left;
+  border-bottom:2px solid black
+}
+table#lib-sigla td {
+  border-right:1px solid #999
+}
+table#lib-sigla td:last-child {
+  border-right:none
+}
+div#floatingBox {
+  position:absolute;
+  right:0px;
+  width:auto;
+  font-family:"PT Sans","Open Sans","Lucida Sans Unicode","Lucida Grande",Arial,sans-serif
+}
+div#floatingBox #backToTop {
+  font-size:90%;
+  margin-top:.25em;
+  clear:both;
+  float:right
+}
+ul#chosenAuths {
+  list-style-type:none;
+  padding:0;
+  margin-top:.5em
+}
+ul#chosenAuths li span.chosenAuth {
+  margin-left:.75em;
+  cursor:hand;
+  cursor:pointer
+}
+ul#chosenAuths li span.chosenAuth:hover {
+  color:#3285a7
+}
+#submitInPanel {
+  margin-top:0em
+}
+
+
