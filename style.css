@@ -959,7 +959,7 @@
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     padding-inline-start: 1.625em;
-    list-style-type: disc;
+    list-style-type: none;
   }
   .prose
     :where(ol > li):not(:where([class~="not-prose"], [class~="not-prose"]

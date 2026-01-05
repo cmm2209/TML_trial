@@ -1,3 +1,16 @@
+const MSS = document.getElementById("MSList");
+const Prints = document.getElementById("PrintList");
+
+function toggleView() {
+if (MSS.style.display === "none") {
+    Prints.style.display = "none"
+    MSS.style.display = "block"
+  } else {
+    Prints.style.display = "block"
+    MSS.style.display = "none";
+  }
+};
+
 function searchModal() {
         return {
           query: "",
