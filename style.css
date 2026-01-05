@@ -6860,5 +6860,11 @@ ul#chosenAuths li span.chosenAuth:hover {
 #submitInPanel {
   margin-top:0em
 }
-
+ul.lmlConcordance-tmlList li.canonical:before {
+  float:left;
+  font-size:1em;
+  margin-left:-1em;
+  padding-right:.25em;
+  content:">";
+}
 
