@@ -1,0 +1,723 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>VERLIB_TEXT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="_assets/css/tml/layout.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/css/common/chmtl_identity.css" />
+    <!--<link rel="stylesheet" type="text/css" href="_assets/css/w3.css" />-->
+    <link rel='stylesheet' type='text/css' href='_assets/css/fancybox.css' />
+    <script type= 'text/javascript' src='_assets/js/chmtl_file.min.js'></script>
+</head>
+
+<body>
+  <div id="chmtl-identity">
+    <div id="identity-spacer"></div>
+<!--    <p>A project of <a href="http://chmtl.indiana.edu">CHMTL</a></p>-->
+    <div id="chmtl-border">
+      <div id="chmtl-blue"></div>
+      <div id="chmtl-yellow"></div>
+      <div id="chmtl-gray"></div>
+      <div id="chmtl-red"></div>
+    </div>
+  </div>
+    <div id="identity">
+    <div id="menu-container">
+  <a><span class="menu-btn"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</span></a>
+  <a href="../index.html"><span class="home-link">Home</span></a>
+  <span class="search-short">
+    <a class="modal-tooltip" modal="search-tip">&nbsp;<i class="fa fa-info-circle" aria-hidden="true">
+      <span class="sr-only">Click for more information</span></i></a>
+    <form  action="VERLIB.html#" id="menuSearch"><input type="text" id="menuSearchText" placeholder="Quick search"/></form><span class="navSearchButton"><i class="fa fa-search"></i></span></span>
+  <a href="../copyright.html" target="_blank"><span class="copyright-short">Copyright Notice</span></a>
+</div>
+
+<div id="search-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="search-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+
+     <p>Use the &ldquo;Quick search&rdquo; if you want to search for <em>all documents</em> within the <em>whole archive</em> where words <em>matching or containing</em> the searched string are found.</p>
+     <p>For more specific queries (phrase searching, operators, and filters), visit the <a href="../quaero.html" target="_blank">full Search</a> page.</p>
+   </div>
+ </div>
+ </div>
+    </div>
+<div id="container" class="tml-file">
+  <nav id="sliding-left-nav" class="pushy pushy-left">
+    <ul class="push-menu">
+        <li class="pushy-submenu">
+            <a class="submenu-heading">ABOUT</a>
+            <ul>
+                <li class="pushy-link"><a href="../about/introduction.html">Introduction</a></li>
+                <li class="pushy-link"><a href="../about/content.html">Content</a></li>
+                <li class="pushy-link"><a href="../about/policies.html">Policies</a></li>
+                <li class="pushy-link"><a href="../about/howTo.html">How-To</a></li>
+                <li class="pushy-link"><a href="../about/future_plans.html">Future plans</a></li>
+                <li class="pushy-link"><a href="../about/people.html">People</a></li>
+                <li class="pushy-link"><a href="../about/contact.html">Contacts</a></li>
+            </ul>
+        </li>
+        <li class="pushy-submenu">
+          <a class="submenu-heading">BROWSE</a>
+          <ul>
+            <li class="pushy-link"><a href="../browse/authors.html">by author</a></li>
+            <li class="pushy-link"><a href="../browse/contributors.html">by contributor</a></li>
+            <li class="pushy-link"><a href="../browse/incipits.html">by incipit</a></li>
+            <li class="pushy-link"><a href="../browse/sources.html">by source</a></li>
+            <li class="pushy-link"><a href="../browse/titles.html">by title</a></li>
+            <li class="pushy-submenu">
+            <a class="centuryPushy">by century</a>
+                   <ul>
+                     <li class="pushy-link"><a href="../3rd-5th/index.html">3rd-5th</a></li>
+                     <li class="pushy-link"><a href="../6th-8th/index.html">6th-8th</a></li>
+                     <li class="pushy-link"><a href="../9th-11th/index.html">9th-11th</a></li>
+                     <li class="pushy-link"><a href="../12th/index.html">12th</a></li>
+                     <li class="pushy-link"><a href="../13th/index.html">13th</a></li>
+                     <li class="pushy-link"><a href="index.html">14th</a></li>
+                     <li class="pushy-link"><a href="../15th/index.html">15th</a></li>
+                     <li class="pushy-link"><a href="../16th/index.html">16th</a></li>
+                     <li class="pushy-link"><a href="../17th/index.html">17th</a></li>
+                   </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pushy-submenu"><a href="../quaero.html">SEARCH</a></li>
+        <li class="pushy-submenu">
+            <a class="submenu-heading">EXTRAS</a>
+            <ul>
+              <li class="pushy-submenu">
+                <a href="../concordances.html">Concordances</a>
+                  <ul>
+                    <li class="pushy-link"><a href="../concordances/lml.html"><em>Lexicon musicum Latinum</em></a></li>
+                    <li class="pushy-link"><a href="../concordances/grove_anonymous.html">Grove Anonymous</a></li>
+                  </ul>
+            </ul>
+        </li>
+     </ul>
+</nav>
+  <div class="site-overlay"></div>
+
+<div id="content">
+  <noscript>
+  <div  id="noScript" class="warning">
+    <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> JavaScript Required</p>
+    <p>In order to ensure the proper functining of this website, please enable JavaScript in your browser security preferences or use a device that supports it.</p>
+  </div>
+</noscript>
+<div id="header">
+    <div id="source" class="ft-text">
+        <p class="author">Johannes Verulus de Anagnia </p>
+        <p class="title">Liber de musica</p>
+        <p class="tmlSource"><strong>Source</strong>: <i>Scriptorum de musica medii aevi nova series a Gerbertina altera</i>, 4 vols., ed. Edmond de Coussemaker (Paris: Durand, 1864-76; reprint ed., Hildesheim: Olms, 1963), 3:129–77.</p>
+                <p id="chmtl-staff">
+                    <span class="eca-span">Electronic version prepared by C. Matthew Balensuela <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="entered">E</span></a>, Luminita Florea Aluas <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="checked">C</span></a>, and Albert C. Rotola, S.J. <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="approved">A</span></a>
+              for the <i>Thesaurus Musicarum Latinarum</i>, 1991.
+            </p>
+              </div>
+
+</div> <!-- end header div -->
+<div id="entry-abbrv" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="entry-abbrv"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+     <p>The aforementioned individual(s) <span class="entered">E</span>ntered, <span class="checked">C</span>hecked, or <span class="approved">A</span>pproved the electronic transcription of the source document.</p>
+   </div>
+ </div>
+ </div>
+
+ <div id="entry-abbrv-short" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <a class="close-modal" modal="entry-abbrv-short"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+      <br />
+      <p><span class="checked">C</span>: Indicates the aforemententioned person(s) checked the transcription.</p>
+      <p><span class="approved">A</span>: Indicates the aforementioned person(s) approved the transcription for publication.</p>
+    </div>
+  </div>
+  </div>
+
+  <div id="multipart-tip" class="w3-modal">
+   <div class="w3-modal-content">
+     <div class="w3-container">
+       <a class="close-modal" modal="multipart-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+       <br />
+       <p>Historically, in the TML long texts were split into multiple files. These are now linked to each other for easier browsing. In a future version, they will be consolidated into a single view.</p>
+     </div>
+   </div>
+   </div>
+
+  <div id="metadata-contd">
+    <p class="text-sidebar-buttons"><button id="tml-notes" class="pure-button">TML notes</button>&nbsp;<button id="tml-concordances" class="pure-button">Concordances</button></p>
+
+  <div id="sidebar">
+      <div id="extras-wrapper">
+        <!---->
+        <div id="tml-canon-info">
+          <div class="extras-heading"><a class="close-modal repoToolbox" modal="tml-canon-info"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">TML Notes</i></span></div>
+          <p>Cf. <a href="VERLDM.html">VERLDM</a>. [TJM]</p>
+        </div>
+<div id="concordances">
+  <div class="extras-heading"><a class="close-modal repoToolbox" modal="concordances"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">Concordances</i></span></div>
+  
+      <div id="lml-info">
+          <p>&#8594; We have found the following concordances with the <i><a class="external" href="http://www.lml.badw-muenchen.de/" target="_blank">Lexicon musicum Latinum</a></i> and the <i>R&eacute;pertoire International des Sources Musicales</i></p>
+          <ul id="lml-entries">
+                        <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>IOH. VETUL.</strong></span>
+             <div class="expando-data">
+                  <p>Iohannes Vetulus de Anagnia: <i>Liber de musica</i></p>
+                                      <ul>
+                  <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>MSS (RISM)</strong></span>
+                      <div class="expando-data">
+                      <!--<ul class="lml-ms-list">-->
+                      <table>
+                                                        <tr><td><span class="lib-siglum">I-Rvat</span> Barb. lat. 307, 1-16v</td>
+                                                  </tr></table>
+                      <!--</ul>--></div>
+                  </li>
+              </ul>
+              </div> <!-- expando-data -->
+                            </li>
+                    </ul>
+      </div>
+  
+  </div>
+  <div style="clear: both"></div>
+    </div><!--extras-wrapper -->
+  </div><!--sidebar-->
+  </div><!--metadata-contd-->
+  <div style="clear: both"></div>
+
+<div id="text-toolbox-wrapper">
+  <div id='floatingBox'>
+    <div class="floating-toolbox">
+      <table>
+        <tr>
+          <th>Actions</th>
+        </tr>
+      </table>
+    </div>
+    <p id="backToTop"> <a href='VERLIB.html#top'>Back to top</a></p>
+  </div>
+
+<div id="tml-text">
+
+<!-- begin text -->
+<p><span class='pageNo'>[129]</span> Johannis Veruli de Anagnia</p>
+
+<p>Liber de musica</p>
+
+<p>Cum igitur de arte musice tractare debeamus, primo videndum est quid sit musica, quid sit sujectum in ea, unde dicatur, et ad quem finem tendat. Est enim musica scientia mollificans duritiem et pravitatem cordis humani corporis ad celestia contemplandum; et hoc testatur Boetius in secundo "de Consolatione"; cum esset in adversitate positus, et vellet consolationem recipere, in quo adsit rhetorice dulcedinis suadela, que cum nostri . . . musice vernula, que nostra instituta non deserit, sed tam recto calle procedit, ut nunc graviores, et nunc leviores succinat modos. Subjectum est quod agitur per totam scientiam, videlicet sonoritas vocum, et ipsarum melodia. Et dicitur musica a Moys grece, quod est aqua, et logos, quod est scientia vel sermo, quia talis scientia inventa fuit juxta aquas, et merito. Nam sicut aqua abluit sordes et reficit corpora, sic ista scientia diluit merores mentis, et erigit ipsam ad judicunditatem. Finis ad quem tendit, est tota laus Dei, nam omnes voces ipsum Deum laudare debent, quod probatur per sacram paginam in plerisque locis, et maxime per Psalmistam, ubi dicitur: "Jubilate Deo omnis terra, etc."</p>
+
+<p>Musica est enim duplex, scilicet positiva et mensurativa; et sicut duplex est musica, ita duplex est nota, videlicet, una que spectat ad musicam planam, et alia que spectat ad musicam mensuratam, ad quam omnes note reducuntur. Et dicitur nota a nosco, noscis, quia per ipsam noscitur quidquid in arte musice agitur. Et dividitur nota secundum musicam planam in sex, videlicet: ut, re, mi, fa, sol, la; nam per istas sex notas tota musica noscitur. Ratio hujus est hec, quia, secundum philosophos, talis scientia inter liberales artes sextum tenet gradum, et quia sicut dicit Apostolus Jacobus: "Omne datum optimum talis scientia representat sextum donum Spiritus sancti, quod est donum pietatis"; nam sicut pius et misericors diligit pacificos et reconciliat discordes, sic hec scientia dirigit sonoritatem vocum et mensuram, et discordantiam ipsarum corrigit et reducit ad consonantiam et mensuram.</p>
+
+<p>Sed iste sex note possunt reduci ad quatuor notas, secundum reductionem artis nove, que <span class='pageNo'>[130]</span> sunt: ut, re, mi, fa. Et hoc quare? Quia sicut sunt quatuor elementa, de quibus totus mundus et ea que sunt in mundo, composita sunt, sic totus cantus per predictas quatuor notas componitur et versatur. Et ad istas notas ingredimur per tres claves, scilicet [sqb] quadratum, naturam, et b rotundum; et hoc quare? Quia in natura humana tria sunt, scilicet caro que ex quatuor elementis constat, et hoc representat prima clavis quadrangularis, que nascitur in G, quod G dicitur a generando. Est enim in humana natura forma substantialis, scilicet anima, in qua est voluntas, et habet potestatem contemplandi, et hoc representat secunda clavis nempe que nascitur in C. Tertia clavis est in b rotundo, que representat bonam voluntatem que est inter animam et corpus, et nascitur in f et sic naturalis substantia per suam voluntatem reflectit se ad dilectionem corporis, quod est de quatuor elementis, et aliquando se exaltat, et hilarat ad Dei laudem per mollitiem et lenitatem spiritus. Sic secunda clavis, scilicet C, potestatem habet ingrediendi ad primam et tertiam. Et hoc de musica plana dicta sufficiant, quia per Philosophos melius et sufficientius est tractatum.</p>
+
+<p>Postquam aliqualiter visum est de musica plana, videatur de musica mensurabili.</p>
+
+<p>Mensurabilis musica est que consistit in tribus notis ad similitudinem Trinitatis, in qua omnia, que sunt in rerum natura, consistunt et ab ipsa derivantur et ad ipsam reducuntur, dicendo Christus de se ipso: "Ego sum Alpha et Omega", id est principium et finis omnium rerum; ita iste tres note sunt principales quoad figuram, nomen et numerum; cum in istis tribus copulentur valores omnium mensurarum, figurarum, nominum et numerorum, et ab eis descendunt omnis mensura, species figurarum, nomina, numeri, modi, maneries, modorum tempora, divisiones temporum, maneries divisionum, prolationes, et maneries prolationum.</p>
+
+<p>Videndum est quid sit mensura.</p>
+
+<p>Mensura est quantitas temporis determinata per ipsum tempus in quo ipsa nota profertur; unde tempus, secundum Philosophos, sic definitur: "Tempus est mora motus mutabilium rerum"; sed tempus, prout spectat ad musicam, non est tempus, sed id quod agitur in tempore, videlicet armonia cantus, et vocum melodia que per tempus mensuratur.</p>
+
+<p>De divisione temporis.</p>
+
+<p>Dividitur tamen tempus per annum, menses, hebdomadas, dies, quadrantes, horas, punctorum momenta, uncias, et athomos. Athomus vero indivisibilis est. </p>
+
+<p>Omissa divisione omnium temporum, videndum est sicut dividitur dies naturalis, ubi agnoscitur mensura temporis secundum musicam. </p>
+
+<p>Dicendum est quod in quatuor principales quadrantes dividitur. Quadrans habet horas sex; de hora nascuntur puncta quatuor; punctus habet momenta decem; momentum habet uncias duodecim; uncia habet athomos quinquaginta quatuor. Est notandum quod ab ista uncia musicus accipit tempus rectum et perfectum; tamen neque majus neque minus, sed mediocriter; quod principaliter consistit in forma quadrangulari ad similitudinem quatuor partium mundi, in quibus ipsa Trinitas in sexta etate apparuit in carne humana. Et istud tempus dividitur in tres partes ad similitudinem Trinitatis, et dicitur tempus perfectum medium. Quod tempus dicitur breve, et breve est respectu aliorum superiorum, licet sit longum respectu aliorum temporum, divisionum minorum et minorum prolationum. </p>
+
+<p><span class='pageNo'>[131]</span> Viso de mensura, videndum est quid sit figura, et quot sint species figurarum.</p>
+
+<p>Dicendum est quod figura est forma note facta ad representationem vocis, seu mensura temporis ad utilitatem discentium, inventa ad cognoscendum proprietates notarum simpliciter figuratarum et ipsarum ligaturarum, et earumdem perfectiones et imperfectiones et simiperfectiones et semimperfectiones.</p>
+
+<p>Videndum est quid sit proprietas, et opposita proprietas in notis, et in quo differt.</p>
+
+<p>Proprietas notarum ligaturarum est illa que in ascendendo caret tractu, et in descendendo habet tractum; et hec est differentia: omnis ligature cum proprietate, prima brevis existit, et sine proprietate prima longa.</p>
+
+<p>Quid sit opposita proprietas videamus.</p>
+
+<p>Opposita proprietas est ubicumque in principio ligature, tam in corpore quadro quam in obliquo, tam ascendendo quam in descendendo, in prima nota ex parte sinistra tractum invenerimus superiorem.</p>
+
+<p>De nomine.</p>
+
+<p>Nomen dicitur a notatione, quia quidquid noscitur, per suum nomen noscitur. </p>
+
+<p>Dicendum est de proprietatibus figurarum, quia alia simplex, alia composita.</p>
+
+<p>Simplex figura est illa quando una nota soluta est ab alia. Composita est illa que cum alia est ligata. Ligatura est connexio figurarum simplicium per tractos debitos ordinata.</p>
+
+<p>Dicto de figuris, dicendum est de perfectionibus, quid sint.</p>
+
+<p>Perfectio est sine defectu, que in sola Trinitate consistit, que semper significatur per ternarium numerum ad cujus similitudinem perfectio modi dicitur, que per ternarium numerum reducitur. Imperfectio modi dicitur, quando non ascendit ad ternarium numerum, sed ad binarium. Numerus est, secundum, Philosophum, collectio de unitatibus congregata, et ita, secundum musicum, est congregatio notarum vel athomorum in uno corpore. Modi autem mensurarum, divisionum, prolationum sunt multi, varii, et divisi, ut inferius declaratur. Tamen omnes reducuntur secundum principales, videlicet ad perfectum et imperfectum. Et nota quod, quando loquimur principaliter de modo, non loquimur de tempore perfecto neque imperfecto, sed divisum tempus reducitur secundum modum perfectum, aut imperfectum, quia principales modi reperiuntur in temporibus. </p>
+
+<p>Viso de modo, videndum est de divisione temporis.</p>
+
+<p>Sciendum est quod in modo agnoscitur tempus, et ubi incipimus modum, possumus incipere mensuram temporis, dum tempus non sit divisum; sed si divisum est tempus, oportet sequi mensuram divisionis secundum figurationem per regulas ordinatam. Insuper habemus principaliter quadruplex tempus, scilicet perfectum et imperfectum, semiperfectum et semimperfectum. Divisio temporis reducitur secundum modum perfectum, et tempus imperfectum reducitur secundum modum imperfectum. Tempus semiperfectum et semimperfectum reducitur aliquando secundum modum perfectum et modum imperfectum. Et tempus semiperfectum et semimperfectum dicitur respectu istius temporis perfecti aut imperfecti, et non secundum vocem. </p>
+
+<p>Quot sint species figurarum.</p>
+
+<p>Dicendum est quod principales necessarie quoad divisiones et reductiones, de quibus omnes alie derivantur, sunt undecim. Nomina vero ipsarum <span class='pageNo'>[132]</span> sunt hec, scilicet: larga, longa, brevis, semibrevis, et minima. Et sicut alia perfecta, alia imperfecta, alia semiperfecta, et alia semimperfecta, et quelibet earum de majori, minori, et minima prolatione invenitur, particulariter inferius per ordinem declaratur.</p>
+
+<p>Dicto de figuris, dicendum est de valore supradictarum.</p>
+
+<p>Ut dictum est superius, prima figura est larga; et dicitur larga a largiendo, quia largitor omnium donorum omnia largitur et donat perfecte: et est larga de corpore et valore. Quare de corpore? Quia nota seu punctus quadratus, quod idem est, qui recipit mensuram temporis, dicitur brevis, etsi in illa nota quadrangulari ponatur cauda, seu filus, quod idem est, ex parte dextra. Per illam caudam seu filum aliquando triplicatur, et aliquando duplicatur valor illius note seu puncti; et sine cauda est brevis, et cum cauda est longa. Et si cum cauda duplicatur corpus, duplicatur valor illius longe in reductione, et vocatur imperfecta, seu duplex longa. Tamen iste duplices longe, que descendunt a directione large minoris et minime, possunt vocari imperfecte large in suis generibus. Sed duplex longa imperfecta, que descendit a larga majori, potest ascendere ad majorem figuram et ad valorem duplicatum, et tunc potest vocari . . ., quia est imperfecta larga. Et quelibet notarum tam imperfectarum largarum potest ascendere ad perfectionem suorum generum, quia nota perfecta et imperfecta non in figura, sed in valore differunt, et hoc specialiter notatur, et inferius particulariter declaratur.</p>
+
+<p>Viso quid sit larga, videndum quid sit imperfecta larga.</p>
+
+<p>Imperfecta larga major est illa que non ascendit usque perfectionem large, et continet in se duas duplices longas; in qualibet istarum duarum duplicium longarum, que descendunt ab isto corpore supradicto, sunt imperfecte duplicate. Longam multipliciter habemus, quia aliquando est de modo et de tempore perfecto, aliquando de modo et de tempore imperfecto, aliquando de modo perfecto et de tempore imperfecto, aliquando de modo imperfecto et de tempore perfecto. Et ita dicendum est de longis, brevibus, et semibrevibus.</p>
+
+<p>Longa dicitur a longitudine temporis prolati respectu istarum brevium semibrevium et minimarum, quamvis sit brevis respectu istarum largarum, semilargarum et duplicium largarum. Habemus etiam dupliciter longam, scilicet perfectam et imperfectam per modos supradictos, sed figurationem longarum dictarum habemus in decem speciebus, ut, ubi tractabitur de figuris, ostendetur per ordinem.</p>
+
+<p>Brevis dicitur, quia minor quantitas prolationis temporum defluit proferendo, et dicitur brevis illa que valet unum tempus, et, ut superius dictum est, principaliter est in corpore quadro, et est aliquando in tempore imperfecto, aliquando in semimperfecto, cujuscumque prolationis aut divisionis sit, ut dictum est superius, quia duplices longe vadant per primos modos antedictos de longis et brevibus.</p>
+
+<p>De semibrevibus idem est judicium, et hoc superius notatur, et inferius demonstratur. Semibrevis est illa que habet valorem dimidii temporis imperfecti, et tot sunt diversitates semibrevium quot sunt diversitates manerierum seu prolationum. Semibrevis aliquando est perfecta, aliquando imperfecta, et aliquando respectiva . Semibrevis perfecta est illa que est valoris trium minimarum, et vocatur major. Semibrevis imperfecta est illa que duarum minimarum est valoris.</p>
+
+<p>Et minima est illa que habet valorem unius partis illius temporis in quo ipsa invenitur. Et dicitur minima a minuendo, et est duplex minima, ut dictum est supra, scilicet respectiva, et simplex. Respectiva dicitur respectu superiorum directionum majorum principalium; et reperitur minima in omnibus prolationibus secundum <span class='pageNo'>[133]</span> genus suum. Simplex minima, quoad vocem, est sicut athomus quoad tempus; et sicut per athomum recolitur tempus, sic per minimam simplicem mensure vocum de gradu ad gradum reducuntur ad minimas. Hec et omnia supradicta seriosius subsequenter per ordinem in arbore, et in divisionibus tam in figuratione quam in valore ipsarum predictarum declarantur.</p>
+
+<p>Dicto que et quot sunt figure sive species figurarum et valor predictarum, et qualiter per ista nomina nuncupantur; dicendum est de divisionibus ipsarum specierum, ut sequitur.</p>
+
+<p>Divisio est alicujus generis in suas species; que fit per differentias constituentes illas species, sicut dicit Dyaleticus. Et inter species est differentia, quia species divisionum, quoad mensuram et quoad divisionem, sunt divise; nam alia larga major, alia minor, et alia minima; alia imperfecta larga major, alia minor, et alia minima; alia semilarga major, alia minor, et alia minima. Alia duplex longa major, alia minor, et alia minima; alia longa imperfecta major, minor, et minima. Brevis seu tempus perfectum majus, minus, et minimum; brevis, seu tempus imperfectum majus, minus, et minimum; brevis, seu tempus semiperfectum majus, minus, et minimum; brevis, seu tempus semimperfectum majus, minus, et minimum; et dicitur semiperfectum aut semimperfectum eo quod partitur tempus perfectum, aut imperfectum per medium, et non secundum vocem. Notandum est quod unaqueque istarum divisionum sunt majoris, minoris et minime prolationis.</p>
+
+<p>Dicto de diversitatibus ut supra, dicendum est de diversitatibus divisionum et prolationum temporis.</p>
+
+<p>Nota quod in qualibet figura de principalibus, ubi incipimus principales divisiones, videlicet in temporibus majoribus et principalibus, reperiuntur tempora divisi valoris et modi, videlicet perfectum majus, minus et minimum; imperfectum majus, minus et minimum; semiperfectum majus, minus et minimum. </p>
+
+<p>De divisionibus temporum.</p>
+
+<p>Sciendum est quod habemus tempus divisionis duodenarie majoris, minoris et minime prolationis; novenarie majoris, minoris et minime prolationis; octonarie majoris, minoris et minime prolationis; senarie majoris, minoris et minime prolationis. Quod habemus quatuor modis, videlicet illud quod derivatur a divisione perfecta, diminuta, propria, que non dat respectu ad modum in reductione; aliud quod derivatur etiam a divisione perfecta, diminuta, impropria, et reducitur ad modum imperfectum, et dividitur secundum perfectum; aliud quod reducitur secundum perfectum, quod descendit a divisione duodenaria majoris prolationis; et aliud quod descendit a divisione octonaria, quod reducitur et dividitur per modum imperfectum.</p>
+
+<p>Etiam divisionem perfectam diminutam habemus principaliter duobus modis, que est etiam senarie divisionis, scilicet perfecta et imperfecta; propria est illa que nascitur in se ipsa. Imperfecta est illa que habet mediam partem temporis divisionis duodenarie majoris prolationis. Et quelibet istarum divisionum est de prolatione majori, minori et minima. Insuper habemus trinariam majoris, minoris et minime prolationis, et binariam majoris, minoris et minime prolationis.</p>
+
+<p>Dicto de divisionibus, dicendum est de larga majori, minori et minima.</p>
+
+<p>Larga major dicitur respectu minoris, quia habet majorem partem temporis. Minor dicitur, quia tenet medium inter majorem et minimam. Larga minima dicitur illa, que duarum largarum minima est, et habet minimam, sed in aliquo loco est materia respectu longarum, brevium, semibrevium, et minimarum. </p>
+
+<p><span class='pageNo'>[134]</span> Dicto de proprietatibus divisionum temporum, nunc videndum est de modis, et quid sint.</p>
+
+<p>Modus, prout spectat ad musicam, est cognitio mensure cum suis proprietatibus denotata; nam ubi incipitur modus, potest incipi divisio, seu mensura temporis; sed proprietates modorum principalium sunt duo, scilicet perfecta, et imperfecta, per quas proprietates modorum omnes divisiones reducuntur. Modi vero plurimi sunt, et varias habent opiniones, in quos Magister Franco, qui fuit primus inventor mensurabilis musice, assignat quinque modos, alii sex, et alii quatuor; non sumentes tamen modum a largis, videlicet majori, minori et minima; que quelibet per se habet potestatem generandi modos varios et divisos quoad mensuram; sed tamen principales principalium, quoad considerationem constitutionis numeri, sunt secunde perfectionis et imperfectionis, ut dictum est supra. Sed quoad considerationem divisionum mensurarum videtur quod, sumendo modum a largis, principales universalium tam perfectorum quam imperfectorum sunt decem et octo; videlicet perfectorum sunt undecim, imperfectorum sunt septem; sed particulares dicte, qualiter et quomodo vadunt, que et quot sunt in divisionibus temporum per speciales regulas, tacemus, quia esset multiplicatio verborum, et confusio intellectus, que evitande sunt; cum in arbore divisiones temporis et derivationes eorum tam principales, quam particulares et universiales, patebunt. Et specialiter principales per ordinatas figuras et regulas demonstrantur, sub quibus particulares et quilibet istorum modorum seriatim etiam demonstrabuntur. Nota quod, quando loquimur de modo, non loquimur nisi usque ad divisionem temporis; sed quando tempus est divisum, loquimor tantum de divisione quam videmus signatam. Sed tamen omnes divisiones reducuntur secundum modum perfectum et imperfectum, ut superius dictum est, et, ut constat, per figuras patebunt.</p>
+
+<p>Dicto de modo et proprietatibus modorum, dicendum est, sicut definiunt maneries.</p>
+
+<p>Maneries est illa que secundum modos ordinarios cantatur; et habemus ipsam multiplicem, ut superius demonstratur, larga et stricta, ad libitum potestatis, quamvis insufficienter agatur. Cum habeamus tempus terminatum, limitatum, divisum et reductum per punctos, momenta, uncias, et athomos, ut superius dicitur, quod faciliter scire non omnium est.</p>
+
+<p>Quid sit divisio temporis.</p>
+
+<p>Divisio temporis, prout spectat ad musicam, est cognitio numerorum divisionum qui numeri cognoscuntur per figuras ordinatas, ut inferius patebit; per quas figuras mensura temporis potest haberi secundum athomos ordinata. </p>
+
+<p>Quid sit prolatio.</p>
+
+<p>Prolatio est jure mensure modulate enuntiatio, et dividitur principaliter in duas partes, que superius, ubi tractatur de diversitatibus divisionum specierum tam perfectarum quam imperfectarum, sufficienter declarantur. Particulariter vero dividitur in plures, videlicet naturalis, et voluntaria. Naturalis prolatio est quam habet nota ex se; voluntaria consistit in voluntate cantoris; quod esse non debet, quia habemus ipsas prolationes reductas per punctos et athomos. Conditiones vero predictarum, tum largarum, longarum, brevium, semibrevium, et minimarum tam perfectarum, imperfectarum quam semimperfectarum, quia superius sufficienter tractavimus, et inferius declaratur; et quia de istis principalibus prolationibus proprie et improprie etiam mixtionis et sincopationis longe et stricte, quatenus insufficienter sit ad octavam notam ad libitum cantoris; et quia per figuras et arbores demonstratur eas evitandi superfluitates, nunc particulariter non tractatur. </p>
+
+<p><span class='pageNo'>[135]</span> His omnibus visis universaliter, videndum est de istis particulariter, ut plenius notitia habeatur.</p>
+
+<p>Dictum est prius: note principales sunt due; nomina vero istarum sunt ista, scilicet larga major, larga minor et larga minima; et quelibet per se est recta perfecta quoad modum dividendi. Cum ergo queque ipsarum possit dividi in tres partes equales, sicut nomina Trinitatis, videlicet in Patre, Filio et Spiritu Sancto: non quoad divisionem Personarum, quia qualis Pater, talis Filius, talis Spiritus Sanctus; tamen quoad considerationem differunt, quia Pater in quantum Pater differt a Filio, eo quod major sit; Filius differt a Patre, eo quod minor sit, testante Christo in Evangelio: Pater major me est. Spiritus Sanctus differt a Patre et Filio, eo quod tenet medium inter Patrem et Filium; et id quod tenet medium sapit naturam majoris et minoris extremitatis; unde Spiritus Sanctus, qui est medius, sapit naturam Patris et Filii, quia in perfectione idem sunt. Ad similitudinem cujus Spiritus Sancti larga minor tenet medium inter largam majorem et minimam quoad mensuram temporis, et continet in se valorem novem temporum, sicut novem sunt chori Angelorum cantantes inter Deum et homines, unusquisque per se novies Kyrie; hoc est, quod unusquisque chorus cantet Parce, Domine, populo tuo.</p>
+
+<p>De larga minima.</p>
+
+<p>Larga minima continet in se sex tempora ad similitudinem Filii, nam sicut Filius fuit minor Angelis secundam mortalitatem, et minor Deo secundum humanitatem, ita large minima est minima respectu large majoris, et minor dicitur respectu large minoris. Quod autem Filius sit minor, ad cujus similitudinem dicitur minima, probatur dupliciter ad sacram paginam, nam de ipso loquitur David, ubi dicit: "Minuisti eum paulo minus ab Angelis". Et Angeli sunt minores Deo, ergo Filius secundum carnem subjecit se duabus minoritatibus, scilicet minoritati Dei et Agelorum. </p>
+
+<p>Dicto superius de continentia largarum, restat dicere de divisione ipsarum.</p>
+
+<p>Dividitur enim larga major in duas inequales partes, videlicet in octenarium numerum temporum, et quaternarium, et habetur per octo Beatitudines, quas ipse Deus in morte suis discipulis predicavit, et aliis turbis. Etiam octenarius numerus representat illam bonam diem, qua non ipsi salutando vicissim citamus, dicendo bona dies: sed quia vita nostra computatur per septenarium numerum temporum, videlicet per septem dies, in quo non reperitur perfecta laus, scilicet in septimo numero dierum nostrorum, sed expectando nonum numerum, in quo Deum perfecte ipso concedente poterimus laudare, et hoc post mortem corporis; nam tunc adimplebitur nonus numerus dierum nostrorum, quando audiemus illam vocem dicentem: "Venite, benedicti Patris mei"; et tunc illa dies adimplebit octavum numerum in quo etiam poterimus dicere: "Diripuisti Domine vincula mea, etc." Et istud canticum erit perfectum, et sub isto numero nonus numerus est perfectus in genere suo.</p>
+
+<p>Quaternarius principaliter large majoris representat quatuor testes, videlicet quatuor Evangelistas, qui continet numerum duodenarium prinpalium apostolorum et discipulorum, et ad ipsum numerum reducitur per mysterium Trinitatis. Ita quartus numerus large majoris continetur sub duodecimo, et ad ipsum per ternarium numerum reducitur; sic larga, que continet in se octo tempora, dicitur larga imperfecta, quia ad Beatitudinem percipiendam octavus numerus apostolorum est imperfectus, licet unusquisque per se perfectus sit, et sic unumquodque tempus perfectam <span class='pageNo'>[136]</span> est; sed nos loquimur de perfectione apostolorum et temporum, et illa, que continet in se quatuor tempora, duplex longa imperfecta vocatur, quia longa perfecta continet in se tria tempora; quia duplicata continet in se sex, et sic esset duplex longa perfecta. Et si de qualibet longa perfecta subtrahitur unum tempus, remanet duplex longa imperfecta. Et sicut ista larga major divisa est in duas partes, videlicet in octonarium numerum, et quaternarium, ita potest dividi in tres partes quatuor, et quilibet numerus quaternarius vocatur.</p>
+
+<p>Duplex longa reducitur ad modum perfectum, et dividitur secundum modum imperfectum. Sed ut hoc opus non sit nimium laboriosum et difficile volentibus discere artem divisionum et prolationum mensure, pro eo quod facta est mentio superius de Beatitudine et de numero apostolorum, sciendum est quod, sicut duodecim apostoli predicaverunt Trinitatem et Beatitudinem in universo orbe, quorum doctrina erit usque ad extremitatem seculi, sicque de ipsis principaliter dicit: "In omnem terram exivit sonus eorum", ita valor large majoris, minoris et minime, que representant Trinitatem, ut dictum est, sunt ea omnia, que continentur in arte musice mensurate, et ad ipsas omnes reducuntur.</p>
+
+<p>Quelibet istarum divisionum principalium subdividitur in duas partes equales, et quelibet pars vocatur longa tantum imperfecta de modo, sed perfecta est de tempore. Et quelibet istarum longarum dividitur in duas partes equales, et quelibet pars vocatur brevis, et valet unum tempus. Insuper potest dividi longa major per medium; et quelibet pars est valoris sex temporum, et principaliter semilarga appellatur, et potest vocari duplex longa et triplex longa. Si duplex longa erit, dividitur recte, et reducitur secundum modum imperfectum, et longe descendentes a dicta duplici longa reducuntur secundum modum perfectum; et si erit triplex longa, reducitur ad imperfectum, et dividitur secundum perfectum. Et longe descendentes a dicta triplici longa reducuntur ad modum perfectum, et dividitur secundum imperfectum.</p>
+
+<p>Viso superius de larga majori, videndum est sicuti dividitur larga minor.</p>
+
+<p>Larga minor in duas equales partes dividitur, videlicet in ternarium numerum temporum et senarium, et minor pars valet tria tempora, que longa perfecta vocatur; et major pars erit duplex longa, que longe descendentes a predicta reducuntur ad modum imperfectum, et dividuntur secundum modum perfectum. Dividi etiam potest predicta larga minor per ternarium numerum, et quilibet numerus est valoris trium temporum, que roducuntur, et dividentur per modum perfectum.</p>
+
+<p>Dicto de larga minori, dicendum est de minima.</p>
+
+<p>Larga minima dicitur respectu large majoris et minoris ad similitudinem Christi, qui se facit minorem respectu temporis quoad Deitatem, et facit se minorem Angelis quoad mortalitatem. Et predicta larga minima in duas partes inequalas principaliter dividitur, et minor pars est valoris duorum temporum; et dicitur longa imperfecta; et major pars valet quatuor tempora, et vocatur longa imperfecta, aut imperfecta larga minime imperfectionis. Et ista imperfecta larga minima, seu duplex longa imperfecta, que valet quatuor tempora, etiam dividitur in duas partes equales, et quelibet pars est valoris duorum temporum; et ista tempora descendentia ab ista duplici longa reducuntur ad modum imperfectum et dividuntur secundum modum perfectum. Adhuc larga minima supradicta potest dividi in duas equales partes, et quelibet pars erit valoris trium temporum, et reducitur ad modum imperfectum, et dividitur secundum modum perfectum. </p>
+
+<p><span class='pageNo'>[137]</span> Dicto de divisionibus et subdivisionibus largarum, dicendum est de divisionibus et subdivisionibus temporum.</p>
+
+<p>Ut dictum est superius, quia, ubi incipimus modum, possumus incipere divisionem, seu mensuram temporis, hoc est verum. Tunc principales mensuras duodenarie majoris habemus, scilicet perfectam majorem, minorem, et minimam; imperfectam majorem, minorem, et minimam; semiperfectam majorem, minorem, et minimam; et semimperfectam majorem, minorem, et minimam.</p>
+
+<p>Quomodo accipitur tempus.</p>
+
+<p>Etiam dictum est superius, quia musicus non accipit tempus, sed id quod mensuratur per tempora, tamen in tempore, quia tempus non est majus, neque minus, sed medium, quod est acceptum, divisum, et reductum a musico a die naturali usque ad athomum. Valor athomorum quinquaginta quatuor, et particulariter vocis viginti septem, quarum quelibet est indivisibilis quoad vocem, sicut athomus quoad tempus, et ab isto tempore non incipiendum est dividere, sed a tempore perfecto majore, quod continet in se valorem athomorum septuaginta duo, particulariter vocis triginta sex, et minimarum duodecim, de prolatione tamen majore, et tempus perfecte majoris divisionis duodenarie majoris prolationis appellatur, quod principaliter in duas partes inequales dividitur, et tunc prima pars erit minor, secunda vero major, vel e converso.</p>
+
+<p>De tempore, quando dividitur in duas inequales partes.</p>
+
+<p>Queritur quare prima dictarum duarum partium est minor quam secunda. Respondetur et dicitur: Minor dicitur quoad alterationem, quia alterationem facere non debemus, donec possumus ipsam evitare; sed in ultima duarum notarum, quando tractatur de perfectis causa implendi perfectionem, dictam alterationem evitare non possumus. Unde de duabus non per signum divisionis ultima alteretur, que alterata duorum temporum illius divisionis de qua tractatur, tunc quando ipsa alteratio requiritur, est valoris. Et major predictarum partium tempus imperfectum majus octonarie divisionis majoris prolationis nominatur, et quadraginta octo athomorum continet in se valorem, et hoc tempus non restringitur ad modum.</p>
+
+<p>Et minor pars intelligatur tempus breve quaternarie majoris prolationis de tempore semimperfecto majori, et viginti quatuor athomorum valorem in se continet, et non etiam restringitur ad modum, tamen major et minor pars simul unite modum faciunt perfectum. Potest enim tempus prefatum octonarie majoris prolationis predicte dividi per binarium numerum, et quilibet numerus tempus breve semimperfectum majus quaternarie majoris prolationis vocatur, quod dividitur et reducitur per modum imperfectum. Etiam potest quodlibet istorum temporum semimperfectorum majorum quaternarie majoris prolationis ascendere ad divisionem senariam, et tempus semimperfectum majus senarie minoris prolationis quod reducitur ad modum imperfectum, nominatur.</p>
+
+<p>Queritur qualiter prefatum tempus quaternarie divisionis ascendere potest ad divisionem senariam in eadem mensura temporis, cum ille sint quatuor equales, et ille sex et equales. Respondetur: quia predictum tempus semimperfectum quater componitur, et dividitur per duas minores semibreves. Et est notandum quod unaqueque dictarum semibrevium minorum, que est valoris duarum minimarum de prolatione majori, potest facere unam semibrevem majorem de prolationi minori, que est valoris trium minimarum minoris prolationis.</p>
+
+<p><span class='pageNo'>[138]</span> Super eodem.</p>
+
+<p>Querendum est etiam qualiter predicta minima, que est valoris duaram minimarum de prolatione majori et equalium, potest facere semibrevem majorem, cum sit valoris trium minimarum et equalium de prolatione minori. Dicendum est quia predicta minor de prolatione majori duodecim athomorum est valoris, quos in duas partes equales dividere possumus, sicut minima predicta duarum minimarum prolationis majoris est valoris, videlicet in duas partes per bis; sex autem in tres partes equales ad similitudinem predicte majoris de prolatione minori, que in duas minimas equales dividi potest in tres partes, scilicet per ter quatuor; et ita antedictum tempus semimperfectum majus quaternarie majoris prolationis potest ascendere ad senariam divisionem minoris prolationis, sicut viginti quatuor athomi, qui sunt predicti temporis valoris, dividi possunt in sex partes equales videlicet per sex quatuor.</p>
+
+<p>Dividitur predictum tempus etiam divisionis duodenarie majoris prolationis in tres equales partes, et quelibet pars tempus breve semimperfectum majus divisionis quaternarie majoris prolationis appellatur, quod reducitur ad modum perfectum, et dividitur secundum imperfectum, et viginti quatuor athomorum est valoris. Potest etiam quodlibet istorum temporum semimperfectorum majorum quaternarie divisionis dividi in duas partes equales, et quelibet pars de prolatione majori duarum minimarum est valoris; et minor semibrevis appellatur, que duodecim athomorum est valoris. Etiam quelibet istarum dictarum duarum semibrevium minorum de prolatione majori, que duarum minimarum est valoris, potest in tres minimas dividi majoris prolationis. Et hoc quare? quia duodecim athomi, qui habent valorem predicte majoris prolationis, seu majoris prolationis minoris, posset dividi in duas partes, aut in tres, videlicet in duas per bis sex, et in tres per ter quatuor, ut superius particulariter tractatur; et omnes iste tres minime descendentes a predicta semibrevi minori simul unite semibrevem componunt majorem, tamen minoris prolationis, ut superius dicitur; et sicut per duas minores semibreves componitur tempus quaternariam, ita per binas majores componitur tempus senarium, quod tempus antedictum est de modo perfecto, et de tempore imperfecto, et tempus senarie divisionis minoris prolationis vocatur.</p>
+
+<p>Potest etiam unaqueque dictarum minorum de prolatione majori aut majorum de prolatione minori ascendere ad quaternarie divisionem minime prolationis, que quaternaria reducitur et dividitur secundum modum imperfectum. Et tempus semimperfectum minimum quaternarie minime prolationis vocatur.</p>
+
+<p>Super eodem.</p>
+
+<p>Qualiter semibrevis, que componitur ex duabus minimis prolationis majoris, seu major minoris prolationis, que componitur ex tribus potest dividi in quatuor et equales. Respondetur: quia tam major de prolatione minori, quam minor de prolatione majori duodecim athomorum est valoris, ut supra patet, qui duodecim athomi possunt dividi in duas partes equales, in tres equales, et in quatuor equales. In duas equales, videlicet per bis sex; in tres equales, videlicet per ter quatuor; et in quatuor equales, videlicet per quater tres.</p>
+
+<p>Etiam quodlibet predictorum temporum semimperfectorum minorum quaternarie etiam divisionis, et minime prolationis ascendere potest ad divisionem senariam minime etiam prolationis. Quare? quia est compositum ex duabus semibrevibus minoribus, et unaqueque predictarum minorum, cum sit valoris sex athomorum, potest ascendere ad divisionem ternariam; nam sicut per duas majores <span class='pageNo'>[139]</span> componitur tempus divisionis senarie, ut supra patet, et ad modum perfectum reducitur et dividitur.</p>
+
+<p>Super eodem.</p>
+
+<p>Qualiter semibrevis minor de divisione quaternaria minime prolationis, que est valoris duarum minimarum, potest dividi in tres etiam minimas, cum ille minime dicte minoris sint de prolatione minima quaternarie divisionis. Respondetur: quia quelibet dictarum minorum continet in se valorem athomorum sex, quorum athomorum facere possumus duas aut tres partes, videlicet duas per bis tres, et tres scilicet per ter duo. Insuper dictum tempus semimperfectum majus divisionis quaternenarie aut senarie, quod descendit a divisione duodenaria majoris prolationis, potest ascendere ad divisionem octonariam minime prolationis, quod reducitur ad modum perfectum, et dividitur secundum imperfectum.</p>
+
+<p>Etiam tempus semimperfectum majus, quod descendit a divisione octonaria majoris prolationis, potest generare divisionem etiam octonariam minime prolationis, quod reducitur et dividitur secundum modum imperfectum majus quaternarie, aut senarie divisionis continet in se valorem, ut dictum est, viginti quatuor athomorum, de quibus facere possumus quatuor partes equales, sex equales et octo equales, videlicet in quatuor partes equales dividuntur per quatuor sex, in sex per sex quatuor, et in octo per octies ter.</p>
+
+<p>Notandum est quod, quando tempus imperfectum aut semimperfectum dividitur per medium, aliquando per duo binaria, aliquando per duo ternaria, et aliquando per duo quaternaria. Et omnes istas divisiones possumus miscere simul tam imperfectum tempus cum imperfecto, et semimperfectum cum semimperfecto tempore, videlicet primam mediam partem per modum binarie, et secundam per modum ternarie, vel e converso; aut primam mediam partem per modum binarie, et secundam per modum quaternarie, vel e converso. Aut primam per modum ternarie et secundam per modum quaternarie, vel e converso.</p>
+
+<p>Etiam per dictum tempus semimperfectum majus aliquando dividitur per modum quaternarie, aliquando per modum senarie, et aliquando per modum octenarie; et omnes iste possunt misceri sub eadem mensura, videlicet prima pars per modum quaternarie, et secunda per modum senarie, vel e converso; aut prima pars per modum senarie, et secunda per modum octonarie, vel e converso; aut prima pars per modum quaternarie, et secunda per modum octonarie, vel e converso. Quare? quia omnes iste, ut dictum est superius, sunt sub eadem mensura temporis.</p>
+
+<p>Etiam predictum tempus senarie divisionis, quod est compositum ex duabus majoribus semibrevibus, potest dividi in tres minores. Quare? quia prefatum tempus, ut dictum est, continet in se valorem viginti quatuor athomorum quos possumus dividere in duas partes, videlicet per bis duodecim, sicut dicta divisio senaria potest dividi et reduci per duas majores, et in tres etiam partes, videlicet per ter octo, sicut antedicta divisio senaria in tres semibreves minores potest dividi et reduci. Adhuc supradictum tempus divisionis duodenarie majoris prolationis, quod est compositum ex tribus temporibus divisionis quaternarie majoris etiam prolationis, et quodlibet tempus ex duabus minoribus semibrevibus potest dividi per medium.</p>
+
+<p>Nunc dicendum quare; quia prefatum tempus componitur per tria tempora, ut dictum est superius; et quodlibet tempus dicte quaternarie potest dividi in duas minores semibreves, ita quod summarie omnia ista tempora faciunt sex minores semibreves, que possunt dividi per medium, videlicet per bis ter, et tempus semimperfectum majus, aut perfectum improprium diminutum, quod reducitur ad modum imperfectum, et dividitur <span class='pageNo'>[140]</span> secundum modum perfectum vocatur, et triginta sex athomorum est valoris. Dividi etiam potest predictum tempus in duas equales partes, et tunc prima pars erit minor, secunda vero major, vel e converso, et major pars pro tempore brevi minime imperfectionis improprie, quatuor majoris prolationis computatur, quod non dat respectum ad modum, et viginti quatuor athomorum est valoris. Et minor pars erit semibrevis minor de prolatione majori, que duodecim athomorum est valoris. Et sicut minor semibrevis majoris prolationis ascendit ad divisionem ternariam et quaternariam; et tempus divisionis quaternarie majoris prolationis ascendit ad divisionem senariam et octonariam per punctos athomorum particulariter divisiones aut reductiones predictarum divisionum temporum, per ordinem superius demonstratur.</p>
+
+<p>Nota quod divisio senaria potest dividi et reduci per binarium numerum et ternarium, etiam predictum tempus improprium perfectam diminutum, aut semimperfectum majus, quia in mensura sunt; idem potest in duas equales partes dividi, et quelibet pars semibrevis minor appellatur, et duarum minimarum majoris prolationis, et athomorum duodecim est valoris.</p>
+
+<p>Potest etiam quodlibet istorum temporum predicte perfecte diminute descendere ad novenariam divisionem minoris prolationis; quare? Quia prefatum tempus senarium componitur ex duabus minoribus semibrevibus prolationis minoris. Et, ut dictum est superius, quelibet dictarum minorum semibrevium de prolatione majori, que est valoris duarum minimarum, potest facere unam semibrevem majorem de prolatione minori. Et sicut tempus senarium componitur ex duobus minoribus, ita tempus divisionis novenarie componitur ex tribus majoribus semibrevibus. Et istud tempus predicte divisionis novenarie reducitur ad modum perfectum, et dividitur secundum modum perfectum.</p>
+
+<p>Super eodem</p>
+
+<p>Qualiter iste sex minime de prolatione majori temporis predicti diminuti possunt facere novem de prolatione minori, ut predictum est, respondetur: quia prefatum tempus, ut dictum est superius, triginta sex athomorum in se continet valorem, quos possunt dividi per senarium numerum et novenarium, videlicet senarium per sex, sed et per novenarium per novies quatuor. Etiam sicut minor de prolatione majori facit semibrevem majorem de prolatione minori, hoc sepius tractatur.</p>
+
+<p>Potest etiam perfectum tempus divisionis novenarie ascendere ad divisionem duodenariam minime prolationis; quare? quia predictum tempus divisionis novenarie supradicte, ut dictum est superius, componitur ex tribus semibrevibus majoribus. Et unaqueque dictarum semibrevium prefati temporis novenarie divisionis minoris prolationis potest ascendere ad divisionem quaternariam minime prolationis.</p>
+
+<p>Que est ratio quod tempus predictum divisionis novenarie potest ascendere ad divisionem duodenariam minime prolationis in eadem mensura temporis? Respondetur quia, cum dictum est superius, continet in se valorem triginta sex athomorum, quos possumus dividere per duodenarium numerum et novem per duodenarium per duodecies ter, et per novenarium per novies quatuor.</p>
+
+<p>Patet, ut superius, quod hoc tempus divisionis duodenarie componitur ex tribus temporibus quaternarie potest dividi, et tempus semimperfectum minimum divisionis quaternarie minime prolationis appellatur, quod dividitur ad modum imperfectum, et reducitur secundam modum perfectum, quod duodecim athomorum est valoris. Notandum est, quod quodlibet predictorum temporum divisionis quaternarie minime prolationis predicte ascendere <span class='pageNo'>[141]</span> potest ad senariam divisionem, et minime prolationis etiam, et erit de modo perfecto et de tempore imperfecto.</p>
+
+<p>Querendum est qualiter predictum tempus minime prolationis ascendere potest ad senariam divisionem et minime prolationis, cum ille sint quatuor equales, et ille sex et equales. Respondetur: quia predictum tempus duodecim athomorum est valoris, de quibus facere possumus quaternariam divisionem et senariam, videlicet quaternaria per quatuor ter, et senaria per secties duo.</p>
+
+<p>Insuper prefatum tempus semimperfectum majus est valoris sex minimarum de prolatione majori in duas equales partes potest dividi, videlicet in duas majores semibreves, et unaqueque illarum majorum semibrevium, ut superius patet, valoris est trium minimarum, tamen majoris prolationis, et athomorum decem et octo pro tempore semiperfecto minimo improprie nominatur. Etiam quelibet predictarum semibrevium majorum in duas minores semibreves dividi potest, et hoc quia prefati decem et octo athomi qui habent valorem unius predictarum semibrevium majorem, dividere possumus in duas equales partes, videlicet per bis novem.</p>
+
+<p>Potest etiam quelibet dictarum majoris prolationis ascendere ad senariam divisionem per duplicem modum, videlicet per duas majores, aut per duas minores, quia, ut superius dicitur, major prefata prolationis majoris decem et octo athomorum est valoris, qui possunt dividi per binarium numerum, sic predicta semibrevis potest dividi per duo novem; et tempus semimperfectum minus, quod reducitur et dividitur secundum modum imperfectum computatum; et per ternarium, sicut dicitur superius, quia prefata major semibrevis per ternarium numerum potest dividi, videlicet per ter sex. Et tunc tempus semimperfectum minus, quod reducitur ad modum imperfectum, et dividitur secundum perfectum, appellatur.</p>
+
+<p>Prefatum tempus semimperfectum minus divisum per ternarium numerum, videlicet in duas minores, ascendere potest ad novenariam divisionem, quia unaqueque minor minoris prolationis, que componit hoc tempus divisionis senarie, potest facere unam semibrevem majorem de prolatione minima, ut superius patet.</p>
+
+<p>Quelibet minor que est valoris duarum minimarum majoris prolationis, quia tam minor minoris prolationis, quam major minima sex athomorum est valoris, qui possunt dividi per duo, sicut minor semibrevis predicta in duas partes dividitur per ter duo. Et, ut dicitur superius, sic divisio senaria potest componi per tres minores semibreves, ita divisio novenarie componitur ex tribus majoribus, ut patet; et tunc tempus divisionis novenarie minime prolationis vocatur.</p>
+
+<p>Adhuc tractandum est de tempore imperfecto majori, id est majoris prolationis, quod, ut dicitur superius, continet in se valorem quadraginta et octo athomorum, quod componitur et dividitur ex duobus temporibus quaternarie divisionis, quia potest ascendere ad divisionem duodenariam quia per ordinem antedictum tempus divisionis quaternarie majoris prolationis predicte ascendere potest ad sextam divisionem minoris prolationis. Et sicut per duo tempora senarium componi potest tempus divisionis duodenarie. quod tempus dicitur duodenarie improprie divisionis, et potest dividi per ternarium numerum, et quilibet numerus tempus improprie imperfectionis appellatur; quod dividitur per modum imperfectum, et reducitur secundum modum perfectum, et sexdecim athomorum est valoris; etiam duorum istorum temporum quatuor possunt facere unum tempus divisionis octonarie minoris, improprie imperfectionis notatur, et est valoris triginta duorum athomorum. Potest etiam quodlibet istorum temporum predictorum dicte quatuor, ascendere ad impropriam, id est divisionem minoris <span class='pageNo'>[142]</span> prolationis, que reducitur et dividitur per modum imperfectum.</p>
+
+<p>Dicto de divisionibus et subdivisionibus temporis perfecti majoris duodenarie divisionis et majoris prolationis, dicendum est de divisionibus et subdivisionibus temporis perfecti minoris seu medii.</p>
+
+<p>Ubi primo per musicum incepta fuit mensura temporis, quod tempus universaliter continet in se valorem athomorum quinquaginta quatuor, particulariter vocis viginti septem, et minimarum novem de prolatione majori, et tempus divisionis novenarie majoris prolationis vocatur. Quod tempus dividitur per modum infrascriptum, videlicet principaliter in duas inequales partes; et tunc prima pars erit minor, secunda vero major, vel e converso; que major pars tempus breve minoris imperfectionis senarie divisionis majoris prolationis appellatur, et athomorum viginti sex continet in se valorem, et non restringitur ad modum. Et minor pars semibrevis major, que est valoris duarum minimarum de predicta prolatione majori nominatur.</p>
+
+<p>Notandum est quod predictum tempus divisionis senarie majoris prolationis et minoris imperfectionis componitur ex duabus semibrevibus majori et de prolatione majori et ex duabus majoribus semibrevibus potest dividi, et hoc tempus predicte senarie potest dividi per duas minores semibreves, quia antedictum tempus senarie majoris prolationis, ut dictum est superius, athomorum triginta sex continet in se valorem, ita quod valorem triginta sex athomorum in quatuor aut in sex partes dividere possumus, ut inferius per ordinem demonstratur, videlicet in quatuor, per quatuor novem, aut in sex per sexies sex. Etiam quelibet dictarum majorum de prolatione majori dividi potest in duas partes equales, videlicet in duas minores semibreves.</p>
+
+<p>Queritur quare predicta major majoris prolationis, que est valoris trium minimarum et equalium, potest in duas equales partes dividi, ut dicitur superius, quia unaqueque dictarum majorum de prolatione majori est valoris octodecim athomorum quos possumus per binarium et ternarium numerum dividere, scilicet per binarium bis novem, et per ternarium, scilicet per ter sex.</p>
+
+<p>Potest etiam quelibet istarum majorum prolationis majoris ascendere ad senariam divisionem, videlicet per duas majores minoris prolationis, aut per tres minores de minori etiam prolatione, quia octodecim athomi, qui sunt valoris, ut dictum est superius, predicte majoris de prolatione majori, possunt dividi per binarium, ternariam, et senarium numerum; videlicet per binarium per bis novem, per ternarium per ter sex, et per senarium per sexies ter. Et si componitur hoc tempus senarie divisionis per duas majores, tempus semimperfectum minus senarie divisionis imperfecte appellatur. Quod reducitur et dividitur per modum imperfectum. Et si componitur per tres minores, tempus semimperfectum minus divisionis perfecte improprie diminute appellatur. Et reducitur ad modum imperfectum, et dividitur secundum modum imperfectum</p>
+
+<p>Quodlibet etiam predictorum temporum semimperfectorum minorum senarie divisionis potest ascendere ad novenariam divisionem minime prolationis; et hoc quia potest componi et dividi ex tribus minoribus semibrevibus, ut dicitur superius, unaqueque dictarum minorum minoris prolationis potest facere unam majorem minime prolationis, et per ordinem infrascriptum demonstratur, videlicet quelibet minor minoris prolationis est valoris sex athomorum quos possumus dividere per binarium numerum, sicut minor semibrevis per binarium numerum dividitur et per ternarium, sicut major semibrevis per ternarium etiam numerum dividitur, numerus videlicet per bis ter, et per ternarium per ter duo. Et sicut tempus senarie divisionis componitur ex tribus minoribus, ita tempus divisionis novenarie ex tribus majoribus semibrevibus <span class='pageNo'>[143]</span> componitur, et tempus semimperfectum minime prolationis appellatur. Quod reducitur ad modum imperfectum, et dividitur secundum modum perfectum.</p>
+
+<p>Potest etiam prefatum tempus novenarie majoris prolationis dividi per ternarium numerum, et tunc quilibet numerus semibrevis major majoris prolationis vocatur, et quelibet predictarum, majorum ut dictum est superius, potest dividi per binarium numerum et per ternarium, prout per punctos athomorum divisiones aut reductiones eorum ostendimus.</p>
+
+<p>Etiam quelibet istarum majorum predictarum prolationis majoris predicte potest dividi in duas majores minoris prolationis, et per duas majores componitur tempus divisionis senarie; que senaria dividitur per modum imperfectum et reducitur ad modum perfectum, et tempus semimperfectum minus senarie divisionis computatur. Prefata major semibrevis majoris prolationis potest ascendere ad senariam divisionem, ut superius dicitur, per modum antedictum per tres majores semibreves. Et tunc erit divisio senaria que reducitur et dividitur per modum perfectum.</p>
+
+<p>Quodlibet istorum temporum divisionis supradicte senarie ascendere potest ad novenariam divisionem minime prolationis, et tunc hoc tempus divisionis novenarie predicte reducitur et dividitur ad perfectum modum. Ratio? quare predicta semibrevis major majoris prolationis dividi potest per binarium, ternarium per senarium numerum, et novem per punctos athomorum, reductiones et divisiones predictarum divisionum particulariter declarat.</p>
+
+<p>Iterum tractare debemus de supradicto tempore novnarie majoris prolationis, quod est, ut superius dicitur, compositum ex tribus semibrevibus majoribus, et unaquaque dictarum majorum est valoris trium minimarum de prolatione majori, quia potest dividi in duas equales partes, et quelibet pars tempus semimperfectum minus, quod reducitur ad modum imperfectum, et dividitur secundum modum perfectum, appellatur.</p>
+
+<p>Queritur qualiter predictum tempus novenarie divisionis, quod est compositum ex impari numero, videlicet ex tribus majoribus et minimis novem, potest per medium dividi. Respondetur, quia, ut dicitur superius, quelibet major de prolatione majori dividi potest per binarium numerum, itaque iste tres majores predicte per hunc modum dividendi ad senarium numerum ascendunt, qui numerus senarius breviter per medium dividi potest, videlicet per bis ter. Ad removendum dubium de illa minima, que est ex impari numero, qualiter potest per medium dividi, dicendum est quia minima predicta est minima respectu superiorum, non respectu inferiorum seu minorum, ut superius etiam dictum est, quia hoc tempus predictum universaliter continet in se valorem quatuor et quinquaginta athomorum, quos possumus breviter dividere per novenarium numerum ad similitudinem novem minimarum de dicta prolatione majori, videlicet per novies sex; et unaqueque dictarum minimarum, ut visum est, superius, sex athomorum in se continet valorem.</p>
+
+<p>Unde sicut athomi dividi possunt per medium, videlicet per bis ter, ita minima semibrevis tamen prolationis minoris per medium dividi potest. Quodlibet etiam istorum semimperfectorum minorum antedictorum temporum ad alias divisiones et subdivisiones ascendere potest, tamen per punctos athomorum per modum antedictum omnes reducuntur ad majorem, qualiter et quomodo in inscripta arbore ordinate ostendentur.</p>
+
+<p>Visis omnibus divisionibus et subdivisionibus substantialibus temporis prefati majoris et minoris, videndum est de divisionibus et subdivisionibus temporis prefati numeri seu prefati diminuti et proprii que in mensura seu in valore sunt idem quod tempus 36 athomorum est valoris, particulariter vocis 18, et de prolatione majori minimarum 6.</p>
+
+<p>Dividitur enim predictum tempus in duas inquales partes, videlicet in uno tempore quod est <span class='pageNo'>[144]</span> pars major; que pars tempus imperfectum majoris prolationis nominatur, et non restringitur ad aliquem modum in reductione; et minor pars minor semibrevis prolationis majoris computatur. Quaternarium habet prefatum tempus ingrediendi potestatem ad divisionem senariam minoris prolationis et non restringitur ad modum. Queritur qualiter predictum tempus quaternarium ascendere potest ad senariam divisionem minoris prolationis, ut dicitur superius, cum ille sint quatuor equales et ille sex et equales. Respondetur, quia prefatum tempus, ut superius dictum est, quatuor vigenti athomorum est valoris, quos tam per quatuor numeros quam per sex dividere possumus, videlicet per quartum per quatuor sex et per sex, videlicet per sexies quatuor.</p>
+
+<p>Etiam prefatum tempus senarie divisionis dividi aut in duas majores aut in tres minores potest, et si dividitur in duas majores tempus imperfectum minimum senarie minoris prolationis appellatur. Queritur etiam que est causa quod tempus imperfecte minime prefatum dividi per binarium, ternarium, quaternarium et senarium potest numerum. Respondetur quia, ut supradictum est, prefatum tempus quatuor vigenti athomorum est valoris, vel continet in se valores qui dividi possunt per binarium numerum, videlicet per bis duodecim, etiam per ter, videlicet per octo, per quatuor per quatuor, per sex et per sex, per sexies quatuor. Potest etiam prefatum tempus senarie divisionis in eadem mensura temporis ad octonariam divisionem minime prolationis ascendere, que octonaria divisio dicitur minime prolationis de tempore imperfecto minimo majoris prolationis.</p>
+
+<p>Quare predictum tempus imperfectum minimum majoris prolationis, quod nunc profertur seu dividitur per senariam divisionem minoris prolationis potest ascendere ad divisionem octonariam minime prolationis in eadem tamen mensura temporis. Respondetur quia, ut pluries dicitur superius, tempus senarie divisionis ex duabus majoribus semibrevibus componitur et unaqueque dictarum majorum istius divisionis senarie majoris predicte ascendere potest ad quartum minime prolationis, et divisio quaternaria de tempore semimperfecto minima vocatur, que reducitur et dividitur secundum imperfectum modum. Et sicut duo semibreves majores componunt unum tempus divisionis senarie, ita ut dictum est, per duo tempora quatuor componitur tempus divisionis octonarie.</p>
+
+<p>Et est notandum quod quodlibet predictorum temporum quaternarie divisionis, videlicet de tempore semimperfecto minimo ad divisionem senariam ascendere potest; quia quodlibet tempus semimperfectum minimum duodecim athomorum est valoris, quos athomos possumus dividere tam per quaternarium numerum, quam per senarium, videlicet per quatuor per quatuor ter, et per sex, per sexies bis, et ista tempora reducuntur ad modum imperfectum, et dividuntur aliquando secundum modum perfectum, et aliquando secundum modum imperfectum dividi possunt.</p>
+
+<p>Adhuc potest predictum tempus perfectum diminutum seu perfectum minimum, quod idem est, senarie majoris prolationis dividi in tres minores semibreves de prolatione majori, quia, ut superius dicitur, triginta sex athomorum est valoris, qui possunt dividi in tres partes per ordinem predictum, si hoc tempus in tres partes dividi potest.</p>
+
+<p>Etiam quelibet istarum minimarum prolationis majoris per modum antedictum facere potest unam semibrevem majorem minoris prolationis, et per hunc modum hoc predictum tempus perfectum diminutum, quod nunc per sextum numerum dividitur ascendere potest ad novenariam divisionem minoris prolationis. Et tempus divisionis novenarie minoris prolationis appellatur quod in reductione non curat de modo, et divisionem facit <span class='pageNo'>[145]</span> secundum perfectum modum. Iterum queritur qualiter predictum tempus divisionis senarie potest ad novenariam divisionem ascendere cum ille sint sex equales, et ille novem et equales in eodem tempore. Respondetur, quia prefatum tempus perfectum diminutum trigenta sex athomorum est valoris, quos dividere possumus per senarium numerum, et novenam sic antedictum tempus proprium diminutum perfectum per senarium et novenarium numerum dividitur, ut patet per regulas antedictas, videlicet per senarium per sexies sex et per novenarium per novies quatuor et tunc divisio temporis perfecti diminuti novenarie minoris prolationis appellatur. Ut dicitur superius, major semibrevis majoris prolationis ascendere potest ad quaternariam minime prolationis divisionem; quia, ut visum est superius, duodecim athomorum est valoris qui per tres et quatuor numeros dividi possunt, videlicet per tres, per ter quatuor, et per quatuor per quatuor tres. Et tempus semimperfectum minimum quatuor minime prolationis appellatur. Quod reducitur ad modum perfectum et dividitur secundum modum imperfectum etiam, ut dictum est superius, quia sicut per tres majores semibreves componitur tempus divisionis novenarie, ita per tria tempora quatuor componitur tempus divisionis duodenarie. Et per hunc modum hoc tempus novenarie ascendit ad divisionem duodenariam que in reductione non curat de modo, nisi iu divisione; et tunc tempus divisionis duodenarie minime prolatione vocatur. Quodlibet etiam istorum semimperfectorum minimorum temporum quaternarie divisionis, quorum tempus predictum duodenarie minime prolationis componitur, potest ad senariam minime prolationis etiam ascendere divisionem, que reducitur ad modum perfectum, et dividitur secundum modum imperfectum.</p>
+
+<p>Queritur qualiter tempus prefatum diminutum novenarie divisionis potest ascendere et duodenariam divisionem. Respondendum est, quia prefatum tempus, ut pluries dictum est, continet in se valorem trigenta sex athomorum, qui tam per novenarium quam per duodenarium numerum dividi possunt, videlicet per novenarium per novies quatuor et per duodenarium per duodecies tres.</p>
+
+<p>Queritur etiam qualiter quodlibet predictorum temporum, unde componitur tempus duodenarie divisionis minime prolationis predicte, aut quod descendit ad ipsa divisione duodenaria, aut semimperfectorum minorum quod in mensura sunt idem, potest, ut dicitur superius, ad senariam minime prolationis ascendere. Respondetur quod predictum tempus quaternarie minoris prolationis, semimperfectum minimum, ut dictum est superius, duodecim athomorum est valoris, quod duodecim athomi tam per quaternarium quam per senanarium numerum dividere possumus, videlicet per quaternarium per quatuor ter, et per senarium per sexies bis.</p>
+
+<p>Iterum dicendum est quia prefatum diminutum tempus minime perfectionis et majoris prolationis predicte potest per modum inscriptum per medium dividi, quia, ut dicitur superius, valoris est sex minimarum prolationis majoris, que sex minime breviter per medium dividi possunt, videlicet per tres et tres et tempus semimperfectum minimum notatur, quod reducitur ad modum imperfectum, et dividitur secundum modum perfectum.</p>
+
+<p>Notandum est quod quodlibet predictorum temporum semimperfectorum minorum potest per binarium numerum dividi, quia octodecim athomorum continet in se valorem, quorum facere possumus duas equales partes, videlicet per bis novem. Potest etiam quodlibet istorum predictorum temporum semimperfectorum minorum ascendere ad senariam divisionem quia, ut dictum est superius, est valore octodecim athomorum, quorum facere possumus sex partes ad similitudinem predicti temporis, videlicet sexies ter, et <span class='pageNo'>[146]</span> divisio senaria de tempore semimperfecto minimo appellatur, que reducitur ad modum imperfectum, et dividitur secundum modum perfectum. Potest etiam quodlibet istorum predictorum temporum semimperfectorum minorum senarie divisionis ad novenariam divisionem minime prolationis ascendere, que reducitur ad modum imperfectum et dividitur secundum modum perfectum.</p>
+
+<p>Queritur quare prefatum tempus semimperfectum minimum senarie divisionis ascendere potest ad novenariam minime prolationis, cum ille sint sex equales, et ille novem et equales in eadem mensura temporis. Respondetur quia, ut superius dictum est, continet in se valorem prefatum tempus imperfectum octodecim athomorum, qui possunt dividi tam per sex quam novem numerum, videlicet per sex per sexies ter et per novem per novies bis.</p>
+
+<p>Visis omnibus supradictis, ut patet aperte, sequitur aliquid dicere potius et ostendere figuras arborum, quarum superius fecimus mentionem.</p>
+
+<p>De omnibus que dicte sunt divisionibus musice mensurate constituende sunt arbores ad exemplum per quas fit ascensus ad musicam planam, et de plana ad mensuratam, et per arbores predictas fit ascensus per totam musicam tam planam quam mensuratam usque ad athomum similiter et reductionem. Sed queritur quare per has arbores prius ascendatur quam descendatur, quod totum contrarium facit Philosophus, quando ostendit "Dialectico" ordinationem et constitutionem nature: Respondetur quia natura multum distat ab hac scientia, nam in natura omne superius constituit suum inferius, et majus est eo; dum in hac scientia, que ad Dei laudem inventa est, ut pluries dictum, nullus laudans est major dicto, imo minor, et non constituit Deum, imo ascendit ad Dei laudem ut constituatur ab eo. Sic omnes laudantes, dum laudant eum ascendendo de virtute ad virtutem, ita per musicam laudatur Deus de motione mensure vocis ad vocem, videlicet de musica plana ad mensuratam, que videlicet mensurata mollificat corda cantantium, mentes audientium ad laudes Dei et amorem hominum proferentium.</p>
+
+<p>Sed queritur utrum arbor musice plane et mensurate sit idem utraque scientia, vel differat. Dicendum est quod arbor musice plane et arbores musice mensurate secundum substantiam sunt idem, sed secundum divisas considerationes ipsarum sunt divise, nam ad Dei laudem possumus ascendere ad indoctos docendos per musicam positivam, deinde per mensuratam; descendere vero possumus ad ipsam positivam per mensuratam; et ne videatur contrarium etiam quod diximus, quando diximus si debemus incipere figuras seu arbores figurarum a musica plana, seu a mensurata, nam utrumque facere possumus, quia a larga incipere possumus in ascendendo usque ad minimam; sicut a largitore omnium bonorum accipimus laudem, quam sibi damus tamquam prime cause; sic possumus incipere musicam mensuratam, in qua larga multa corpora copulantur, sic in corpore Christi multa corpora conjunguntur ad Dei laudem, videlicet multi laudantes que larga figuratur cum filo deorsum tracto in parte dextra, quia Deus volens genus humanum salvare, dextrum et non sinistrum et ab ipsa dextra gente laudari.</p>
+
+<p>Ideo qui Deum vult laudare perfecte, debet organum sue vocis trahere ad manum dexteram, hoc est non per vanam gloriam, et sic de larga dicimus ad manum dexteram, sic de nota caudata etiam ad manum dexteram que dicitur longa longitudine, quia longa est laus in dextra Dei laudantium ad cujus differentiam nota caudatur in manu sinistra, quod significat sinistram partem, que non perfecte dat laudem Deo. Quia <span class='pageNo'>[147]</span> tempus humanum, in quo tenemur Deo reddere laudem, breve est et sinistrum, quia nemo laudans perfecte laudat. Caudata vero cum cauda seu filo sursum dicto, diminuit valorem note in quolibet corpore, sicut caudata in parte dextera crescit.</p>
+
+<p>Figure arborum par quas divisiones et valor divisionum cognoscuntur, videlicet per figuras et prolationis majoris large, quia primo debemus ostendere, et ista sequens depicta prima per quam primam arborem cognoscuntur divisiones, et valor divisionum, ut hic primum.</p>
+
+<p>Per secundam arborem divisiones majoris large cognoscuntur.</p>
+
+<p>Per tertiam arborem divisiones minime large demonstrantur. </p>
+
+<p>Divisiones et subdivisiones temporis perfecti majoris per quartam arborem ostenduntur. </p>
+
+<p>Per quintam arborem divisiones et subdivisiones perfecti majoris temporis demonstrantur.</p>
+
+<p>Per sextam arborem cognoscuntur omnes divisiones et subdivisiones temporis minime perfectionis. </p>
+
+<p>[CSIII:147,1; text: ut, re, mi, fa, sol, la] <a href="VERLIB_01GF.gif">[VERLIB 01GF]</a></p>
+
+<p>[CSIII:147,2; text: I, 1, 2, 3, 6, 9, ut, re, mi, fa] <a href="VERLIB_01GF.gif">[VERLIB 01GF]</a></p>
+
+<p><span class='pageNo'>[148]</span> [CSIII:148,1; text: II, 1, 2, 3, 4, 6, 8, 12, ut, re, mi, fa] <a href="VERLIB_02GF.gif">[VERLIB 02GF]</a></p>
+
+<p>[CSIII:148,2; text: III, 1, 2, 3, 4, 6, ut, re, mi, fa] <a href="VERLIB_02GF.gif">[VERLIB 02GF]</a></p>
+
+<p><span class='pageNo'>[149]</span> [CSIII:149,1; text: IV, 2, 3, 4, 6, 8, 12, ut, re, mi, fa] <a href="VERLIB_03GF.gif">[VERLIB 03GF]</a></p>
+
+<p><span class='pageNo'>[150]</span> [CSIII:150,1; text: V, 2, 3, 4, 6, 9, ut, re, mi, fa] <a href="VERLIB_04GF.gif">[VERLIB 04GF]</a></p>
+
+<p>[CSIII:150,2; text: VI, 2, 3, 4, 6, ut, re, mi, fa] <a href="VERLIB_04GF.gif">[VERLIB 04GF]</a></p>
+
+<p><span class='pageNo'>[151]</span> Obmissis omnibus divisionibus mensurarum que dicta sunt, et his que ostenduntur in arboribus, videndum est quomodo figurantur note dictarum divisionum mensurarum seu prolationum. Primo incipiendum est a nota brevi, que primo prolata fuit ad mensuram temporis perfecti non majoris neque minimi, sed minoris seu medii, reducti et divisi per punctos, momenta, uncias, et athomos. Quod tempus potest dividi usque ad athomum, et reduci usque ad largam, et potest ipsum tempus earum cognosci per plures figuras, tamen proportionaliter in forma quadrangulari consistit ad similitudinem quatuor partium mundi, in quibus Trinitas in sexta etate apparuit in carne humana, ut superius dictum est, et per unitatem istius temporis supradicti, et ad evitandum figuras superfluas, quibus tempus majus, minus, vel minimum cujuscumque divisionis seu prolationis sit, potest per modum predicti temporis figurari, quamvis dictum sit superius, quia brevis nota, que est valoris unius temporis, habeat prolationes figuras, hoc est verum, tamen ut dicitur supra, principaliter figuratur in forma quadrangulari, ut inferius ostendetur.</p>
+
+<p>Et sicut per musicum figuratur tempus prolatum, ita per eum figuratur tempus obmissum, seu pausatum; que pausa unius temporis brevis per modum infrascriptum per ordinem demonstratur, videlicet pausa unius temporis est quoddam filum, quod truncat, vel continet in se unum spatium, videlicet ab una linea usque ad aliam, ut in exemplari infra monstrabitur. Itaque si ligatur pausa, seu filum cum dicta nota, valor illius pause copulatur cum prefata nota, et per unitatem dicte note brevis et pause seu fili, quod filum demonstrat signum longitudinis, prefata nota caudata per filum seu pausam, vocatur longa, aliquando perfecta et aliquando imperfecta secundum genus suum. Queritur qualiter longa perfecta et imperfecta esse potest in eadem figura. Respondetur, quia ubicumque sunt due note tam large quam longe, breves, semibreves, aut minime, nisi secunda divisa sit ad reinveniendum perfectionem mensure, que nisi per alterationem alique note aliquando ad perfectionem ternarii numeri non ascendent, potest per modum perfectum alterari, nisi per divisionem modi aliter distinguatur</p>
+
+<p>De altera aliquid dicere oportet.</p>
+
+<p>Qualiter et quomodo dicatur altera dicendum est. Altera enim dicitur ad differentiam recte, que recta dicitur brevis unius temporis. Et altera dicitur illa que duorum temporum est valoris secundum genus eorum, tamen in secunda predictarum partium, quarum dicta longa composita est, nunquam alterari debet, quia est illud filum, quod dicitur pausa. Et de hoc specialiter notatur quod pausa nunquam alterari debet. Et hoc quare: quia nos in modo perfecto neque imperfecto necessitas non astringit. Et est notandum quod, quando predicta pausa seu filum vult componere longam, semper vult se ligari cum nota ex parte dextra, quia, ut superius dictum est, Deus vult genus humanum salvare dextrum, et non sinistrum. Etiam musicus prius incepit mensuram super nota prolata quam pausa, ita primo licet ostendere figuram note quam pause terminationem, et ambe simul, ut superius dicitur, componunt longam, ut inferius per figuram demonstrabitur. Et si duplicatur corpus dicte longe, potest duplicari et triplicari valor. Et quando valor predicte longe duplicatur, predicta duplicata vocatur imperfecta larga, vel duplex longa, et potest sub eadem figura ascendere ad perfectionem perfecte large secundum genus suum. Ratio quare predicta nota duplicata potest esse de modo perfecto, et de tempore imperfecto, <span class='pageNo'>[152]</span> et de modo imperfecto, et de tempore perfecto, ut superius sufficienter declaratur, quia ad evitandum superfluas figuras notarum, nota perfecta et imperfecta, quamvis in valore differant, tamen in figura, ut supra notatur, sunt idem. Potest ergo prefata nota per modum predictum duplicata esse larga perfecta et imperfecta, aut duplex longa, que idem est quam imperfecta larga cum omnibus conditionibus predictis ad libitum compositoris cantus, in quo predicta nota invenitur.</p>
+
+<p>De speciebus figurarum.</p>
+
+<p>Notandum est quod quot sunt species figurarum largarum, tot sunt species longarum. Sed quia magis utimur cantare super mensuram longarum quam largarum, et quia per figuras longarum possunt cognosci figure predictarum largarum, principaliter tractandum est de speciebus antedictarum longarum, que universaliter sunt decem, videlicet quinque sunt simplices, et quinque composite; que composite demonstrantur ubi tractabitur de proprietatibus. Sed quia primo invenimus notam simplicem quam compositam seu ligatam, primo de simplicibus est tractandum. Et ideo principaliter de principali longa, que figuratur, sic: [L]; aut sic: [Lcdsn]. </p>
+
+<p>Longa plicata ascendens et descendens longiorem tractum habet a parte dextra quam a sinistra, ut hic: [Lpssncsdx, Lpdsncddx on staff4] aut in corpore aliquando, ut hic: [Lig2od], tamen perfecta ultima plicata numquam fieri debet, nisi ubi precedit pausam, seu crochetum.</p>
+
+<p>Brevis vero unitum habens tempus, nullum habet tractum et proprie dictum est, quia ad reinveniendum mensuram perfecti modi, aliquando ipsa brevis potest alterari, ut infra dicetur, tamen formatur sic: [B,B,B on staff4] </p>
+
+<p>Brevis plicata ascendens et descendens, tractum habet longiorem sinistrum quam dextrum, ut hic: [Bcdsnpddx,Bcssnpsdx,Lig2cdsnod,BP on staff4]</p>
+
+<p>Semibrevis autem formatur tripliciter, nam aliquando disjuncta ad modum losenge, ut patet hic: [S,S,S on staff4] </p>
+
+<p>Aut conjuncta, seu ligata cum ligatura ascendente, cum corpore quadro cum filo sursum ducto, aut opposite proprietatis, ut hic: [Lig2cssna,Lig2cssna on staff4] aut in corpore obliquo tam ascendendo quam in descendendo, ut hic: [Lig2cssnod, Lig2cssnod, Lig2cssnoa on staff4]</p>
+
+<p>Nota quod semibrevis simplex numquam plicari debet. Sciendum est quod de valore predictarum specierum semibrevium, de ligatis et non ligatis idem est judicium.</p>
+
+<p>Dicto de speciebus simplicium longarum et brevium, et aliqualiter de semibrevibus ligatis, modo dicere oportet de ligaturis.</p>
+
+<p>Cum igitur dictum sit superius quia universaliter sunt decem species figurarum notarum longarum, [-153] videlicet quinque simplices et quinque ligate, et dictam etiam sit quia ipse ligate inveniuntur ubi tractabitur de proprietatibus, hoc est verum. Tamen igitur scire debemus primo quod omnis ligatura notarum est ascendens aut descendens; de ipsis ascendentibus et descendentibus ultra quod dicte sunt prime note in principio ligature, et sunt ultime in fine ipsius ligature notate. Omnes alie inter istas primas et ultimas existentes medie breves appellantur. </p>
+
+<p>Et de ascendentibus sic notabis: Omnis ligatura ascendens aut formatur super primam notam nullum tractum habentem hoc modo, ut patet hic: [Lig5aaaa,Lig4aaacddx,Lig5aaaod,Lig5aaodart on staff4]</p>
+
+<p>Que prima nota cum proprietate dicitur, et brevis appellatur.</p>
+
+<p>Aut formatur super primam habentem tractum a parte dextera, ut patet hic: [Lig4Laaa,Lig5Laaad,Lig4aaa,Lig5Laaaod,Lig3aod on staff4]</p>
+
+<p>Que prima nota sine proprietate dicitur, et longa prima dictarum specierum appellatur.</p>
+
+<p>Omnis ligatura aut a prima nota descendit habente tractum a parte sinistra, ut hic: [Lig3cdsndd,Lig3cdsndMXart,Lig5cdsnddda,Lig5cdsndodaart,Lig5cdsnodaodart,Lig3odart on staff4]</p>
+
+<p>Que prima nota cum proprietate dicitur, et brevis computatur.</p>
+
+<p>Aut descendit a prima nota nullum tractum habente, ut hic patet: [Lig3dd,Lig5ddodart,Lig7dddodaart,Lig5dodaart,Lig6ddaodart,Lig3odart on staff4]</p>
+
+<p>Que prima sine proprietate, et longa secundi modi dictarum specierum ligaturarum appellatur. Unde per regulam dicitur:</p>
+
+<p>Omnis ligatura cum proprietate brevis existit, et sine proprietate longa demonstratur, ut in predictis quatuor exemplis proximis plenissime est declaratum.</p>
+
+<p>Ideo prius dictum est de nota prima omnis ligature sive ascendentis sive descendentis, quia ut ait quidam, a capite est reddenda ratio. Nunc autem de nota omnis ligature ultima videamus.</p>
+
+<p>Scias igitur quando ultima nota superior recte remanet, ut hic patet: [Lig3cdsnodart,Lig5cdsnddodart,Lig2cdsnd,Lig2MXart,Lig7aaaaodart,Lig5aaaart on staff4]</p>
+
+<p>Longa tertii modi ligaturarum appellatur. </p>
+
+<p>In ligatura autem ascendente, quandocumque in fine ligature nota quadrata sub penultima invenitur, ut hic: [Lig4cdsnddd,Lig4aad,Lig6cdsndodartad on staff4] Longa quarti modi predictarum ligaturarum dicitur, et si plicaretur predicta nota a parte superiori, ut hic: [Lig3ddcsdx,Lig4aaodcsdx,Lig5aaad on staff4] Adhuc ipsa ultima ligatura descendente longa quarti modi vocatur dictarum ligaturarum, quamvis predicta plicatura, quia habemus propriorem modum figurandi, possit evitari, ut si inveniretur nota in corpore obliquo non caudata ex parte sinistra, ut hic: [Lig2od,Lig2od,Lig2od,Lig2od on staff4] <span class='pageNo'>[154]</span> Tunc prima, ut superius dicitur, quinti modi predictarum specierum ligaturarum appellatur longa.</p>
+
+<p>Divisiones medie inter predictas sunt breves; si autem due note in uno corpore obliquo inveniuntur sive in fine, plicate tractu ascendente, ut hic: [Lig7cdsnddaodaodcsdx,Lig2odcsdx,Lig4cdsnodaodcsdx on staff4] vel etiam descendente, ut patet hic: [Lig2cdsnodcddx,Lig3cdsndod,BP,Lig4cdsnodaodcddx on staff4] brevis ultima vocatur.</p>
+
+<p>Dicto de prima et ultima nota tam cum proprietate quam sine proprietate, et sicut longe ligate tam prime quam ultime per quinque species cognoscuntur, et quod omnes medie tam ascendentes quam descendentes sunt breves; dicendum est de opposita proprietate, que cognoscitur per modum infrascriptum videlicet, et quid sit, ut hic exponitur.</p>
+
+<p>Opposita proprietas est ubicumque in prima duarum notarum ligaturarum ascendentium tractus ascendens invenitur a parte sinistra, ut hic: [Lig2cssna,Lig2cssna,Lig3dod,Lig3cssnaa,Lig2cssnod,Lig2cssna,Lig4cssndoda on staff4] vel descendentium, ut patet hic: [Lig4cssndaod,Lig2cssnod,Lig5ddaod,Lig2cssnod on staff4] tunc prime due note sunt semibreves, et note ligate cum cauda opposite proprietatis pro uno tempore ponuntur, sed specialiter pro tempore imperfecto, et plures semibreves quam duo pro uno tempore non componuntur ligate, et semibreves cum corpore quadro in fine ligaturarum descendentes, ut hic: [Lig2cssnd,Lig2cssnd,Lig2cssnd on staff4] manere non debent, ut dictum est superius, et inferius patebit modus perfectus reducitur per ternarium numerum, et imperfectus modus per binarium, in quo modo binario nunquam nota debet alterari, nec ad perfectionem ascendere nisi per signum perfectionis, et ubi tractabitur de sincopis.</p>
+
+<p>De pausis.</p>
+
+<p>Nota quod superius et inferius in notis per ternarium et binarium numerum debita mensura temporis demonstratur, ita et in pausis sequentibus observatur idem numerus et mensura; propterea pause inequaliter figurantur. Pausa ergo vel ejus mensura figurata per tria spatia longe perfecte in se continet valorem. Pausa duo spatia comprehendens mensuram brevis alterius vel imperfecte longe demonstrat: pausa vero solum spatium tenens, rectam brevem insinuat. Pausa semibrevis, que pausa dicitur crochetus, ponitur sub linea. Pausa, seu crochetus minime note ponitur super lineam; et hoc quare: quia crochetus positus super lineam est minor quam crochetus positus sub linea. Quia sicut filus tractus deorsum addit, ita filus tractus sursum diminuit, ut sepius dictum est in figuratione opposite proprietatis. Pausa que omnia spatia comprehendit, ibi finiri debeat, finis punctorum merito appellatur. Quare exemplum infra patet, ut nunc in presenti videtis: [3LP,2LP,BP,SP,MP,SP,BP,2LP,3LP,MXP,MXP on staff5]</p>
+
+<p><span class='pageNo'>[155]</span> Nota quod duo sunt prolationes modi, ad quas omnes modi reducuntur, videlicet perfectus et imperfectus; sed principaliter tractandum est de modo perfecto. Dicendum est ergo, quod longa ante longam valet tria tempora, ut hic: [L,L,L on staff4] Duplex longa, aut imperfecta larga figuratur, sic: [MX]. Et tunc vocantur longe de modo perfecto. Ipsa autem longa imperficitur aliquando, quia, ut patet per regulam antedictam, nota fit tantum per binorum temporum. Et hoc est quando sola brevis, vel valor sequitur ipsam, ut patet hic: [L,B,L,S,S,L,BP,L,S,S,L on staff4] Nisi per divisionem modi aliter distinguatur, ut hic: [L,pt,B,L,S,S,L,Lig2cssna,L on staff4] Quia tunc causa illius signi divisionis sequens brevis non potest imperficere precedentem longam, imo debet reduci ad longam sequentem, et ipsam imperficere. Et hoc quare brevis vel valor debet imperficere longam: quia ab ipsa perfecta longa descendit, et ad ipsam debet reduci, et simul facere perfectionem vel si brevis, vel valor precedit longam, imperficit ipsam, ut hic patet: [B,L,S,S,S,Lig2cssnod,L,BP,L,BP,L on staff4] Nisi per divisionem modi aliter distinguatur, ut etiam patet hic: [B,L,pt,S,S,S,L,Lig2cssnod,L,BP,L, 3LP on staff4] Et tunc precedens brevis per virtutem istius signi perfectionis imperficere non potest sequentem longam, et longa tria tempora continens est perfecta. Et prefata brevis precedens, vel valor, refertur ad aliquam aliam notam, vel valorem, cum qua possit facere perfectionem, quia sola non debet manere, tamen non ad longam punctatam. Et si perfecta non inveniretur nisi per errorem, debet reduci secundum modum imperfectum. Nota quod de valore semibrevium ligatarum et non ligatarum idem est judicium.</p>
+
+<p>Est enim notandum quod de largis, longis, brevibus et semibrevibus est idem judicium. Et sicut per illum punctum perfectionis perficitur longa, ita per eum perficitur larga, etiam brevis, et semibrevis, quia potestatem habet addendi, ut inferius patebit. Et sicut brevis imperficit longam, ita longa imperficit largam, semibrevis brevem, et minima semibrevem. </p>
+
+<p>Dicto de temporibus largarum et longarum, et de earum perfectionibus, nunc videndum est de temporibus brevium, et earum equalitatibus et inequalitatibus.</p>
+
+<p>Est enim notandum quod omnes breves note sunt equales, nisi septem modis, quod secunda brevis debet alterari; videlicet primus modus est quando due note breves sunt inter duas longas, ut hic: [L,B,B,L on staff4] tunc prima brevis vel valor habet unum tempus, secunda vero brevis, quia sine alteratione aliqua perfectio ternarii numeri, ad quam tenemur dare respectum, non reinveniretur per regulas antedictas, debet alterari, et ambe pro una perfectione computantur, ita quod ambe longe sunt <span class='pageNo'>[156]</span> perfecte, nisi per divisionem modi aliter distinguatur, ut hic: [L,B,pt,B,L on staff4] Tunc due breves sunt equales, et prima brevis imperficit primam longam, et secunda brevis imperficit secundam longam. </p>
+
+<p>Iste punctus, qui est inter predictas notas, aliquando habet addendi et aliquando dividendi potestatem; dividendi habet principaliter, ubi reducitur secundum modum perfectum et numeratur, quia aliquando longe imperficiuntur a brevi, vel a valore brevis. Et breves imperficiuntur a semibrevi, vel a valore semibrevis; et semibreves a minima, vel a valore minime imperficiuntur, nisi per illud signum salvaretur. Potestatem habet addendi principaliter, ubi reducitur seundum modum imperfectum . Et hoc quare: quia modus imperfectus non ascenderet ad ternarium numerum, non per illud signum perfectionis, et fit causa sincopationis.</p>
+
+<p>Secundus modus per quem secunda brevis debet alterari est, quando due breves longam precedunt, ut hic: [B,B,L on staff4]</p>
+
+<p>Tertius modus est, quando de duabus brevibus una ponatur ante, et alia post longam, ut hic: [B,L,B on staff4] eo tamen quod non sequitur alia brevis.</p>
+
+<p>Quartus modus est, quando divise sunt aliter per signum divisionis, tamen rare invenitur.</p>
+
+<p>Quintus modus est, quando remanet in fine post reductionem factam perfectionis cantus, ut hic: [L,Lig2cdsnod,L,Lig2cdsnod on staff4]</p>
+
+<p>Sextus modus est, quando precedunt pausam perfectam ut hic: [Lig2cdsnod,3LP,Lig2cdsnod,3LP on staff4]</p>
+
+<p>Septimus modus est, quando precedunt pausam imperfectam, tamen si brevis vel valor sequitur post pausam, ut hic: [Lig2cdsnod,2LP,B on staff4] Si autem tres breves inter duas longas inveniantur, vel valor earum, taliter quod ultima sit in forma brevi, ipse tres breves erunt equales, et ambe longe erunt perfecte, ut hic: [L,B,B,B,L on staff4]</p>
+
+<p>Sunt quamplures opiniones cantorum inter quos aliqui sunt qui bene credunt opinari, quando dicunt quod nota debeat alterari per punctum. Ad quod respondetur, quia alteratio permittitur causa necessitatis, et hoc quando perfectio ternarii numeri per alterationem secunde duarum, ut in pluribus locis, debet inveniri, et quia per illum punctum dividuntur ipse note, tamen brevis vel ipsius valor nisi necessitate non astringitur, eo quod predictus punctus habeat aliquando dividere, et aliquando perficere. Cum doctrinam volumus non latere, aperte dicimus ipsam alterationem esse per punctum evitandam videlicet, ut patet hic: [L,B,B,pt,B,L,pt,B on staff4] <span class='pageNo'>[157]</span> Tamen per quem modum due erunt manentes tantum mediante longa, ut superius; ideo secunda illarum debet alterari, et ambe ipse breves debent simul facere perfectionem; quia per regulas antedictas ultima secunda debet alterari, et prefata longa signata erit sincopa de valore trium temporum.</p>
+
+<p>Si quarta predictarum brevium inter duas longas inveniatur, videlicet ut hic: [L,Lig3cdsndod,Lig2art on staff4] Vel quocunque modo, tunc prima brevis imperficit primam longam, nisi post ipsam signum ponatur perfectionis, ut hic: [L,pt,Lig3cdsndod,Lig2art,pt,B on staff4] Quod tunc ultima longa erit sincopa, et quarta brevis refertur ad ultimam, et simul faciunt perfectionem, que ultima, ratione duarum, quia est secunda, alteratur.</p>
+
+<p>Si erunt quinque breves vel valor ipsarum, ut patet hic: [L,Lig6ddaodart on staff4] Tunc tres prime breves erunt equales et ponuntur pro una perfectione. Quarta etiam recta erit brevis; quinta, quia est in fine manentium, debet alterari.</p>
+
+<p>Quandocumque predictarum brevium sex inveniantur vel valor, ut patet hic: [Lig6cdsndaddod,L on staff4] Tunc per ternarium numerum debet computari, et quilibet ternarius numerus perfectione computetur, et omnes erunt equales.</p>
+
+<p>Si erunt septem breves, vel valor earumdem, ut sic patet: [L,Lig4cdsndoda,Lig3cdsnda,L on staff4] Tunc prima dictarum brevium debet primam longam imperficere, et alie sex sequentes debent per ternarium numerum computari, videlicet tres, et tres. Et quilibet ternarius numerus unius perfectionis seu longe perfecte est valoris. Et ipse longe perfecte per ternarium numerum dividi debent et reduci. Ex ista dicta causa breves reducuntur per ternarium numerum, tamen in modo perfecto, quia ab ipsa longa tres descendunt breves, ut dictum est superius.</p>
+
+<p>Si vero octo breves, vel valor ipsarum erunt inter predictas longas, vel absque, ut etiam patet hic: [Lig3cdsndod,B,B,Lig3dod on staff4] debemus ipsas reducere per ternarium numerum, videlicet ter et ter; et tunc iste sex sunt valoris binarum perfectionum, et secunda illarum binarum brevium in fine manentium debet alterari. Ita quod de octava ultima alteratur, tamen si predicta manet in corpore brevi. </p>
+
+<p>Si erunt novem, vel valor ipsarum brevium, omnes erunt equales, quia computando in ternario numero omnes iste novem sunt valoris trium perfectionum.</p>
+
+<p>Si plures aut minus quam novem erunt, computandum est per ternarium numerum, et si sola brevis in fine remaneat, predicta brevis debet imperficere primam longam, et si in fine due remaneant, secunda duarum, et per requlam superius notatur, debet alterari. </p>
+
+<p><span class='pageNo'>[158]</span> Ordinande sunt principales divisiones, postquam visum est de temporibus brevium, et earum equalitatibus et inequalitatibus cum proprietatibus ea sive cujusmodi ligate et non ligate dicuntur, et de divisionibus, figurationibus, et de aliis, que ostenduntur in arboribus, tam perfectis quam imperfectis.</p>
+
+<p>Ordinande sunt principales divisiones quoad figurationem per quas figuras omnes divisiones tam de perfectis quam de imperfectis cognoscere, figurare, et cantare poterimus, videlicet sex de tempore perfecto diminuto, et de tempore imperfecto quatuor. Et per istas quatuor divisiones omnes modi et divisiones cognosci, figurari, et practicari possunt, ut per exemplum patet inferius.</p>
+
+<p>Queritur quare divisio duodenaria, et octonaria non figuratur. Respondetur, quia cum tempus duodenarium sit compositum ex tribus temporibus quaternarie divisionis, et tempus divisionis octonarie ex duobus, et in ipsis divisionibus, videlicet in duodenaria et octonaria requiruntur multe figure varie et divise, et specialiter semibreves caudate variis et divisis modis, et ipse et alie divisiones possunt figurari et cognosci per tres solas notas, videlicet per semibrevem majorem, minorem et minimam, et istas tres possumus figurare, et cognoscere per duas solas figuras, videlicet per semibrevem et minimam, quia minima, per quam cognoscuntur omnes divisiones, cognoscuntur per solum parvum filetum positum in semibrevem sursum dictum.</p>
+
+<p>Et ideo ad evitandum superfluitates figurarum, et ad sequendam, brevitatem debent per modum divisionis quaternarie figurari, nam dicit Philosophus: frustra fit per plura quod fieri potest per pauciora, sive per unum.</p>
+
+<p>De istis quatuor divisionibus figurationum, per quas omnes divisiones cognoscere possumus, prima a tempore divisionis novenarie incipiendum est dividere, quod tempus non divisum figuratur, sic: [B]. Dividitur enim hoc tempus in duas semibreves, ut hic: [Lig2cssna,Lig2cssna on staff4] aut ut hic: [Lig2cssnoa] vel ut hic: [Lig2cssnod] vel ut sic: [S,S]. Et tunc secunda istarum semibrevium ad reinveniendum perfectionem mensure secundum regulam antedictam debet alterari. </p>
+
+<p>Potest etiam dictum tempus dividi in duas partes, et facere primam majorem, et secundam minorem, ut hic: [B,S]. Et hoc quare: quia facile est a semibrevi, vel a valore semibrevis imperficere brevem, sicut brevi imperficere longam, quia ut superius dicitur, ab ipsa derivatur et ad ipsam debet reduci. Et per hunc modum prima pars major dicitur brevis imperfecta, quia in forma remanet brevis.</p>
+
+<p>Nota quod quandocumque semibrevis vel valor sequitur, vel precedit brevem, imperficit ipsam signum divisionis, ut hic: [B,pt,S,B on staff4] Tunc semibrevis imperficit brevem sequentem; aut perfectionis, ut patet hic: [S,pt,B,pt,S,B on staff4] Et per hoc signum perfectionis predicta semibrevis sequens et precedens imperficere non potest predictam brevem, quia per virtutem illius signi prefata brevis est sincopa, et perfecta, et secunda dictarum semibrevium per regulas antedictas debet alterari; et ultima quia non imperficitur ab aliquo est perfecta. Potest predictam tempus et divisionis novenarie in tres equales partes dividi, ut hic: [S,S,S on staff4] <span class='pageNo'>[159]</span> aut ut sic: [Lig2cssna,S on staff4] vel sic: [Lig2cssnod,S on staff4] et sicut patet hic: [S,Lig2cssnod on staff4] Et unaqueque istarum partium vocatur major semibrevis, et hoc quare; quia trinarum minimarum est valoris, ut superius dictum est.</p>
+
+<p>Adhuc predictum tempus dividi potest in tres equales partes per plures modos, ut hic: [B,M,S on staff4] Et tunc prima pars intelligitur tempus seu brevis imperfecta, secunda pars vocatur minima; que minima sic manens semper refertur ad primam imperfectam modi brevem, que quinque minimarum est valoris; nisi per divisionem modialiter distinguatur, ut hic: [S,M,B on staff4] Tunc prima pars major semibreves vocatur, secunda vero minima, que ad sequentem brevem refertur valoris quinque minimarum, aut ut hic: [S,M,S on staff4] </p>
+
+<p>Et tunc prima pars erit minor, secunda vero minima, et tertia altera semibrevis vocatur, aut sic: [S,Lig2cssna on staff4] Tunc omnes erunt equales majores.</p>
+
+<p>Nota quod semper minima refertur ad precedentem notam, nisi per signum divisionis seu perfectionis, quia ab ipsa descendit, et ad ipsam debet reduci.</p>
+
+<p>Et sicut predictus punctus habet potestatem super longam, ita habet potestatem addendi super brevem et semibrevem, et sicut alteratur secunda binarum longarum inter duas largas, secunda binarum brevium inter duas longas, et secunda binarum semibrevium inter duas breves, ita secunda binarum minimarum alterari potest inter predictas, aut inter semibreves majores. Etiam causa sincopationis prefatum tempus principalibus modis dividi potest in duas inequales partes ut hic: [B,S,pt,M on staff4] Tunc prima pars erit imperfecta brevis valoris quinque minimarum, secunda erit sincopa de valore trium minimarum, et tertia pars est minima, que reducitur ad imperfectam brevem, quia sola non debet manere, vel e converso, ut hic: [M,S,pt,B on staff4] aut ut hic: [M,S,pt,S on staff4] Et tunc prima minima, secunda vero sincopa dictum valorem trium minimarum et tertia brevis <span class='pageNo'>[160]</span> imperfecta aut altera semibrevis de valore quinque minimarum, et prima minima reducitur ad ultimam imperfectam brevem, aut ad alteram semibrevem.</p>
+
+<p>Dividitur adhuc prefatum tempus in quatuor partes, ut hic: [M,M,S,S on staff4] vel hic: [M,M,Lig2cssna on staff4] aut sic: [M,M,Lig2od on staff4] seu sic: [M,M,Lig2cssnoa on staff4] Et tunc prima pars erit minima, secunda altera minima que est valoris duarum minimarum, et alle due sequentes sunt majores, vel e converso, ut hic: [S,S,M,M,BP on staff4] vel sic: [Lig2cssna,M,M,BP on staff4] seu sic: [Lig2cssnod,M,M,BP on staff4] Quod tunc due prime sunt majores, tertia vero minima, et ultima minima alteratur; aut sic: [S,M,S,S on staff4] Tunc prima pars est minor, secunda minima, et alie due sequentes majores, vel e converso, ut hic: [S,S,S,M,BP on staff4] Quod due prime erunt majores, tertia vero minor, et ultima minima, velut etiam patet hic: [S,M,M,S,BP on staff4] Secunda vero minima, tertia altera minima, et ultima major. Aut ut sic: [Lig2cssnoa,M,S,BP on staff4] vel sic: [S,S,M,S on staff4] Quod prima pars erit major, secunda minor, tertia minima, et ultima major. Aut ut sic: [M,S,pt,M,S,BP on staff4] Tunc prima pars erit minima, secunda vero major, tertia minima, altera autem, et ultima erit major.</p>
+
+<p>Queritur qua de causa tertia pars, que est in forma minime, non nunc imperficit ultimam semibrevem, sed alteratur, cum dictum sit superius quia brevis precedens imperficit longam sequeutem, et de longis, brevibus, et semibrevibus, si idem judicium. Respondetur, quia tam de duabus brevibus, quam semibrevibus, aut minimis secunda <span class='pageNo'>[161]</span> debet alterari ita quod secunda illarum duarum minimarum, quia alio modo non inveniretur mensura, alterari de necessitate debet, et ultima non potest imperfici. Et hoc quare? Quia predicta minima sola non debet manere; vel ut patet hic: [M,S,pt,S,pt,S,B on staff4] Quod est tunc prima minima, secunda vero major, tertia minor, et quarta major erit.</p>
+
+<p>Querendum qualiter imperfici potest ista tertia semibrevis, cum ipsam sequitur semibrevis, et non minima, nec valor minime, ut etiam dictum est, quia de longis, brevibus, et semibrevibus sit idem judicium. Ergo sicut longa ante longam valet tria tempora, et brevis ante brevem valet tres semibreves, ita semibrevis ante semibrevem debet valere tres minimas. Respondetur, quia hoc est verum. Tamen sicut brevis precedens imperficit longam sequentem, et semibrevis brevem, ita minima potest imperficere semibrevem. Tamen causa illius signi perfectionis, imperficere non potest precedens minima primam semibrevem sequentum ita quod debet imperficere semibrevem secundam, nisi per aliquod impedimentum alicujus signi, ut hic: [S,S,pt,S,pt,M,B on staff4] Tunc ultima que est minima refertur ad primam semibrevem. Et hoc quare: quia, ratione illius signi perfectionis, unaqueque illarum punctatarum semibrevium sincopa secundum genus suum est perfecta; vel ut sic: [S,pt,M,S,pt,S on staff4] Tunc secunda pars, que est minima, ad ultimam refertur semibrevem, et simul reducitur ad perfectionem. Et hoc quare: quia quelibet per se punctata sincopa est in suo esse et perfecta; aut ut hic: [S,pt,M,S,pt,M on staff4] Tunc ambe ille, que sunt punctate aut signate, perfecte sunt, et sincope illarum duarum minimarum secunda per regulas antedictas alteratur; vel ut sic: [Lig2cssnod,M,S on staff4] Tunc prima erit major, secunda vero, quia imperficitur a minima sequenti, remanet minor, et ultima erit major, vel e converso, ut sic: [S,pt,M,Lig2cssnoa on staff4] Tunc prima per virtutem illius signi sequentis predicte prime semibrevis non impeficitur a sequenti minima, sed est perfecta; secunda vero minima imperficit semibrevem sequentem, major erit et ultima, vel trium minimarum valoris; aut ut sic: [M,S,Lig2cssna] Tunc prima minima ad sequentem semibrevem refertur, et ipsam imperficit, et alie due sequentes erunt majores; vel sic: [Lig2cssna,M,M,BP on staff4] Tunc due prime erunt majores; duarum minimarum in fine manentium secunda alteratur; vel e converso, ut hic: [S,M,Lig2cssna on staff4] <span class='pageNo'>[162]</span> Et tunc prima, quia imperficitur a sequenti minima, erit minor, et due sequentes vocantur majores; aut ut patet hic: [Lig2cssnoa,S,pt,M,pt on staff4] vel sic: [Lig2cssna,S,pt,M,pt on staff4] Et dicta prima erit major, secunda vero, quia imperficitur ab ultima, que est minima, vocatur major. Et hoc quare: quia predicta minima, ratione illius signi perfectionis, non potest imperficere ipsam precedentem semibrevem, ergo ad aliam primam precedentem debet referri, et ipsam imperficere, et simul facere reductionem ad mensuram, seu ad perfectionem; aut ut hic: [M,M,M,B on staff4] Tunc tres prime erunt minime, que reducuntur simul pro uno tempore semibrevi, et quarta erit imperfecta brevis, et senarum minimarum valoris; aut ut hic: [B,M,M,M on staff4] Tunc prima erit imperfecta brevis, et tres sequentes erunt minime; vel sic: [M,M,pt,M,B on staff4] aut ut hic: [M,S,M,B on staff4] Quod tunc prima erit minima, secunda vero ultera, ratione illius signi, aut minor semibrevis, quod idem est in valore, et tertia erit minima, que ad quartam, que est imperfecta brevis, videlicet quinque minimarum valoris refertur, vel e converso sic: [B,M,pt,M,M,pt on staff4] aut ut hic: [B,M,S,M,pt on staff4] Et tunc prima erit imperfecta brevis tamen quinque minimurum valoris, secunda vero minima erit, que ad primam imperfectam predictam refertur, et secunda illarum duarum manentium erit altera minima aut minor semibrevis, quod dicitur superius idem est in valore; tamen preclariori loco ipsius minime altere dicimus esse ponendam simplicem semibrevem videlicet, quando sequitur ipsam alia minima; aut ut hic: [M,S,B,M,pt on staff4] vel sic: [M,M,B,M,pt on staff4] Tunc prima erit minima, secunda vero minor aut altera minima, quod idem est, tertia erit imperfecta brevis quinque minimarum valoris, ad quam ultimam, que est minima, refertur et simul reducitur ad perfectionem; vel e converso ut hic: [M,B,M,M,BP on staff4] </p>
+
+<p><span class='pageNo'>[163]</span> aut sic: [M,B,M,pt,S on staff4] Et tunc prima, que est minima ad secundam imperfectam brevem, que est quinque minimarum valoris, refertur, et secunda duarum sequentium erit altera minima aut minor, quod idem est in valore, et simul faciunt unitatem; vel ut sic: [S,M,B,M on staff4] Et tunc prima erit minor, secunda vero minima que ad primam minorem debet referri; tertia imperfecta brevis, verumtamen quinque minimarum, et cum quarta, que est minima, valoris binarum perfectarum semibrevium; aut ut hic: [S,M,pt,M,B on staff4] Tunc prima imperficitur a prima sequenti, ad quam predicta minima refertur et erit minor; tertia minima ad quam imperfecta brevis, que remanet in valore quinque minimarum, ut pluries dictum est, debet reduci; aut e converso, ut hic: [B,M,pt,M,S,pt on staff4] Et tunc prima imperfecta brevis quinque etiam minimarum valoris, ad quam secunda minima refertur, appellatur; tertia etiam minima ad quartam que est minor semibrevis, quia simul faciuut perfectionem et reductionem. </p>
+
+<p>De nota punctata.</p>
+
+<p>Est enim notandum, quod punctata nota a latere dextro, nunquam imperfici potest a sequenti vel precedenti nota, neque a valore note. Et si ad predictam notam videlicet per predictam modum punctatum sequitur aut precedit nota, aut valor note, debet reduci ad primam sequentem, aut precedentem notam, verumtamen non punctatam.</p>
+
+<p>Est etiam notandum, quod aliqua nota, secundum genus, suum aliquando deberet esse imperfecta, aut minor, aut minima. Et ex vigore illius puncti seu signi copulat prefata punctata, aut signata in se valorem aliarum notarum, que ista de causa remanent imperfecte, et ipse punctate per dictum modum ad perfectionem ascendunt, et recte sincope vocantur.</p>
+
+<p>Potest etiam prefatum tempus novenarie divisionis in quinque partes dividi, sic: [M,M,M,S,S on staff4] vel sic: [M,M,M,Lig2cssnod on staff4] seu sic: [M,M,M,Lig2cssna on staff4] aut sic: [M,M,M,Lig2cssnoa on staff4] et tres prime erunt minime, et due sequentes erunt majores, ut patet hic: [S,S,M,M,M on staff4] seu ut hic: [Lig2cssnod,M,M,M on staff4] <span class='pageNo'>[164]</span> vel sic: [Lig2cssna,M,M,M on staff4] vel sic: [Lig2cssnoa,M,M,M on staff4] Et due prime erunt majores et tres sequentes minime appellantur, ut sic: [M,S,M,M,S on staff4] aut ut patet hic: [M,S,M,S,S on staff4] Et tunc prima sic erit minima, et refertur ad secundam, que dicitur minima semibrevis, tertia et quarta vadunt sicut prima et secunda, videlicet tertia minima, et quarta altera minima aut minor, quod idem est et ultima major, aut e converso ut patet hic: [S,S,M,S,M on staff4] Et tunc erit prima major, secunda vero minor, ad quam tertia, que minima est, refertur, quarta etiam minor et ultima, que reducitur ad quartam predictam minorem ipsam precedentem, et simul reducitur ad perfectionem, aut sic: [M,M,S,M,M on staff4] vel sic: [M,S,S,pt,M,S on staff4] Quod tunc prima erit minima que ad secundam, que est altera, aut minor, ad perfectionem refertur, tertia vero erit major; illarum binarum secunda alteratur, aut erit minor, quod idem est in valore, aut ut patet hic: [S,M,S,S,M on staff4] Tunc prima erit pars minor, secunda vero minima, que ad primam refertur. Tertia major, quarta minor, et ultima minima, que ad quartam refertur ad perfectionem, vel sic: [M,M,S,M,M on staff4] aut sic: [S,M,S,M,M,BP on staff4] Quod tunc secunda illarum minimarum debet alterari in minima per regulas antedictas, nisi per signum divisionis, aut perfectionis ad precedentem notam refertur; tertia vero erit major, aut sic: [S,M,M,M,S on staff4] Tunc prima et ultima sunt majores, quia ille tres medie, que sunt minime per se, videlicet pro uno tempore semibreve, vet ut sic: [M,M,M,M,B on staff4] Tunc tres prime minime pro tempore semibrevi ponuntur, quarta refertur ad quintam imperfectam brevem que quinque minimarum est valoris, vel e converso, ut sic: [B,M,M,M,M on staff4] <span class='pageNo'>[165]</span> Et tunc prima imperfecta brevis quinque minimarum valoris appellatur, ad quam sequens minima reducitur ad perfectionem, ut sicut hic: [M,M,M,B,M on staff4] Tunc tres prime erunt minime, que simul faciunt perfectionem. Quarta vero quinque minimarum est valoris imperfecte brevis, ut pluries dictum est, quinta vero erit minima, que ad precedentem imperfectam brevem debet referri, et unam simul facere perfectionem, seu reductionem.</p>
+
+<p>Postquam vise sunt diversitates quinque notarum pro predicto tempore novenarie divisionis usque ad sincopas, vidende sunt diversitates earum mediantibus sincopis.</p>
+
+<p>Sunt itaque ille que inferius ostenduntur punctate a latere dextro in divisas divisiones quinque predictarum notarum pro uno tempore superius dicto; que quandoque possunt sincopari, videlicet sic: [M,S,pt,S,M,M,BP on staff4] Tunc prima erit minima, secunda vero ratione puncti aut signi perfectionis erit valoris trium minimarum, que sincopa, secundum genus suum, perfecta appellatur. Tertia causa illius sincope, ad quam prima minima non potest referri, dicitur minor, et facit perfectionem cum prima minima illarum binarum sequentium, secunda per regulas antedictas debet etiam alterari, vel sic: [M,S,pt,S,M,S on staff4] Et tunc prima minima, ut dicitur superius, ratione illius signi perfectionis, non potest imperficere, neque facere unitatem cum semibreve ipsam precedente, imo ad primam aliam sequentem notam tamen non punctata refertur, et simul reducitur ad perfectionem, et quarta minima unitatem seu reductionem facit ad perfectionem, cum ultima, que minor semibrevis appellatur, aut e converso, ut patet hic: [S,M,pt,M,S,S,3LP on staff4] Et tunc prima pars, quia imperficitur a sequenti minima, et simul reducuntur ad perfectionem, erit minor; tertia etiam erit minima, quod per regulas pluries notatur, quia sola minima post reductionem factam non debet manere, sed debet referri ad ultimam que tunc, quamvis sit secunda, non opportet alterari, et simul ascendunt ad perfectionem. Quarta, quia non imperficitur ab aliquo, et semper sic manente, aut punctata aut non, erit sincopa secundum genus suum, et perfecta; aut sic: [M,M,S,pt,S,pt,M on staff4] Tunc due prime erunt minime, due vero sequentes, ratione illius signi, sunt majores, et ultima minima, ita quod tunc aliqua illarum semibrevium punctatarum seu sincopatarum non imperficitur ab aliqua predictarum minimarum, sed omnes tres minime ad perfectionem simul reducunt.</p>
+
+<p>Queritur quare secunda illarum duarum minimarum nunc non alteratur, cum dictum sit superius quia, tam de longis, brevibus, semibrevibus quam de minimis in modo perfecto, secunda, nisi mediante signo divisionis aut perfectionis, debet alterari. Respondetur quia nunc predicta minima alterari non debet, cum ultima que est etiam minima, remaneret sola, quod, ut superius notatur, non debet, et unitatem neque <span class='pageNo'>[166]</span> perfectionem facere non potest cum aliqua illarum punctarum semibrevium, quia, ut superius dicitur, ratione illius signi prefate signate sunt sincope, secundum genus earum, et perfecte; ita quod de causa prefata ista ultima minima ad predictas duas minimas debet referri, et simul facere unitatem seu perfectionem; adhuc figaratur sic: [M,S,pt,S,pt,M,M,BP on staff4] Et erit tunc prima minima, et due sequentes per regulas predictas erunt majores, et alie due sequentes minime, et tunc illarum duarum secunda, quia prima minima remaneret sola, non debet alterari, que prima ad predictas ultimas refertur, et simul reducuntur ad perfectionem; aut sic: [M,B,M,M,M on staff4] Et tunc prima pars erit minima, que ad sequentem imperfectam brevem videlicet quinque minimarum valoris refertur, et tres erunt minime sequentes equales, que ad perfectionem simul reducuntur. </p>
+
+<p>Visis diversitatibus divisionum manerierum et figurationum, ut superius patet, videndum est quia per plures modos potest dividi in senarium supradictum tempus novenarie etiam divisionis.</p>
+
+<p>Quando tempus predictum novenarie divisionis in sex plures modos dividitur, et diversitates principaliter patet sic: [M,S,M,S,M,S on staff4] Tunc prima est minima et ad secundam semibrevem refertur, et per predictum modum tertia ad quartam, et quinta ad sextam refertur, aut e converso; ut sic patet: [S,M,S,M,S,M on staff4] Quod tunc vadunt per hunc ordinem, videlicet minor et minima usque ad ultimam; aut sicut patet: [M,S,M,S,M,M on staff4] Tunc tres prime erunt minime, quarta vero major, quinta minima, et sexta, quia secunda est, alteratur; vel e converso ut hic: [M,M,S,M,S,M on staff4] vel ut etiam sic: [M,S,S,M,M,M on staff4] Quod tunc prima pars erit minima, secunda vero altera vel minor, quod idem est quoad valorem; tertia major, et tres sequentes erunt minime, aut sic: [M,M,M,M,B,M on staff4] Quod tunc, et quandocumque inter quinque minimas in tali divisione ponatur nota quadrata in forma brevis vel in principio vel in fine, non aliqua illarum minimarum, que per hunc modum per novenario tempore posite erunt cum breve, tenetur alterari, immo sunt omnes equales, et brevis prefata non nisi quatuor minimarum remanet in valore; aut hic: [M,S,M,M,S,M on staff4] <span class='pageNo'>[167]</span> Quod tunc prima erit minima que ad secundam minorem refertur, tertia ad quartam, que debet alterari, quinta erit minor ad quam ultima minima refertur; vel ut sic: [S,M,M,M,pt,M,M,BP on staff4] Quod erit tunc prima minor, secunda minima, tertia minor, quarta minima; illarum duarum minimarum sequentium per predictas regulas secunda alteratur; aut sic: [S,S,M,M,M,M on staff4] Et tunc prima erit major, secunda minor, tertia minima, et facit perfectionem cum precedente nota; si minima tertia prefata non per signum dividatur, tres sequentes erunt minime, simulque faciunt perfectionem, aut sic: [S,M,M,pt,M,M,M on staff4] vel sic: [S,M,S,M,M,M,3LP on staff4] Et tunc prima major, secunda vero minima, tertia aut altera minima aut minor, que in valore sunt idem, et tres sequentes erunt minime. </p>
+
+<p>Tamen ista alteratio in minima, quando sequitur ipsam alia minima, et pro predicta potest poni figura simplicis semibrevis, debet, ut supra notatur, evitari. Unde pro clariori loco ipsius minime altere dicimus esse ponendum simplicem semibrevem, videlicet quando sequitur ipsam alia minima, aut ut hic: [S,M,M,M,M,M,B,3LP on staff4] Et tunc prima erit major, tres sequentes minime simul ad perfectionem reducuntur; aliarum duarum minimarum sequentium, quia alio modo non inveniret mensura, debet secunda alterari; aut ut patet hic: [M,M,M,S,S,M,3LP on staff4] Et tunc tres prime erunt minime, quarta erit major, quinta minor, ultima minima, que reducitur ad predictam precedentem minorem.</p>
+
+<p>Videndum est etiam sicut predicte sex possunt sincopari.</p>
+
+<p>Ostendendum est quia aliquando possunt sincopari, ut hic: [M,S,pt,M,M,M,M,3LP on staff4] Prima pars erit tunc minima; secunda, ratione illius signi perfectionis, erit sincopa valoris trium minimarum, predicta prima minima refertur ad primas duas minimas post sincopam prefatam, et sexta illarum duarum in fine manentium, per regulas antedictas et ad reinveniendum mensuram, debet alterari; aliquando sic: [M,M,M,M,S,pt,M,S,BP on staff4] Et tunc prime tres erunt minime, quarta etiam erit minima, quinta major que, causa illius signi perfectionis, imperficere non potest precedentem notam, sed debet reduci ad ultimam que, ex causa necessitatis, debet alterari; aliquando possunt figurari, ut sic: [M,pt,M,pt,S,pt,M,M,M on staff4] Due prime, ratione illius signi divisionis, tunc quia secunda illarum non potest alterari, sunt minime, tertia vero, quia est punctata, est sincopa <span class='pageNo'>[168]</span> de valore trium minimarum; quarta erit minima et reducitur ad primas duas minimas, et due sequentes erunt minime, quarum secunda alteratur; et aliquando possunt sincopari ut sic: [M,S,pt,M,S,M,pt,M,3LP on staff4] Et tunc prima istarum erit minima, secunda autem, quia imperficitur a precedente erit minor, tertia, quia remaneret sola, ad ultimas duas quarum, ratione illius divisionis, nulla potest alterari, reduci debet, et quarta erit sincopa, que trium minimarum est valoris; adhuc, ut patet, possunt figurari videlicet ut hic: [M,B,M,M,M,M on staff4] Et tunc prima erit minima, secunda quatuor minimarum imperfecta brevis, et omnes alie erunt minime; vel e converso, ut patet hic: [M,M,M,M,B,M on staff4]</p>
+
+<p>Visis diversitatibus divisionum ut supra, vidende sunt diversitates quando dividitur in septem predictum tempus.</p>
+
+<p>Quando dividitur predictum tempus in septem plures modos et diversitates principaliter, ut patet hic: [M,M,M,M,S,M,S,3LP on staff4] Tres prime tunc erunt minime, et simul faciunt perfectionem, quarta minima refertur ad quintam que est minor, et sexta ad septimam; vel e converso, ut sic: [M,M,M,S,M,M,M on staff4] Tunc prima minima refertur ad secundam; tertia ad quartam que est minor, et tres sequentes minime; vel ut hic: [S,M,S,M,M,M,M on staff4] Tunc prima erit minor, secunda minima, tertia minor, et quarta minima, et tres sequentes minime; vel ut sic: [M,S,M,M,M,M,M on staff4] Tunc prima est minima, que ad sequentem semibrevem refertur, et ambe erunt valoris trium minimarum; tres etiam medie erunt minime; illarum sequentium per supradictas regulas secunda alteratur; vel sic: [S,M,M,M,M,S,M,3LP on staff4] Prima erit tunc minor, secunda vero minima que ad primam minorem refertur et simul faciunt perfectionem; tres medie erunt minime; sexta erit minor, et ultima minima; aut sic: [M,M,M,S,M,M,M on staff4] Prima erit minima que refertur ad secundam que est minor, tertia minima ad quartam minorem; et tres sequentes minime, aut possunt figurari sic: [M,S,M,M,M,S,M on staff4] Tunc prima erit minima, secunda vero minor, tres medie erunt minime, sexta etiam erit minor, <span class='pageNo'>[169]</span> et ultima que est minima ad ipsam minorem refertur, aut sic: [S,M,M,M,M,M,M on staff4] Et tunc prima erit minor, secunda minima, que reducitur ad precedentem minorem, tres medie erunt minime, que simul faciunt perfectionem, et sexta, que minima est, refertur ad ultimam minorem, vel sic: [M,M,M,S,M,M,M on staff4] Tunc tres prime erunt minime, quarta erit major, et tres etiam sequentes erunt minime, vel ut hic: [M,M,M,M,M,M,S on staff4] Tunc tres prime vadunt pro uno tempore semibrevi, alie tres medie pro alio, et ultima major erit, vel e converso ut sic: [S,M,M,M,M,M,M on staff4] Tunc prima erit major, tres sequentes minime pro una perfectione semibreve computent, et alie tres ultime pro alia. </p>
+
+<p>Videndum est etiam predicte septem note pro supradicto tempore sicut possunt sincopari, et qualiter demonstratur per figuras. Dicendum est quod aliquando sic ostenduntur: [M,S,pt,M,M,M,M,M on staff4] Tunc prima, que est minima causa illius signi, imperficere non potest sequentem semibrevem, imo debet reduci ad alias minimas, et per ternarium in tempore divisionis predicte minime perfectione semibreve computentur, aliquando et sic: [M,pt,M,S,pt,M,M,M,M on staff4] Tunc due prime ratione illius signi divisionis erunt minime, tertia que est punctata per signum perfectionis est sincopa et perfecta secundum genus suum, quia trium minimarum est valoris, quarta minima ad duas primas minimas, quia alio modo remaneret sola, quod esse non debet, reducitur, et tres ultime erunt minime, vel sic: [M,M,M,M,S,pt,M,M,BP on staff4] Et tres prime erunt minime et reducuntur simul, quarta refertur ad ultimas duas notas, et hoc quare: quia cum sequente semibreve, ratione illius signi, unitatem seu perfectionem facere non potest. </p>
+
+<p>Querendum est quare secunda illarum duarum in fine manentium nunc non alteratur, cum dictum sit superius, quia de duabus semper secunda alteratur, seu debet alterari. Respondetur quia per regulas dicitur quia minima non post factam reductionem debet sola manere. Et tunc remaneret sola, que manet in quarto loco aliquando, ut sic patet: [M,M,pt,M,M,M,S,pt,M on staff4] Tunc prime due erunt minime que, ratione illius signi, unitatem seu perfectionem faciunt cum ultima minima, tres etiam medie erunt minime, et simul faciunt perfectionem et sexta erit sincopa valoris trium minimarum; aliquando sic: [M,S,pt,M,M,M,M,M on staff4] <span class='pageNo'>[170]</span> Tunc prima erit minima, que ratione illius signi unitatem neque perfectionem facere non potest cum sequente semibreve, ita quod ad primas duas minimas sequentes refertur, et tres sequentes erunt minime, et simul ad perfectionem reducuntur. </p>
+
+<p>Viso quomodo figurantur septem note pro tempore novenario, videndum est sicut figurant octo pro dicto tempore.</p>
+
+<p>Quando octo ponuntur, aliquando figurantur, sic: [M,M,M,M,M,M,M,S on staff4] Tunc tres prime minime vadunt pro uno tempore semibreve, tres medie pro alio, septima est minima, et octava minor, aliquando, ut hic: [M,M,M,M,M,M,M,M,BP on staff4] Tunc omnes per ternarium computantur, et quilibet numerus pro una perfectione semibreve ponatur; et si due in fine remaneant minime, secunda alteratur; aliquando, ut sic: [M,M,M,M,M,M,S,M on staff4] Tunc tres, et tres computari debent, septima vero erit minor, et ultima minima, vel e converso, ut sic: [M,S,M,M,M,M,M,M on staff4] vel ut patet hic: [M,M,pt,M,M,M,M,M,M on staff4] Tunc prima erit minima, secunda minor, aut altera minima, quod idem est, et omnes alie per ternarium numerum computentur. Et illa secunda minima ex vigore illius signi divisionis alterat, et tres sequentes ultime minime vadunt simul; aliquando possunt predicte figurari, ut sic: [M,M,M,M,M,M,M,M on staff4] Tunc tres prime erunt minime, secunda illarum duarum que sunt in medio ex vigore illius signi debet alterari, et tres sequentes ultime minime vadunt simul; aliquando possunt predicte figurari, ut sic: [M,M,M,S,M,M,M,M on staff4] que simul faciunt perfectionem. Quarta erit minor, quinta minima erit, et ad precedentem minorem refertur, et tres ultime erunt que simul reducuntur ad perfectionem etiam possunt aliquando sincopari, sit: [M,pt,M,S,M,M,M,M,M on staff4] Tunc ratione illius signi divisionis, secunda alterari non potest, immo quarta que est minima ad faciendum perfectionem ad ipsas primas refertur; tertia, que est minor, cum quinta facit perfectionem, tres etiam ultime minime simul ad perfectionem reducuntur, vel e converso, ut hic: [M,M,M,M,M,S,M,pt,M on staff4] Tunc tres prime erunt minime, due etiam medie cum secunda dictarum mediarum nunc per regulas antedictas, quia ultima remaneret sola, alterari <span class='pageNo'>[171]</span> non potest, sunt minime; et ad ipsas, causa implendi perfectionem, prima minima post predictas reduci debet. Sexta erit minor, ad quam ultima minima ad perfectionem novem pro predicto tempore erunt, omnes erunt equales, ut patet hic: [M,M,M,M,M,M,M,M,M on staff4] Notandum est quod plures sunt varietates figurationum et sincopationum, sed quia per predictas omnes diversitates ipsarum nascuntur, de aliis est tacendum. </p>
+
+<p>Visis omnibus, ut supra patet, de tempore novenario vidende sunt diversitates figurationum temporis imperfecti sexte divisionis.</p>
+
+<p>Predictum tempus dividitur in duas equales partes principaliter, ut hic: [S,S], aut ut hic: [Lig2cssna], vel ut patet hic: [Lig2cssnod], seu ut sic: [Lig2cssnoa] Tunc unaqueque dictarum partium semibrevis major appellat; aliquando potest prefatum tempus dividi in duas partes, ut hic: [B,M], vel sic: [M,B,MP]. Minima reducitur cum precedente, vel cum sequente breve, quia ab ipsa, ut dicitur superius, derivatur et ad ipsam debet reduci. Aliquando prefatum tempus in duas inequales partes potest dividi, ut hic: [B,S], vel sic: [S,B]. Tunc major pars appellari potest brevis quarta, et minor pars semibrevis minor que ad precedentem, seu ad sequentem brevem refertur. Dividitur etiam prefatum tempus in tres inequales partes, ut hic: [M,S,S on staff4] Tunc prima erit minima secunda vero minor, ad quam prima ad perfectionem reducitur tertia erit major, vel e converso, ut hic: [S,S,M on staff4] Et tunc prima erit major, secunda vero minor, et ultima minima, aut sic: [S,M,S on staff4] Tunc prima erit minor, secunda vero minima, que nisi per divisionem modi ad primam minorem reducitur, et tertia, nisi per divisionem modi ad primam minorem reducitur, et tertia, nisi prima punctata sit, erit major, vel ut hic: [S,M,S on staff4] Tunc istarum duarum minimarum causa implendi perfectionem oportet alterari, ut sic: [S,M,M on staff4] Et tunc prima erit major illarum duarum minimarum secunda debet alterari; insuper predicte tres possunt sincopari, sic: [M,S,pt,M on staff4] Tunc ratione illius signi perfectionis media semibrevis est sincopa valoris trium minarum, et secunda illarum minimarum per regulas antedictas debet alterari, aut ut sic: [S,S,pt,M on staff4] Et tunc ultima minima imperficere non potest precedentem semibrevem, quia perficitur per illud <span class='pageNo'>[172]</span> signum, ita quod ad primam debet reduci, et facere simul perfectionem. Dividitur etiam predictum tempus aliquando in tres minores, ut hic: [S,S,S on staff4] Et tunc omnes erunt equales, et unaqueque est valoris duarum minimarum. Potest etiam prefatum tempus dividi in quatuor partes principaliter, ut hic: [M,M,M,S on staff4] vel sic: [M,M,S,M on staff4] Tunc prima pars erit minima, secunda minor, aut altera minima, quod idem est, que prima perfectionem facit cum secunda, et per predictum modum tertia cum quarta facit perfectionem, vel e converso sic: [S,M,S,M on staff4] Et prima pars erit minor, secunda vero minima, tertia minor, et ultima minima. Figurant etiam, ut hic: [M,S,S,M on staff4] Tunc prima erit minima, secunda vero minor, et simul reducunt ad perfectionem, tertia minor, et ultima minima et simul reducunt, vel etiam sic: [S,M,pt,M,S,BP on staff4] Tunc prima pars erit minor, secunda vero minima, que ad precedentem minorem refertur, quarta etiam minima, que reducitur ad sequentem que est minor. Predicte etiam quatuor semibreves possunt, causa sincopationum, principalem modum figurari, sic: [M,S,pt,M,M on staff4] Tunc prima erit minima, que non potest sequentem semibrevem impeficere propter prefatum signum perfectionis, sed est sincopa, et perfecta secundum genus suum, que prima minima quia sola non debet manere, oportet reduci ad ultimas duarum quarum ista de causa nunc secunda non debet alterari, vel e converso ut hic: [M,M,S,pt,M on staff4] Et tunc due prime erunt minime, et quia ultima remaneret sola, non debet secunda alterari, tertia erit sincopa valoris trium minimarum, et ultima erit minima, que ad duas primas minimas reducitur ad perfectionem. Potest etiam prefatum tempus in quinque partes dividi, ut hic: [M,M,M,M,S on staff4] Tunc tres prime erunt minime, que simul reducunt ad perfectionem, et prefata ultima minor appellatur, aut ut hic: [M,M,M,M,M,BP on staff4] Tunc tres prime erunt minime et secunda illarum duarum sequentium causa implendi perfectionem debet alterari, vel sic: [M,S,M,M,M on staff4] <span class='pageNo'>[173]</span> aut sic: [M,M,pt,M,M,M on staff4] Tunc prima erit minima, secunda vero minor, aut altera minima, quod idem est, et tres sequentes minime, vel sic: [S,M,M,M,M on staff4] Tunc prima erit minor, secunda vero minima, et ambe pro uno tempore semibreve ponuntur; et tres sequentes erunt minime, et simul pro alio tempore semibrevi ponuntur sive reducuntur; adhuc figurari possunt, sic: [M,M,M,S,M on staff4] Tunc tres prime erunt minime et simul pro uno tempore semibrevi reducuntur. Quarta erit minor, cum qua ultima minima facit perfectionem. Possunt predicte ratione sincopationum figurari, ut hic: [M,M,S,M,M on staff4] Tunc omnes tres, et media valoris duarum minimarum erit minor, quando prefatum tempus predicte sex in sex partes dividitur, ut patet sic: [M,M,M,M,M,M on staff4] Tunc omnes erunt equales, et per ternarium numerum reducuntur ad perfectionem. </p>
+
+<p>Dicto de diversitatibus manerierum figurationum perfecti temporis, et reductionum novenarie divisionis, et sexti imperfecti temporis a predicto perfecto tempore derivato. Dicendum est de diversitatibus manerium divisionum seu reductiomum, et figurationum temporis perfecti minimi seu diminuti, quod idem est senarie etiam divisionis. </p>
+
+<p>Quod tempus, ut dictum est superius et patet in arbore, in duas inequales partes dividitur quoad valorem, ut hic: [S,S,BP on staff4] vel sic: [Lig2cssna,L on staff4] Tunc secunda pars altera semibrevis appellatur, tamen quatuor minimarum est valoris, et prima pars, que est minor, duarum minimarum est valoris, et minor semibrevis appellatur, vel sic: [S,B]. Que prima est minor semibrevis, et minor pars appellatur, et major pars brevis quarte minime perfectionis et majoris principalis appellatur, vel e converso sic: [Bcsdx,S]. Et tunc major pars brevis quarte majoris principalis et minime imperfectionis appellatur. In duas inequales partes prefatum tempus dividi potest, ut sic: [M,B], vel e converso sic: [B,M]. Et tunc minor pars, que est minima, nisi per signum divisionis aut perfectionis ad sequentem vel precedentem brevem refertur. Et hoc quare: quia ab ipsa breve descendit, et ad ipsam debet reduci. Potest etiam prefatum tempus in duas equales partes dividi, tamen mediante signo perfectionis, ut hic: [S,pt,S]. Et tunc unaqueque istarum semibrevium trium minimarum est valoris, et major semibrevis appellatur. Prefatum tempus in tres equales partes dividitur, ut etiam patet hic: <span class='pageNo'>[174]</span> [S,S,S on staff4] Tunc unaqueque dictarum partium minor appellatur, et duarum minimarum est valoris. Dividitur etiam in tres inequales partes, sic: [M,M,S,BP on staff4] Tunc due prime erunt minime, et tertia altera minor appellatur, vel sic: [S,Lig2cssna on staff4] sic: [S,Lig2cssnod on staff4] et hic: [S,Lig2cssnoa on staff4] Quod erunt tunc omnes minores, aut sic: [S,pt,M,M on staff4] Tunc prima pars ratione illius signi perfectionis erit major, et secunda illarum duarum, quia alio modo non inveniretur mensura, oportet alterari, aut ut hic: [M,M,pt,S on staff4] Et tunc secunda istarum minimarum duarum ratione illius signi debet alterari, et ultima erit major, vel sic: [M,M,B on staff4] Et tunc due prime erunt minime, et ultima brevis quarte minime imperfectionis et majoris prolationis appellatur, vel e converso, ut sic: [B,M,M on staff4] vel sic: [M,B,S on staff4] Tunc prima pars, et illa que est in medio minimarum duarum brevis, quarta vero erit, et due sequentes erunt minime, aut ut videtur hic: [S,pt,M,S on staff4] Tunc prima erit sincope valoris trium minimarum, secunda vero minima, que ad tertiam minorem refertur, aut sic: [S,M,S on staff4] Tunc prima pars erit minor, ad quam secunda que est minima refertur, tertia vero major semibrevis appellatur, aut ut hic: [M,pt,S,pt,S,pt on staff4] Tunc prima erit minima, que unitatem seu perfectionem ratione illius puncti facere non potest cum sequente semibrevi, sed ultimam que est minor, debet reduci, vel e converso sic: [S,S,pt,M on staff4] <span class='pageNo'>[175]</span> Et tunc prima erit minor, ad quam ultima que est minima, reducitur, mediaque punctata ex se facit perfectionem, et trium minimarum est valoris, et major semibrevis, que est sincopa, vocatur. Potest prefatum tempus in quatuor partes dividi, ut hic: [M,M,S,S on staff4] vel sic: [M,M,Bcssn,B on staff4] et sic: [M,M,Lig2cssnod on staff4] Tunc due prime erunt minime, et due sequentes minores, vel e converso ut patet hic: [S,S,M,M on staff4] vel sic: [Lig2cssna,M,M on staff4] et sic: [Lig2cssnoa,M,M on staff4] Et tunc due prime erunt minores, et due sequentes minime, aut sic: [S,M,M,S on staff4] Tunc prima erit et ultima minor, et due medie, nisi divise sint, erunt minime, vel e converso ut sic: [M,S,M,M on staff4] Et tunc prima et ultima erunt minime, et ambe medie erunt minores, vel ut hic: [M,S,M,S on staff4] Tunc prima erit minima, secunda minor, tertia minima, et ultima minor, vel e converso sic: [S,M,S,M on staff4] Et tunc prima erit minor, secunda vero minima, tertia et ultima minima, que ambe minime simul faciunt perfectionem. Possunt etiam sincopari, ut hic: [M,S,pt,M,M on staff4] Tunc prima erit minima, secunda vero sincopa que trium minimarum est valoris, et ultima due erunt minime, aut ut hic: [M,M,S,pt,M on staff4] Et tunc due prime erunt minime, tertia vero sincopa, que trium minimarum est valoris, et ultima erit minima, aut ut hic: [S,pt,M,M,M on staff4] Tunc omnes iste tres prime erunt minime, et ultima erit major, vel e converso ut patet hic: <span class='pageNo'>[176]</span> [S,pt,M,M,M on staff4] Et tunc prima que est punctata est sincopa de valore trium minimarum, alie tres sequentes minime appellantur. Tempus prefatum in quinque partes dividi potest, ut hic: [M,M,M,M,S on staff4] Tunc quatuor prime erunt minime, que duorum minorum sunt valoris, et ultima erit minor, vel e converso ut hic: [S,M,M,M,M on staff4] Tunc prima pars erit minor, et omnes alie sequentes que per binarium numerum reducuntur ad perfectionem. Et hoc quare: quia prefatum tempus ut dicitur superius et in arbore demonstratur, ex tribus minoribus componitur. Et unaqueque minor, ut patet exemplo, duarum minimarum est valoris, ut hic: [M,M,S,M,M on staff4] Tunc illa semibrevis que caret tractu, minor semibrevis appellatur, et due prime et ultime erunt minime, que per binarium modum ad perfectionem reducuntur. Possunt etiam sincopari prefate quinque, ut hic: [M,S,M,M,M on staff4] Reduci debet prima minima ad tertiam, et ista que caret tractu, minor est sincopa, et alie due sequentes erunt minime, aut sic: [M,M,M,S on staff4] Et tunc due prime erunt minime et simul reducuntur, tertia vero minima reducitur ad ultimam medie predictarum minorumque sincopa appellatur. Potest etiam prefatum tempus dividi in sex partes, ut hic: [M,M,M,M,M,M on staff4] Et tunc omnes erunt equales, et per binarium numerum reducunt ad perfectionem.</p>
+
+<p>Visis divisionibus manerierum et figurationum temporis perfecti novenarie divisionis, et imperfecti senarie ab ipso derivato, et temporis perfecti diminuti, seu minimi senarie etiam divisionis, dicendum est sicut dividitur tempus divisionis quaternarie que descendit a dicto tempore perfecto diminuto.</p>
+
+<p>Dividitur predictum tempus quaternarie in duas partes, est quoad valorem equales principaliter, ut hic: [S,S], vel sic: [Lig2cssnod], aut sic [:Lig2cssna], vel etiam ut sic: [Lig2cssnoa]. Tunc omnes quoad valorem erunt equales, et unaqueque istarum duarum minimarum est valoris. Etiam in equales partes potest dividi, videlicet quoad valorem, ut hic: [M,S,pt]. Tunc ex vigore illius signi perfectionis, secunda que est punctata, est sincopa, que in se trium minimarum continet valorem, et major appellatur; et illa minima prima cum prefata reducitur ad mensuram; vel e converso, ut hic: [S,M]. Tunc prima erit sincopa, et etiam trium minimarum est valoris, ad quam sequens que est minima, causa implendi mensuram seu numerum, reduci debet. Dividitur etiam prefatum tempus in tres partes, que possunt figurari, sic: [M,M,S on staff4] <span class='pageNo'>[177]</span> Tunc prime due sunt minime, tertia vero minor; vel e converso, ut patet hic: [S,M,M on staff4] Quod tunc prima erit minor, et due sequentes minime; aut ut hic: [M,S,M on staff4] Et tunc prima et ultima sunt minime et faciunt simul reductionem, et media est sincopa duarum minimarum valoris. Et quando erunt quatuor pro supradicto tempore, sic: [M,M,M,M on staff4] Omnes erunt equales, et minime vocantur: </p>
+
+<p>De minima, quando debet mutare figuram.</p>
+
+<p>Ut dictum est superius, quia per tres notas, videlicet per semibrevem majorem, minorem, et minimam divisiones et subdivisiones tam de tempore perfecto majore, minore et minimo, imperfecto majore, minore et minimo, quam semiperfecto et semimperfecto majore, minore et minimo, tam etiam majoris, minoris, quam minime prolationis omnes cognoscuntur; hoc est verum. Tamen quia aliquando divisio minoris prolationis miscetur cum majori, et minima cum minori, et quia inter predictas esset magna confusio quia non bene reducerentur ad perfectionem, oportet quod de necessitate una prolatio cognoscatur ab alia minime minoris prolationis inter minimas majoris; aut minime prolationis inter minimas minoris mutentur aliqualiter in figura, videlicet ut patet hic: [F,F,F,F on staff4] Et quod minima mutet figuram non requiritur, nisi quando prolatio minor cum majore, aut minima prolatio cum minore. </p>
+
+<p>Finito Libro sit laus gloria Christo.</p>
+
+<p>Dexteram scriptoris salvet eam Deus cunctis Horis.</p>
+
+<p>Amen.</p>
+
+<p>Explicit liber de musica Magistri Johannis Veruli de Anagnia.</p>
+<!-- end text -->
+</div>
+</div>
+<!--</div>-->
+<br /><br />
+
+
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
+<div id="footer">
+  <div id="chmtl_logo">
+    <a href="https://chmtl.indiana.edu/">
+        <img src="_assets/img/chmtl_logo_trans.png" alt="CHMTL Logo" />
+    </a>
+  </div>
+  <div id="copyright">
+    <p>The <a href="https://chmtl.indiana.edu/">Center for the History of Music Theory and Literature</a> is a research center of the <a href="http://music.indiana.edu">Indiana University Jacobs School of Music</a>.</p>
+  </div>
+</div>
+
+<div id="iu_footer">
+    <hr />
+    <div id="copyright">
+        <div id="blockiu">
+            <a href="http://www.iub.edu" title="Indiana University">
+                <img alt="Block IU" height="28" src="https://chmtl.indiana.edu/tml/14th/_assets/img/blockiu_white.gif" width="22" />
+            </a>
+        </div>
+        <p id="statement">
+        <a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> © 2022 The Trustees of <a href="http://www.iu.edu" title="Indiana University">Indiana University</a> | <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> | <a href="https://music.indiana.edu/departments/offices/music-information-technology-services/privacy.shtml">Privacy Notice</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

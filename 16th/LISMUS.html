@@ -1,0 +1,798 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>LISMUS_TEXT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="_assets/css/tml/layout.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/css/common/chmtl_identity.css" />
+    <!--<link rel="stylesheet" type="text/css" href="_assets/css/w3.css" />-->
+    <link rel='stylesheet' type='text/css' href='_assets/css/fancybox.css' />
+    <script type= 'text/javascript' src='_assets/js/chmtl_file.min.js'></script>
+</head>
+
+<body>
+  <div id="chmtl-identity">
+    <div id="identity-spacer"></div>
+<!--    <p>A project of <a href="http://chmtl.indiana.edu">CHMTL</a></p>-->
+    <div id="chmtl-border">
+      <div id="chmtl-blue"></div>
+      <div id="chmtl-yellow"></div>
+      <div id="chmtl-gray"></div>
+      <div id="chmtl-red"></div>
+    </div>
+  </div>
+    <div id="identity">
+    <div id="menu-container">
+  <a><span class="menu-btn"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</span></a>
+  <a href="../index.html"><span class="home-link">Home</span></a>
+  <span class="search-short">
+    <a class="modal-tooltip" modal="search-tip">&nbsp;<i class="fa fa-info-circle" aria-hidden="true">
+      <span class="sr-only">Click for more information</span></i></a>
+    <form  action="LISMUS.html#" id="menuSearch"><input type="text" id="menuSearchText" placeholder="Quick search"/></form><span class="navSearchButton"><i class="fa fa-search"></i></span></span>
+  <a href="../copyright.html" target="_blank"><span class="copyright-short">Copyright Notice</span></a>
+</div>
+
+<div id="search-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="search-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+
+     <p>Use the &ldquo;Quick search&rdquo; if you want to search for <em>all documents</em> within the <em>whole archive</em> where words <em>matching or containing</em> the searched string are found.</p>
+     <p>For more specific queries (phrase searching, operators, and filters), visit the <a href="../quaero.html" target="_blank">full Search</a> page.</p>
+   </div>
+ </div>
+ </div>
+    </div>
+<div id="container" class="tml-file">
+  <nav id="sliding-left-nav" class="pushy pushy-left">
+    <ul class="push-menu">
+        <li class="pushy-submenu">
+            <a class="submenu-heading">ABOUT</a>
+            <ul>
+                <li class="pushy-link"><a href="../about/introduction.html">Introduction</a></li>
+                <li class="pushy-link"><a href="../about/content.html">Content</a></li>
+                <li class="pushy-link"><a href="../about/policies.html">Policies</a></li>
+                <li class="pushy-link"><a href="../about/howTo.html">How-To</a></li>
+                <li class="pushy-link"><a href="../about/future_plans.html">Future plans</a></li>
+                <li class="pushy-link"><a href="../about/people.html">People</a></li>
+                <li class="pushy-link"><a href="../about/contact.html">Contacts</a></li>
+            </ul>
+        </li>
+        <li class="pushy-submenu">
+          <a class="submenu-heading">BROWSE</a>
+          <ul>
+            <li class="pushy-link"><a href="../browse/authors.html">by author</a></li>
+            <li class="pushy-link"><a href="../browse/contributors.html">by contributor</a></li>
+            <li class="pushy-link"><a href="../browse/incipits.html">by incipit</a></li>
+            <li class="pushy-link"><a href="../browse/sources.html">by source</a></li>
+            <li class="pushy-link"><a href="../browse/titles.html">by title</a></li>
+            <li class="pushy-submenu">
+            <a class="centuryPushy">by century</a>
+                   <ul>
+                     <li class="pushy-link"><a href="../3rd-5th/index.html">3rd-5th</a></li>
+                     <li class="pushy-link"><a href="../6th-8th/index.html">6th-8th</a></li>
+                     <li class="pushy-link"><a href="../9th-11th/index.html">9th-11th</a></li>
+                     <li class="pushy-link"><a href="../12th/index.html">12th</a></li>
+                     <li class="pushy-link"><a href="../13th/index.html">13th</a></li>
+                     <li class="pushy-link"><a href="../14th/index.html">14th</a></li>
+                     <li class="pushy-link"><a href="../15th/index.html">15th</a></li>
+                     <li class="pushy-link"><a href="index.html">16th</a></li>
+                     <li class="pushy-link"><a href="../17th/index.html">17th</a></li>
+                   </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pushy-submenu"><a href="../quaero.html">SEARCH</a></li>
+        <li class="pushy-submenu">
+            <a class="submenu-heading">EXTRAS</a>
+            <ul>
+              <li class="pushy-submenu">
+                <a href="../concordances.html">Concordances</a>
+                  <ul>
+                    <li class="pushy-link"><a href="../concordances/lml.html"><em>Lexicon musicum Latinum</em></a></li>
+                    <li class="pushy-link"><a href="../concordances/grove_anonymous.html">Grove Anonymous</a></li>
+                  </ul>
+            </ul>
+        </li>
+     </ul>
+</nav>
+  <div class="site-overlay"></div>
+
+<div id="content">
+  <noscript>
+  <div  id="noScript" class="warning">
+    <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> JavaScript Required</p>
+    <p>In order to ensure the proper functining of this website, please enable JavaScript in your browser security preferences or use a device that supports it.</p>
+  </div>
+</noscript>
+<div id="header">
+    <div id="source" class="ft-text">
+        <p class="author">Listenius, Nicolaus</p>
+        <p class="title">Musica</p>
+        <p class="tmlSource"><strong>Source</strong>: <i>Musica Nicolai Listenii ab authore denuo recognita multisque novis regulis et exemplis adaucta</i> (Nuremberg: Petreius, 1549; reprint in Veröffentlichungen der Musik-Bibliothek Paul Hirsch, vol. 8, Berlin: Martin Breslauer, 1927).</p>
+                <p id="chmtl-staff">
+                    <span class="eca-span">Electronic version prepared by Jessica Sisk <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="entered">E</span></a>, Peter Slemon <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="checked">C</span></a>, and Thomas J. Mathiesen <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="approved">A</span></a>
+              for the <i>Thesaurus Musicarum Latinarum</i>, 2008.
+            </p>
+              </div>
+
+</div> <!-- end header div -->
+<div id="entry-abbrv" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="entry-abbrv"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+     <p>The aforementioned individual(s) <span class="entered">E</span>ntered, <span class="checked">C</span>hecked, or <span class="approved">A</span>pproved the electronic transcription of the source document.</p>
+   </div>
+ </div>
+ </div>
+
+ <div id="entry-abbrv-short" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <a class="close-modal" modal="entry-abbrv-short"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+      <br />
+      <p><span class="checked">C</span>: Indicates the aforemententioned person(s) checked the transcription.</p>
+      <p><span class="approved">A</span>: Indicates the aforementioned person(s) approved the transcription for publication.</p>
+    </div>
+  </div>
+  </div>
+
+  <div id="multipart-tip" class="w3-modal">
+   <div class="w3-modal-content">
+     <div class="w3-container">
+       <a class="close-modal" modal="multipart-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+       <br />
+       <p>Historically, in the TML long texts were split into multiple files. These are now linked to each other for easier browsing. In a future version, they will be consolidated into a single view.</p>
+     </div>
+   </div>
+   </div>
+
+  <div id="metadata-contd">
+    <p class="text-sidebar-buttons"><button id="tml-notes" class="pure-button">TML notes</button>&nbsp;<button id="tml-concordances" class="pure-button">Concordances</button></p>
+
+  <div id="sidebar">
+      <div id="extras-wrapper">
+        <!---->
+        <div id="tml-canon-info">
+          <div class="extras-heading"><a class="close-modal repoToolbox" modal="tml-canon-info"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">TML Notes</i></span></div>
+          <p>The incipit is preceded by a dedicatory poem by Valentinus Chudenius, beginning: "Si cupis Aonios breviter ..."; and Listenius's dedication, beginning: "Collegi elementa Musices ...." [TJM]</p>
+        </div>
+<div id="concordances">
+  <div class="extras-heading"><a class="close-modal repoToolbox" modal="concordances"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">Concordances</i></span></div>
+  
+  </div>
+  <div style="clear: both"></div>
+    </div><!--extras-wrapper -->
+  </div><!--sidebar-->
+  </div><!--metadata-contd-->
+  <div style="clear: both"></div>
+
+<div id="text-toolbox-wrapper">
+  <div id='floatingBox'>
+    <div class="floating-toolbox">
+      <table>
+        <tr>
+          <th>Actions</th>
+        </tr>
+      </table>
+    </div>
+    <p id="backToTop"> <a href='LISMUS.html#top'>Back to top</a></p>
+  </div>
+
+<div id="tml-text">
+
+<!-- begin text -->
+<p><span class='pageNo'>[f.a1r]</span> MVSICA</p>
+
+<p>Nicolai Listenii, ab avthore denuo recognita, multisque nouis regulis et exemplis adaucta.</p>
+
+<p>Norimbergae apud Iohannem Petreium, Anno M. D. XLIX.</p>
+
+<p><span class='pageNo'>[f.a1v]</span> Valentinvs Chvdenivs</p>
+
+<p>Soliwedelensis Lectori.</p>
+
+<p>SI cupis Aonios breuiter perdiscere cantus,<br />Et dulci uarios uoce referre modos:<br />Huc rapido gressus, quid cessas, flectere cursu,<br />Et uigili paruum uoluere mente librum?<br />Hortus ut Alcinoi magni celeberrimus herbis<br />Flagrat odoriferis, puniceisque rosis:<br />Vt teneris liceat digitis decerpere flores<br />Quoslibet, et rapida carpere poma manu:<br />Vtque fluit liquidus uitrea fons iugiter unda,<br />Quo capias auida pocula larga manu:<br />Sic paruus uarijs doctisque libellus abundat<br />Praeceptis, tibi quae commoda multa ferent.<br />Haec igitur praecepta tuo quid condere tardas<br />Pectore, quid prohibet, quo minus ista legas?<br />Te breuitas fortasse mouet succincta libelli,<br />Est paruus codex, non tamen arte caret.</p>
+
+<p><span class='pageNo'>[f.a2r]</span> ILLVSTRI Principi ac Domino, Domino Ioanni Georgio illustrissimo. Principis ac Domini, Domini Ioachimi II. Electoris primogenito, Marchioni Brandenburgensi et cetera. Domino clementissimo. Nicolaus Listenius salutem dicit.</p>
+
+<p>Collegi elementa Musices, quorum aeditionem cum à me flagitassent amici, duxi libellum tibi potissimum, illustris Princeps, dedicandum esse, ut nominis tui auspicio foelicius exiret in publicum. Nec uero ingratum hoc munus tibi futurum esse arbitror, quia et decet Principes fauere Musicae studijs, et haec aetas tua, natura iam capitur dulcedine cantus, et artis initijs imbuenda est. Multae enim magnae grauesque causae à doctis et sapientibus uiris colliguntur, quare omnes ingenui, maximeque Principum liberi, in Musica erudiendi, et ad eam assuefaciendi sint. Flectit enim animos ad humanitatem, suauitatem, aequabilitatem, cohibet omnes immoderatos affectus, lenit dolorem, iram, abducit à saeuitia et obscoenis cupiditatibus, <span class='pageNo'>[f.a2v]</span> denique assuefacit, ut in sonis, et cantu, ita in omnibus uitae actionibus harmoniam quandam seruemus. Quare summos Reges in ueteribus monumentis uidemus, non solum per ludum, ad demulcendas aures, et canere ipsos, et tractare fides, sed multo magis tanquam seriam artem, adhibere Musicam ad harmoniam animi efficiendam. Dauid Musicam adhibet in affectibus maxime serijs ac spiritualibus excitandis. Et ob eandem causam apud omnes gentes, omnibus aetatibus Musicae usus fuit in sacris, non ut inutilis uoluptas, tanquam ludus quae reretur, sed ut cantu animi redderentur tranquilliores, et excitarentur ad cogitandam harmoniam diuinae gubernationis, flecterentur ad motus aptos doctrinae coelesti, denique ut et ipsae sententiae efficatius mouerent animos, cum accederet cantus. Homerus describit Achillem ludentem cythara, et quidem addit argumentum, dicit illum praestantissimum Principem cecinisse laudes fortium uirorum, in quibus cum et uerbis et cantu animus moueretur, multo uehementius uirtus admiratione atque amore incendebatur. Sed ut demum te deducam horum summorum Regum exemplo, uidi et auum tuum Ioachimum primum, et patrem Ioachimum secundum, et Musicen bene intelligere, et mirifice eius studio tenere. Quare hoc tibi meum munusculum aptum fore statuebam, quod quidem etsi eo tibi dedicaui, ut cum in ditione tua natus sim, studium meum erga patriae Principem declararem, tamèn hoc feci libentius, quòd cum propter praestantiam ingeniorum summa gloria sit familiae tuae, sperabam <span class='pageNo'>[f.a3r]</span> omnibus gratiorem fore libellum propter tuum nomen. Deinde uideor mihi aliquo modo etiam de patria benemereri, cum te ad Musicen adhorter. Haec enim inuitat animum ad uirtutem, praesertim si illam Achilleam Musicam amare coeperis, in qua non tantum soni blandiuntur auribus, sed multo magis laudes magnorum Principum, et ostendunt exempla, quae sequi et effingere te oportet, et accendunt animos ad studium atque amorem uirtutis. Audio autem te iam foeliciter uersari in literis, in quibus tibi res gestae magnorum uirorum proponuntur. Quòd si hanc Musicam coles, dignus eris maioribus tuis, Inque patris cresces munera magna tui. Quaeso igitur, ne hoc meum munus asperneris, sed tanqúam specimen meae erga te obseruantiae accipias, Deinde oro ut cum Principem deceat honestas artes tueri, me quoque propter haec studia commendatum habeas. Bene uale.</p>
+
+<p><span class='pageNo'>[f.a3v]</span> CAPVT I.</p>
+
+<p>Mvsica est rite ac bene canendi scientia. Bene canere, est cantum sub certa aliqua regula ac mensura, per suas uoces, et notulas apte proferre. Et est triplex. [Theorike, Praktike, Poietike].</p>
+
+<p>Theorica est, quae in ingenij contemplatione ac rei cognitione tantum uersatur, cuius finis est scire. Vnde Theoricus Musicus, qui artem ipsam nouit, uerum hoc ipso contentus, nullum eius specimen agendo exhibet.</p>
+
+<p>Practica, quae non solum in ingenij penetralibus delitescit, sed in opus ipsum prodit, nullo tamen post actum relicto opere, cuius finis est agere. Vnde Practicus Musicus, qui ultra artis cognitionem caeteros docet, in eaque se circa alicuius operis effectum exercet.</p>
+
+<p>Poetica, quae neque rei cognitione, neque solo exercitio contenta, sed aliquid post laborem relinquit operis, ueluti cum à quopiam Musica aut Musicum carmen conscribitur, cuius finis est opus consumatum et effectum. Consistit enim in faciendo siue fabricando, hoc est, in labore tali, qui post se etiam, artifice mortuo opus perfectum et absolutum relinquat. Vnde Poeticus Musicus, qui in negotio aliquid relinquendo uersatur. Et habent hae duae posteriores <span class='pageNo'>[f.a4r]</span> sibi perpetuo coniunctam superiorem sed non è contra. </p>
+
+<p>Practica uero rursus bifariam diuiditur in Choralem et Figuralem. Choralis est, quae uniformiter suas notulas profert et mensurat, sine incremento et decremento prolationis, et uocatur alio nomine Gregoriana, Plana, Vetus, quod à Gregorio, Ambrosio, et ueteribus ut plurimum exculta sit. Figuralis, quae mensuram et notarum quantitatem uariat, pro signorum ac figurarum inaequalitate, cum incremento et decremento prolationis. Haec alio nomine Mensuralis, alio Noua appellatur, quòd uarias mensuras ac figuras admittat. Estque utriusque usus, tam in mutis per se instrumentis (ut sic breuiter omnes huius artis species complectar) quàm in uiua hominis uoce.</p>
+
+<p>CAPVT II.</p>
+
+<p>De Scala.</p>
+
+<p>INitio Scala est tradenda propter clauium ac uocum diuersitatem, quam qui ignorat, quasi caecus in ignota regione uersatur, nec certi quicquam de cuiusque cantus natura, eiusque in partibus distantia, Item de Solmisatione, ut uocant, de uocum mutatione et earum progressione tenet. Proinde plurimum refert, hanc in primis bene didicisse. Claues uero numero sunt uiginti, uidelicet [Gamma] ut, Are, et cetera ultra quas si progressum [-f.a4v] fuerit in cantu mensurali (Choralis enim nunquam expatiatur) sursum uel deorsum uersus sumantur claues et voces, inferioris aut superioris octauae ac classis. Differunt autem claues inter se, loco, figura et modo. Aliae enim infimum, aliae medium, aliae supremum fortiuntur locum.</p>
+
+<p>Aliae simplicem capitalium, aliae minuscularum, aliae geminatarum literarum formam induunt.</p>
+
+<p>Item aliae graues, ut Are, [sqb]mi, et cetera aliae finales, affinales, qui diuerso appellantur nomine, ut uidere licet in subscripta tabula.</p>
+
+<p>Divisio Scalae Musicae.</p>
+
+<p>[Listenius, Musica, f.a4v; text: Scala diuiditur in literas, Geminatas et excellentes. Minores et acutas. Maiores et graues uoces. [Gamma], A, [sqb], C, D, E, F, G, a, b, c, d, e, f, g, aa, bb, cc, dd, ee, la, sol, fa, mi, re, vt, 4 finales] <a href="LISMUS_01GF.gif">[LISMUS 01GF]</a></p>
+
+<p>Idem planè iudicium est de octauis, quae similibus constant literis, G enim à g, octaua distat et cetera.</p>
+
+<p><span class='pageNo'>[f.a5r]</span> CAPVT TERTIVM.</p>
+
+<p>De clauibus signandis in utroque cantu.</p>
+
+<p>LIcet claues numero uiginti sint secundum Guidonem, aut duae et uiginti secundum Franchinum, earumque usus, quantum ad formandas et referandas uoces attinet, in omnibus cantilenae partibus necessarius, tamen in principio cantus ad eius notionem et referationem, non pluribus quinque utimur, scilicet, [Gamma], F, c, g, et dd. Deforme enim esset, nedum odiosum, singulas ordine locare, non secus ac si Grammatici omnes dictionum syllabas tonis insignirent, sed ut illi ex uno aliquo posito accentu, reliquarum syllabarum iudicium faciunt, ita et nos ex scripta aliqua claue, non scriptas commode iudicamus, Et has signatas, aut signandas appellamus, quod ijs cantus omnis praenotetur. Est enim clauis nihil aliud quàm simplex aut duplex literarum nota, ob cantus et uocum referationem, cantui praefixa. Minus uero signandas, siue praecipuas [rob] rotundum, et [sqb] quadratum dicimus, quòd earum usus non tam creber et necessarius sit. Vtimur enim illis in cantu, tantum ad peregrinas et fictas uoces, obiter illapsas, significandas, siquidem [rob] Fa mollem, [sqb] uocem Mi, duram in suis locis, contra clauis inibi detentae, et cantus naturam repraesentans. Quas nisi diligenter, et cum iudicio cantor et cantilenarum conditor discreuerit, rei haud dubie dissonantiam ac confusionem <span class='pageNo'>[f.a5v]</span> pariet. Obseruabis tamen [rob] rotundum sub claue c, signata et eius octauis, cantus naturam et differentiam ponere, ut infra de Scalis ac cantuum generibus ostendemus.</p>
+
+<p>Claves signandae utriusque cantus.</p>
+
+<p>[Listenius, Musica, f.a5v; text: dd, g, c, [Gamma], c sol, F fa] <a href="LISMUS_01GF.gif">[LISMUS 01GF]</a></p>
+
+<p>Hae distant positu, per quintam tollitur F, [Gamma].</p>
+
+<p>Ad has igitur signandas claues, pueri animum tanquam ad scopum intendant, discantque proinde eas, quae signatae non sunt, harum interuallo, certa coniectura deprehendere.</p>
+
+<p><span class='pageNo'>[f.a6r]</span> CAPVT IIII.</p>
+
+<p>De Vocibus.</p>
+
+<p>QVum omnis Musicae ratio circa uocalem numerum uersetur, consentaneum fuerit paucula quaedam de uocibus dicere. Est autem Vox notularum nomenclatura, quarum tantum sex sunt, scilicet.</p>
+
+<p>[Listenius, Musica, f.a6r; text: Superiores, Inferiores, la, sol, fa, mi, re, ut, Suntque in triplici differentia.] <a href="LISMUS_01GF.gif">[LISMUS 01GF]</a></p>
+
+<p>nam, Vt et Fa dicuntur bmolles à molli sono, Re et Sol naturales, à temperato sono duri et mollis. Mi et La [sqb] durales, à duro sono.</p>
+
+<p>Hae sufficiunt ad quemcunque cantum solmisandum et modulandum. Porro initium cuiusque clauis litera est, syllabae autem eam subsequentes, uoces sunt. Exempli gratia, G, litera est et clauis, uoces repraesentans, Sol, Re, Vt.</p>
+
+<p>At non negligendum arbitror, quamlibet clauem trium uocum in solmisatione, cuiuslibet cantus, semper illarum unam excludere, Vt in cantu bmollari G, excludit Vt, in [sqb] durali retinet, et excludit Re, Sic alamire Re, csolfaut Fa, dlasolre Sol, in bmollari reijciunt, in [sqb] durali uero referuant, et reijciunt Mi, Sol, La, et cetera. Idem accidit in octauis.</p>
+
+<p><span class='pageNo'>[f.a6v]</span> Seqvvntvr uocum exercitia.</p>
+
+<p>[Listenius, Musica, f.a6v,1] <a href="LISMUS_01GF.gif">[LISMUS 01GF]</a></p>
+
+<p>Canon in unisono. Tenor post unum tempus. Discantus post duo. Altus post tria. Secundus Discantus, post quatuor tempora.</p>
+
+<p>Aliud in Mensurali. </p>
+
+<p>[Listenius, Musica, f.a6v,2; text: Discantvs. Tenor.] <a href="LISMUS_01GF.gif">[LISMUS 01GF]</a></p>
+
+<p><span class='pageNo'>[f.a7r]</span> [Listenius, Musicus, f.a7r, text: Altvs. Bassvs.] <a href="LISMUS_01GF.gif">[LISMUS 01GF]</a></p>
+
+<p><span class='pageNo'>[f.a7v]</span> Sequitur aliud paradigma, continens exercitium et discrimen sex uocum Musicalium.</p>
+
+<p>[Listenius, Musica, f.a7v; text: Discantvs. Tenor. Bassvs.] <a href="LISMUS_02GF.gif">[LISMUS 02GF]</a></p>
+
+<p><span class='pageNo'>[f.a8r]</span> CAPVT V.</p>
+
+<p>De Mutatione.</p>
+
+<p>MVtatio, est uocis in uocem consona uariatio. Velut cum in D, Sol, aut La in Re, apte mutantur. Fit enim propter uocum inopiam, notularumque pluralitatem. In cantu quidem [sqb] durali ascendendo in D, et a. Descendendo uero in E, a, et suis octauis. In cantu uero bmollari, ascendendo fit in D, G, descendendo autem in D, a, et suis octauis.</p>
+
+<p>Regvla prima.</p>
+
+<p>Omnis mutatio ascendendo fit proprie per uocem Re, descendendo per La. Improprie per uiciniores, et hoc proprijs deficientibus. Obseruandae autem sunt claues et loca, in quibus mutationes contingunt.</p>
+
+<p>Secvnda regvla.</p>
+
+<p>Si uocem La, notula quaepiam excesserit, uno tantum interuallo, ea canatur per Fa, sine mutatione, maxime in cantu primi et secundi tonorum.</p>
+
+<p>Exemplum.</p>
+
+<p><span class='pageNo'>[f.a8v]</span> [Listenius, Musica, f.a8v; text: Discantvs. Tenor. Bassvs.] <a href="LISMUS_02GF.gif">[LISMUS 02GF]</a></p>
+
+<p><span class='pageNo'>[f.b1r]</span> Aliud exemplum in figurali.</p>
+
+<p>[Listenius, Musica, f.b1r; text: Discantvs. Tenor. Bassvs.] <a href="LISMUS_03GF.gif">[LISMUS 03GF]</a></p>
+
+<p><span class='pageNo'>[f.blv]</span> CAPVT SEXTVM.</p>
+
+<p>De scalis, ac cantuum generibus.</p>
+
+<p>SCala nihil aliud est, quàm certa cognitio Mi et Fa in bfa [sqb] mi, et suis octauis. Et ut clauis illa gemina est, sic et Scala. Alia enim bmollaris, alia [sqb] duralis existit, cognosciturque utraque per b rotundum, et [sqb] quadratum. Porrò mutationes earundem fiunt, ut Scalae indicant.</p>
+
+<p>Scala [sqb] Dvralis.</p>
+
+<p>[Listenius, Musica, f.blv; text: Ascendendo. Descendendo. [Gamma], [sqb], c, g, dd, vt, re, me, fa, sol, la, Mutationes uocum in Scala [sqb] durali penes ascensum et descensum. [sqb] quadratum mi format.] <a href="LISMUS_02GF.gif">[LISMUS 02GF]</a></p>
+
+<p><span class='pageNo'>[f.b2r]</span> Scala bmollaris.</p>
+
+<p>[Listenius, Musica, f.b2r; text: Ascendendo. Descendendo. [Gamma], b, c, g, dd, vt, re, mi, fa, sol, la, Mutationes uocum in Scala bmollari. b rotundum Fa notat.] <a href="LISMUS_03GF.gif">[LISMUS 03GF]</a></p>
+
+<p>Ex hac Scalarum et uocum dispositione partitioneque, liquet cantum non uniformem, sed triformem esse. Nam ut illae natura ac situ uariant, sic et cantus. Alius enim</p>
+
+<p>I. Natvralis dicitur, cuius exordium ex claue c, per uocem Vt, dicitur, Fa medium in F, La finale in a habens.</p>
+
+<p>II. Bmollaris, cuius initiale Vt in F, Fa medium in b, La finale in d existit, Cognosciturque per clauem minus praecipuam b, mox in principio sub claue c et suis octauis.</p>
+
+<p><span class='pageNo'>[f.b2v]</span> III. [sqb] Dvralis, cuius Vt in G, Fa in c, La in e, existit: cuius cognitio est absentia b, sub claue c, et suis octauis. Vnde uetus uersiculus: In C naturalem F bmollaris, Gque [sqb] duralis.</p>
+
+<p>Sed illud neutiquam praetereundum duxi, creberrime inueniri cantum, qui geminam horum differentiam et ambitum subeat, Diciturque mixtus cantus, quòd naturalis, uel cum bmollari coeat, nonnunquam (ut quibusdam placet) promiscue cum utroque, id quod mihi non admodum probatur, nec satis commode fieri posse arbitror. Non quòd ignorem, saepius bmolle et [sqb] durum in progressu alicuius cantilenae, contra Scalae, sub qua cantus procedit, naturam reperiri, ac peregrinam uocem adferre, tamen istiusmodi uox, non statim (ut illis placet) nouam Scalam efficit. Haud secus ac una hyrundo aestatem, unaque syllaba aut dictio orationem, Sed talem, compluresque similes, admittere, aliàs concordantiarum necessitas cogit, aliàs cantus suauitas ac maiestas requirit, ut est uidere in nonnullis Responsorijs et Antiphonis.</p>
+
+<p>Exempla cognitoria cantuum.</p>
+
+<p>[Listenius, Musica, f.b2v; text: Naturalis.] <a href="LISMUS_04GF.gif">[LISMUS 04GF]</a></p>
+
+<p><span class='pageNo'>[f.b3r]</span> [Listenius, Musica, f.b3r; text: bmollaris. [sqb] duralis. Naturalis cum [sqb] durali. Naturalis cum bmollari.] <a href="LISMUS_04GF.gif">[LISMUS 04GF]</a></p>
+
+<p><span class='pageNo'>[f.b3v]</span> Exemplum de [sqb] durali.</p>
+
+<p>[Listenius, Musica, f.b3v; text: Discantvs. Tenor. Bassvs.] <a href="LISMUS_04GF.gif">[LISMUS 04GF]</a></p>
+
+<p><span class='pageNo'>[f.b4r]</span> Exemplum de bmollari. </p>
+
+<p>[Listenius, Musica, f.b4r; text: Discantvs. Tenor bmollaris. Bassvs.] <a href="LISMUS_05GF.gif">[LISMUS 05GF]</a></p>
+
+<p><span class='pageNo'>[f.b4v]</span> De cantu Ficto.</p>
+
+<p>SVperest cantus Fictus, seu ficta Musica, de qua ut potero, breuissime dicam. Nihil enim attinet, multis ac magnis uti ambagibus, in re non admodum obscura, cuiusque non sit permagnus usus. Est igitur Musica Ficta, cantus contra Scalae situm aeditus, hoc est talis, in quo uoces, debitos suos locos non sortiuntur, ueluti cum Vt in E, Re in F, Mi in G et cetera aut secus, canitur. Fingit enim haec in quacunque claue quamcunque uult peregrinam uocem, contra clauis naturam et proprietatem. Cuius mutatio et euitatio, in plerisque cantilenis est transpositio, In quibusdam sine discrepantia omnino mutari nequit. Exempla sunt ubique obuia, quare tantum hic exemplum unius uocis, pro eius declaratione ac immutatione ponam. </p>
+
+<p>Exemplum Cantus Ficti.</p>
+
+<p>[Listenius, Musica, f.b4v] <a href="LISMUS_05GF.gif">[LISMUS 05GF]</a></p>
+
+<p><span class='pageNo'>[f.b5r]</span> CAPVT VII.</p>
+
+<p>De Solmisatione.</p>
+
+<p>SOlmisatio, est notularum per certas uoces apta pronunciatio. Ad quam in primis toni cognitio requiritur, quem qui ignorat, necesse est eum uoces et uocum sedes saepe confundere, durumque molli, molle duro commutare ac miscere. Siquidem is Scalam cantusque naturam refert, ut pote quintus et sextus bmollarem, reliqui omnes [sqb] duralem, quibus cognitis, cognoscitur et cantilenae ambitus, quod ad boatum, screatumque uitandum, haud parum habet momenti. Nam quintus cum reliquis suis socijs imparibus, sublimius sexto, ac ijs, quos Pares et Plagales uocant, progrediuntur, illi contra submissius. Deinde uidendum erit, regularis ne, an irregularis existat, hoc est, transpositus ne sit an non. Transpositio enim plerunque et Scalam transponit. Postremo haud negligendum, peregrinas uoces (si quae inter solmisandum inciderint) et reliquas subsequentes concomitari, donec commode in proprias mutentur uel mutari queant, aut alia clauis locetur.</p>
+
+<p>Exempla Toni seu Cantus Transpositi.</p>
+
+<p><span class='pageNo'>[f.b5v]</span> [Listenius, Musica, f.b5v; text: Vbi est thesaurus tuus, ibi est et cor tuum. Transpositus naturalis in [sqb] duralam. Transpositus naturalis in bmollarem. In mandatis eius uolet nimis. Transpositus in bmollarem. Transpositus in [sqb] duralem. Et sic de caeteris. EVOVAE.] <a href="LISMUS_06GF.gif">[LISMUS 06GF]</a></p>
+
+<p><span class='pageNo'>[f.b6r]</span> CAPVT VIII.</p>
+
+<p>De Clauium Transpositione.</p>
+
+<p>TRanspositio, est positae clauis à loco inferiore, ad superiorem, uel à superiore ad inferiorem traductio, quae fit ob nimium cantus ascensum uel descensum, linearumque defectum Cuius talis datur</p>
+
+<p>Regvla.</p>
+
+<p>Quantum clauis ascendit uel descendit à suo loco, tantum et nota, licet haec cantu tantum ascendat, quantum illa situ descendat, et econtra.</p>
+
+<p>Exemplum de Transpositione.</p>
+
+<p>[Listenius, Musica, f.b6r; text: Wir glauben al an einen Got, schepff. et cetera.] <a href="LISMUS_05GF.gif">[LISMUS 05GF]</a></p>
+
+<p><span class='pageNo'>[f.b6v]</span> CAPVT IX.</p>
+
+<p>De Modis, seu Interuallis.</p>
+
+<p>MOdus, est uocis ad uocem, certo interuallo, migratio. Vel ut Boetius. Est acuti grauisque soni distantia. Qua definitione, unisonus, Modorum principium excluditur, uno eodemque loco, citra uocis intensionem aut depressionem, per duarum pluriumue notularum copulationem fieri habens, hunc in modum.</p>
+
+<p>Vnisonus.</p>
+
+<p>[Listenius, Musica, f.b6v,1] <a href="LISMUS_05GF.gif">[LISMUS 05GF]</a></p>
+
+<p>Variant autem de numero Modorum Musici. Nonnulli quindecim, alij nouem, quidam tantum sex numerant. Vsitatiores tamen sunt hac nostra tempestate. [Tonos, hemitonos, ditonos, hemiditonos, diatessaron, diapente, tonos diapente, hemitonos diapente, diapason.] Reliquorum non est permagnus usus, ut taceam etiam prohibitos.</p>
+
+<p>Tonus, est perfecta secunda.</p>
+
+<p>[Listenius, Musica, f.b6v,2] <a href="LISMUS_05GF.gif">[LISMUS 05GF]</a></p>
+
+<p><span class='pageNo'>[f.b7r]</span> [Listenius, Musica, f.b7r; text: Semitonium, imperfecta secunda. Ditonus, perfecta Tertia. Semiditonus, imperfecta Tertia. Diatessaron, est distantia uocum per Quartam. Diapente, est distantia uocum per Quintam. Tonus diapente, est uocum distantia per Sextam perfectam.] <a href="LISMUS_06GF.gif">[LISMUS 06GF]</a></p>
+
+<p><span class='pageNo'>[f.b7v]</span> [Listenius, Musica, f.b7v; text: Hemitonus Diapente, est uocum distantia per Sextam imperfectam. Diapason, est uocum distantia per octauam.] <a href="LISMUS_07GF.gif">[LISMUS 07GF]</a></p>
+
+<p>Porro, si quae ampliora siue distantiora contigerint interualla, utpote 9. 10. 12. adde Tonum, Ditonum, Diapente et cetera et cum prioribus in octaua aeque sonant.</p>
+
+<p>CAPVT X.</p>
+
+<p>De Tonis.</p>
+
+<p>MVlta commemorare solent hic Musici de Tonorum numero, eorumque cognitone, commixtione et cetera. Ego ne uidear superuacaneis uerbis, materiam plus obscurare quam illustrare, breuiter quod ad rem ac negotium spectat, partim prosa, partim uersiculis, memoriae iuuandae gratia, dicam, ac <span class='pageNo'>[f.b8r]</span> primum de Tonorum numero. Sunt autem octo Toni, (licet ueteres tantum quatuor numerarunt) quorum quatuor Plagales dicuntur, propter maiorem descendendi autoritatem, Descendunt enim ad quartam uel quintam infra finalem, supra, ad quintam uel sextam pertingentes, et sunt de numero pari. Reliqui quatuor Autenti uocantur, propter maiorem ascendendi autoritatem, Ascendunt enim ad octauam supra finalem, nonnunquam ad Decimam, infra uix ad Secundam pertingentes, et sunt de numero impari. Porrò, ille ascensus et descensus, potentia magis, quam actu consistit. Inueniuntur enim Cantilenae, in quibus nec Autentus, nec Plagalis suum numerum complet.</p>
+
+<p>Diffinitio Toni, ex qua apparet, triplicem Tonorum esse cognitionem. </p>
+
+<p>Regula principij, medij, finis, Tonus esto.<br />Cognitiones Tonorum.<br />Principio ad Quintam scandens, fertur Tonus impar,<br />Tertiam et ad Quartam descendere par solet omnis,<br />Impar ad octauam medio, secus isse refertur.<br />Par licet et uocum reditu cognoscitur illic,<br />Impar, parque erit in D, E, F, G, rite quiescens,<br />Primus cum socio in D, E, finit, tertius et quartus.<br />Quintus cum sexto sequitur, sic ordine septimo octauo.</p>
+
+<p>Sequuntur Modi et regularum exempla.</p>
+
+<p><span class='pageNo'>[f.b8v]</span> [Listenius, Musica, f.b8v; text: Ambitus et Tonorum repercussiones. Toni primi. Ambitus secundi Toni. Ambitus tertij Toni. EVOVAE.] <a href="LISMUS_07GF.gif">[LISMUS 07GF]</a></p>
+
+<p><span class='pageNo'>[f.c1r]</span> [Listenius, Musica, f.c1r; text: Ambitus quarti Toni. Ambitus quinti Toni. Ambitus sexti Toni. EVOVAE.] <a href="LISMUS_07GF.gif">[LISMUS 07GF]</a></p>
+
+<p><span class='pageNo'>[f.c1v]</span> [Listenius, Musica, f.c1v,1; text: Ambitus septimi Toni. Ambitus octaui Toni. EVOVAE.] <a href="LISMUS_07GF.gif">[LISMUS 07GF]</a></p>
+
+<p>Sequuntur Tonorum differentiae, et Psalmorum intonationes. </p>
+
+<p>Differentiae primi Toni.</p>
+
+<p>[Listenius, Musica, f.c1v,2; text: 1, 2, 3, 4, 5, 6] <a href="LISMUS_08GF.gif">[LISMUS 08GF]</a></p>
+
+<p><span class='pageNo'>[f.c2r]</span> Secundus Tonus caret differentijs.</p>
+
+<p>[Listenius, Musica, f.c2r; text: Differentiae tertij Toni. Differentiae quarti Toni. Differentiae quinti Toni. 1, 2, 3, 4] <a href="LISMUS_08GF.gif">[LISMUS 08GF]</a></p>
+
+<p><span class='pageNo'>[f.c2v]</span> [Listenius, Musica, f.c2v; text: Sexti. Differentiae Septimi. Differentiae Octaui. 1, 2, 3, 4] <a href="LISMUS_08GF.gif">[LISMUS 08GF]</a></p>
+
+<p><span class='pageNo'>[f.c3r]</span> Psalmorum intonationes, seu percantandi moduli.</p>
+
+<p>Primus Tonus.</p>
+
+<p>[Listenius, Musica, f.c3r; text: Discantvs. Tenor. Altvs. Bassvs. Dixit Dominus Domino meo, sede à dextris meis.] <a href="LISMUS_09GF.gif">[LISMUS 09GF]</a></p>
+
+<p><span class='pageNo'>[f.c3v]</span> Secundus Tonus.</p>
+
+<p>[Listenius, Musica, f.c3v; text: Discantvs. Tenor. Altvs. Bassvs. Laudate pueri Dominum, laudate nomen Domini.] <a href="LISMUS_09GF.gif">[LISMUS 09GF]</a></p>
+
+<p><span class='pageNo'>[f.c4r]</span> Tertius Tonus.</p>
+
+<p>[Listenius, Musica, f.c4r; text: Discantvs. Tenor. Altvs. Bassvs. Credidi propter quod locutus sum, ego autem humiliatus sum nimis.] <a href="LISMUS_09GF.gif">[LISMUS 09GF]</a></p>
+
+<p><span class='pageNo'>[f.c4v]</span> Quartus Tonus.</p>
+
+<p>[Listenius, Musica, f.c4v; text: Discantvs. Tenor. Altvs. Bassvs. Laudate Dominum omnes gentes, laudate eum omnes populi.] <a href="LISMUS_09GF.gif">[LISMUS 09GF]</a></p>
+
+<p><span class='pageNo'>[f.c5r]</span> Quintus Tonus.</p>
+
+<p>[Listenius, Musica, f.c5r; text: Discantvs. Tenor. Altvs. Bassvs. Beati omnes qui timent Dominem, qui ambulant in uijs eius.] <a href="LISMUS_10GF.gif">[LISMUS 10GF]</a></p>
+
+<p><span class='pageNo'>[f.c5v]</span> Sextus Tonus.</p>
+
+<p>[Listenius, Musica, f.c5v; text: Discantvs. Tenor. Altvs. Bassvs. Lauda Hierusalem Dominum, lauda Deum tuum Sion.] <a href="LISMUS_10GF.gif">[LISMUS 10GF]</a></p>
+
+<p><span class='pageNo'>[f.c6r]</span> Septimus Tonus.</p>
+
+<p>[Listenius, Musica, f.c6r; text: Discantvs. Tenor. Altvs. Bassvs. Memento Domine Dauid, et omnis mansuetudinis eius.] <a href="LISMUS_10GF.gif">[LISMUS 10GF]</a></p>
+
+<p><span class='pageNo'>[f.c6v]</span> Octauus Tonus.</p>
+
+<p>[Listenius, Musica, f.c6v; text: Discantvs. Tenor. Altvs. Bassvs. Ecce quam bonum et quam iucundum, habitare fratres in unum.] <a href="LISMUS_10GF.gif">[LISMUS 10GF]</a></p>
+
+<p><span class='pageNo'>[f.c7r]</span> De Mvsica mensvrali </p>
+
+<p>Pars secvnda.</p>
+
+<p>ABsolui primam huius artis partem, nunc alteram aggrediar, in qua si paulo fuero liberior ac prolixior, non mirabitur lector. Siquidem haec ipsa, priorem, et copia et dignitate rerum, simul et suauitate longe superat. Vincit enim Notularum multitudine, Signorum diuersitate, Tactuum ac Proportionum inaequalitate, adeo ut nullam inuenias speciem, quae non aliquo discrimine dissidat ab alia. Quare ut in ingressus huius opusculi, ita et hic commonefacio adulescentes, ut proposita cantilena, diligenter inquirant ac perspiciant eius naturam, obseruent Signa graduum et Proportionum, Augmentationum et Diminutionum, praeterea singula Notularum accidentia, ne horum incuria et ignorantia ipsis imponant, id quod multis usu uenire uidemus. Sed ad rem. Musica Figuralis, est Musicalium graduum ac Proportionum, sub certa mensura figurata cantandi scientia. Haec constat uarijs planeque dissimilibus Notarum, Pausarum, ac Signorum figuris.</p>
+
+<p>Figura, est ipse habitus seu dispositio, qua notae, et quaelibet pausae liquido cognosci queunt Notarum uero, alia simplex, alia ligata, alia maior, alia minor dicitur.</p>
+
+<p><span class='pageNo'>[f.c7v]</span> De nvmero figurarum simplicium.</p>
+
+<p>Figurae Notarum simplicium sunt Octo.</p>
+
+<p>[Listenius, Musica, f.c7v; text: Simplices Notae octo. Maiores et ligabiles. Minores et illigabiles. Maxima, Longa, Breuis, Semibreuis. Minima, Semiminima. Fusa, Semifusa, 8, 4, 2, 1, 1/2, 16, Tactus ualet. Vnum tactum.] <a href="LISMUS_11GF.gif">[LISMUS 11GF]</a></p>
+
+<p>Tres posteriores species unà cum suis Pausis, magis Musicis instrumentis, propter nimiam celeritatem, quàm humanae uoci competunt. Sunt enim à neotericis superioribus illis (quibus ueteres contenti fuisse leguntur) tanquam supplementum adiectae, non quòd non plures et subtiliores excogitari queant, sed elegantioris ac suauioris melodiae gratia.</p>
+
+<p><span class='pageNo'>[f.c8r]</span> CAPVT II.</p>
+
+<p>De Pausis.</p>
+
+<p>PAusa, est tractus per lineas et spacia ductus, silentium denotans. Vel est figura artificiosam à cantu desistentiam monstrans, que cantoribus innuit, à cantu aliquantisper abstinendum esse. Instituerunt autem pausas Musici, et ad uocis refectionem et ad cantus suauitatem, quae tum in Fugis ac perfectis speciebus se mutuo insequentibus tum in concordantijs simul cadentibus, simulque per silentia redintegrantibus, aut secus gradientibus consistit. Item ad euitandum prohibita interualla, concurrentesque species perfectas, de quibus in tertia parte dicemus. Sunt igitur Pausae, dictis notulis correspondentes, septem, dempta maxima, quae similem non habet, nisi quis ei generalem pausam attribuere uelit.</p>
+
+<p>[Listenius, Musica, f.c8r,1] <a href="LISMUS_11GF.gif">[LISMUS 11GF]</a></p>
+
+<p>Obserua tamen, quod non ubique hoc accidat, nam in alteratione note quaedam alterantur, scilicet, propter </p>
+
+<p>[Listenius, Musica, f.c8r,2] <a href="LISMUS_11GF.gif">[LISMUS 11GF]</a> </p>
+
+<p>ternarij numeri constitutionem. Pausae uero earum non alterantur, et econtra, in imperfectione </p>
+
+<p>[Listenius, Musica, f.c8r,3] <a href="LISMUS_11GF.gif">[LISMUS 11GF]</a> </p>
+
+<p><span class='pageNo'>[f.c8v]</span> imperficitur, Pausa sibi correspondens, non imperficitur In reliquis uero speciebus, Augmentatione scilicet, Diminutione et Proportionibus pares suis existunt notulis, quemadmodum suo loco probabimus. Nunc superest, ut breuiter dicam, de Pausa Modali et Generali.</p>
+
+<p>Modalis, est uirgula tria spacia aut quatuor lineas complectens, aequiualens perfectae Longae, Modumque uel maiorem uel minorem perfectum (unde nomen habet) indicans: Maiorem quidem geminata, secus Minorem. Inquit enim Franchinus non immerito, Maiori duas apponi, quando Minori unam adscribimus. Generalis uero Pausa, est uirgula per omnes lineas transuerse ducta, haec in medio cantus, respondet notis Cardinalitijs, siue signis reiterationis. Repetit enim cantilenae partem sic interfectam et à reliquis separatam, etiam caeteris pergentibus, ut est cernere in Missa Iosquini, Quae est ista, et in carmine Ioannis Vualtheri, Non moriar. In fine uero cantum claudit.</p>
+
+<p>[Listenius, Musica, f.c8v] <a href="LISMUS_11GF.gif">[LISMUS 11GF]</a></p>
+
+<p>Sequitur exercitium sex uocum Musicalium.</p>
+
+<p><span class='pageNo'>[f.d1r]</span> Fuga.</p>
+
+<p>Tenor ex Basso in Epidiapente post unum Tempus.</p>
+
+<p>[Listenius, Musica, f.d1r; text: Bassvs.] <a href="LISMUS_11GF.gif">[LISMUS 11GF]</a></p>
+
+<p>Alia uocum exercitatio.</p>
+
+<p><span class='pageNo'>[f.d1v]</span> FVGA.</p>
+
+<p>Tenor ex Basso, post Semibreuem.</p>
+
+<p>[Listenius, Musica, f.d1v] <a href="LISMUS_12GF.gif">[LISMUS 12GF]</a></p>
+
+<p>Aliud exercitium octo Notularum Simplicium.</p>
+
+<p><span class='pageNo'>[f.d2r]</span> [Listenius, Musica, f.d2r; text: Tenor. Bassvs.] <a href="LISMUS_12GF.gif">[LISMUS 12GF]</a></p>
+
+<p><span class='pageNo'>[f.d2v]</span> CAPVT TERTIVM.</p>
+
+<p>De Ligaturis.</p>
+
+<p>LIgatura, est debita simplicium figurarum per uirgulam in dextra uel sinistra parte copulatio. Et est duplex, recta uel obliqua. Recta, cuius notae quadrato pinguntur corpore. Obliqua, cuius notae obliquo et transuerso corpore scribuntur. Sunt autem Ligabiles notae tantum quatuor, uidelicet, [MXv,Lv,Bv,Sv] quae pro uaria connexione et formam et quantitatem immutant, praeter unam Maximam, quae ubique sui similis est. Et ligantur ex aequo in principio, medio, et fine, excepta longa, quae in medio nunquam ligatur, ueterum exemplo et autoritate, licet nostra tempestate à quibusdam contra fiat, ut clarius patebit ex subscriptis uersiculis. Porrò omnis ligabilis, aut est initialis, aut media, aut ultima. Media omnis est, inter primam et ultimam. Nunc singularum regulas, quas carmine (quo facilius à pueris me moriae mandentur, complecti libuit) recitabo, ac primum de initialibus.</p>
+
+<p>Regulae Initialium.</p>
+
+<p>Prima carens cauda Longa est pendente secunda,</p>
+
+<p>Est Breuis, haec eadem, sed conscendente secunda,</p>
+
+<p>Estque breuis, caudam si laeua parte remittat.</p>
+
+<p>Semibreuis fertur, sursum si duxerit illam.</p>
+
+<p>[Listenius, Musica, f.d2v; text: 1, 2, 3, 4] <a href="LISMUS_12GF.gif">[LISMUS 12GF]</a></p>
+
+<p><span class='pageNo'>[f.d3r]</span> Mediarum una tantum est regula.</p>
+
+<p>Quaelibet è medio Breuis est, una excipienda.</p>
+
+<p>[Listenius, Musica, f.d3r,1; text: 5, Exceptio.] <a href="LISMUS_12GF.gif">[LISMUS 12GF]</a></p>
+
+<p>Vltimarum.</p>
+
+<p>Vltima conscendens Breuis est quaecumque ligata. Excipitur caudam tollens ex parte sinistra. Vltima dependens quadrangula fit tibi longa.</p>
+
+<p>[Listenius, Musica, f.d3r,2; text: 6, 7, 8. 9.] <a href="LISMUS_12GF.gif">[LISMUS 12GF]</a></p>
+
+<p>De singularum sedibus.</p>
+
+<p>Maxima principio est, medio quoque Maxima fine. Longa quidem, medio nunquam, sed fine ligatur. Principioque, locos recte Breuis occupat omneis. Fine eadem, medio, ac primo Semibreuis esto.</p>
+
+<p>[Listenius, Musica, f.d3r,3] <a href="LISMUS_12GF.gif">[LISMUS 12GF]</a></p>
+
+<p>Sequitur regularum exercitium.</p>
+
+<p><span class='pageNo'>[f.d3v]</span> [Listenius, Musica, f.d3v; text: Tenor. Discantvs. 1, 2, 3, 4, 5, 6. 7, 8.] <a href="LISMUS_13GF.gif">[LISMUS 13GF]</a></p>
+
+<p><span class='pageNo'>[f.d4r]</span> [Listenius, Musica, f.d4r; text: Bassvs.] <a href="LISMUS_13GF.gif">[LISMUS 13GF]</a></p>
+
+<p><span class='pageNo'>[f.d4v]</span> CAPVT QVARtum.</p>
+
+<p>De tribus gradibus Musicalibus.</p>
+
+<p>TRes sunt gradus Musicales, scilicet, Modus, Tempus, et Prolatio. Modus, est debita mensura Longarum et Maximarum. Est enim in notulis (quemadmodum et in caeteris rebus) secundum temporis mensuram, et numerum Notularum, semper obseruandus modus, quem à moderata modulatione dictum putant. Hic in ordine Graduum recte primum fortitur locum, quòd in primas ac praecipuas Notulas, utpote Maximas et Longas, uim suam exerceat. Tempus, proximum, quòd in proximas breues agat. Prolatio uero postremum, quòd posteriores Semibreues et Minimas consideret, Tot enim antiquitas Notulas habebat, quibus sigillatim hos gradus tribuebat, ut singuli in singulas, tanquam sibi proprias, non promiscue in omnibus agerent. Et est duplex Modus.</p>
+
+<p><span class='pageNo'>[f.d5r]</span> [Listenius, Musica, f.d5r,1; text: Modus est duplex. Maior, est longarum in maxima debita mensura, et est rursus duplex, Minor, est breuium in longis, sub debito numero consideratio. Et est duplex, Perfectus, cum in maxima tres longae, et in longa tres breues consistunt. Imperfectus, cum maxima duas longas, longa duas breues complectitur. Perfectus est, cum longa tres ualet breues. Imperfectus, cum longa duas tantum breues ualet.] <a href="LISMUS_13GF.gif">[LISMUS 13GF]</a></p>
+
+<p>Modi minoris perfecti, compluria reperiuntur carmina et exempla, ut illud Iosquini, Praeter rerum seriem. Et aliquot partes Missae pro defunctis eiusdem. Item, Puer natus, Ioannis Mouton.</p>
+
+<p>Modi uero maioris perfecti, propemodum nulla extant exempla, idque ob odiosam et molestam Notularum in eo signo retardationem.</p>
+
+<p>De Tempore.</p>
+
+<p>[Listenius, Musica, f.d5r,2; text: Tempus est duplex, Perfectum est, cum, ualet, Eius signa sunt, Imperfectum, signaturque his characteribus] <a href="LISMUS_13GF.gif">[LISMUS 13GF]</a></p>
+
+<p><span class='pageNo'>[f.d5v]</span> De prolatione.</p>
+
+<p>Prolatio, est recta dispositio Semibreuium, Et est duplex.</p>
+
+<p>[Listenius, Musica, f.d5v; text: Prolatio, Maior, quando, facit signaturque sic: Minor, ualet, Figuratur uero sic:] <a href="LISMUS_13GF.gif">[LISMUS 13GF]</a></p>
+
+<p>Ex dictis ergo constat, Prolationem sine Tempore, atque Modum Maiorem sine Minore, et Minorem item sine Tempore, in cantilenis constitui non posse.</p>
+
+<p>De signis extrinsecis.</p>
+
+<p>Signa dictorum Graduum extrinseca, praecedentibus obiter intertexuimus, frustra enim Modus, Tempus et Prolatio absque signis agnoscerentur. Dicti quoque Gradus cognoscuntur per quaedam signa intrinseca, utpote per Notarum repletionem, uel per pausarum dispositionem. Duae enim aut tres Longae, ordine denigratae, Modi sunt indicium, Breues, aut duae Semibreues pausae commixtae, Temporis, Tres uero aut plures Semibreues, uel duo coniuncta <span class='pageNo'>[f.d6r]</span> suspiria (ut uocant) prolationis indicium sunt, ut cum sic pinguntur.</p>
+
+<p>[Listenius, Musica, f.d6r; text: Modi minoris. Temporis perfecti. Prolationis Maioris. Signa, Repetitionis, Conuenientiae, Concordantiae, Finalis] <a href="LISMUS_14GF.gif">[LISMUS 14GF]</a></p>
+
+<p>Sequuntur Paradigmata Graduum.</p>
+
+<p><span class='pageNo'>[f.d6v]</span> Prolatio Maior.</p>
+
+<p>[Listenius, Musica, f.d6v; text: Discantvs. Tenor Modi minoris perfecti.] <a href="LISMUS_14GF.gif">[LISMUS 14GF]</a></p>
+
+<p><span class='pageNo'>[f.d7r]</span> Bassus in tempore perfecto.</p>
+
+<p>[Listenius, Musica, f.d7r] <a href="LISMUS_14GF.gif">[LISMUS 14GF]</a></p>
+
+<p><span class='pageNo'>[f.d7v]</span> Aliud exemplum de tribus Gradibus.</p>
+
+<p>Prolatio.</p>
+
+<p>[Listenius, Musica, f.d7v; text: Discantvs.] <a href="LISMUS_14GF.gif">[LISMUS 14GF]</a></p>
+
+<p><span class='pageNo'>[f.d8r]</span> [Listenius, Musica, f.d8r; text: Tempus. Tenor. Modus minor. Bassvs.] <a href="LISMUS_15GF.gif">[LISMUS 15GF]</a></p>
+
+<p><span class='pageNo'>[f.d8v]</span> TABVLA, QVA CViuslibet Notae quantitas, pro signorum uarietate explicatur.</p>
+
+<p>[Listenius, Musica, f.d8v; text: In hoc signo, Valet, 2, 3] <a href="LISMUS_15GF.gif">[LISMUS 15GF]</a></p>
+
+<p>CAPVT V.</p>
+
+<p>De Augmentatione.</p>
+
+<p><span class='pageNo'>[f.e1r]</span> NOn incommode coniungitur Prolationi Augmentatio, siquidem communibus ac ijsdem utuntur Signis et Notis, tametsi id liberius fit in illa, quàm in hac. In hac quidem, circa unam tantum cantilenae partem, in illa circa omnes, ualetque istic [Sv] perfecta aut tres tactum proportionatum. Hic uero qualibet integro mensuratur tactu [Sv] perfecta tribus [Svcd,Mv]. Vnde liquet, nihil aliud esse augmentationem, quàm notularum multiplicationem. Et innuitur extrinsecus his signis [Od,Cd] Intrinsecus uero, uel notularum paucitate in una aliqua cantilenae parte, uel Canonis asscriptione, ut Breuis sit Maxima, Semibreuis Longa et cetera uel crescit in duplo, triplo et cetera. Exemplum.</p>
+
+<p>[Listenius, Musica, f.e1r; text: Tenor Augmentationis. Discantus. Bassus.] <a href="LISMUS_15GF.gif">[LISMUS 15GF]</a></p>
+
+<p><span class='pageNo'>[f.e1v]</span> CAPVT VI. </p>
+
+<p>De Diminutione.</p>
+
+<p>DIminutio, contraria Augmentationis species, est certum quoddam Notularum et mensurarum decrementum, nihil à semiditate differens, nisi quod haec in perfectis, illa in imperfectis signis contingat, cuius trifariam facio cognitionem.</p>
+
+<p>Prima Est</p>
+
+<p>Canonica, cum Notularum uel mensurarum quantitas uariatur, secundum Canonis inscriptionem, ut decrescit in duplo et cetera uel, Maxima esto Longa, Longa Breuis et cetera id quod Musicorum ingenio et arbitrio relinquo.</p>
+
+<p>Altera</p>
+
+<p>Numeralis, cum proportio Dupla aut Tripla hoc est, duplex aut triplex Notularum diminutio, per numerum quodammodo repraesentatur, hoc modo: [O2]. [C2]. [C3]. ut planum fiet per Proportiones.</p>
+
+<p>Tertia</p>
+
+<p>Virgularis, cum Temporis aut Prolationis signum uirgula intersecatur, hunc in modum: [Odim,Cdim,Oddim,Cddim]</p>
+
+<p>[Listenius, Musica, f.e1v; text: Discantvs.] <a href="LISMUS_15GF.gif">[LISMUS 15GF]</a></p>
+
+<p><span class='pageNo'>[f.e2r]</span> [Listenius, Mvsica, f.e2r; text: Tenor. Bassvs.] <a href="LISMUS_16GF.gif">[LISMUS 16GF]</a></p>
+
+<p><span class='pageNo'>[f.e2v]</span> Tabvla Diminutiuorum signorum.</p>
+
+<p>[Listenius, Musica, f.e2v; text: 1, 2, 3, 4, 6, 8, 12, 16, 24, 32, 48, 64] <a href="LISMUS_16GF.gif">[LISMUS 16GF]</a></p>
+
+<p>CAPVT VII.</p>
+
+<p>De Imperfectione.</p>
+
+<p>HIs cognata est Imperfectio et Alteratio. Fit enim utraque in signis perfectis tantum, quarum alteram sic definiemus. Imperfectio, est perfectae Notulae tertiae partis detractio, siue ablatio. Perfecta Notula dicitur, quae tres suarum minorum ualet. <span class='pageNo'>[f.e3r]</span> Fit autem, uel per pausam, uel Notam, uel colorem. Per Pausam et Notam, quando ante uel post perfectam Notam, pausa uel Nota specie et ualore minor (Similis enim non imperficit similem) collocatur. Sin uero duae pausae postpositae fuerint, aut ligatura Semibreuium inter duas Maiores, nulla neque à tergo, neque à fronte fit imperfectio. Per colorem imperficitur, quando duae siue tres Notae ordine denigrantur, aufert enim color in signis perfectis plaerunque tertiam partem, aliquando nihil, alterationem inter duas perfectas tantum perturbans. Secus uero in imperfectis, Nisi Hemiolam repraesentet.</p>
+
+<p>Praeterea meminerit hic lector, quod supra monuimus, Notas imperfici, non pausas, ob seruetque minores imperficientes plaerunque tantum auferre proximis suis maioribus, quantum ipsae ualent. Huius speciei signa, ut Franchinus tradit, sunt tria, Numeralis scilicet imperfectio, Punctualis distinctio, et Notarum denigratio.</p>
+
+<p>Notae imperfectibiles sunt quatuor, scilicet [MXv,Lv,Bv,Sv]. Maxima imperficitur à longa in signo [O3]. Longa, à Breui in signo [O2] Item Breuis imperficitur à Semibreui in signo [O]. Et Semibreuis à Minima in [Odim,Od,Cd]</p>
+
+<p>Exemplum.</p>
+
+<p><span class='pageNo'>[f.e3v]</span> [Listenius, Musica, f.e3v; text: Discantvs. Tenor. Bassvs.] <a href="LISMUS_16GF.gif">[LISMUS 16GF]</a></p>
+
+<p><span class='pageNo'>[f.e4r]</span> CAPVT VIII.</p>
+
+<p>De Alteratione.</p>
+
+<p>ALteratio, est note repetitio, seu duplicatio, propter futuram perfectionem, ueluti, cum [Lv,Bv,Sv,Svcd] pro duabus sibi similibus ponuntur. Hae quatuor enim solum modo alterantur. Pausae earum non alterantur.</p>
+
+<p>[Listenius, Musica, f.e4r; text: alteratur in signo, Modi perfecti, Temporis perfecti, Prolationis perfectae, quando duae supersunt ultra ternarium numerum, et alteratur semper posterior, non prior.] <a href="LISMUS_16GF.gif">[LISMUS 16GF]</a></p>
+
+<p>Idem seruato, si inter duas Perfectas figuras. Pausa cum sua Notula locetur, ita tamen, ut situ prior sit Pausa, posterior Nota. Nam ut dictum est, non Pausa, sed Nota alteratur.</p>
+
+<p>Exemplum.</p>
+
+<p><span class='pageNo'>[f.e4v]</span> [Listenius, Musica, f.e4v; text: Tenor. Bassvs.] <a href="LISMUS_17GF.gif">[LISMUS 17GF]</a></p>
+
+<p>CAPVT IX.</p>
+
+<p>De quadruplici punctorum genere.</p>
+
+<p>PVnctus, est apex Notulis appositus, uel diuisionis, uel Augmentationis, uel perfectionis gratia, Et est quadruplex. </p>
+
+<p>I. Perfectionis, qui Notae perfectae postpositus, eam defendit ab imperfectione, nihil <span class='pageNo'>[f.e5r]</span> afferens, nec auferens, [Bv,pt,Sv,Bv].</p>
+
+<p>II. Additionis, qui Notae in dextra parte coniunctus, ei dimidium ualoris adfert, idem et Augmentationis dicitur, qu Notam sic augeat [Bv,pt,Sv,pt,Svcd].</p>
+
+<p>III. Diuisionis, qui inter duas Notas in signo perfecto locatus eas ne connumerentur, seiungit, nihil uel addens uel adimens Notulis. [Bv,Sv,pt,Sv,Bv].</p>
+
+<p>IIII. Alterationis, qui in capite siue uertice Notae constitutus, eandem bis cantandam esse, obternarij numeri repraesentationem in signo perfecto admonet [Bv (pt supra notam),Sv (pt supra notam)]. Exempla supra habentur de tribus gradibus.</p>
+
+<p>CAPVT X.</p>
+
+<p>De Tactu.</p>
+
+<p>TActus, est regula cantum mensuraliter dirigens, et est triplex.</p>
+
+<p>I. Totalis, seu Integralis, quem aliàs Maiorem uocant, est, cum breuis tactu non diminuto mensuratur pro modo ac temporis ratione.</p>
+
+<p>II. Generalis seu uulgaris, quem aliàs Minorem uocant, est cum Semibreuis aut duae minimae sub tactum cadunt integrum.</p>
+
+<p>III. Specialis (quem proportionatum, nescio qua de causa uocant) est, cum alia nota à Semibreui ad tactum profertur, ueluti cum Breuis in <span class='pageNo'>[f.e5v]</span> signo Semiditatis, aut Minima in Augmentationis, aut Breuis, seu tres Semibreues, in signo Triple proportionis, tactu compraehenduntur uno.</p>
+
+<p>CAPVT XI.</p>
+
+<p>De Syncopatione.</p>
+
+<p>SYncopatio, est apta minoris Notae ultra maiores deductio, ex altera parte dissona, elegans quidem in fine cantus, et formalibus clausulis. Exempli gratia.</p>
+
+<p>[Listenius, Musica, f.e5v; text: Discantvs. Tenor. Bassvs.] <a href="LISMUS_17GF.gif">[LISMUS 17GF]</a></p>
+
+<p><span class='pageNo'>[f.e6r]</span> CAPVT XII.</p>
+
+<p>De Proportionibus.</p>
+
+<p>MVltae sunt Proportionum species, alia multiplex, alia multiplex superpartiens, alia multiplex superparticularis, aliae aliàs appellantur, quarum cum prope infinitus sit numerus, et tamen perpaucarum usus, nolui hic singulas species recensere, ne huius artis studiosis tanto catalogo uidear molestus, ac scrupulum quendam inijcere potius, quam tollere. Sed ero contentus ijs, quarum hoc tempore aliquis usus est. Sunt autem usitatiores, Dupla, Tripla et Quadrupla, maioris scilicet inaequalitatis. Minoris uero, Sesquialtera et Sesquitertia. Est igitur Proportio nihil aliud, quàm duarum inter se quantitatum collatio, ueluti cum 4 ad 2. 6 ad 3. referuntur.</p>
+
+<p>Dupla est, quando numerus maior minori comparatus, ipsum bis continet. Musice uero, quando maior Notularum numerus minori aequipollet, [Bv] uidelicet [Sv]. Semibreuis [Svcd], hoc est, quando due Note contra unam sibi similem ponuntur Cuius signa sunt 2/1 4/2, uel circuli transuersi [CL,C,CLdim,Cdim] Aut semicirculus cum binario numero circa omnes cantilenae partes sic [C2]. caditque tunc cantilena sub tactum proportionatum, ut est cernere in uulgari illo carmine Ioannis Vualtheri. Nun freuet euch et cetera secus cum non circa omnes cantilenae partes inuenitur. Huius contraria species est Subdupla, cuius signa sunt, numeri uel circuli inuersi, quibus utimur plaerumque ad determinandam proportionem. 1/2 2/4 3/6</p>
+
+<p><span class='pageNo'>[f.e6v]</span> Exemplum.</p>
+
+<p>[Listenius, Musica, f.e6v; text: Tenor. Bassvs.] <a href="LISMUS_17GF.gif">[LISMUS 17GF]</a></p>
+
+<p>Tripla, est quando maior numerus minorem ter complectitur, Musice, quando maior Notularum numerus minorem ter comprehendens, ipsi coaequatur, ueluti cum tres Notae contra unam ipsis similem locantur, Nihilo enim <span class='pageNo'>[f.e7r]</span> plus ualet tales tres in Proportione, quàm aliàs una extra proportionem, Tactum scilicet. Signa sunt [C3]. Huius contraria est Subtripla 3/1 6/2</p>
+
+<p>[Listenius, Musica, f.e7r; text: Tenor. Tripla. Bassvs.] <a href="LISMUS_17GF.gif">[LISMUS 17GF]</a></p>
+
+<p><span class='pageNo'>[f.e7v]</span> Quadrupla proportio est, quando numerus maior, minorem quater comprehendit. Harmonice, quando quatuor Notae contra unam constituuntur. Eius signa sunt 4/1 8/2 12/3</p>
+
+<p>Subquadrupla, cum minor numerus maiori comparatus, praecise quater in eo continetur inuersis signis 1/4.</p>
+
+<p>Exemplum.</p>
+
+<p>[Listenius, Musica, e7v; text: Tenor. Quadrupla] <a href="LISMUS_18GF.gif">[LISMUS 18GF]</a></p>
+
+<p><span class='pageNo'>[f.e8r]</span> [Listenius, Mvsica, f.e8r] <a href="LISMUS_18GF.gif">[LISMUS 18GF]</a></p>
+
+<p>Proportiones minoris inaequalitatis.</p>
+
+<p>Sesquialtera est, quando maior numerus ad minorem relatus, ipsum minoris totum semel includit cum parte eius media. Harmonice, quando tres notae contra duas consimiles locantur. Signa 3/2 6/4. Nonnunquam etiam intrinsecus per notularum repletionem in una aliqua cantilenae parte, circa numerorum ac characterum appositionem, nonnunquam subscriptione innuitur. Sin uero id accidat in omnibus cantilenae partibus, uno eodemque tempore, referunt proportionem Triplam, aut si mauis Hemiolam. Subsesquialtera fit inuerso modo.</p>
+
+<p><span class='pageNo'>[f.e8v]</span> [Listenius, Musica, f.e8v; text: Tenor. Sesquialtera. Bassvs.] <a href="LISMUS_18GF.gif">[LISMUS 18GF]</a></p>
+
+<p>Sesquitertia, est quando quatuor contra tres similes locantur. Eius signa sunt 4/3 8/6 12/9.</p>
+
+<p><span class='pageNo'>[f.f1r]</span> [Listenius, Musica, f.f1r; text: Tenor. Sesquitertia. Bassvs.] <a href="LISMUS_18GF.gif">[LISMUS 18GF]</a></p>
+
+<p><span class='pageNo'>[f.f1v]</span> De Hemiola.</p>
+
+<p>HEmiola, est quando Notae denigratae aequaliter in omnibus cantilenae partibus procedunt. Et quidem citius quàm in Tripla proportione, idque ob colorem. Habet enim color plus agilitatis, quàm albedo, quae in his Triplam proportionem, suo signo praefixo, efficit. Nonnunquam Hemiola simplicem contrapunctum refert, quod saltem admonendum duxi.</p>
+
+<p>[Listenius, Musica, f.f1v; text: Dicantvs. Tenor. Bassvs.] <a href="LISMUS_19GF.gif">[LISMUS 19GF]</a></p>
+
+<p><span class='pageNo'>[f.f2r]</span> [Listenius, Mvsica, f.f2r; text: Aliud exemplum Hemiolae. Tenor. Bassvs.] <a href="LISMUS_19GF.gif">[LISMUS 19GF]</a></p>
+
+<p>Finis Musicae Listenij.</p>
+
+<p><span class='pageNo'>[f.f2v]</span> Valentinvs Chvden in Zoilum.</p>
+
+<p>LIuide cur acuis mordaces Zoile dentes,<br />Vt laceres miseris hec rudimenta modis?<br />Cum tamen haec pueris, tibi non sint Zoile scripta,<br />Talia qui grata munera mente ferent.<br />Parcere Mome putem tenui te posse libello,<br />Qui pueros cantus prima elementa docet?<br />Cum non effugerit tua scommata magnus Homerus,<br />Grandia diuino carmine bella canens.</p>
+
+<p>Iohannes Spanberg.</p>
+
+<p>MVsica fida parens, inopum spes, anchora, portus,<br />Solamen, requies, miseros de puluere tollens.<br />Caesareo adiungit lateri, et regalibus aulis,<br />Diuitias, hortos, aedes, et praedia, uestes,<br />Donat et illustres titulos, et nomina famae,<br />Et quid multa loquor? Cantores aethera tangunt,<br />Cuncta per ora uirum uolitant, sumuntque quotannis<br />Aurea pro dicta mercede Numismata centum.</p>
+
+<p><span class='pageNo'>[f.f3r]</span> Ne uacua maneret pagina, addidimus carmen uetus, non infrugiferum quidem, usitatiores modos (id est interualla) discere uolentibus.</p>
+
+<p>[Listenius, Musica, f.f3r; text: TEr trini sunt modi quibus omnis cantilena contexitur, scilicet, Vnisonus, Semitonium, Tonus, Semiditonus, Ditonus, Diatesseron, Diapente, Semitonium cum Diapente, Tonus cum Diapente, ad haec sonus Diapason. Si quem delectat, eius hunc modum esse cognoscat. Cumque] <a href="LISMUS_19GF.gif">[LISMUS 19GF]</a></p>
+
+<p><span class='pageNo'>[f.f3v]</span> [Listenius, Musica, f.f3v; text: tam paucis modulis tota harmonia formetur, utilissimum est eas altae memoriae commendare, nec prius ab huiusmodi studio quiescere, donec uocum interuallis agnitis harmoniae totius facillime queat apprehendere noticiam. EVOVAE.] <a href="LISMUS_19GF.gif">[LISMUS 19GF]</a></p>
+<!-- end text -->
+</div>
+</div>
+<!--</div>-->
+<br /><br />
+
+
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
+<div id="footer">
+  <div id="chmtl_logo">
+    <a href="https://chmtl.indiana.edu/">
+        <img src="_assets/img/chmtl_logo_trans.png" alt="CHMTL Logo" />
+    </a>
+  </div>
+  <div id="copyright">
+    <p>The <a href="https://chmtl.indiana.edu/">Center for the History of Music Theory and Literature</a> is a research center of the <a href="http://music.indiana.edu">Indiana University Jacobs School of Music</a>.</p>
+  </div>
+</div>
+
+<div id="iu_footer">
+    <hr />
+    <div id="copyright">
+        <div id="blockiu">
+            <a href="http://www.iub.edu" title="Indiana University">
+                <img alt="Block IU" height="28" src="https://chmtl.indiana.edu/tml/16th/_assets/img/blockiu_white.gif" width="22" />
+            </a>
+        </div>
+        <p id="statement">
+        <a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> © 2022 The Trustees of <a href="http://www.iu.edu" title="Indiana University">Indiana University</a> | <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> | <a href="https://music.indiana.edu/departments/offices/music-information-technology-services/privacy.shtml">Privacy Notice</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

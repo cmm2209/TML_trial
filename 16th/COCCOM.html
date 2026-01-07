@@ -1,0 +1,930 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>COCCOM_TEXT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="_assets/css/tml/layout.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/css/common/chmtl_identity.css" />
+    <!--<link rel="stylesheet" type="text/css" href="_assets/css/w3.css" />-->
+    <link rel='stylesheet' type='text/css' href='_assets/css/fancybox.css' />
+    <script type= 'text/javascript' src='_assets/js/chmtl_file.min.js'></script>
+</head>
+
+<body>
+  <div id="chmtl-identity">
+    <div id="identity-spacer"></div>
+<!--    <p>A project of <a href="http://chmtl.indiana.edu">CHMTL</a></p>-->
+    <div id="chmtl-border">
+      <div id="chmtl-blue"></div>
+      <div id="chmtl-yellow"></div>
+      <div id="chmtl-gray"></div>
+      <div id="chmtl-red"></div>
+    </div>
+  </div>
+    <div id="identity">
+    <div id="menu-container">
+  <a><span class="menu-btn"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</span></a>
+  <a href="../index.html"><span class="home-link">Home</span></a>
+  <span class="search-short">
+    <a class="modal-tooltip" modal="search-tip">&nbsp;<i class="fa fa-info-circle" aria-hidden="true">
+      <span class="sr-only">Click for more information</span></i></a>
+    <form  action="COCCOM.html#" id="menuSearch"><input type="text" id="menuSearchText" placeholder="Quick search"/></form><span class="navSearchButton"><i class="fa fa-search"></i></span></span>
+  <a href="../copyright.html" target="_blank"><span class="copyright-short">Copyright Notice</span></a>
+</div>
+
+<div id="search-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="search-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+
+     <p>Use the &ldquo;Quick search&rdquo; if you want to search for <em>all documents</em> within the <em>whole archive</em> where words <em>matching or containing</em> the searched string are found.</p>
+     <p>For more specific queries (phrase searching, operators, and filters), visit the <a href="../quaero.html" target="_blank">full Search</a> page.</p>
+   </div>
+ </div>
+ </div>
+    </div>
+<div id="container" class="tml-file">
+  <nav id="sliding-left-nav" class="pushy pushy-left">
+    <ul class="push-menu">
+        <li class="pushy-submenu">
+            <a class="submenu-heading">ABOUT</a>
+            <ul>
+                <li class="pushy-link"><a href="../about/introduction.html">Introduction</a></li>
+                <li class="pushy-link"><a href="../about/content.html">Content</a></li>
+                <li class="pushy-link"><a href="../about/policies.html">Policies</a></li>
+                <li class="pushy-link"><a href="../about/howTo.html">How-To</a></li>
+                <li class="pushy-link"><a href="../about/future_plans.html">Future plans</a></li>
+                <li class="pushy-link"><a href="../about/people.html">People</a></li>
+                <li class="pushy-link"><a href="../about/contact.html">Contacts</a></li>
+            </ul>
+        </li>
+        <li class="pushy-submenu">
+          <a class="submenu-heading">BROWSE</a>
+          <ul>
+            <li class="pushy-link"><a href="../browse/authors.html">by author</a></li>
+            <li class="pushy-link"><a href="../browse/contributors.html">by contributor</a></li>
+            <li class="pushy-link"><a href="../browse/incipits.html">by incipit</a></li>
+            <li class="pushy-link"><a href="../browse/sources.html">by source</a></li>
+            <li class="pushy-link"><a href="../browse/titles.html">by title</a></li>
+            <li class="pushy-submenu">
+            <a class="centuryPushy">by century</a>
+                   <ul>
+                     <li class="pushy-link"><a href="../3rd-5th/index.html">3rd-5th</a></li>
+                     <li class="pushy-link"><a href="../6th-8th/index.html">6th-8th</a></li>
+                     <li class="pushy-link"><a href="../9th-11th/index.html">9th-11th</a></li>
+                     <li class="pushy-link"><a href="../12th/index.html">12th</a></li>
+                     <li class="pushy-link"><a href="../13th/index.html">13th</a></li>
+                     <li class="pushy-link"><a href="../14th/index.html">14th</a></li>
+                     <li class="pushy-link"><a href="../15th/index.html">15th</a></li>
+                     <li class="pushy-link"><a href="index.html">16th</a></li>
+                     <li class="pushy-link"><a href="../17th/index.html">17th</a></li>
+                   </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pushy-submenu"><a href="../quaero.html">SEARCH</a></li>
+        <li class="pushy-submenu">
+            <a class="submenu-heading">EXTRAS</a>
+            <ul>
+              <li class="pushy-submenu">
+                <a href="../concordances.html">Concordances</a>
+                  <ul>
+                    <li class="pushy-link"><a href="../concordances/lml.html"><em>Lexicon musicum Latinum</em></a></li>
+                    <li class="pushy-link"><a href="../concordances/grove_anonymous.html">Grove Anonymous</a></li>
+                  </ul>
+            </ul>
+        </li>
+     </ul>
+</nav>
+  <div class="site-overlay"></div>
+
+<div id="content">
+  <noscript>
+  <div  id="noScript" class="warning">
+    <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> JavaScript Required</p>
+    <p>In order to ensure the proper functining of this website, please enable JavaScript in your browser security preferences or use a device that supports it.</p>
+  </div>
+</noscript>
+<div id="header">
+    <div id="source" class="ft-text">
+        <p class="author">Coclico, Adrian Petit</p>
+        <p class="title">Compendium musices</p>
+        <p class="tmlSource"><strong>Source</strong>: <i>Compendium musices descriptum ab Adriano Petit Coclico, discipulo Josquini de Pres</i> (Nuremberg: Johann Berg, Ulrich Neuber, 1552; repr., Kassel: Bärenreiter, 1954).</p>
+                <p id="chmtl-staff">
+                    <span class="transcriber">Transcribed by Peter Slemon</span><br />
+            with Anastasia Arapova <a class="modal-tooltip eca-modal" modal="entry-abbrv-short"><span class="checked">C</span></a> and Thomas J. Mathiesen <a class="modal-tooltip eca-modal" modal="entry-abbrv-short"><span class="approved">A</span></a> <br />
+            for the <i>Thesaurus Musicarum Latinarum</i>, 2003.</p>
+              </div>
+
+</div> <!-- end header div -->
+<div id="entry-abbrv" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="entry-abbrv"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+     <p>The aforementioned individual(s) <span class="entered">E</span>ntered, <span class="checked">C</span>hecked, or <span class="approved">A</span>pproved the electronic transcription of the source document.</p>
+   </div>
+ </div>
+ </div>
+
+ <div id="entry-abbrv-short" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <a class="close-modal" modal="entry-abbrv-short"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+      <br />
+      <p><span class="checked">C</span>: Indicates the aforemententioned person(s) checked the transcription.</p>
+      <p><span class="approved">A</span>: Indicates the aforementioned person(s) approved the transcription for publication.</p>
+    </div>
+  </div>
+  </div>
+
+  <div id="multipart-tip" class="w3-modal">
+   <div class="w3-modal-content">
+     <div class="w3-container">
+       <a class="close-modal" modal="multipart-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+       <br />
+       <p>Historically, in the TML long texts were split into multiple files. These are now linked to each other for easier browsing. In a future version, they will be consolidated into a single view.</p>
+     </div>
+   </div>
+   </div>
+
+  <div id="metadata-contd">
+    <p class="text-sidebar-buttons"><button id="tml-notes" class="pure-button">TML notes</button>&nbsp;<button id="tml-concordances" class="pure-button">Concordances</button></p>
+
+  <div id="sidebar">
+      <div id="extras-wrapper">
+        <!---->
+        <div id="tml-canon-info">
+          <div class="extras-heading"><a class="close-modal repoToolbox" modal="tml-canon-info"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">TML Notes</i></span></div>
+          <p>The incipit is preceded by a note to the reader beginning: "Accentum: quicunque cupis ..."; a "Praefatio ad noricam iuventutem" beginning: "Cum praestantes artifices omnes ..."; two dedicatory poems beginning: "Musica divinas laudes celebrare reperta est ..." and "Iuppiter Astripotens, terram qui fulmine terret ..."; and the heading: "Prima pars. De his quae futuro musico sunt necessaria." [TJM]</p>
+        </div>
+<div id="concordances">
+  <div class="extras-heading"><a class="close-modal repoToolbox" modal="concordances"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">Concordances</i></span></div>
+  
+  </div>
+  <div style="clear: both"></div>
+    </div><!--extras-wrapper -->
+  </div><!--sidebar-->
+  </div><!--metadata-contd-->
+  <div style="clear: both"></div>
+
+<div id="text-toolbox-wrapper">
+  <div id='floatingBox'>
+    <div class="floating-toolbox">
+      <table>
+        <tr>
+          <th>Actions</th>
+        </tr>
+      </table>
+    </div>
+    <p id="backToTop"> <a href='COCCOM.html#top'>Back to top</a></p>
+  </div>
+
+<div id="tml-text">
+
+<!-- begin text -->
+<p><span class='pageNo'>[f.A1r]</span> AB ADRIANO PETIT COCLICO,</p>
+
+<p>In quo praeter caetera tractantur haec;</p>
+
+<p>AD LECTOREM.</p>
+
+<p>Accentum: quicunque cupis nouisse sonorum,<br />Quo nihil hic totus dulcius orbis habet:<br />Ad nos accedas artis perculsus amore,<br />Pandet Adriani Musa canora uiam.</p>
+
+<p>Cum Priuilegio ad quinquennium.</p>
+
+<p><span class='pageNo'>[f.A2r]</span> PRAEFATIO AD NORICAM IVVENTVTEM.</p>
+
+<p>CVm praestantes artifices omnes, quos inferior Germania produxit, nunquam intenderint animum adscribendum praecepta de arte Musices, quòd illa usu potius, quàm regulis perciperetur: Deinde etiam passim multorum egregia uolumina de ea arte extent: mirari aliquis possit, quid mihi homini seni, qui nullo modo cum his, et eruditione, et orationis facultate sim conferendus, in mentem uenerit, nunc primum edere aliquid in publicum, quo ferre palmam, [kai aris eion] et cornicum oculos configere uelim: Is sciat, me hanc operam non propterea instituisse, ut alios suggillarem, aut ipsorum existimationi detraherem: sed ut uobis, qui aspiratis ad uberiorem, et perfectam eius artis cognitionem, his rudimentis aditum praepararem, quo minore eam difficultate percipiatis.</p>
+
+<p>Nam qui hactenus eam artem iuuentuti proposuerunt, maxima ex parte (ut absit inuidia uerbo) tantum Theorici, non practici fuerunt, nec eo docendi modo, quo Principes Musicorum Iosquinus de Pres, Petrus de La Rue, et alij, quos mundus suspicit, et admiratur, usi sunt. Nam doctrinam de Scala, et Tonis, maxime necessariam, frigidius aequo tractarunt, in cumbentes principaliter in hoc studium, <span class='pageNo'>[f.A2v]</span> ut Proportiones, et alia, quibus immorari inutile est, diligenter adumbrarent. Caeterum de modo eleganter canendi, de Contrapuncto, et de Compositione, nihil, aut certe obscure docuerunt. Nullam interea iuuentus solidam doctrinam in ea arte sibi comparare potuit.</p>
+
+<p>Vt igitur nunc rursus Musicam illam, quam uulgo reseruatam iactitant, in lucem reuocem, et me ad uestrum captum applicem: conscripsi syluulam quandam, et Epitomen de ea arte, quam à Iosquino percepi, et usu, ac aliorum collatione, [kai suzetesei] confirmaui, in qua, ea quae ad rem faciunt, simpliciter trado. Ac uos amanter oro, ut hanc meam operam boni consulatis, et uitam ac meam caniciem pijs precibus Deo commendetis.</p>
+
+<p>Etsi autem non ignoro, mihi non defuturos esse Zoilos, qui hanc [akribian] repraehendent: tamen cum illis nunc non rabiose contendam, sed ad sanorum iudicia, qui artis fundamenta intelligunt prouoco, ac peto ut candide pronuncient. Quia mihi nihil magis in uotis est, et nihil aliud quaero, quàm recte consultum iuuentuti, ac potissimum VOBIS gratificari. Bene ualete.</p>
+
+<p><span class='pageNo'>[f.A3r]</span> GRISELIVS STVDIOSVS VVITTEMBERGENsis in commendationem Musices.</p>
+
+<p>MVsica diuinas laudes celebrare reperta est,<br />Vtque suis numeris seruiat ipsa Deo.<br />Non est scurriles inuentum munus ad usus,<br />Qui dedit hanc, fructu commodiore dedit.<br />Carmine, uoce, sono, Deus est laudandus et hymnis,<br />Huic famulas praebet Musica prompta manus.<br />Illa suis numeris longe super aethera tollit<br />Quos uirtus claros conspicuosque facit.<br />Praedicat Heroum gratis concentibus ausus,<br />Virtuti uoluit munus id esse Deus.<br />Ecquid adhuc lentam te non piget esse iuuentus,<br />Quae colis Albiacae culta Licaea scholae?<br />Quas remoras fingis, quis te tenet iste ueternus?<br />Cur est grata minus Musica Diua tibi?<br />Fastidisse Dei donum tam grande, piumque,<br />Quo nihil hic hominum pulchrius ordo capit?<br />Spiritus ipse Dei, diuinum numen honorat<br />Hoc opus, at lentum te pudet esse nihil?<br />Musica coelestem mentes deducit ad aulam,<br />Vt uera celebrent agnitione Deum.<br />Haec mouet affectus, et non modo pectora mulcet,<br />Sed fibras uiui cordis et illa ferit.<br />Liberat haec animos tristi moerore grauatos,<br />Saepe superuacuos eximit illa metus.<br />Haec dabit afflictae solatia dulcia menti,<br />Haec quoque terrorem, cum uolet esse, parit.<br />Haec hominum tumido toll t de pectore fastus.<br />Nec finit atroces nos habuisse manus.<br /><span class='pageNo'>[f.A3v]</span> Euocat affecto gemitus de corde ruentes,<br />Saepe facit lachrymis immaduisse genas.<br />Illicitos cohibet flagrantis corporis aestus,<br />Et ueluti freno pectora nostra regit.<br />Casta diu uixit demens Agamennonis uxor,<br />Donec erit lateri Musica iuncta suo.<br />Haec cum pulsa dolo tumida cessisset ab aula,<br />Turpis adulterij est crimine facta nocens.<br />Adde quòd excultus non omne parte putetur,<br />Qui nescit suaues ore referre sonos.<br />Ipse Neoclides tibi sit generosa iuuentus.<br />Exemplum, quantum Musica sacra iuuet.<br />Illius ingenio tribui minus inde solebat<br />Ignarum cum se diceret esse lyrae.<br />Ergò tolle moras, reliquas qui tendis ad artes,<br />Non est ista tibi praetereunda soror.<br />Musica sit studijs commendatissima uestris,<br />Qua sine nec docti nomen habere potes.<br />Incipe dum uerni floret tibi temporis aetas,<br />Dum, qui te doceat, praesto sit ille tibi.<br />Hic Adrianus erit Doctissimus arte canendi<br />Cui summum Euterpe contulit ipsa decus.<br />Italis hunc toties mirata est ora canentem,<br />Debet is arctois gratior esse plagis.<br />Vtere concessa tibi commoditate iuuentus.<br />Est uirtus apto tempore posse frui.<br />Vale.</p>
+
+<p><span class='pageNo'>[f.A4r]</span> NOE BVCHOLCZERVS</p>
+
+<p>SCHONAVVENSIS</p>
+
+<p>IVppiter Astripotens, terram qui fulmine terret,<br />Et campos largo fluminis imbre rigat.<br />Cum dederit nobis nil dulcius arte canendi,<br />Et quod soletur tristia corda magis.<br />(Namque Deum placat coelestem Musica dulcis,<br />Tum uarijs gaudent pectora nostra modis.<br />Eximit haec curas, et gaudia laeta reducit,<br />Oblectat iuuenes, decrepitosque senes.<br />Ipsa laborantum defessos erigit artus,<br />Corripit infantum carmine membra sopor.<br />Inque domo sacra Dominum pia cantica laudant,<br />Organa nec cessent, fundere dulce melos)<br />Haec igitur postquam secum fert commoda cantus,<br />Musas ô tellus Teutona disce, rogo.<br />Ecce tibi Nymphae faciles mittunt Adrianum,<br />Musica cui uatum sceptra tenere dedit.<br />Et ueluti fidibus ludens Cytharaedus Arion,<br />Euasit mortem, praecipitandus aquis.<br />Eripuit Coclicum sic Musica morte necandum,<br />Quod fuerat uerae religionis amans,<br />Suscipias igitur celebrem Germania uatem,<br />Illius ac nomen peruolet astra, precor.</p>
+
+<p><span class='pageNo'>[f.A4v]</span> [Coclico, Compendium, A4v; text: ADRIAN PETIT COCLICO MVSICO. AETAT: LII[macron supra lin.], Desperando spero] <a href="COCCOM_01GF.gif">[COCCOM 01GF]</a></p>
+
+<p><span class='pageNo'>[f.Bir]</span> COMPENDII MVSICES CONSCRIPTI AB ADRIANO PETIT Coclico, Discipulo Iosquini de Pres.</p>
+
+<p>PRIMA PARS.</p>
+
+<p>De his quae futuro Musico sunt necessaria.</p>
+
+<p>PETVNT A ME quotidie studiosi quidam Musices, ut illa praecepta quae ad recte, suauiter, et eleganter canendum sunt necessaria, quàm possim breuissime in compendium redigam, et ipsis ad calamum dictem, eaque exemplis à me compositis copiosissime illustrem atque declarem. Quòd etsi multis sane de causis inuitus facio, tamen horum precibus et uoluntati censeo gerendum esse morem. Video enim hodie iuuentutem Germanicam, non solum Musicis traditionibus, quarum multa plaustra diuulgantur passim, non erudiri, sed etiam obrui, et à uera sua uique canendi ratione impediri. Dum enim omne tempus addiscendis praeceptionibus transmittunt, non fieri potest, ut maturè rectê canere discant.</p>
+
+<p><span class='pageNo'>[f.Biv]</span> Nec ego hactenus consueui ad Praeceptoris mei Iosquini clarissimi uiri exemplum, multa dictare praecepta (Quòd uideam artis huius usum in canendo potius, quàm multitudine praeceptorum esse positum) Verum quae necessario requirebantur obiter, in manu Musicali, et in tabula depinxi, atque demonstraui, adhibitis etiam his exemplis, in quibus tota artis nostrae uis atque usus continetur. Quae cum mediocriter discipuli mei percepissent, tantum in canendo ipsos exercui. Qua sane re quid ego pro fecerim, iudicent ij qui experti sunt. Qui uero diu in praeceptis, et theoria suos discipulos detinent, hos et iudicio carere, et finem Musicae ignorare palam dixerim.</p>
+
+<p>Sed ut ad rem ipsam accedam, et quae in futuro Musico requiram paucis declarem: Afferant primum adolescentes uel pueri potius (quo enim sunt iuniores, hoc facilius, et maiori cum uoluptate praecepta percipiunt, et ad bene canendum sunt flexibiliores) ad praeceptorem suum magnum discendae Musicae ardorem et studium, et prope naturalem impetum, ut quàm cupidissime, et attentissime docentem, et praecinentem audiant. Nam si quis natura forsan à canendi amore est alienior, uel non eo studio quo debet addiscere uoluerit, de eo non sanè magna polliceri possum. Qui uero singulari quodam discendi studio tenetur, et naturae uires non habet à Musica abhorrentes, hunc si dextrè, et prudenter <span class='pageNo'>[f.Bijr]</span> instituant, excellentem fore Musicum polliceri habeo. Pulchrè enim Graeco prouerbiò dicitur: Amor docet Musicam, Deinde si hunc sibi scopum Puer habet propositum, ut practicus potius quàm theoricus fiat, nolo ut multis praeceptis oneretur, et quasi obruatur, Nam qui prius omnem rationem speculatiuae Musicae perdiscere uolet, quàm ad canendum se uertat: is opinione tardius ad optatam et praefixam metam perueniet.</p>
+
+<p>Dabit igitur operam ut quàm simplicissime Musicalem manum siuè scalam perdiscat, inque ea omnes in quouis genere cantus mutationes obseruet, et mox claues ipsas cognoscat, postea sensim incipiat solmisando ad Choralem seu Gregorianum cantum se exercere, et uoces Musicas suo ordine, et phtongis pronunciare. Quibus octo tonorum cognitionem subiungat, rem profecto necessariam scitu, et ad multa uitia in cantu corrigenda, et ad concentuum rationem, atque melodiam discernendam, atque dijudicandam. Deinde cognoscet signa, quantitatem, et ualores eorum, mox notarum figuras, ligaturas, punctos, pausas, postea prolationes: maiorem, et minorem, Augmentationem, diminutionem, imperfectionem, alterationem, syncopationem, unà cum tactibus, et proportionibus quibusdam usitatis.</p>
+
+<p>Haec ubi perspicuè, et breuiter cognouit, incipiat tandem non solum recte, sed etiam ornate canere, et artificiose, suauiter, et colorate pronunciare, rectè <span class='pageNo'>[f.Bijv]</span> intonare, et quamlibet syllabam suo in loco, suis sub notis collocare.</p>
+
+<p>Studebit autem inprimis cantor, ut auribus hominum placeat, et canendo uoluptatem ipsis, sibi uero admirationem, et fauorem comparet. Adhibebit semper etiam suarum aurium iudicium. Aures enim quid rectè, quidùe secus fiat, facile intelligunt, et sunt uerae artis canendi magistra. Quid enim interest quaeso inter canis latratum, et eum qui nec audit, nec obseruat, quid, et quomodo canatur.</p>
+
+<p>Deuitanda sunt quarundam nationum uitia, quae etsi in nobis haerent, studio et industria corrigenda sunt. Insanus clamor, et immensus boatus, et illud in uoce absonum quorundam hominum imperitorum caret gratia. Quia dum uel plorant, uel ululant, uel latrant, aut etiam nimium iubilant, omnem uoluptatem auditoribus excludunt, et seipsos gratia priuant. Suauis autem cantus uere hunc assequitur finem, quem Musicus spectat, et uenatur, nempe ut oblectet, et exhilaret. Quare qui singulari quodam studio ad canendi artem ducitur, is proponat sibi nobile cuiusdam praeclari Musici exemplum, cuius tum compositionem, tum in primis pronunciandi modum, et uirtutes imitetur, et exprimat.</p>
+
+<p>Nec Musica extra liberalium artium numerum posita est, ideo eadem quoque uia, qua uel Rhetorica, uel alia ars addiscitur. Arte nimirum, exercitatione, et imitatione.</p>
+
+<p><span class='pageNo'>[f.Biijr]</span> Accipite autem quid ego fecerim: Puer admodum tradebar in fidem nobilissimi Musici Iosquini, ex quo cum leuia illa artis nostrae praecepta, obiter tantum, nullo ex libro percepissem, statim coepi canere, et canendo ea obseruare, de quibus hodie multae praeceptiones traduntur, et meum cantum compositionemque totam ad ipsius exemplum formare, etsi non inuitus fateor, me nulla in re parem tanto uiro esse, nec illam elegantiam quae in ipsius cantilenis mirabiliter splendet, posse consequi, tamen dedi operam ut quasdam illius uirtutes, tam in canendo quàm componendo: ut de contra puncto, nihil dicam, tantum in meis abumbrarem, et, de succo ipsius, cantus meos redderem uegetiores, et floridiores. Adhibendi sunt labores, multa pacienter ferenda, iuxta illud Poetae: Qui cupit optatam cursu contingere metam, multa tulit fecitque puer, sudauit, et alsit. Abstineat uenere et Baccho, qui Pythia cantat.</p>
+
+<p>Sed nescio quî fiat, quòd nostra iuuentus, tum labores spernat, tum bene monentibus non obtemperet, sed etiam irascatur. Faciant autem hoc suo incommodo, ego quid tulerim probe noui. Sed ad rem ipsam redeo. Vbi quis illa quae supra commemoraui, probe addidicit, poterit is contra punctum, et compositionem quoque addiscere, in quibus minus laborabit, quòd eorum fundamenta in iam ante dictis, et cognitis consistant et cetera.</p>
+
+<p><span class='pageNo'>[f.Biijv]</span> DE MVSICES Definitione.</p>
+
+<p>MVsica secundum Iosquinum, est rectè, et ornatè canendi atque componendi ratio. Continet enim haec ars regulas et praeceptiones, quae pueris uiam tradunt ut recte, et suauiter canant praescriptam contilenam, et ut ipsimet artificiose componant cantus atque Symphonias. Nec pro Musico habendus est, qui non in utroque hoc officio Musices excellit, aut aliquid egregij prestare possit. Verum paulo post in partitione eorum, quae hic docenda sunt, quàm latè pateat huius artis usus obiter ostendemus, et dabimus operam ut in exemplis, et usu canendi pueros diutius, quàm in praeceptis detineamus.</p>
+
+<p>DE MVSICORVM Generibus.</p>
+
+<p>SPero me operae praecium facturum, si obiter meum, de uarijs Musicis iudicium ostendam. Non enim omnes pari in re praestantes fuerunt: Quisque in eo excelluit, ad quod pertingere potuit. Ideo haec non scribo, ut uel minimo omnium aliquid detraham, sed ut adolescentes ex me discant iudicare de his Musicis, qui longè ante nos exstiterunt, uel etiam hodie in uiuis sunt.</p>
+
+<p>Inuenio autem quatuor Musicorum genera. Primum genus eorum est, qui primi Musicam inuenerunt, et uarijs in rebus uocum quandam Harmoniam obseruarunt. Quorum primus Tubal Hebraeus, <span class='pageNo'>[f.Biiijr]</span>  Lamech filius fuisse fertur, quem alij postea secuti sunt, et inuentis semper aliquid addiderunt, ut Anphion, Orpheus, Boetius, Guido Arenensis, Ockghem, Iacobus Obrecht, Alexander, et alij multi, quorum etiam scripta hunc in diem extant, hi autem tantum Theorici fuerunt.</p>
+
+<p>Secundum genus, est eorum qui sunt Mathematici, quorum compositiones, nemo est, qui non ferat. At hi uerum Musices finem non sunt assequuti. Nam etsi huius artis uim intelligunt, et etiam componunt, non tamen ornant suauitatem, et dulcedinem cantus, et quod peius est, cum uellent artem inuentam latius propagare, et illustriorem reddere, de nigrarunt eam potius, et obscurarunt. In docendis enim praeceptis et speculatione nimis diu manent, et multitudine signorum, et alijs rebus accumulandis, multas difficultates afferunt, et diu atque multum disceptantes, nunquam ad ueram canendi rationem perueniunt. Ex quibus sunt, Iohannes Geyslin, Iohannes Tinctoris, Franchinus, Dufay, Busnoe, Buchoi, Caronte, et conplures alij.</p>
+
+<p>In tertio genere, sunt Musici praestantissimi, et ceterorum quasi reges, qui non in arte docenda haerent, sed theoriam optime et docte cum practica coniungunt, qui cantuum uirtutes, et omnes compositionum neruos intelligunt, et uere sciunt cantilenas ornare, in ipsis omnes omnium affectus exprimere, et quod in Musico summum est, et <span class='pageNo'>[f.Biiijv]</span> elegantissimum uident, et in omnium admiratione sunt, quorum cantilenae, uel solae sunt admiratione dignae. Inter hos facile princeps fuit Iosquinus de Pres, cui ego tantum tribuo, ut eum omnibus caeteris praeferam. In hoc etiam genere sunt peritissimi Musici, et artificiosissimi Symphonistae: Petrus de Larue, Brumel, Henricus Isaac, Ludouicus Senfel, Adrian VVillarth, Le brun, Concilium, Morales, La fage, Lerithier, Nicolaus Gombert, Criquilon, Champion, et Iaquet, Pipelare, Nicolaus Paien, Courtois, Meyster Ian, Lupi, Lupus, Clemens non Papa, Petrus Massenus, Iacobus de Buis, et innumeri alia, quos omitto breuitatis gratia.</p>
+
+<p>Quartum genus est Poëticorum, qui ex tertij generis Musicorum Gymnasio profecti sunt, et praecepta artis norunt, et bene ipsi componunt, et ex tempore super Choralem aliquem cantum contrapunctum suum pronunciant, et omnia praecepta, omnemque canendi uim eo referunt, ut suauiter, ornate, et artificiose canant ad homines oblectandos, et exhilarandos, hi dulcedine uocis alios longe superant, et uerum huius artis finem consequuti sunt, et in maiori sunt admiratione, et gratia quàm caeteri omnes. Tales sunt potissimum, Belgici, Pycardi, et Galli, quibus ferè naturale est, ut reliquis palmam praeripiant, ideo soli feruntur in Pontificis, Caesaris, Regis Galliae, et quorundam Principum sacellis. Monendi igitur sunt adolescentes, ut enitantur <span class='pageNo'>[f.Cir]</span> hos quantum possint imitari, et in canendo referre. Licet autem quidam natura minus apti ad canendum uidentur, tamen nulla natura tam est mala, et uiciosa quae non studio, et diligentia possit corrigi. Ex his patet, ut opinor, quae Musica sit optima, nimirum ea, quae hominum auribus grata est, et magis in practica, quam Theorica consistit, ad quam consequendam, ego in hoc libello, omnem uiam iuuenibus pro uirili mea patefaciam, et quae huc spectare uidebuntur perspicue, atque dilucide tradam.</p>
+
+<p>Sequitur Scala.</p>
+
+<p><span class='pageNo'>[f.Civ]</span> SCALA PRO CANTV figurato ac Chorali.</p>
+
+<p>Vox hominis habet finem ascendendi et descendendi, sed Scala non, quia semper reuertitur ad Ffaut.</p>
+
+<p>[Coclico, Compendium, Civ; text: bmollaris super acutum, Natura super acutum, Clauis b[sqb] super acutum, b [sqb] grauis, bmollaris acutus, clauis naturalis acuta, b [sqb] acutum, Clauis bmollaris grauis, Natura grauis, bmollaris subter grauis, f fa ut, e la mi fa, d la sol re, c sol fa ut, b fa [sqb] mi, a la mi re, g sol re ut, G sol re ut, F fa ut, E la mi fa, D la sol re, C sol fa ut, B fa [sqb] mi, A la mi re] <a href="COCCOM_02GF.gif">[COCCOM 02GF]</a></p>
+
+<p>Tres claues sunt in usu Ffaut, Csolfaut, et Gsolreut.</p>
+
+<p><span class='pageNo'>[f.Cijr]</span> Ascensus et descensus uocum scalae, secundum cantum figuratum, et Choralem.</p>
+
+<p>[Coclico, Compendium, Cijr,1; text: Natura subter grauis. b mollaris subter grauis. b [sqb] grauis. Natura grauis. b mollaris grauis. b acutum. Natura acuta. b mollaris acutum, b super acutum. Natura super acuta. b mollaris uper acuta.] <a href="COCCOM_03GF.gif">[COCCOM 03GF]</a></p>
+
+<p>Scala b[sqb]ralis, et naturalis.</p>
+
+<p>[Coclico, Compendium, Cijr,2] <a href="COCCOM_03GF.gif">[COCCOM 03GF]</a></p>
+
+<p><span class='pageNo'>[f.Cijv]</span> Scala bmollaris, et naturalis.</p>
+
+<p>[Coclico, Compendium, Cijv] <a href="COCCOM_02GF.gif">[COCCOM 02GF]</a></p>
+
+<p>DE SCALAE diuisione.</p>
+
+<p>NOTandum est, quòd omnes literae G. sunt b[sqb]rales cantus. C naturales. F bmollares, quia manus siue scala diuiditur in tres partes. Prima pars, secundum cantum Choralem incipitur à -- Gammaut -- et durat usque ad -- Ffaut -- quae dicitur grauis. Secunda reincipitur à Gsolreut et durat usque ad aliud Ffaut in spatio, quae dicitur acuta. Tertia pars, à -- Gsolreut -- in linea iterum reincoatur, et durat usque ad Ffaut extra manum, quae dicitur super acuta, siue, geminata, quia cum in cantu figurato scala habuerit finem , reuertimur ad Ffaut in spatio, uel in linea. Ideo non sunt nisi duae literae F. in manu. Aliae sunt tres, ut reuertamur semper ad octauam suam, ut post Ela reuertimur ad -- Ffaut -- in linea. Et ultra -- Gammaut --, siue infra ad Ffaut in spatio. Sic manus, siue scala, non habet finem. Atque caeterae literae uoces habent tres, exceptis Ffaut, et <span class='pageNo'>[f.Ciijr]</span> bfa[sqb]mi, nisi fuerit cantus fictus. Exemplum, ut Gamaut, Gfolreut, Are, Alamire, et caetera habent tres uoces in cantu figurato. Sed in cantu Chorali raro contingit, quia ille non ita ascendit, uel descendit, sicut cantus mensuratus. Sed ista haud intelligi possunt, nisi per practicam, et exempla. Propterea paucis uerbis, et praeceptis uolui hanc industriam Musices, puerilem formare: Ne iuuentus ad Musicorum Mathematicorum libros currens, in legendis illis aetatem frustra conterat, et nunquam ad finem bene canendi perueniat.</p>
+
+<p>DECLARATIO SIVE expositio mutationum scalae siue manus.</p>
+
+<p>NOtandum est, que -- Gamaut -- grauis est cantus, et dicitur (Gamma) id est manus, simile est Gesolreut acutum, et -- Gesolreut -- super acutum, et unumquodque habet tres uoces, scilicet sol, re, et ut, in Musica figurali. Sol canitur per naturam descendendo, Re per bmollarem, ascendendo, Vt uerò per b[sqb]duralem. Are -- Alamire -- Alamire la canitur per naturam descendendo, mi per bmollarem ascendendo, re autem per b[sqb]duralem. B[sqb]mi, bfa[sqb]mi -- bfa[sqb]mi -- fa canitur per bmollarem, mi <span class='pageNo'>[f.Ciijv]</span> autem per b[sqb]duralem. Cfaut -- Csolfaut -- Csolfa sol canitur per bmollarem descendendo. Fa per b[sqb]duralem ascendendo, Re autem per naturam. Elami -- Elami -- Ela la canitur per b[sqb]duralem, descendendo. Mi per naturam asendendo, Fa autem quando non ascendit, usque ad Ffaut per bmollarem. -- Ffaut -- Ffaut fa canitur per naturam ascendendo, et descendendo, Vt autem per bmollarem. Sciendum est, quòd Ffaut, et bf.[sqb]mi regunt, et mutare faciunt totam scalam et manum. Vt infra patebit per exempla, quia bfab[sqb]mi facit per fa et mi uariare mutationes, et Ffaut facit, ut cum manus habeat finem, semper reuertimur ad illud. ldeo ista praecipuè sunt mente tenenda, ne aliquis uacillet in suis mutationibus, sed nullus ad haec nisi per practicam perueniet,</p>
+
+<p>DE MVTATIONIBVS:</p>
+
+<p>Exempla de mutationibus, et de b[sqb]durali cantu, et naturali, et bmollari, infra et extra manum siue Scalam, iuxta possibilitatem hominum uocum.</p>
+
+<p>[Coclico, Compendium, Ciijv; text: Natura subter grauis cum b[sqb]durali.] <a href="COCCOM_04GF.gif">[COCCOM 04GF]</a></p>
+
+<p><span class='pageNo'>[f.Ciiijr]</span> [Coclico, Compendium, Ciiijr; text: re, la, sol, Naturalis cum bmollari, et naturali. Cantus grauis b[sqb]duralis, bmollaris subter grauis, et naturalis grauis. Naturalis grauis, et b[sqb]duralis. bmollaris grauis cum natura acuta.] <a href="COCCOM_04GF.gif">[COCCOM 04GF]</a></p>
+
+<p><span class='pageNo'>[f.Ciiijv]</span> [Coclico, Compendium, Ciiijv; text: sol, re, la, ut, b[sqb] acutus cum naturali. Natura acuta cum b[sqb]durali super acuto. Natura cum bmollari acuto. b[sqb]duralis super acutus cum naturali, bmollaris super acutus cum naturali. Naturalis super acutus, extra scalam bduralis, et naturalis.] <a href="COCCOM_05GF.gif">[COCCOM 05GF]</a></p>
+
+<p><span class='pageNo'>[f.Dir]</span> DE INTERVALLIS.</p>
+
+<p>Plerique multa interualla asserunt, ego tamen, qui practicam Musicam doceo, septem quae in usu sunt hic depinxi, haud necessarium imò superfluum ducens, multa de his scribere, quae alij prolixe tractarunt.</p>
+
+<p>Hoc hic discat puer, quòd omne mi debet cantari in semitonio, nisi adatur b.</p>
+
+<p>Item quando cantus non altius ascendit quàm in befabemi, siue in Elami bemollari, cum semper oportet in his canere fa.</p>
+
+<p>[Coclico, Compendium, Dir; text: Tonus. Semitonium. Semiditonus. Ditonus 3. Diatesseron 4. Diapente 5. Diapason 8.] <a href="COCCOM_06GF.gif">[COCCOM 06GF]</a></p>
+
+<p>DE TONIS.</p>
+
+<p>NOn dici potest, quàm Musico cognitu necessaria sit cognitio Tonorum, in utroque cantu Chorali et Figurali. Consulto itaque in hac prima parte, eorum mentionem <span class='pageNo'>[f.Div]</span> faciam. Octo sunt Toni in usu in cantu Chorali et figurato. Primus et secundus semper finiuntur in -- Dsolre -- graui regulariter, sed irregulares habent finem in -- Alamire -- acuto per bmollarem. Et in Gsolreut per b[sqb]duralem. Et primus semper finitur in re, et frequentat la, per diapente. Secundus autem fa per ditonum. Tertius et quartus semper finem faciunt regulariter in Elami graui. Irregulariter autem in Alamire per bmollarem, et in bfa[sqb]mi per b[sqb]duralem. Sed siue sint regulares siue irregulares, respiciendum est in cantu figurato ad Tenorem, si frequentauerit mi et fa per sextam, tunc erit tertij, si autem mi et la, tunc absque dubio erit quarti toni per quartam, et sic de alijs tonis iuxta regulam  sequentem. Pri re la, Se re fa, Ter mi fa, Quar quoque mi la, Quin fa fa, Sex fa la, Sep ut sol, Oc tenet ut, fa. Quintus et sextus semper finiuntur in Ffaut graui, et quintus frequentat Diapente, Sextus uero Dytonium, aut Diapason. Irregulariter autem finiuntur in bfa[sqb]mi, per bmollarem acutum,et accipitur, fa pro ut, et sol pro fa. Aut in Csolfaut per naturam acutam, et accipitur ut pro fa, et fa pro sol, sed raro contingit. Septimus et octauus semper finiunt regulariter in Gsolreut acuto. Septimus frequentat Dyapente, scilicet ut sol, Octauus Dyatesseron, scilicet ut fa, iuxta regulam. Cum autem irregulares fiunt, quod raro accidit, finiunt in Csolfaut, per naturam acutam, siue in Ffaut graui, sed haec raro contingunt.</p>
+
+<p><span class='pageNo'>[f.Dijr]</span> DE INFLEXIONIBVS, ET REgula tonorum regularium, et irregularium.</p>
+
+<p>[Coclico, Compendium, Dijr; text: Prima regula, cognoscendi tonos regulares per b[sqb]duralem grauem. Toni irregulares iuxta cantum bmollarem, et naturalem. Toni irregulares per b[sqb]ralem, et naturalem. Primus secundus tertius quartus quoque quintus sextus septimus octauus tenet. Septimus et octauius, raro transponuntur.] <a href="COCCOM_07GF.gif">[COCCOM 07GF]</a></p>
+
+<p><span class='pageNo'>[f.Dijv]</span> INCOATIO PRIMI TONI.</p>
+
+<p>[Coclico, Compendium, Dijv,1; text: Primus tonus sic incipit, et sic mediatur, et sic finitur, Euouae. seculorum, Amen.] <a href="COCCOM_06GF.gif">[COCCOM 06GF]</a></p>
+
+<p>EXEMPLVM PRIMI TONI in Musica Chorali.</p>
+
+<p>Fuga in diapente, post semibreuem.</p>
+
+<p>[Coclico, Compendium, Dijv,2; text: Cantus naturalis cum b[sqb]rali.] <a href="COCCOM_06GF.gif">[COCCOM 06GF]</a></p>
+
+<p>ALIVD EXEMPLVM PRImi toni regularis.</p>
+
+<p>Fuga post unum tempus in diapente.</p>
+
+<p>[Coclico, Compendium, Dijv,3; text: Cantus naturalis cum b[sqb]rali.] <a href="COCCOM_07GF.gif">[COCCOM 07GF]</a></p>
+
+<p><span class='pageNo'>[f.Diijr]</span> [Coclico, Compendium, Diijr,1] <a href="COCCOM_08GF.gif">[COCCOM 08GF]</a></p>
+
+<p>Tertia pars, super fugam Choralem.</p>
+
+<p>[Coclico, Compendium, Diijr,2] <a href="COCCOM_08GF.gif">[COCCOM 08GF]</a></p>
+
+<p>Alia fuga, quatuor in unum primi regularis, post unum tempus. [Coclico, Compendium, Diijr,3; text: Sit nomen Domini benedictum in seculum] <a href="COCCOM_08GF.gif">[COCCOM 08GF]</a></p>
+
+<p><span class='pageNo'>[f.Diijv]</span> DE SECVNDO TONO.</p>
+
+<p>Inchoatio secundi toni.</p>
+
+<p>[Coclico, Compendium, Diijv,1; text: Secundus tonus sic incipit, et sic mediatur, et sic finitur. Euouae.] <a href="COCCOM_09GF.gif">[COCCOM 09GF]</a></p>
+
+<p>EXEMPLA SECVNDI toni regularis.</p>
+
+<p>Fuga in Diatesseron.</p>
+
+<p>[Coclico, Compendium, Diijv,2] <a href="COCCOM_09GF.gif">[COCCOM 09GF]</a></p>
+
+<p>Cantus b[sqb]duralis, et naturalis grauis.</p>
+
+<p>[Coclico, Compendium, Diijv,3; text: Tertia pars super fugam secundi toni.] <a href="COCCOM_09GF.gif">[COCCOM 09GF]</a></p>
+
+<p><span class='pageNo'>[f.Diiijr]</span> [Coclico, Compendium, Diiijr,1] <a href="COCCOM_10GF.gif">[COCCOM 10GF]</a></p>
+
+<p>Aliud exemplum, fuga quinque uocum, secundi toni irregularis, post tempus in eodem.</p>
+
+<p>[Coclico, Compendium, Diiijr,2; text: Cantus b[sqb]ralis grauis, et naturalis, et acutus b[sqb]ralis.] <a href="COCCOM_10GF.gif">[COCCOM 10GF]</a></p>
+
+<p>DE TERTIO TONO.</p>
+
+<p>Inchoatio tertij toni.</p>
+
+<p>[Coclico, Compendium, Diiijr,3; text: Tertius tonus sic incipit, et sic mediatur, et sic finitur. Euouae.] <a href="COCCOM_10GF.gif">[COCCOM 10GF]</a></p>
+
+<p><span class='pageNo'>[f.Diiijv]</span> Exemplum tertij toni.</p>
+
+<p>[Coclico, Compendium, Diiijv,1; text: Fuga in cantu Chorali in Diapente, post tres semibreues.] <a href="COCCOM_11GF.gif">[COCCOM 11GF]</a></p>
+
+<p>Tertia pars fugae super Choralem cantum.</p>
+
+<p>[Coclico, Compendium, Diiijv,2] <a href="COCCOM_11GF.gif">[COCCOM 11GF]</a></p>
+
+<p><span class='pageNo'>[f.Eir]</span> Aliud exemplum tertij toni, Fuga quinque uocum post duo tempora.</p>
+
+<p>[Coclico, Compendium, Eir,1; text: Morior ego, si non habuero unum filium nomine Samuelem.] <a href="COCCOM_12GF.gif">[COCCOM 12GF]</a></p>
+
+<p>Aliud exemplum tertij toni.</p>
+
+<p>[Coclico, Compendium, Eir,2; text: Fuga quinque uocum, post tria tempora.] <a href="COCCOM_12GF.gif">[COCCOM 12GF]</a></p>
+
+<p>DE QVARTO TONI.</p>
+
+<p>Inchoatio quarti toni.</p>
+
+<p>[Coclico, Compendium, Eir,3; text: Quartus tonus sic incipit, et sic mediatur, et sic finitur. Euouae. ij] <a href="COCCOM_12GF.gif">[COCCOM 12GF]</a></p>
+
+<p><span class='pageNo'>[f.Eiv]</span> Exemplum quarti toni.</p>
+
+<p>[Coclico, Compendium, Eiv,1; text: Fuga in Diapente post tempus per naturam acutam. Tertia pars super cantum Choralem quarti toni per naturam acutam.] <a href="COCCOM_13GF.gif">[COCCOM 13GF]</a></p>
+
+<p>Aliud exemplum quinque uocum.</p>
+
+<p>[Coclico, Compendium, Eiv,2; text: Fuga quarti toni cum tertio post quinque semibreues.] <a href="COCCOM_13GF.gif">[COCCOM 13GF]</a></p>
+
+<p><span class='pageNo'>[f.Eijr]</span> [Coclico, Compendium, Eijr,1] <a href="COCCOM_14GF.gif">[COCCOM 14GF]</a></p>
+
+<p>Aliud exemplum quinque uocum.</p>
+
+<p>[Coclico, Compendium, Eijr,2; text: Fuga post duo tempora.] <a href="COCCOM_14GF.gif">[COCCOM 14GF]</a></p>
+
+<p>EXEMPLVM DE quinto tono.</p>
+
+<p>[Coclico, Compendium, Eijr,3; text: Quintus tonus sic incipit, et sic mediatur, et sic finitur. Euouae. Seculorum, Amen.] <a href="COCCOM_14GF.gif">[COCCOM 14GF]</a></p>
+
+<p><span class='pageNo'>[f.Eijv]</span> Exemplum quinti toni. Fuga in Diapente post tres semibreues per bmollarem et naturam acutam.</p>
+
+<p>[Coclico, Compendium, Eijv; text: Terita pars super fugam Choralem quinti toni.] <a href="COCCOM_15GF.gif">[COCCOM 15GF]</a></p>
+
+<p><span class='pageNo'>[f.Eiijr]</span> Aliud exemplum quinti toni, ficti siue irregularis.</p>
+
+<p>[Coclico, Compendium, Eiijr; text: TENOR. DISCANTVS. BASSVS. ALTVS. VAGANS.] <a href="COCCOM_16GF.gif">[COCCOM 16GF]</a></p>
+
+<p><span class='pageNo'>[f.Eiijv]</span> DE SEXTO TONO.</p>
+
+<p>[Coclico, Compendium, Eiijv,1; text: Sextus tonus sic incipit, et sic mediatur, et sic finitur. Euouae. seculorum, Amen.] <a href="COCCOM_17GF.gif">[COCCOM 17GF]</a></p>
+
+<p>EXEMPLVM DE sexto tono regulari.</p>
+
+<p>[Coclico, Compendium, Eiijv,2; text: Fuga in Diapente post tempus. Tertia pars super fugam Choralem.] <a href="COCCOM_17GF.gif">[COCCOM 17GF]</a></p>
+
+<p><span class='pageNo'>[f.Eiiijr]</span> [Coclico, Compendium, Eiiijr,1] <a href="COCCOM_18GF.gif">[COCCOM 18GF]</a></p>
+
+<p>Aliud exemplum sexti toni. Fuga quatuor uocum post quinque semibreues.</p>
+
+<p>[Coclico, Compendium, Eiiijr,2] <a href="COCCOM_18GF.gif">[COCCOM 18GF]</a></p>
+
+<p>DE SEPTIMO TONO.</p>
+
+<p>[Coclico, Compendium, Eiiijr,3; text: Septimus tonus sic incipit, et sic mediatur, et sic finitur. Euouae. Seculorum, Amen.] <a href="COCCOM_18GF.gif">[COCCOM 18GF]</a></p>
+
+<p><span class='pageNo'>[f.Eiiijv]</span> EXEMPLVM DE septimo tono.</p>
+
+<p>[Coclico, Compendium, Eiiijv; text: Fuga in Subdiapente post tempus. Secunda pars super fugam Choralem septimi toni.] <a href="COCCOM_19GF.gif">[COCCOM 19GF]</a></p>
+
+<p><span class='pageNo'>[f.Fir]</span> DE OCTAVO TONO.</p>
+
+<p>[Coclico, Compendium, Fir,1; text: Octauus tonus sic incipit, et sic mediatur, et sic finitur. Euouae. Seculorum, Amen.] <a href="COCCOM_20GF.gif">[COCCOM 20GF]</a></p>
+
+<p>EXEMPLA DE OCTAVO, SIue septimo tono, et primo de irregulari.</p>
+
+<p>[Coclico, Compendium, Fir,2; text: Discantus primus. Tenor. Discantus secundus.] <a href="COCCOM_20GF.gif">[COCCOM 20GF]</a></p>
+
+<p><span class='pageNo'>[f.Fiv]</span> Exemplam octaui toni regularis.</p>
+
+<p>[Coclico, Compendium, Fiv; text: Canon. Per aliam uiam reuersi sunt in regionem suam. Tertia pars super fugam Choralem secundi toni regularis.] <a href="COCCOM_21GF.gif">[COCCOM 21GF]</a></p>
+
+<p><span class='pageNo'>[f.Fijr]</span> SECVNDA PARS HVIVS OPVSCVLI. DE MVSICA FIGVRALI.</p>
+
+<p>TRIA in hac secunda parte tractabo, quae Musici ferè omnes intractata reliquerunt. Primum de elegantia, ornatu aut pronunciatione in canendo. Secundum de regula contrapuncti. Tertium de modo componendi. Alia quae caeteri prolixe et bene tractarunt, tantum figuris et exemplis, definitionum cumulo relicto, demonstrabo, ne pueri diutius praeceptis inhaerentes, serius ad scopum bene canendi perueniant. Ex animo enim consultum cupio iuuentuti, ac ob hoc eam dehortari non desino, ne inhaereant prolixis scriptis Musicorum Mathematicorum, qui finxerunt tot signorum augmentationis et diminutionis genera, ex quibus nullus fructus, litis uero et discordiae plurimum oritur, ac res per se quidem clara difficillima redditur: Verum omnes animi uires adhibeant, ut ornate canant, et textum suo loco applicent, quia Musica à Deo condita est ad suauiter modulandum, non ad rixandum, ac uere Musicus est et habetur, non qui de numeris, prolationibus, signis ac ualoribus multa nouit garrire et scribere, sed qui doctè et dulciter canit, cuilibet notae debitam <span class='pageNo'>[f.Fijv]</span> syllabam applicans, ac ita componit ut laetis uerbis laetos addat numeros et econtra et caetera.</p>
+
+<p>In urbibus Belgicis, ubi cantoribus praemia dantur, ac ob praemia adipiscenda nullus non modus et labor adhibetur, quò ad scopum bene canendi perueniant, nulla scribitur aut dictatur Musica.</p>
+
+<p>Item Praeceptor meus Iosquinus de Pratis nullam unquam praelegit aut scripsit Musicam, breui tamen tempore absolutos Musicos fecit, quia suos discipulos non in longis et friuolis praeceptionibus detinebat, sed simul canendo praecepta per exercitium et practicam paucis uerbis docebat.</p>
+
+<p>Cum autem uideret suos utcunque in canendo firmos, belle pronunciare, ornatè canere, et textum suo loco applicare, docuit eos species perfectas et imperfectas, modumque canendi contra punctum super Choralem, cum his speciebus.</p>
+
+<p>Quos autem animaduertit acuti ingenij esse et animi laeti his tradidit paucis uerbis regulam componendi trium uocum, postea quatuor, quinque, sex et caetera, appositis semper exemplis, quae illi imitarentur. Non enim omnes ad componendi rationem aptos iudicauit Iosquinus, eos tantum eam docendos statuit, qui singulari naturae impetu ad pulcherrimam hanc artem ferrentur, quia multa dulciter composita esse aiebat, quibus similia aut meliora, uix unus è millibus componere posset.</p>
+
+<p><span class='pageNo'>[f.Fiijr]</span> Curet itaque puer ut se assidue exerceat in canendo, ac eos imitari discat, qui ex gutture, non ex naso uoces emittunt, quia praecepta tantum legendo aut audiendo, nunquam ad artem bene canendi perueniet.</p>
+
+<p>DE NOMINIBVS VALORIbusque notarum et pausis, earumque signis usitatis.</p>
+
+<p>Pausa demonstrat à cantu ad tempus cessandum esse, et quaelibet nota suam peculiarem habet pausam, quae ei correspondet ualore.</p>
+
+<p>Exempli gratia.</p>
+
+<p>[Coclico, Compendium, Fiijr; text: Maxima. Longa. Breuis. Semibreuis. Minima. Seminima. Fusa aut croma. Semicroma. Signum mantionis. Repetitionis.] <a href="COCCOM_22GF.gif">[COCCOM 22GF]</a></p>
+
+<p>EX SEQVENTI TABVLA POTErit puer notarum ualorem in quocumque signo positae fuerint, clarius perdiscere, quàm si multis uerbis ista docerentur.</p>
+
+<p><span class='pageNo'>[f.Fiijv]</span> [Coclico, Compendium, Fiijv; text: 36, 24, 18, 12, 9, 6, 3, 1, 8, 4, 2, Prolatio maioris perfecti. Imperfecti. Tempus perfectus. Imperfectus. Ad medium binarium. Modus perfectus. Tripla siue proportio.] <a href="COCCOM_22GF.gif">[COCCOM 22GF]</a></p>
+
+<p>Plura signa ne requiras, quae non sunt in usu. Modi maioris perfecti aut imperfecti nulla aut pauca exstant exempla, propter notarum odiosam retardationem. In sequentibus clarius haec explicabimus, ubi tractabitur de Tactu, et Mensura.</p>
+
+<p>DE LIGATVRIS TEMporis perfecti et imperfecti.</p>
+
+<p><span class='pageNo'>[f.Fiiijr]</span> ALijs signis raro utimur, scimus enim prolationem agere in semibreues, Tempus in breues, Modum in longas et maximas. Proportio, augmentatio, diminutio, in omnes pariter ius agendi habent. Sed haec magis canendo per practicam capiuntur, quàm per exempla, propter rudes tamen nonnulla adiecimus.</p>
+
+<p>[Coclico, Compendium, Fiiijr; text: 12, 10, 8, 6, 5, 4, 3, 2, 1, Tempus perfectum. Imperfectum.] <a href="COCCOM_23GF.gif">[COCCOM 23GF]</a></p>
+
+<p><span class='pageNo'>[f.Fiiijv]</span> DE PVNCTORVM diuersitate.</p>
+
+<p>PRimus punctus dicitur ualoris, siue additionis, et semper ualet notarum mediam partem, ubi positus fuerit in omnibus etiam signis augmentationis et diminutionis. Secundus diuisionis punctus est, et diuidit unam notam cum praecedente et sequente, et semper ponitur in medio duarum notarum. Tertius alterationis dicitur qui facit de una breui longam, de semibreui breuem, de minima semibreuem, et ponitur post praecedentem notam. Quartus uocatur imperfectionis punctus, qui imperficit longam, aut maximam siue breuem, aut semibreuem iuxta diminutionis, aut augmentationis signa, et ponitur ante praecedentem, aut sequentem imperfectam notam, secundum Musicorum opinionem, ut infra patebit per exempla.</p>
+
+<p>[Coclico, Compendium, Fiiijv; text: 12, 8, 6, 4, 3, 2, 1, Maxima longa.] <a href="COCCOM_23GF.gif">[COCCOM 23GF]</a></p>
+
+<p>Punctus ualoris.</p>
+
+<p><span class='pageNo'>[f.Gir]</span> [Coclico, Compendium, Gir; text: 1, 2, 3, 4, 5, 6, Modus minor. Tempus. Prolatio. Proportio. Punctus diuisionis. Punctus alterationis. Punctus perfectionis.] <a href="COCCOM_24GF.gif">[COCCOM 24GF]</a></p>
+
+<p><span class='pageNo'>[f.Giv]</span> [Coclico, Compendium, Giv; text: 1, 2, 3, 4, 5, 6, 10, 11, In hoc signo à breni longa imperficitur, breuis à semibreui, longa et maxima imperficiuntur. Semibreuis à minima, etiam in sesquialtera imperficitur.] <a href="COCCOM_25GF.gif">[COCCOM 25GF]</a></p>
+
+<p><span class='pageNo'>[f.Gijr]</span> DE PROLATIONIbus usitatis.</p>
+
+<p>TRipla, Sesquialtera, Hemiola temporis et prolationis maxime in usu sunt apud Musicos, et idem de his est iudicium et eadem mensura, non tamen eodem modo pinguntur, ut patebit in exemplis sequentibus et tabula, ubi proportiones usitatas et non usitatas pinximus.</p>
+
+<p>Hic consultum duxi admonere adolescentes, ne diu inhaereant libris Mathematicorum Musicorum, qui alia infinita signa excogitarunt, et animos adolescentum à uero Musices usu abalienarunt, rem per se quidem claram obscuram reddentes, ut cum multa scribunt de proportionibus minoris inaequalitatis. Item cum in sesquitertia ponunt quatuor semibreues pro tribus, in quatrupla quatuor pro una, in quintupla quinque, in sextupla sex, in septupla septem, in octupla octo, et caetera. Quia diutius his inhaerere superuacaneum est. Vt tamen puer quando haec occurrunt, de his iudicare possit figuras aliquarum, quae maxime in usu sunt, adposuimus simul cum exemplis.</p>
+
+<p>TABVLA PRO FORMA prolationum cognoscenda.</p>
+
+<p><span class='pageNo'>[f.Gijv]</span> [Coclico, Compendium, Gijv,1; text: 1, 2, 3, 4, 5, 6, 7, 8, Diminutio. augmentatio dupla. Tripla. Sesquialtera. Hemiola temporis. Et prolationis. Sesquitertia. Quadrupla. Quintupla. Sextupla. Septupla. Octupla.] <a href="COCCOM_26GF.gif">[COCCOM 26GF]</a></p>
+
+<p>Qui plures Augmentationes aut Diminutiones habere uoluerit, legat Franchinum, et alios et cetera.</p>
+
+<p>Exemplum quatuor punctorum, et prolationum in unum.</p>
+
+<p>[Coclico, Compendium, Gijv,2; text: Tenor. Prolatio imperfect, siue sesquialtera. Punctus diuisionis, alterationis, perfectionis, et ualoris. 3, 2] <a href="COCCOM_26GF.gif">[COCCOM 26GF]</a></p>
+
+<p><span class='pageNo'>[f.Giijr]</span> [Coclico, Compendium, Giijr; text: Altus. Proportio siue tripla. Bassus. Hemiola temporis siue maioris. Discantus. Hemiola prolationis, siue minoris.] <a href="COCCOM_27GF.gif">[COCCOM 27GF]</a></p>
+
+<p>Sequitur exemplum de dupla.</p>
+
+<p><span class='pageNo'>[f.Giijv]</span> [Coclico, Compendium, Giijv,1; text: Salue. Augmentatio. Diminutio. Ad usum. TENOR. DISCANTVS. BASSVS.] <a href="COCCOM_28GF.gif">[COCCOM 28GF]</a></p>
+
+<p>Aliud exemplum quatuor uocum de dupla.</p>
+
+<p>[Coclico, Compendium, Giijv,2; text: 2, 1, Tenor. Augmentatio. ad naturam] <a href="COCCOM_28GF.gif">[COCCOM 28GF]</a></p>
+
+<p><span class='pageNo'>[f.Giiijr]</span> [Coclico, Compendium, Giiijr; text: 1, 2, crescit. Ad usum, Augmentatio. Diminutio. BASSUS. DISCANTVS. ALTVS.] <a href="COCCOM_29GF.gif">[COCCOM 29GF]</a></p>
+
+<p><span class='pageNo'>[f.Giiijv]</span> Aliud exemplum quatuor uocum de dupla.</p>
+
+<p>[Coclico, Compendium, Giiijv; text: Ad usum. Augmentatio. Diminutio. Victimae Paschali. Tenor. Discantus. Vagans. Secundum usum, crescit, pariter.] <a href="COCCOM_30GF.gif">[COCCOM 30GF]</a></p>
+
+<p><span class='pageNo'>[f.Hir]</span> [Coclico, Compendium, Hir,1; text: ad usum.] <a href="COCCOM_31GF.gif">[COCCOM 31GF]</a></p>
+
+<p>Aliud exemplum. Duo.</p>
+
+<p>[Coclico, Compendium, Hir,2; text: 1, 2, 3, 4, 6, 8, TENOR. DISCANTVS. Diminutio. Sextupla contra unam, Sesquialtera siue Hemiola, sesquitertia. Vna contra quatuor. Octo contra unam. Ad usum] <a href="COCCOM_31GF.gif">[COCCOM 31GF]</a></p>
+
+<p><span class='pageNo'>[f.Hiv]</span> Aliud exemplum. Duo.</p>
+
+<p>[Coclico, Compendium, Hiv,1; text: 4/1, 1/4, 4/3, 3/2, 10/4, 1/2, 5/4, 8/1, 1/8, 3, Tenor. Bassus. Ad usum, Augmentatio. Quadrupla, Vna contra quatuor. Sesquitertia, Tripla, Decem contra quatuor, quinque contra quatuor. Octupla, Vna contra octo.] <a href="COCCOM_32GF.gif">[COCCOM 32GF]</a></p>
+
+<p>Exemplum super Pange lingua, trium uocum.</p>
+
+<p>[Coclico, Compendium, Hiv,2; text: 2/1, 4/1, Augmentatio. Ad usum, Quadrupla] <a href="COCCOM_32GF.gif">[COCCOM 32GF]</a></p>
+
+<p><span class='pageNo'>[f.Hijr]</span> [Coclico, Compendium, Hijr; text: 6/1, 8/1, 2/1, 1/4, 4/1, 3, Sextupla, Octupla, Ad usum. Discantus. Augmentatio. Vna contra quatuor, Quadrupla, Diminutio. Vagans. Sesquialtera, Vna contra octo] <a href="COCCOM_33GF.gif">[COCCOM 33GF]</a></p>
+
+<p><span class='pageNo'>[f.Hijv]</span> DE TACTV ET MENSVRA, diminutionis et augmentationis.</p>
+
+<p>DIfferentia est inter tactum et mensuram. Nam olim ueteres habebant tres tactus. Primum prolationis, siue triplae: [Cd,Sv,Svcd,O3,Bv,Sv] Tres semibreues, uel minimas pro tactu. Secundum binarij per breuem [Cdim,Bv,Sv,Sv], Tertium semibreuis [C,Sv,Svcd,Svcd] qui nunc est communis tactus in omnibus signis siue una pars habeat ad medium [Cdim,CL,2/1], altera uero prolationem [Od,Cd] aut tempus [O,C], siue modum [O2,C2], uel triplam [O3,C3,Cdim3] Cuius rei multa extant exempla difficilia cantatu, uidelicet cum una pars habeat triplam, altera aut binarium aut tempus, siue aliud signum. Sed haec nonnulli curiosius inuestigant et perquirunt, quàm ut simplicem usum ornate et dilucide canendi sequantur, quod quidem non omnino uitupero, neque satis laudo. Bonum est omnia scire, sed haec ad perspicue canendum nihil conducunt, uerum magis ad disceptandum et rixandum. Qui cupiunt exempla, requirant in contrapuncti exemplis, super salue sancta parens, ubi tractabitur de contrapuncto, et compositione. Item in stabat mater Iosquini quinque uocum, et in exemplo Heinrici Isaac, quod alij posuerunt.</p>
+
+<p>De mensura autem uarij uaria dixere, aliqui asseruerunt esse triplicem, alij quadruplicem, aut septuplicem. <span class='pageNo'>[f.Hiijr]</span> Ego uero cum Iosquino, et suis sectatoribus consentio esse septuplicem, sine qua omnis compositio est uiciosa et inutilis. Prima dicitur prolationis [Od,Cd] et in semibreues agit [Sv,Sv,Sv], secunda est tempus [O,C] quòd agit per breues [Bv,Bv,Bv]. Tertia uero modus [O2,C2] per longas agens [Lv,Lv,Lv]. Quarta est numerus binarius [Cdim] siue secundum Iosquinum ad medium [CL,d,2/1,C2], et in duas semibreues agit [Sv,Sv]. Quinta est tripla, et sesquialtera aut Hemiola temporis et prolationis, ac in tres semibreues, uel minimas agit [Sv,Sv,Sv,Svcd,Svcd,Svcd]. Sexta est augmentationis. Septima diminutionis, quae in omnes pariter ius agendi (ut supra dictum est) habent, iuxta numerum suum signi designati. Exempla exstant in Franchino, et alijs prolixis Theoricis Musicis. Item quae posui exempla de prolationibus huc applicari possunt</p>
+
+<p><span class='pageNo'>[f.Hiijv]</span> DE ELEGANTIA, ET ORNAtu, aut pronuntiatione in canendo.</p>
+
+<p>PVero discere cupienti artem bene, et eleganter canendi, primum consulo, ut Praeceptorem eligat, qui naturali quodam instinctu laete ac suauiter canit, ac clausularum lenocinijs Musicam laetam reddit, procul semotis screationibus, clamoribus ac alijs ineptijs, nobilissimam Musicam in odium hominum inducentibus. Qualem enim quisque Praeceptorem nactus est in iuuentute, talis efficitur cantor, quod uidere licet in Belgicis, Hannoniensibus et Gallis, qui singulare quoddam donum in canendo prae alijs nationibus habent. Vixerunt apud hos Musicorum principes plurimi, Iosquinus de Pres, Petrus de La rue, Iacobus Scampion, et alij, qui admirandis, et suauissimis clausularum elegantijs usi sunt, horum uirorum relictus odor in scholis illarum regionum adhuc reseruatur, ac à Musices studiosis hauritur, dum discipuli Praeceptores fideliter imitantur. Adhibeat itaque curam Germanicus puer in imitando doctum Praeceptorem, dum uox ei puerilis est, quia mutata uoce puerili, difficile aut raro ad bene canendi artem perueniet, in iuuentute uero appraehensa nunquam tradet obliuioni.</p>
+
+<p>Quandoquidem uero in his regionibus perpauci sunt, qui praecipuorum ueterum Musicorum <span class='pageNo'>[f.Hiiijr]</span> in canendo suauitatem calleant, consultum duxi aliquot exempla adscribere, quae ad omnes clausulas possint applicari, dum silent syllabae, aut uerba quae notis supponuntur.</p>
+
+<p>Sed arduum in primis est gutture ista pronunciare, nisi multum insudet ac laboret puer, ac uim quo dammodo sibi faciat, et subinde indies secum repetat usquequo notitiam et usum parauerit in hac arte, ut ne quidem linguam moueat, sed ex gutture recte et ornate pronunciet. Haec est prima clausula quam Iosquinus docuit suos.</p>
+
+<p>[Coclico, Compendium, Hiiijr; text: Simplex, elegans, aliud, idem] <a href="COCCOM_34GF.gif">[COCCOM 34GF]</a></p>
+
+<p><span class='pageNo'>[f.Hiiijv]</span> [Coclico, Compendium, Hiiijv,1; text: idem] <a href="COCCOM_34GF.gif">[COCCOM 34GF]</a></p>
+
+<p>Et sic in omnibus alijs cadentibus clausulis canere possumus.</p>
+
+<p>[Coclico, Compendium, Hiiijv,2; text: Simplex cantus, elegans, communis cantus, caro cum sale et sinapio condita. Planus] <a href="COCCOM_35GF.gif">[COCCOM 35GF]</a></p>
+
+<p><span class='pageNo'>[f.Iir]</span> [Coclico, Compendium, Iir; text: crudus, conditus sale, caro, condimentum, simplex, coloratus, elegans.] <a href="COCCOM_35GF.gif">[COCCOM 35GF]</a></p>
+
+<p><span class='pageNo'>[f.Iiv]</span> Elegantia super cantionem Languir me fault.</p>
+
+<p>[Coclico, Compendium, Iiv; text: DISCANTVS. Contio Gallica.] <a href="COCCOM_36GF.gif">[COCCOM 36GF]</a></p>
+
+<p><span class='pageNo'>[f.Iijr]</span> [Coclico, Compendium, Iijr; text: BASSVS. Languir me fault.] <a href="COCCOM_37GF.gif">[COCCOM 37GF]</a></p>
+
+<p><span class='pageNo'>[f.Iijv]</span> Aliud exemplum Duo.</p>
+
+<p>[Coclico, Compendium, Iijv; text: DISCANTVS. Cest a grant tort.] <a href="COCCOM_38GF.gif">[COCCOM 38GF]</a></p>
+
+<p><span class='pageNo'>[f.Iiijr]</span> [Coclico, Compendium, Iiijr; text: BASSVS. Cest a grant tort.] <a href="COCCOM_39GF.gif">[COCCOM 39GF]</a></p>
+
+<p><span class='pageNo'>[f.Iiijv]</span> Aliud exemplum. Fuga quatuor uocum ex una.</p>
+
+<p>[Coclico, Compendium, Iiijv; text: Tendit ad artua uirtus. ELEGANS.] <a href="COCCOM_40GF.gif">[COCCOM 40GF]</a></p>
+
+<p>Verum in Basso haec fieri non possunt, nisi tempore et loco, ut si contingat Tenorem descendere inferius Basso et caetera. Quia Bassus est fundamentum omnium aliarum partium, qui cum non manet integer, occurrunt speties in cantu aures offendentes. Quemadmodum in contrapuncto fit, quando Bassus non bene canitur, aut pronuntiatur, uel male intonatur.</p>
+
+<p><span class='pageNo'>[f.Iiiijr]</span> DE REGVLA CONTRAPVNCTI, secundum doctrinam Iosquini de Pratis.</p>
+
+<p>MOdus canendi contrapunctum in Germania rarus est, haud dubie non aliam ob causam, quàm cum pulcherrima haec ars, diuturno usu, ac labore maximo perdiscatur, nec praemia eam callentibus constituta sint: perpauci ad hanc discendam animum applicent, solide se in Musica doctos existimantes, si uariorum signorum, prolationum, definitionum et caetera noticiam habuerint. Aut si cantilenam in anni spatio componant, quam uix canere possint.</p>
+
+<p>Ac si quis contrapuncti mentionem faciat, ac in perfecto Musico requirat, hunc odio plusquam canino lacerant, impudenter affirmantes, in contrapuncto multas prauas et corruptas species occurrere, quae aures offendant, et in compositionibus locum non habent. Quibus respondeo: me concedere contrapunctum aures offendere, uerum asininas, quibus nihil praeter eum quem ipsi aedunt rugitum, aut quod rugitui consonum est, uolupe est. Si enim hominum aures offenderet, cur non magis Iosquini, Petri de la Rue, et eorum successorum, quibus hae fuerunt delicatissimae? Cur non Imperatorum, Regum, Principum, Pontificum, qui huius artis ignaros in Cantorum suorum cumulum recipere dedignantur?</p>
+
+<p><span class='pageNo'>[f.Iiiijv]</span> Sed scientia non habet inimicum, nisi ignorantem, et cum huius artis contemptores Musices usum ignorent, libenter multos inertiae suae socios cumularent.</p>
+
+<p>Horum peruersum iuditium, ut igniuoma execretur puer, et cum ueris ac Principibus cantoribus, pro uero habeat se sine scientia, et usu contrapuncti nunquam perfectum Musicum futurum. Adhibeat itaque puer uires suas omnes, in arte hac pulcherrima addiscenda.</p>
+
+<p>Quatuor sunt species in contrapuncto licitae, et bene sonantes, cum suis aequiualentibus, Duae perfectae, scilicet Vnisonus et Quinta.</p>
+
+<p>Imperfectae etiam duae, Tertia et Sexta. Et quemadmodum scala siue manus non habet finem, sed hominis uox, ita species duplicantur quantum uox possit ascendere et descendere. Nam unisonus, octaua, quintadecima, uigesima secunda, idem sonant, Similiter quinta, duodecima, decimanona, uigesimasexta, idem sonant.</p>
+
+<p>Et cum istis speciebus perfectis non potestis ascendere, neque descendere, cum Tenor ascendit uel descendit, nec facere fa contra mi, nisi nota fuerit ligata.</p>
+
+<p>Et debes finire, et incipere ab istis spetiebus tuum contrapunctum, sed ista regula est arbitaria.</p>
+
+<p>Nec potestis facere duas speties perfectas inuicem sequentes, uidelicet duas octauas, aut duas quintas, nisi Tenor ascendat uel descendat.</p>
+
+<p><span class='pageNo'>[f.Kir]</span> Imperfectae species, quae sunt tertia et sexta, habent suas aequiualentes, et idem sonantes, Nam 3. 10. 17. 24. idem sonant.</p>
+
+<p>Sexta, 13. 20. 27. idem sonant, et uox humana uix altius aut inferius ferri potest.</p>
+
+<p>Et cum istis imperfectis spetiebus potestis ascendere et descendere, cum Tenor ascendit uel descendit, et facere fa contra mi, et possumus facere tres aut quatuor ex istis sequentes inuicem, ut tres tertias aut tres sextas et caetera.</p>
+
+<p>Et cum feceris quatuor semiminimas pro una semibreui, prima et tertia debent esse bonae, uel maxima pars illarum. Et in cadentibus, aut ligaturis notarum possumus facere secundam, quartam, septimam, undecimam, quartamdecimam et caetera. Vt infra patebit.</p>
+
+<p>FIGVRAE EX QVIBVS PVER speties perfectas et imperfectas, facile perdiscere poterit.</p>
+
+<p>Duae perfectae speties sunt.</p>
+
+<p>Vnisonus. Idem sonant. 8, 15, 22</p>
+
+<p>Quinta. Idem sonant. 12, 19, 26.</p>
+
+<p><span class='pageNo'>[f.Kiv]</span> Duae speties imperfectae.</p>
+
+<p>Tertia. Idem sonant. 10, 17, 24</p>
+
+<p>Sexta. Idem sonant. 13, 20, 27.</p>
+
+<p>Cognitis his spetiebus et doctrina, quomodo his uti debeamus: Comparet sibi puer, tabulam lapideam, in qua facile scribitur, et deletur, ac sumat Tenorem ex cantu Chorali, et ita per speties primo faciat notam contra notam.</p>
+
+<p>Cum autem utcunque fuerit assuetus notam contra notam ex tempore facere, et practicus fuerit, tunc poterit ad contrapunctum fractum accedere. In hoc ubi etiam exercitatus fuerit, relinquat tabulam lapideam, et discat ex tempore canere, super Choralem cantum, aut figuralem ex libro aut scedula. Sed hic continua exercitatione opus est.</p>
+
+<p>Vt puer commode haec discere possit, addidi de omnibus exempla.</p>
+
+<p><span class='pageNo'>[f.Kijr]</span> PRIMVM EXEMPLVM, de contrapuncto simplici.</p>
+
+<p>[Coclico, Compendium, Kijr,1; text: TENOR. Volo pater, ut ubi ego sum, ibi sit et minister meus. Exemplum bonum.] <a href="COCCOM_40GF.gif">[COCCOM 40GF]</a></p>
+
+<p>Addidi huic bono exemplo etiam et prauum, ut puer sciat quid uitare debeat in contrapuncto, nempe ne faciat duas quintas, aut duas octauas immediate inuicem sequentes, Quartam septimam et caetera, neque species perfectas ascendendo, uel descendendo cum Tenore.</p>
+
+<p>[Coclico, Compendium, Kijr,2; text: 5, 4, 8, 2, 7] <a href="COCCOM_40GF.gif">[COCCOM 40GF]</a></p>
+
+<p><span class='pageNo'>[f.Kijv]</span> Aliud exemplum.</p>
+
+<p>[Coclico, Compendium, Kijv,1; text: TENOR. Inpatientia uestra, possidebitis animas uestras.] <a href="COCCOM_41GF.gif">[COCCOM 41GF]</a></p>
+
+<p>Exemplum licitum.</p>
+
+<p>[Coclico, Compendium, Kijv,2; text: In patientia uestra.] <a href="COCCOM_41GF.gif">[COCCOM 41GF]</a></p>
+
+<p>Exemplum illicitum.</p>
+
+<p>[Coclico, Compendium, Kijv,3; text: 5, 8, 7, 11, 9, 6]</p>
+
+<p>Alius Tenor. <a href="COCCOM_41GF.gif">[COCCOM 41GF]</a></p>
+
+<p>[Coclico, Compendium, Kijv,4; text: In omnibus requiem quaesiui, et non inueni, et transiui, et obdormiui.] <a href="COCCOM_41GF.gif">[COCCOM 41GF]</a></p>
+
+<p><span class='pageNo'>[f.Kiijr]</span> Exemplum ualde bonum.</p>
+
+<p>[Coclico, Compendium, Kiijr,1; text: In omnibus requiem.] <a href="COCCOM_42GF.gif">[COCCOM 42GF]</a></p>
+
+<p>Exemplum de colorato contrapuncto, seu figurato.</p>
+
+<p>[Coclico, Compendium, Kiijr,2; text: In omnibus requiem.] <a href="COCCOM_42GF.gif">[COCCOM 42GF]</a></p>
+
+<p>Exemplum malum figuratum.</p>
+
+<p>[Coclico, Compendium, Kiijr,3] <a href="COCCOM_42GF.gif">[COCCOM 42GF]</a></p>
+
+<p><span class='pageNo'>[f.Kiijv]</span> Aliud exemplum.</p>
+
+<p>[Coclico, Compendium, Kiijv,1; text: TENOR. Salue sancta parens, secundi toni regularis.] <a href="COCCOM_43GF.gif">[COCCOM 43GF]</a></p>
+
+<p>Simplex contrapunctum, super salue sancta parens.</p>
+
+<p>[Coclico, Compendium, Kiijv,2] <a href="COCCOM_43GF.gif">[COCCOM 43GF]</a></p>
+
+<p>Contrapunctus coloratus uariarum proportionum, super salue sancta parens.</p>
+
+<p>[Coclico, Compendium, Kiijv,3] <a href="COCCOM_43GF.gif">[COCCOM 43GF]</a></p>
+
+<p><span class='pageNo'>[f.Kiiijr]</span> [Coclico, Compendium, Kiiijr; text: 3/1, 8/1, 4/1, 6/1, 1/8, Sesquialtera, Octupla, Quadrupla, Sextupla, Vna contra 8. 3] <a href="COCCOM_44GF.gif">[COCCOM 44GF]</a></p>
+
+<p><span class='pageNo'>[f.Kiiijv]</span> Aliud exemplum de contrapuncto, in prolatione maioris perfecti.</p>
+
+<p>[Coclico, Compendium, Kiiijv; text: Quadrupla. 3] <a href="COCCOM_45GF.gif">[COCCOM 45GF]</a></p>
+
+<p><span class='pageNo'>[f.Lir]</span> [Coclico, Compendium, Lir; text: 3] <a href="COCCOM_45GF.gif">[COCCOM 45GF]</a></p>
+
+<p><span class='pageNo'>[f.Liv]</span> Aliud exemplum.</p>
+
+<p>[Coclico, Compendium, Liv,1; text: 4/3, 1/8, 4/1, 8/1, 1/4, 2/1, 3, TENOR. Victime. Vna pro octo, Quadrupla, Sesquialtera, Octupla, Vna contra quatuor, Diminutio] <a href="COCCOM_46GF.gif">[COCCOM 46GF]</a></p>
+
+<p>Tempus imperfectum, crescit contra ad medium, ut patet in Tenore.</p>
+
+<p>[Coclico, Compendium, Liv,2] <a href="COCCOM_46GF.gif">[COCCOM 46GF]</a></p>
+
+<p><span class='pageNo'>[f.Lijr]</span> [Coclico, Compendium, Lijr; text: 3, 6/1, 2/3, 4/3, Sesquialtera, Ad usum, Diminutio, Prolatio maioris imperfecti. Sextupla, Tripla, Sesquitertia] <a href="COCCOM_47GF.gif">[COCCOM 47GF]</a></p>
+
+<p><span class='pageNo'>[f.Lijv]</span> Qui plura exempla desiderat, quaerat ea in priori parte. Quia exempla posita de tonis, huc possunt applicari.</p>
+
+<p>DE COMPOSITIONIS REGVla, et notarum sincopis, et ligaturis.</p>
+
+<p>PLVres fuerunt qui se componistas iactarunt, quòd secuti regulas et species compositionis, non tamen habito usu contrapuncti, multa composuerunt, hos Dominus Iosquinus uilipendit, ac ludibrio habuit, dicens eos uelle uolare sine alis.</p>
+
+<p>Primum itaque quod in bono compositore desideratur, est, ut contrapunctum ex tempore canere sciat. Quo sine nullus erit.</p>
+
+<p>Secundum, ut ad componendum magno ducatur desiderio, ac impetu quodam naturali ad compositionem pellatur, adeo ut nec cibus nec potus ei sapiat, ante absolutam cantilenam, nam una hora plus conficitur, cum impetus ille naturalis sic urget, quàm alias in integro mense. Inutiles itaque sunt componistae, quibus desunt singulares hi motus.</p>
+
+<p>Tertium ut sciat species perfectas et imperfectas suo loco applicare, ut in regula contrapuncti doctum est. Nam regula compositionis à regula contrapuncti parum differt. Compositionis regula liberior <span class='pageNo'>[f.Liijr]</span> est, et in hac plura licent quàm in contrapuncto? Nam malae species: Secunda uidelicet, quarta, et suae aequiualentes sunt optimae in compositionibus, dum modo octaua, aut sexta in inferiore parte excuset illas, et dicitur gallice Faubordon, id est, quòd malae species, quae sunt contra partem superiorem excusantur, per uocem inferiorem sextis seu octauis, ut hic patet per mea exempla, et in multis alijs compositionibus Iosquini.</p>
+
+<p>Exemplum in quo sexta et octaua excusant quartam.</p>
+
+<p>[Coclico, Compendium, Liijr; text: TENOR. DISCANTVS. ALTVS. BASSVS. Vanitas uanitatum, et omnia uanitas.] <a href="COCCOM_48GF.gif">[COCCOM 48GF]</a></p>
+
+<p><span class='pageNo'>[f.Liijv]</span> Exemplum aliud quatuor uocum, Faulbourdon.</p>
+
+<p>[Coclico, Compendium, Liijv; text: TENOR. DISCANTVS. ALTVS. BASSVS. Dixit Dominus Domino meo, sede à dextris meis.] <a href="COCCOM_48GF.gif">[COCCOM 48GF]</a></p>
+
+<p><span class='pageNo'>[f.Liiijr]</span> Exemplum quinque uocum, Faulbourdon.</p>
+
+<p>[Coclico, Compendium, Liiijr; text: TENOR. VAGANS. DISCANTVS. ALTVS. BASSVS. Dixit Dominus Domino meo, sede à dextris meis.] <a href="COCCOM_49GF.gif">[COCCOM 49GF]</a></p>
+
+<p><span class='pageNo'>[f.Liiijv]</span> Item in compositione licet ascendere et descendere cum speciebus perfectis, et facere fa contra mi, praeponendo b, quod in contrapuncto non licet.</p>
+
+<p>In compositione etiam summe cauendum est, ne ponantur duae perfectae species immediate inuicem sequentes, scilicet duae octauae, aut duae quintae, uel earum aequiualentes, nisi una uox ascendat, altera uero descendat.</p>
+
+<p>Etiam euitandae sunt sextae super octauam et decimam,quia satis durae sunt. Nonnulli haec non uitant in ligaturis, quia ibi durities non sentitur.</p>
+
+<p>Sunt qui asserant unisonum requirere tertiam, Tertiam autem quintam, Quintam uero sextam, Sextam etiam octauam, Octauam quintam aut decimam. Sed Iosquinus haec non obseruauit.</p>
+
+<p>EXEMPLVM IN QVO OSTENditur licere in compositione, ut quis ascendat uel descendat cum speciebus perfectis, et facere fa contra mi, apposito bmolli.</p>
+
+<p>[Coclico, Compendium, Liiijv; text: TENOR. O uos omnes.] <a href="COCCOM_50GF.gif">[COCCOM 50GF]</a></p>
+
+<p><span class='pageNo'>[f.Mir]</span> [Coclico, Compendium, Mir; text: DISCANTVS. ALTVS. BASSVS. O uos omnes.] <a href="COCCOM_50GF.gif">[COCCOM 50GF]</a></p>
+
+<p><span class='pageNo'>[f.Miv]</span> EXEMPLA EX QVIBVS PVER poterit considerare, quo modo compositio inchoanda sit.</p>
+
+<p>[Coclico, Compendium, Miv; text: PRIMA VOX. SECVNDA VOX. TERTIA VOX. Licitae. Durae. Illicitae.] <a href="COCCOM_51GF.gif">[COCCOM 51GF]</a></p>
+
+<p><span class='pageNo'>[f.Mijr]</span> Exemplum quatuor uocum.</p>
+
+<p>[Coclico, Compendium, Mijr; text: PRIMA VOX. SECVNDA VOX. TERTIA VOX. QVARTA VOX. Licita. Dura. Absurda.] <a href="COCCOM_51GF.gif">[COCCOM 51GF]</a></p>
+
+<p><span class='pageNo'>[f.Mijv]</span> Exemplum quinque uocum.</p>
+
+<p>[Coclico, Compendium, Mijv; text: PRIMA VOX. SECVNDA VOX. TERTIA VOX. QVARTA VOX. QVINTA VOX. Licita. Dura. Illicita.] <a href="COCCOM_52GF.gif">[COCCOM 52GF]</a></p>
+
+<p><span class='pageNo'>[f.Miijr]</span> Exemplum 6.7.8. uocum.</p>
+
+<p>[Coclico, Compendium, Miijr; text: PRIMA VOX. SECVNDA VOX. TERTIA VOX. QVARTA VOX. QVINTA VOX. SEXTA VOX. Licitae. Absurdae. 7. uocum. 7.8. uocum] <a href="COCCOM_53GF.gif">[COCCOM 53GF]</a></p>
+
+<p><span class='pageNo'>[f.Miijv]</span> EXEMPLVM GENERALE OMnium specierum, quibus uti possumus in quantum uox hominis ascendere, et descendere potest.</p>
+
+<p>[Coclico, Compendium, Miijv; text: Exemplum per quartam. Exemplum per 3. Exemplum per tertiam. 1, 3, 4, 5, 6, 8, 10, 11, 12, 13, 15, 17, 18, 19, 20, 22, 24, 25, 26, 27, 29] <a href="COCCOM_54GF.gif">[COCCOM 54GF]</a></p>
+
+<p><span class='pageNo'>[f.Miiijr]</span> Sed hic admonendum duxi adolescentes, ne seipsos fallant, et sibi persuadeant, si regulas has sectentur sine practica, ac diuturno usu, ad compositionis artem peruenire se posse. Longo exercitio opus est, et doctiores imitandi sunt.</p>
+
+<p>Quartum quod in componista requiritur, est, ut postquam species firmiter, et ad unguem tenuerit, attendat, cuius nam toni compositurus sit cantum, quia dedecori et ignorantiae datur Musico, si tonos regulares aut irregulares ignoret. Summe itaque curabit, ne in Tenore tonus excedat limites suae naturae, nec faciat cantum diuagantem incantabilem, modestia et dulcedine carentem, sed magis quaerat Symphoniam, quàm profundam, extraneam et inusitatam Musicam, et ut magis placeat audientibus, quàm rixandi occasionem praebeat.</p>
+
+<p>Quintum est, ut attendat componista signorum mensuram et tactum, scilicet prolationis [Od,Sv,Cd], Modi [O,Lv,C2], Temporis [Sv,Bv,C], binarij [Cdim,Bv,CL], Proportionis 3, Augmentationis, Diminutionis, quae habentius agendi pariter iuxta (ut supra diximus) naturam signi appositi, quia si quisque in fine cuiuslibet cantus non obseruat mensuram, aut tactum ipsius signi iure appositi, committit uitium grande, et toto coelo errat, et suo iudicio (quo prodit suam inscitiam in Musica) quasi sorex perit.</p>
+
+<p>Sextum, quod in componista requiritur, est, ut bene ruminet textum, qualem tonum, aut Harmoniam <span class='pageNo'>[f.Miiijv]</span> exigat, eundemque textum ornate suo loco applicet, quia sunt plus quàm caeci palpantes in tenebris, qui uerbis consolatorijs, et gaudij plenis addunt tristes numeros, ac uicissim moestis uerbis laetas melodias applicant.</p>
+
+<p>Maxime etiam Musico uitio datur, si breuem syllabam addat longae notae. Quia Musica multum commertij cum poesi habet. Et non uideo, quid magis desiderari possit in Musicis Belgicis, quàm quòd syllabarum quantitas pluribus incognita sit.</p>
+
+<p>Habebit itaque puer curam, ut hoc uicium caueat.</p>
+
+<p>Septimum et ultimum est, ut prospiciat, si possibile fuerit, quòd una uox aliam sequatur per fugam in inchoatione cantus. Haec fermè fiunt per Quintam, Sextam, et Octauam, et Decimam in ligaturis et Syncopis, ut infra per exempla Duarum, Trium, Quatuor, Quinque, Sex, Septem uocum ostendemus. Nam huiusmodi Syncopis et ligaturis utuntur nunc in Italia, Gallia, et Flandria eruditissimi Musici. Et qui se illis socium in canendo adiungit, nisi fuerit practicus tenens haec firmiter, cito succumbet, atque cum rubore discedet, ac ridebitur.</p>
+
+<p>Et iste mos canendi à paucis annis introductus est, et inuentus, ac ob id pauci sunt sic ornate canentes, et componentes. Inquirendus itaque est (ut supra dixi) peritus Praeceptor in iuuentute, qui bene intonet et pronunciet, et artem hanc bene probeque calleat, <span class='pageNo'>[f.Nir]</span> et intelligat. Hunc omnibus uiribus imitabitur puer in canendo, et componendo, si modo Musicus perfectus fieri uolet. Nam etiamsi per decennium Musicos libros legat, nihil proficiet sine usu et practica.</p>
+
+<p>Exemplum duarum uocum in Diapente.</p>
+
+<p>[Coclico, Compendium, Nir; text: Omnis arbor.] <a href="COCCOM_54GF.gif">[COCCOM 54GF]</a></p>
+
+<p><span class='pageNo'>[f.Niv]</span> Aliud exemplum. Duo.</p>
+
+<p>[Coclico, Compendium, Niv; text: TENOR. Pleni sunt coeli.] <a href="COCCOM_55GF.gif">[COCCOM 55GF]</a></p>
+
+<p><span class='pageNo'>[f.Nijr]</span> [Coclico, Compendium, Nijr; text: DISCANTVS. Pleni sunt coeli.] <a href="COCCOM_56GF.gif">[COCCOM 56GF]</a></p>
+
+<p><span class='pageNo'>[f.Nijv]</span> Aliud exemplum. Duo.</p>
+
+<p>[Coclico, Compendium, Nijv; text: DISCANTVS. TENOR. Pleni sunt coeli.] <a href="COCCOM_57GF.gif">[COCCOM 57GF]</a></p>
+
+<p><span class='pageNo'>[f.Niijr]</span> Exempla trium uocum in Diapente.</p>
+
+<p>[Coclico, Compendium, Niijr,1; text: Christus spes mea, et meus protector, Iesus salus mea etiam seruator, Humilis seruator sibi semper ero. ij, Tenor. Bassus. Discantus.] <a href="COCCOM_58GF.gif">[COCCOM 58GF]</a></p>
+
+<p>Aliud trium uocum in Diapente, et Subdiatesseron.</p>
+
+<p>[Coclico, Compendium, Niijr,2; text: Et expecto resurectionem, ij, mortuorum.] <a href="COCCOM_58GF.gif">[COCCOM 58GF]</a></p>
+
+<p><span class='pageNo'>[f.Niijv]</span> Aliud exelpla trium uocum.</p>
+
+<p>[Coclico, Compendium, Niijv; text: DISCANTVS. TENOR. Pleni sunt coeli.] <a href="COCCOM_59GF.gif">[COCCOM 59GF]</a></p>
+
+<p><span class='pageNo'>[f.Niiijr]</span> [Coclico, Compendium, Niiijr; text: BASSVS. Pleni sunt coeli.] <a href="COCCOM_60GF.gif">[COCCOM 60GF]</a></p>
+
+<p><span class='pageNo'>[f.Niiijv]</span> Exemplum quatuor uocum, iuxta fugam simplicium.</p>
+
+<p>[Coclico, Compendium, Niiijv; text: DISCANTVS. TENOR. A solis ortus cardine.] <a href="COCCOM_61GF.gif">[COCCOM 61GF]</a></p>
+
+<p><span class='pageNo'>[f.Oir]</span> [Coclico, Compendium, Oir; text: BASSVS. ALTVS. A solis ortus cardine.] <a href="COCCOM_62GF.gif">[COCCOM 62GF]</a></p>
+
+<p><span class='pageNo'>[f.Oiv]</span> Aliud exemplum quatuor uocum.</p>
+
+<p>[Coclico, Compendium, Oiv,1; text: Reuertere.] <a href="COCCOM_63GF.gif">[COCCOM 63GF]</a></p>
+
+<p>Componere quatuor uocibus commune est, ideo pauca exempla posui. Hoc tamen sciat puer, dum cantus quatuor uocibus compositus non pausat, et bene compositus est secundum fugas, et species debitas, eum nonnunquam superare cantilenas 5. 6. 7. octo uocum, quia dum multis uocibus cantilena componitur, speties tantum duplicantur.</p>
+
+<p>Exemplum quinque uocum.</p>
+
+<p>[Coclico, Compendium, Oiv,2; text: Adolescens graditur iuxta uiam] <a href="COCCOM_63GF.gif">[COCCOM 63GF]</a></p>
+
+<p><span class='pageNo'>[f.Oijr]</span> [Coclico, Compendium, Oijr,1; text: suam, ij, et cum senuerit non recedat ab ea.] <a href="COCCOM_63GF.gif">[COCCOM 63GF]</a></p>
+
+<p>Alia fuga quinque uocum.</p>
+
+<p>[Coclico, Compendium, Oijr,2; text: Dominus mihi adiutor, et ego despiciam omnes inimicos meos. 3] <a href="COCCOM_63GF.gif">[COCCOM 63GF]</a></p>
+
+<p><span class='pageNo'>[f.Oijv]</span> Aliud exemplum quinque uocum.</p>
+
+<p>[Coclico, Compendium, Oijv; text: DISCANTVS. VAGANS. TENOR. Surrexit Christus hodie, Alleluia. Humano pro solamine, Alleluia. ij, 3] <a href="COCCOM_64GF.gif">[COCCOM 64GF]</a></p>
+
+<p><span class='pageNo'>[f.Oiijr]</span> [Coclico, Compendium, Oiijr; text: ALTVS. BASSVS. Surrexit. 3] <a href="COCCOM_65GF.gif">[COCCOM 65GF]</a></p>
+
+<p><span class='pageNo'>[f.Oiijv]</span> Aliud exemplum quinque uocum.</p>
+
+<p>[Coclico, Compendium, Oiijv; text: DISCANTVS. VAGANS. TENOR. Christus pro nobis passus est.] <a href="COCCOM_66GF.gif">[COCCOM 66GF]</a></p>
+
+<p><span class='pageNo'>[f.Oiiijr]</span> [Coclico, Compendium, Oiiijr; text: ALTVS. BASSVS. Christus pro nobis passus est.] <a href="COCCOM_67GF.gif">[COCCOM 67GF]</a></p>
+
+<p><span class='pageNo'>[f.Oiiijv]</span> Exemplum sex uocum.</p>
+
+<p>[Coclico, Compendium, Oiiijv; text: Primus Discantus. Secundus Discantus. Primus Tenor. Secundus Tenor. Agnus Dei.] <a href="COCCOM_68GF.gif">[COCCOM 68GF]</a></p>
+
+<p><span class='pageNo'>[f.Pir]</span> [Coclico, Compendium, Pir; text: ALTVS. BASSVS. Agnus Dei.] <a href="COCCOM_68GF.gif">[COCCOM 68GF]</a></p>
+
+<p><span class='pageNo'>[f.Piv]</span> Aliud exemplum sex uocum.</p>
+
+<p>[Coclico, Compendium, Piv; text: Primus Discantus. Secundus Discantus. Primus Tenor.] <a href="COCCOM_69GF.gif">[COCCOM 69GF]</a></p>
+
+<p><span class='pageNo'>[f.Pijr]</span> [Coclico, Compendium, Pijr; text: Secundus Tenor. ALTVS. BASSVS.] <a href="COCCOM_70GF.gif">[COCCOM 70GF]</a></p>
+
+<p><span class='pageNo'>[f.Pijv]</span> Fuga sex uocum.</p>
+
+<p>[Coclico, Compendium, Pijv,1; text: Sumite Psalmum, et date tympanum Psalterium iucundum cum cithara. ij] <a href="COCCOM_71GF.gif">[COCCOM 71GF]</a></p>
+
+<p>Alia fuga sex uocum.</p>
+
+<p>[Coclico, Compendium, Pijv,2; text: Nobilis est, quem nobilitat uirtus. ij] <a href="COCCOM_71GF.gif">[COCCOM 71GF]</a></p>
+
+<p><span class='pageNo'>[f.Piijr]</span> Fuga septem uocum.</p>
+
+<p>[Coclico, Compendium, Piijr,1; text: Ambulate dum lucem habetis, ne tenebrae uos compraehendant. ij] <a href="COCCOM_71GF.gif">[COCCOM 71GF]</a></p>
+
+<p>Alia fuga septem uocum.</p>
+
+<p>[Coclico, Compendium, Piijr,2; text: Sancta trinitas unus Deus miserere nobis.] <a href="COCCOM_71GF.gif">[COCCOM 71GF]</a></p>
+
+<p><span class='pageNo'>[f.Piijv]</span> Exemplum octo uocum.</p>
+
+<p>Canon. Per aliam uiam reuersi sunt in regionem suam.</p>
+
+<p>[Coclico, Compendium, Piijv; text: DISCANTVS. TENOR. Omnis consummationis uidi finem, latum mandatum tuum nimis. Omnis qui perseuerauerit usque in finem, hic saluus erit. ij] <a href="COCCOM_72GF.gif">[COCCOM 72GF]</a></p>
+
+<p><span class='pageNo'>[f.Piiijr]</span> [Coclico, Compendium, Piiijr; text: ALTVS. BASSVS. Omnis consummationis uidi finem, latum mandatum tuum nimis. Omnis qui perseuerauerit usque in finem, hic saluus erit. ij] <a href="COCCOM_73GF.gif">[COCCOM 73GF]</a></p>
+
+<p><span class='pageNo'>[f.Piiijv]</span> ERRATA.</p>
+
+<p>B ij. Verso folio, linea undecima, lege deuitanda.</p>
+
+<p>E i. Moriar ego 12. nota, quae posita est in Alamire, debet poni in Csolfaut.</p>
+
+<p>F i. Verso folio, in tertia parte super fugam Choralem, lege octaui toni, pro secundi toni.</p>
+
+<p>G iij. In Discantu super salue regina, 18. nota debet poni in Elami, quae posita est in Csolfaut. Et in eodem 38. nota, quae est semibreuis debet esse minima.</p>
+
+<p>G iiij. In Discantu de dupla 11. nota, quae posita est in Dlasolre, debet poni in Elami.</p>
+
+<p>I iij. In exemplo Tendit ad ardua, debet esse b.</p>
+
+<p>In ultima pagina literae L, linea 9. legendum est euitandae sunt sextae.</p>
+
+<p>FINIS MVSICAE.</p>
+<!-- end text -->
+</div>
+</div>
+<!--</div>-->
+<br /><br />
+
+
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
+<div id="footer">
+  <div id="chmtl_logo">
+    <a href="https://chmtl.indiana.edu/">
+        <img src="_assets/img/chmtl_logo_trans.png" alt="CHMTL Logo" />
+    </a>
+  </div>
+  <div id="copyright">
+    <p>The <a href="https://chmtl.indiana.edu/">Center for the History of Music Theory and Literature</a> is a research center of the <a href="http://music.indiana.edu">Indiana University Jacobs School of Music</a>.</p>
+  </div>
+</div>
+
+<div id="iu_footer">
+    <hr />
+    <div id="copyright">
+        <div id="blockiu">
+            <a href="http://www.iub.edu" title="Indiana University">
+                <img alt="Block IU" height="28" src="https://chmtl.indiana.edu/tml/16th/_assets/img/blockiu_white.gif" width="22" />
+            </a>
+        </div>
+        <p id="statement">
+        <a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> © 2022 The Trustees of <a href="http://www.iu.edu" title="Indiana University">Indiana University</a> | <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> | <a href="https://music.indiana.edu/departments/offices/music-information-technology-services/privacy.shtml">Privacy Notice</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

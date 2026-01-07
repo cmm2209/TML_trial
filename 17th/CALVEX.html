@@ -1,0 +1,908 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>CALVEX_TEXT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="_assets/css/tml/layout.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/css/common/chmtl_identity.css" />
+    <!--<link rel="stylesheet" type="text/css" href="_assets/css/w3.css" />-->
+    <link rel='stylesheet' type='text/css' href='_assets/css/fancybox.css' />
+    <script type= 'text/javascript' src='_assets/js/chmtl_file.min.js'></script>
+</head>
+
+<body>
+  <div id="chmtl-identity">
+    <div id="identity-spacer"></div>
+<!--    <p>A project of <a href="http://chmtl.indiana.edu">CHMTL</a></p>-->
+    <div id="chmtl-border">
+      <div id="chmtl-blue"></div>
+      <div id="chmtl-yellow"></div>
+      <div id="chmtl-gray"></div>
+      <div id="chmtl-red"></div>
+    </div>
+  </div>
+    <div id="identity">
+    <div id="menu-container">
+  <a><span class="menu-btn"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</span></a>
+  <a href="../index.html"><span class="home-link">Home</span></a>
+  <span class="search-short">
+    <a class="modal-tooltip" modal="search-tip">&nbsp;<i class="fa fa-info-circle" aria-hidden="true">
+      <span class="sr-only">Click for more information</span></i></a>
+    <form  action="CALVEX.html#" id="menuSearch"><input type="text" id="menuSearchText" placeholder="Quick search"/></form><span class="navSearchButton"><i class="fa fa-search"></i></span></span>
+  <a href="../copyright.html" target="_blank"><span class="copyright-short">Copyright Notice</span></a>
+</div>
+
+<div id="search-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="search-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+
+     <p>Use the &ldquo;Quick search&rdquo; if you want to search for <em>all documents</em> within the <em>whole archive</em> where words <em>matching or containing</em> the searched string are found.</p>
+     <p>For more specific queries (phrase searching, operators, and filters), visit the <a href="../quaero.html" target="_blank">full Search</a> page.</p>
+   </div>
+ </div>
+ </div>
+    </div>
+<div id="container" class="tml-file">
+  <nav id="sliding-left-nav" class="pushy pushy-left">
+    <ul class="push-menu">
+        <li class="pushy-submenu">
+            <a class="submenu-heading">ABOUT</a>
+            <ul>
+                <li class="pushy-link"><a href="../about/introduction.html">Introduction</a></li>
+                <li class="pushy-link"><a href="../about/content.html">Content</a></li>
+                <li class="pushy-link"><a href="../about/policies.html">Policies</a></li>
+                <li class="pushy-link"><a href="../about/howTo.html">How-To</a></li>
+                <li class="pushy-link"><a href="../about/future_plans.html">Future plans</a></li>
+                <li class="pushy-link"><a href="../about/people.html">People</a></li>
+                <li class="pushy-link"><a href="../about/contact.html">Contacts</a></li>
+            </ul>
+        </li>
+        <li class="pushy-submenu">
+          <a class="submenu-heading">BROWSE</a>
+          <ul>
+            <li class="pushy-link"><a href="../browse/authors.html">by author</a></li>
+            <li class="pushy-link"><a href="../browse/contributors.html">by contributor</a></li>
+            <li class="pushy-link"><a href="../browse/incipits.html">by incipit</a></li>
+            <li class="pushy-link"><a href="../browse/sources.html">by source</a></li>
+            <li class="pushy-link"><a href="../browse/titles.html">by title</a></li>
+            <li class="pushy-submenu">
+            <a class="centuryPushy">by century</a>
+                   <ul>
+                     <li class="pushy-link"><a href="../3rd-5th/index.html">3rd-5th</a></li>
+                     <li class="pushy-link"><a href="../6th-8th/index.html">6th-8th</a></li>
+                     <li class="pushy-link"><a href="../9th-11th/index.html">9th-11th</a></li>
+                     <li class="pushy-link"><a href="../12th/index.html">12th</a></li>
+                     <li class="pushy-link"><a href="../13th/index.html">13th</a></li>
+                     <li class="pushy-link"><a href="../14th/index.html">14th</a></li>
+                     <li class="pushy-link"><a href="../15th/index.html">15th</a></li>
+                     <li class="pushy-link"><a href="../16th/index.html">16th</a></li>
+                     <li class="pushy-link"><a href="index.html">17th</a></li>
+                   </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pushy-submenu"><a href="../quaero.html">SEARCH</a></li>
+        <li class="pushy-submenu">
+            <a class="submenu-heading">EXTRAS</a>
+            <ul>
+              <li class="pushy-submenu">
+                <a href="../concordances.html">Concordances</a>
+                  <ul>
+                    <li class="pushy-link"><a href="../concordances/lml.html"><em>Lexicon musicum Latinum</em></a></li>
+                    <li class="pushy-link"><a href="../concordances/grove_anonymous.html">Grove Anonymous</a></li>
+                  </ul>
+            </ul>
+        </li>
+     </ul>
+</nav>
+  <div class="site-overlay"></div>
+
+<div id="content">
+  <noscript>
+  <div  id="noScript" class="warning">
+    <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> JavaScript Required</p>
+    <p>In order to ensure the proper functining of this website, please enable JavaScript in your browser security preferences or use a device that supports it.</p>
+  </div>
+</noscript>
+<div id="header">
+    <div id="source" class="ft-text">
+        <p class="author">Calvisius, Seth</p>
+        <p class="title">Exercitationes musicae duae</p>
+        <p class="tmlSource"><strong>Source</strong>: <i>Exercitationes musicae duae. Qvarvm prior est, de modis mvsicis, qvos vulgò Tonos vocant, rectè cognoscendis, et dijudicandis. Posterior, de initio et progressv Mvsices, alijsque rebus eo spectantibus</i> (Leipzig: Iacobus Apelius, 1600).</p>
+                <p id="chmtl-staff">
+                    <span class="eca-span">Electronic version prepared by Jessica Sisk <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="entered">E</span></a>, David Schneider <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="checked">C</span></a>, and Thomas J. Mathiesen <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="approved">A</span></a>
+              for the <i>Thesaurus Musicarum Latinarum</i>, 2004.
+            </p>
+              </div>
+
+</div> <!-- end header div -->
+<div id="entry-abbrv" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="entry-abbrv"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+     <p>The aforementioned individual(s) <span class="entered">E</span>ntered, <span class="checked">C</span>hecked, or <span class="approved">A</span>pproved the electronic transcription of the source document.</p>
+   </div>
+ </div>
+ </div>
+
+ <div id="entry-abbrv-short" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <a class="close-modal" modal="entry-abbrv-short"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+      <br />
+      <p><span class="checked">C</span>: Indicates the aforemententioned person(s) checked the transcription.</p>
+      <p><span class="approved">A</span>: Indicates the aforementioned person(s) approved the transcription for publication.</p>
+    </div>
+  </div>
+  </div>
+
+  <div id="multipart-tip" class="w3-modal">
+   <div class="w3-modal-content">
+     <div class="w3-container">
+       <a class="close-modal" modal="multipart-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+       <br />
+       <p>Historically, in the TML long texts were split into multiple files. These are now linked to each other for easier browsing. In a future version, they will be consolidated into a single view.</p>
+     </div>
+   </div>
+   </div>
+
+  <div id="metadata-contd">
+    <p class="text-sidebar-buttons"><button id="tml-notes" class="pure-button">TML notes</button>&nbsp;<button id="tml-concordances" class="pure-button">Concordances</button></p>
+
+  <div id="sidebar">
+      <div id="extras-wrapper">
+        <!---->
+        <div id="tml-canon-info">
+          <div class="extras-heading"><a class="close-modal repoToolbox" modal="tml-canon-info"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">TML Notes</i></span></div>
+          <p></p>
+        </div>
+<div id="concordances">
+  <div class="extras-heading"><a class="close-modal repoToolbox" modal="concordances"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">Concordances</i></span></div>
+  
+  </div>
+  <div style="clear: both"></div>
+    </div><!--extras-wrapper -->
+  </div><!--sidebar-->
+  </div><!--metadata-contd-->
+  <div style="clear: both"></div>
+
+<div id="text-toolbox-wrapper">
+  <div id='floatingBox'>
+    <div class="floating-toolbox">
+      <table>
+        <tr>
+          <th>Actions</th>
+        </tr>
+      </table>
+    </div>
+    <p id="backToTop"> <a href='CALVEX.html#top'>Back to top</a></p>
+  </div>
+
+<div id="tml-text">
+
+<!-- begin text -->
+<p><span class='pageNo'>[f.a1r]</span> Exercitationes Musicae Duae.<br />Qvarvm prior est, de modis mvsicis, qvos vulgò Tonos vocant, rectè cognoscendis, et dijudicandis.<br />Posterior, de initio et progressv mvsices, alijsque rebus eo spectantibus. <br />Institutae à Setho Calvisio, Ludi Senatorij Lipsiensis ad Divum Thomam Cantore.<br />Lipsiae, Impensis Iacobi Apelij.<br />Anno 1600.</p>
+
+<p><span class='pageNo'>[1]</span> Exercitatio prior de Modis Mvsicis, qvos vvlgo tonos vocant, rectè cognoscendis et dijudicandis.</p>
+
+<p>DOCTRINA DE MODIS Musicis, ab omnibus, qui Musicae student, imprimis est magnifacienda, studiosè inquirenda ac discenda. Non solum enim iucunda est, sed etiam omnibus huic arti deditis, vt Melopoeis, Cantoribus, et Concentoribus plurimum conducit. Nam vt pauca saltem attingam, Melopoei ex hac doctrina certò statuere possunt, non tantum in qua clave Cantilena qualibet incipienda sit, et finienda: sed etiam vbi Clausulae ad affectum textui convenientem eliciendum appositae, sint formandae. Et etiamsi aliqui, ab hac doctrina non magnoperè instructi, sed natura duce ad Musicam exercendam proclives, idem in suis Cantilenis, non sine laude ostenderunt: tamen quid eiusmodi natura, si à certiore duce, hoc est, ab arte gubernaretur <span class='pageNo'>[2]</span> praestare posset, et in hac, et in alijs artibus satis est perspicuum. Cantores verò, qui hac doctrina destituuntur, in inchoandis Cantilenis vel à fortuna, vel ab ijs, qui organa tractant, pendere coguntur: à fortuna quidem, quando subitò inchoandum, nec singulis vocibus sonus, quem in incipiendo observent, monstrari poterit. Nisi enim fortè fortuna eam clavem, quae eius Modi, quo cantilena decurrit, propria est, tetigerint, non facilè alios, in alijs vocibus, qui in concentu faciendo sequantur, habere posterint. Ab Organico vero Musico Cantores dependent, quando is ex suo iudicio, vt ipsi videtur, detentandae cantilenae clavem, atque ita incipiendi sonum ex instrumento suo Musico Pneumatico praeit. Quae quidem res, etiamsi optimè cadat: tamen Cantorem dubium et de futura Harmonia incertum relinquit. Et turpe etiam videtur Cantorem ab Organico in eiusmodi rebus pendere: Cum contra, qui de Modis Musicis certus est, Organico imperet, et Clavem suae cantilenae convenientem ipse indicet et praescribat, rectius inchoet, et de elegantia et artificio cuiusque cantilenae dexterius pronunciare possit. Concentores verò <span class='pageNo'>[3]</span> qui Modos Musicos ignorant, similes esse statuit Pontifex Iohannes vicesimus secundus in suo libello Musico, ebrio cuidam, qui domum pervenit, sed qua calle redeat ignorat. Nec inconvenienter censet. Nam huius doctrinae rudes nesciunt in quibus clavibus per clausulas conveniendum, et quasi quiescendum sit, et quomodo tandem per tot ambages ad clavem finalem perveniant. Quae omnia, qui hanc doctrinam callent, summa cum alacritate observant, atque ob id non solum in decantandis Cantilenis multò maiore voluptate perfunduntur: sed etiam, si fortè canendo aberratum sit, facilius per clausulas illas in viam redeunt. Praeterea concentoribus diligenter est cogitandum, quòd non perpetuo ipsis in hoc statu sit permanendum, sed ad altiores Musicae gradus ascendendum: vt aliquando vel Musici alicuius vel Melopoei vel Cantoris officio, quod sine cognitione huius doctrinae cum laude fieri nequit, rectè fungi possint.</p>
+
+<p>Quae omnia cum ita se habeant, pauci tamen inveniuntur, qui hanc doctrinam rectè sibi cognitam et perspectam habent, quod evenit, vel quod difficilis haec doctrina plaerisque videatur, <span class='pageNo'>[4]</span> cum tamen paucissimis observationibus contineatur: vel quod Modi Musici in cantu figurato plurimum varientur: vel quod non satis perspicuè à Musicis tradantur. De his ne studiosi Musices iure conqueri possint, doctrinam de Modis Musicis breviter et perspicuè proponam: Deinde eorundem varietatem in Musica figurata docebo, et tertiò ad quam clavem in organis Musicis pneumaticis quilibet Modus decantari possit, ostendam.</p>
+
+<p>DE PRIMO.</p>
+
+<p>De Modis Musicis.</p>
+
+<p>MOdus in Musicis est modulatio certo ambitu, clausulis, et fine conclusa, [Modus quid? in marg.] atque ita quaelibet Cantilena in Chorali Musica ad certum Modum canitur, quemadmodum et quaelibet vox in figurata Musica suum modum observat. Ambitus cuiusque modi in aliqua specie [dia pason] comprehenditur, quam tamen interdum non implet, interdum verò excedit Clausulis tamen formalibus eam non obscurè ostendit. Finis verò vnius cuiusque modi est Clavis insima eius <span class='pageNo'>[5]</span> speciei [dia pente], ex qua Modus ille formatur. Quae omnia vt certius cognoscantur, de speciebus intervallorum [tou dia tessaron], [tou dia pente], et [tou dia pason], vt et de clausulis aliquid est dicendum. De quibus priusquam de singulis agamus, in genere sciendum est, quod horum intervallorum species numerentur ad ordinem vocum Musicalium ex clave C. regularis systematis: vel ex clave F. transpositi, naturali ordine incipientium et progredientium, distinguanturque ratione dispositionis Semitonij, quod semitonium regularem suam sedem habet inter Mi et Fa, in caeteris enim vocibus Musicalibus omnibus, ordine progredientibus continetur Tonus. </p>
+
+<p>De intervallo [Dia tessaron]. </p>
+
+<p>[Dia tessaron] siue quarta est intervallum, quo comprehenduntur duo toni, et Semitonium. [[dia tessaron] quid? in marg.] Eius species tres sunt: Prima, quae canitur ex vocibus Musicalibus: Vt, Fa, vbi semitonium habetur supremo loco, Vt, Re, Mi, Fa.</p>
+
+<p>vt: </p>
+
+<p><span class='pageNo'>[6]</span> [Calvisius, Exercitationes musicae duae, 6,1; text: Et sic in suis octavis.] <a href="CALVEX_01GF.gif">[CALVEX 01GF]</a></p>
+
+<p>Secunda species [dia tessaron] est, quae canitur ex vocibus Musicalibus Re, Sol, vbi semitonium habetur medio in loco, Re, Mi, Fa, Sol. Vt:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 6,2; text: atque ita in suis octavis.] <a href="CALVEX_01GF.gif">[CALVEX 01GF]</a></p>
+
+<p>Tertia species est, quae canitur ex vocibus Musicalibus, Mi, La, et semitonium habetur infimo loco, Mi, Fa, Sol, La. Vt:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 6,3; text: atque ita in suis octavis.] <a href="CALVEX_01GF.gif">[CALVEX 01GF]</a></p>
+
+<p>De intervallo [tou dia pente].</p>
+
+<p>[Dia pente] sive quinta est intervallum, quo continentur tres Toni, et Semitonium. [[dia pente] quid? in marg.] Eius species quatuor sunt. Prima est, quae canitur ex vocibus Musicalibus, Vt, Sol. Quando semitonium in medio sive <span class='pageNo'>[7]</span> dignissimo loco collocatur, vbi hoc intervallum Harmonica mediatione in Ditonum et semiditonum dividitur, vt: vt, re, mi, fa, sol.</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 7,1; text: atque ita in suis octavis.] <a href="CALVEX_01GF.gif">[CALVEX 01GF]</a></p>
+
+<p>Secunda species est, quae canitur ex vocibus Musicalibus, Re, La, et semitonium habetur secundo loco, si sursum pergas, Re, mi, fa, sol, la. Vt:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 7,2; text: atque ita in suis octavis.] <a href="CALVEX_01GF.gif">[CALVEX 01GF]</a></p>
+
+<p>Tertia species est, quae canitur ex vocibus Musicalibus Mi Mi, vbi semitonium in infimo loco collocatur, Mi, fa, vt, re, mi. Vt:</p>
+
+<p>[Calvisius, Exercitationes musicae duae 7,3; text: atque ita in suis octavis.] <a href="CALVEX_02GF.gif">[CALVEX 02GF]</a></p>
+
+<p>Quarta species est, quae canitur ex vocibus Musicalibus, Fa, Fa, et semitonium habetur supremo loco, Fa, vt, re, mi, fa.</p>
+
+<p>Vt:</p>
+
+<p><span class='pageNo'>[8]</span> [Calvisius, Exercitationes musicae duae, 8; text: atque ita in suis octavis.] <a href="CALVEX_02GF.gif">[CALVEX 02GF]</a></p>
+
+<p>De intervallo [Dia pason].</p>
+
+<p>[Dia pason] siue octava est intervallum natura primum, [[dia pason] quid? in marg.] et continet quinque tonos cum duobus semitonijs, transitque per omnes claves, donec ad eam, ex qua incepit, redeat. Quaelibet enim clavis repetita efficit [dia pason]. Ratione igitur septem Clavium Musicalium septem etiam sunt species [dia pason], et in qualibet specie dispositio semitoniorum variatur. Prima eius species est, quae fit in Regulari systemate ex Clave C. vsque in c. in Transposito verò ex F. vsque in f. Et hanc esse à natura primam speciem [dia pason], praeter alias plurimas rationes, infallibilis mediatio Harmonica in resolutione proportionis duplae, qua hoc intervallum continetur, demonstrat, quemadmodum hoc evidenter aliquando probabimus.</p>
+
+<p>Reliquae verò species [dia pason] recensentur eo ordine, quo se Claves et voces Musicales <span class='pageNo'>[9]</span> consequuntur in vtroque systemate, vt, in Regulari, post clavem C. sequitur ascendendo clavis D. ex ea igitur fit secunda species [dia pason], inde clavis E. ex qua tertia species. Postea F. ex qua quarta; ex G. quinta: ex A. sexta: ex B. quadrato septima. In Transposito verò systemate cum ex clave F. prima fiat [tou dia pason] species, secunda fit ex proxima clave ascendente ex G. Tertia ex A. Quarta ex B. rotundo. Quinta ex C. Sexta ex D. Septima ex E. Hoc modo enim claves Transpositi systematis respondent Clavibus in Regulari systemate. Quod ij observent, qui cantum Regularem in Transpositum, et contra Transpositum in Regularem transcribere volunt. </p>
+
+<p>In notulis species [dia pason] ita scribuntur.</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 9; text: atque ita in suis octavis.] <a href="CALVEX_02GF.gif">[CALVEX 02GF]</a></p>
+
+<p><span class='pageNo'>[10]</span> In Transposito systemate hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 10,1; text: 1, 2, 3, 4, 5, 6, 7] <a href="CALVEX_02GF.gif">[CALVEX 02GF]</a></p>
+
+<p>De Clausulis.</p>
+
+<p>CLausula est modulatio, qua ad quietem aut inclinat, aut transit, vbi pars aliqua textus finitur. [Clausula quid? in marg.] Fitque in principalioribus locis intervalli [dia pente], videlicet primum et principaliter in eius Clave infima, vbi et finis Cantilenae constituitur. Deinde in suprema, ex qua prior pars Cantilenae dependere solet, et in media, vbi [dia pente] in Ditonum et Semiditonum dividitur.</p>
+
+<p>Locus Clausularum ex hisce notulis deprehendi potest.</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 10,2; text: In prima specie [tou dia pente]. In secunda.] <a href="CALVEX_02GF.gif">[CALVEX 02GF]</a></p>
+
+<p><span class='pageNo'>[11]</span> [Calvisius, Exercitationes musicae duae, 11,1; text: In tertia. In quarta.] <a href="CALVEX_03GF.gif">[CALVEX 03GF]</a></p>
+
+<p>In Transposito systemate.</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 11,2; text: In prima specie. In secunda. In tertia. In quarta. atque ita in suis octavis.] <a href="CALVEX_03GF.gif">[CALVEX 03GF]</a></p>
+
+<p>Hisce observatis ad distributionem Modorum accedamus.</p>
+
+<p>Modi principales Sex sunt: Ionicus, Dorius, Phrygius, Lydius, Mixolydius, et AEolius. Et formantur hoc modo. [Quot Modi? in marg.] </p>
+
+<p>Ionicus fit ex prima specie [tou dia pente] et ex prima [tou dia tessaron], ex Vt Sol per quintam, et, Vt Fa, per quartam.</p>
+
+<p>Dorius fit ex secunda specie [dia pente] et ex secunda [tou dia tessaron] ex Re, La, per quintam, et Re, Sol, per quartam.</p>
+
+<p><span class='pageNo'>[12]</span> Phrygius fit ex tertia specie [tou dia pente] et ex tertia [tou dia tessaron] ex Mi, Mi, per quintam, et Mi, La per quartam.</p>
+
+<p>Lydius fit ex quarta specie [tou dia pente], et ex prima [tou dia tessaron] ex Fa, Fa, per quintam, et Vt, Fa, per quartam. Prima species [dia tessaron] hic repetitur, cum in Modis hactenus enumeratis omnes eius species vsurpatae fuerint. Quae repetitio etiam speciebus [tou dia pente] acciait in sequentibus Modis.</p>
+
+<p>Mixolydius igitur fit ex prima specie [tou dia pente], et ex secunda [tou dia tessaron], ex, Vt, Sol, per quintam, et Re, Sol, per quartam.</p>
+
+<p>AEolius fit ex secunda specie [tou dia pente], et ex tertia [tou dia tessaron] ex Re, La, per quintam, et Mi, la, per quartam.</p>
+
+<p>Hisce sex rationibus species [dia pente] et [dia tessaron] coniungi possunt, et non alijs praeterea, ideo plures etiam regulariter non sunt Modi. Quare autem vsitatê duodecim Modi numerentur, iam docebo.</p>
+
+<p>Quilibet horum principalium Modorum duplex habetur, idque tantum ratione applicationis [tou dia tessaron] ad [dia pente]. [Dia pente] <span class='pageNo'>[13]</span> enim loco non movetur. Sed [dia tessaron] ad [dia pente], vt quilibet Modus suum compleat ambitum, sive integram octavam, vel superiore loco adiungitur, vel inferiore assumitur. Hoc modo fit; vt vnus idemque Modus ratione huius diversitatis in applicatione [tou dia tessaron] ad [dia pente] diversa etiam fortiatur nomina, vt, Quando [dia tessaron] ad [dia pente] superiore loco adiungitur, tum modus ille vel nomine hoc Principali, videlicet; vel Ionicus, vel Dorius, vel Phrygius, et cetera [kat' exochen] appellatur, vel addito vocabulo Contento sive Authento describitur. Contra verò quando idem [dia tessaron] inferiori loco ad [dia pente] assumitur; tum Modus vel per particulam Hypo ad Principalem Modum addito nominatur, vt Hypo Ionicus, Hypo Dorius, et cetera vel assumto vocabulo Remisso vel Plagali designatur, et conveniunt ambo propter [dia pente] commune in Clausulis formandis, in speciebus verò [dia pason] differunt, et illi laetiores, hi vero remissiores et tristiores Harmonias gignunt. Exempli gratia: Quando ad primam speciem [dia pente], prima species [dia tessaron], superiori loco adiungitur, Modus vocatur vel <span class='pageNo'>[14]</span> absolutè Ionicus, vel Ionicus contentus, vel etiam Ionicus Authentus. Contineturque in prima specie [dia pason]. Quando verò ad eandem primam speciem [tou dia pente] eadem primae species [dia tessaron] inferiore loco assumitur, tum Modus appellatur Hypo Ionicus, vel Ionicus Remissus, vel etiam Ionicus Plagalis, et continetur in quinta specie [dia pason]. Et hoc ita vniversaliter verum est de omnibus Modis. Propter biformem igitur hanc applicationem [tou dia tessaron] ad [dia pente] quilibet Modus duplex censetur, et in universum sive explicitè rectè duodecim Modi numerantur. Quod vt clarius appareat, quemlibet Modum in utroque sytemate in suis notulis, ad clausulas indicandas dispositis, tam in sonis acutis quam in gravibus praescribam, et exempla perspicua ex Harmonijs Cantionum Ecclesiasticarum in suprema voce, sive in Cantu expressa, subiungam.</p>
+
+<p>De Ionico.</p>
+
+<p>IOnicus Modus, vt diximus, constat ex primis speciebus [tou dia pente] et [tou dia tessaron]. Eius prima forma, qua [dia tessaron] superiori <span class='pageNo'>[15]</span> loco ad [dia pente] additur, dicitur [kat' exochen] Modus Ionicus, sive ionicus contentus, sive Ionicus Authentus, contineturque in prima specie [dia pason], quam tamen ambitu in superiore loco per tertiam interdum excedit. Vulgò vocatur Quintus Tonus. Lascivus quidem videtur hic Modus, ac petulans, vnde Horatius canit:</p>
+
+<p>Motus doceri gaudet Ionicos matura virgo. [Liber 3. Ode 6. in marg.] </p>
+
+<p>Atque ideo in saltationibus per totam Europam ferè solus regnat. Tubae etiam sive vt vulgo vocantur Taratantarae ad hunc Modum inflantur, et milites ad praelia fortiter ineunda eo accenduntur: attamen et in pijs cantionibus frequens est, et non ineptus ad affectus praesertim laetiores, cum iucunda gravitate exprimendos, vt exempla ostendunt.</p>
+
+<p>In regulari systemate in sonis acutis et grauibus, hisce clavibus, clausulis et ambitu continetur.</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 15] <a href="CALVEX_03GF.gif">[CALVEX 03GF]</a></p>
+
+<p>Exempla in Harmonijs Cantionum Ecclesiasticarum sunt:<br /><span class='pageNo'>[16]</span> Gott der Vater wohn vns bey.<br />Herr Iesu Christ wahr Mensch vnd Gott.<br />Vbi tamen finis irregularis est.</p>
+
+<p>In Transposito systemate sic:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 16] <a href="CALVEX_03GF.gif">[CALVEX 03GF]</a></p>
+
+<p>Exempla sunt:</p>
+
+<p>Von Himmel hoch da kom ich her.<br />Iesaia dem Propheten das geschach.<br />Wer nicht mit den Gottlosen geht zu Raht.<br />Ein feste Burgk ist vnser Gott.<br />Wo Gott zum Hauss nicht gibt sein gunst.<br />Es ist das Heyl vns kommen her.<br />Vos ad se pueri primis, et caetera.<br />Ein Newes Lied wir heben an. vbi finis variat.</p>
+
+<p>Hypo Ionicus, sive Ionicus remissus, sive Ionicus plagalis est, qui primam speciem [dia tessaron] ad primam [tou dia pente] inferiore loco assumit, et ita incidit in quintam speciem [dia pason], quae in regulari systemate est, ex clave G. in Transposito vero ex C. vulgò vocatur sextus Tonus. Frequentior est suo contento et ad devotionem animi excitandam valde accommodatus.</p>
+
+<p><span class='pageNo'>[17]</span> In regulari systemate sic scribitur:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 17,1; text: Exemplum in Harmonijs vnicum est.] <a href="CALVEX_04GF.gif">[CALVEX 04GF]</a></p>
+
+<p>Hertzlich lieb hab ich dich O HErr. Quod tamen superiore loco ambitum suum non complet, in inferiore autem excedit.</p>
+
+<p>In Transposito systemate hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 17,2; text: Exempla multa habentur, et in plaerisque ambitus superiore loco per tonum exceditur.] <a href="CALVEX_04GF.gif">[CALVEX 04GF]</a></p>
+
+<p>Ein Kindelein so löbelich.<br />In dulci jubilo.<br />Kom heiliger Geist / HErre Gott.<br />Nun bitten wir den heiligen Geist.<br />Allein Gott in der Höhe sey ehr.<br />Dicimus grates tibi summe rerum conditor.<br />HErr Gott dich loben alle wir.<br />Hilff Gott wie geht das jmmer zu.<br />Es spricht der Vnweisen Mund wol.<br />In dich hab ich gehoffet HErr.<br />Nun lob mein Seel den HErren.<br /><span class='pageNo'>[18]</span> An Wasserflüssen Babylon.<br />Nun frewt euch lieben Christen gemein.<br />HErr Christ der einig Gottes Sohn.<br />Sie ist mir lieb die werde Magd.<br />O HErre Gott dein Göttlichs Wort.<br />Ich danck dir lieber HErre.<br />Nun schlaff mein liebes Kindelein.<br />Dancket dem HErrn heut vnd allzeit.<br />Nun last vns Gott den HErren.<br />Ach wie elend ist vnser zeit.<br />Wenn wir in höchsten nöten seyn.<br />Wer Gott vertrawt / hat wol gebawt.<br />Iam moesta quiesce querela.<br />Wenn mein stündlein verhanden ist.<br />Es ist gewisslich an der zeit.<br />O Lamb Gottes vnschuldig / et caetera.</p>
+
+<p>De Dorio.</p>
+
+<p>DOrius Modus oritur ex secundis speciebus [dia pente] et [dia tessaron]. Eius Prima forma, qua secunda species [dia tessaron] superiore loco secundae [tou dia pente] imponitur, continetur in secunda specie [dia pason], quae est in Regulari systemate ex clave D. In Transposito autem ex clave G. ambitum interdum per semiditonum supremo loco transcendere <span class='pageNo'>[19]</span> solet. Et vocatur vel Modus Dorius absolutè, vel Dorius Contentus, vel etiam Dorius Authentus. Vulgò verò primus Tonus.</p>
+
+<p>In regulari systemate hisce clavibus, clausulis et ambitu continetur. </p>
+
+<p>[Calvisius, Exercitationes musicae duae, 19,1] <a href="CALVEX_04GF.gif">[CALVEX 04GF]</a></p>
+
+<p>Exempla sunt:</p>
+
+<p>Mit fried vnd frewd ich fahr dahin.<br />Christ lag in Todes Banden.<br />Christ ist erstanden.<br />Quam laeta perfert nuncia.<br />Wir gleuben all an einen Gott.<br />Vater vnser im Himmelreich.<br />Christ vnser HErr zum Jordan kam. Vbi finis variat.<br />Wer in dess Allerhöchsten hut.<br />Ich ruff zu dir HErr Jesu Christ.<br />Durch Adams fall ist gantz verderbt. Vbi itidem finis variat.<br />O HErre Gott in meiner noth.<br />Hats Gott versehn / wer wil es wehen.<br />Veni sancte Spiritus</p>
+
+<p>In Transposito systemate hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 19,2] <a href="CALVEX_04GF.gif">[CALVEX 04GF]</a></p>
+
+<p><span class='pageNo'>[20]</span> Exempla sunt:</p>
+
+<p>Vita sanctorum, decus Angelorum.<br />Erstanden ist der heilige Christ.<br />Jesus Christus vnser Heyland / de Coena Domini.<br />Erhalt vns HErr bey deinem Wort.<br />Christ der du bist der helle tag.<br />Singen wir aus hertzen grund.<br />Gleich wie ein Weitzenkörnelein.<br />Es wird schier der letzte tag herkommen.<br />Victimae Paschali laudes.</p>
+
+<p>In hac Cantilena connectitur Dorius cum Hypo Dorio. Quidam enim versus ad Dorium contentum canuntur, vt:</p>
+
+<p>Agnus redemit oves.<br />Credendum est magis. Et alij.<br />Quidam ad Hypodorium, vt:<br />Dic nobis Maria. Item, Angelicos testes.</p>
+
+<p>Hypo Dorius sive Dorius remissus vel Plagalis est, qui secundam speciem [dia tessaron] inferiore loco, ad secundam speciem [dia pente] assumit, et ita incidit in sextam speciem [dia pason], quae in regulari systemate est ex clave A. in transposito verò ex clave D. Vulgò vocatur secundus Tonus.</p>
+
+<p>In notulis Regularis systematis sic scribitur:</p>
+
+<p><span class='pageNo'>[21]</span> [Calvisius, Exercitationes musicae duae, 21,1] <a href="CALVEX_05GF.gif">[CALVEX 05GF]</a></p>
+
+<p>Exemplum in Harmonijs Cantionum Ecclesiasticarum nullum est, nisi quis illarum Cantilenarum, quae ad Dorium regularem referuntur, Altum vel Bassum huc traducere vellet, infra etiam quaedam annotabimus in figuratis cantilenis.</p>
+
+<p>In Transposito systemate sic scribitur:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 21,2] <a href="CALVEX_05GF.gif">[CALVEX 05GF]</a></p>
+
+<p>Exempla sunt:</p>
+
+<p>Nun kom der Heyden Heyland.<br />Helfft mir Gotts güte preysen.<br />Puer natus in Bethlehem.<br />Surrexit Christus hodie. In quibus tamen omnibus [dia tessaron] inferiore loco non satis exprimitur.<br />Christe der du bist tag vnd liecht.<br />Kompt her zu mir / spricht Gottes Sohn.<br />Was mein Gott wil.<br />Von Gott wil ich nicht lassen.<br />Hilff Gott das mir gelinge.</p>
+
+<p><span class='pageNo'>[22]</span> De Phrygio.</p>
+
+<p>PHrygius modus oritur ex tertijs speciebus [dia pente] et [dia tessaron]. Bellicosum et ad tumultus concitandos aptum hunc Modum veteres statuerunt. Verum cum nullus sit modus, qui non ad quemvis affectum exprimendum adduci possit, modò accedat peritus artifex, ita hic Modus hodie plerunque ita flecti solet, vt commiserationem excitet, et religione quadam animum imbuat, vnde et apud Apuleium religiosi nomen accepit. Quod ad clausulas attinet. Cum tertia species intervallo [dia pente] in suprema notula vix recipiat clausulas. Hic modus etiam omissa ferè hac clave suas clausulas in alias transtulit. Praecipuè in clavem A. et C. regularis systematis. Transpositi verò in clavem D. et F. quanquam et in alij clavibus clausulas efformet, vt ita hic modus minimé omnium sibi constet, et nullibi certius, quam ex fine cognoscatur.</p>
+
+<p>Prima eius forma, qua [dia tessaron] superiorem locum occupat, incidit in tertiam speciem [dia pason], quae in Regulari systemate est ex clave E. in Transposito verò ex clave A. <span class='pageNo'>[23]</span> vocaturque vel absolutè Phrygius, vel Phrygius contentus, sive Authentus. Vulgò tertius Tonus. Extra ambitum quando evagatur, superiori loco semitonium, inferiore verò Tonum vel Ditonum etiam assumere solet.</p>
+
+<p>In regulari systemate ambitu et clausulis, hoc modo scribitur:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 23,1] <a href="CALVEX_05GF.gif">[CALVEX 05GF]</a></p>
+
+<p>Exempla sunt:</p>
+
+<p>A Solis ortus cardine.<br />Christus der vns selig macht.<br />Da Jesus an dem Creutze stund.<br />Mensch wiltu leben seliglich.<br />Aus tieffer noth schrey ich zu dir.<br />Mag ich vnglück nicht widerstahn.</p>
+
+<p>In Transposito systemate hoc modo:</p>
+
+<p>[Calvisius Exercitationes musicae duae, 23,2] <a href="CALVEX_05GF.gif">[CALVEX 05GF]</a></p>
+
+<p>Exempla in Harmonijs Cantionum Ecclesiasticarum non habentur.</p>
+
+<p>Altera forma Phrygij, qua [dia tessaron] <span class='pageNo'>[24]</span> tertiae speciei inferiore loco ad [dia pente], assumitur, vocatur Hypophrygius, vel Phrygius Remissus, sive Plagalis. Vulgò quartus Tonus, et incidit in septimam speciem [dia pason], quae in regulari systemate est ex [sqb] quadrato, in transposito verò ex E.</p>
+
+<p>Parum differre videtur à Prima sua forma, ambitum enim suum superiore loco ferê semitonio, vel etiam semiditono transcendit. Inferiore verò, vel omisso semitonio non attingit, atque ita in Ionici modi ambitum incidit, à quo tamen phrasi et clausulis facile discernitur: Vel si attingat, assumto adhuc tono transcendit, vt in exemplis apparet.</p>
+
+<p>In regulari systemate Clausulis suis sic scribitur:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 24] <a href="CALVEX_05GF.gif">[CALVEX 05GF]</a></p>
+
+<p>Exempla sunt.</p>
+
+<p>HErr Gott dich loben wir.<br />Erbarm dich mein O HErre Gott.<br />Die Welt ist nichts zu vnser zeit.<br />Mitten wir im leben sind.<br />Also heilig ist der Tag.</p>
+
+<p><span class='pageNo'>[25]</span> In systemate Transposito hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 25] <a href="CALVEX_05GF.gif">[CALVEX 05GF]</a></p>
+
+<p>Exemplum vnicum in Harmonijs habetur.</p>
+
+<p>Nun last vns den Leib begraben.</p>
+
+<p>De Lydio.</p>
+
+<p>LYdius Modus veteribus vsitatissimus fuit, vt ex Cantionibus vetustioribus, quas Graduales vocant, satis liquet. Verum tertricus videtur Modus, propter Tritonum, qui duriusculè auribus accidit, et vix vitari potest, ideo hodie vtrobique et in Chorali et figurali Cantu rarissimè vsurpatur. Oritur ex quarta specie [dia pente] et ex prima [tou dia tessaron].</p>
+
+<p>Prima eius forma, qua prima species [dia tessaron] quartae speciei [dia pente] imponitur, incidit in quartam speciem [dia pason], quae in regulari systemate formatur in clave F. in Transposito verò in clave B. et appellatur vel Lydius absolutè vel Lydius contentus, sive Authentus.</p>
+
+<p><span class='pageNo'>[26]</span> Et in systemate regulari sic scribitur:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 26,1] <a href="CALVEX_06GF.gif">[CALVEX 06GF]</a></p>
+
+<p>In Transposito hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 26,2] <a href="CALVEX_06GF.gif">[CALVEX 06GF]</a></p>
+
+<p>Exempla in Harmonijs nulla habentur.</p>
+
+<p>Altera eius forma qua prima species [dia tessaron] quartae [tou dia pente] subiungitur, incidit in primam speciem [dia pason], quae in regulari systemate est ex clave C. in Transposito verò ex clave F. et appellatur Modus HypoLydius, vel Lydius remissus, aut Plagalis. </p>
+
+<p>In regulari systemate hisce notulis et clausulis scribitur:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 26,3] <a href="CALVEX_06GF.gif">[CALVEX 06GF]</a></p>
+
+<p>In Transposito hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 26,4] <a href="CALVEX_06GF.gif">[CALVEX 06GF]</a></p>
+
+<p>Exemplum vnicum in Harmonijs habetur. </p>
+
+<p>Ex legis observantia.</p>
+
+<p><span class='pageNo'>[27]</span> Etsi autem hodie rara Modi huius exempla occurrunt: tamen non penitus ab Ecclesia exsulat. Verba enim Caenae Dominicae ad hunc Modum praelegi solent, quemadmodum et historia passionis Dominicae Germanica. Qui enim personam Evangelistae sustinet, in clausulis formandis quartam speciem [dia pente], de qua hic agitur, observat. Cui, qui Petri, Caiphae, Pilati et aliorum verba decantat, primam speciem [tou dia tessaron] superaddit, atque hi ambo Lydium contentum complent.</p>
+
+<p>Qui verò verba Salvatoris Christi profert, is illa modulatur in eadem prima specie [dia tessaron], sed per octavam depressa, atque ita, si cum Evangelista coniungatur, HypoLydium exprimit.</p>
+
+<p>In quibusdam Ecclesijs etiam usitatum est, ut textus aliquis Biblicus ex Prophetis vel Evangelistis aut Epistolis Apostolicis desumtus in latina lingua ad hunc Modum praelegatur, id, quibus clausulis fieri debeat, tribus hisce regulis docetur:</p>
+
+<p>Prima. Lectio tota incipit, progreditur, et finitur in suprema clave huius quartae speciei [dia pente], ambitumque eius non transcendit, <span class='pageNo'>[28]</span> nisi quod clausula finalis ultra ambitum ad tertiam elevatur hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 28,1: text: Ubi Iohannes baptisabat.] <a href="CALVEX_06GF.gif">[CALVEX 06GF]</a></p>
+
+<p>Secunda. Clausulae huius lectionis vel manent in unisono, vel per intervalla descendunt. Commata enim breviora distinctè tantum in unisono pronunciantur: longiora verò Commata et Cola per tertiam, et puncta per quintam deprimuntur. Depressio autem illa intelligitur tantum de ultima syllaba nisi accidat in dictione polysyllabica penultima brevi, illa enim simul cum ultima deprimenda est, hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 28,2; text: Dirigite viam Domini: sicut dixit Esaias Propheta.] <a href="CALVEX_06GF.gif">[CALVEX 06GF]</a></p>
+
+<p>Tertia. Interrogationes, monosyllabicae item dictiones, et peregrina vocabula, quae latinorum more non declinantur, si in colis aut commatis occurrant, hanc lectionem variant. Interrogationes enim tertiam syllabam ante distinctionem, interdum etiam quartam, si <span class='pageNo'>[29]</span> accentus Grammaticus hoc requirat, aut etiam secundam, in brevioribus interrogationibus per tertiam deprimunt, et inde rursus per gradum proximum ascendentem sequentem syllabam elevant, et ultimam huic in unisono coniunctam deinceps ulterius tractu syllabae, per semitonium intendunt, hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 29,1, text: Helias es tu? ut respondeamus, qui miserunt nos? Quis es tu?] <a href="CALVEX_07GF.gif">[CALVEX 07GF]</a></p>
+
+<p>Monosyllabicae verò dictiones, peregrina item vocabula, ab hac clausula non magnoperè discrepant: nisi quod tertia ante finem syllaba, non per tertiam saltu deprimitur, sed per gradum deflectitur, quam sequitur penultima adhuc per gradum descendens. Vltima verò ascendit rursum vel per gradum in commatis brevioribus, vel per tertiam in longioribus et in colis, hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 29,2; text: Sed in medio vestrum stat, quem vos nescitis, ipse est,] <a href="CALVEX_07GF.gif">[CALVEX 07GF]</a></p>
+
+<p><span class='pageNo'>[30]</span> [Calvisius, Exercitationes musicae duae, 30,1; text: qui post me veniet, antecessit me.] <a href="CALVEX_07GF.gif">[CALVEX 07GF]</a></p>
+
+<p>Et sic in peregrino vocabulo.</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 30,2; text: neque Elias, Haec facta sunt in bethabara.] <a href="CALVEX_07GF.gif">[CALVEX 07GF]</a></p>
+
+<p>atque haec de Lydio Modo.</p>
+
+<p>De MixoLydio.</p>
+
+<p>MIxoLydius Modus, primam speciem intervalli [tou dia pente], cum Ionico communem habet, eamque hic repetit, sed coniungit eam cum secunda specie [dia tessaron], eaque de causa speciebus [dia pason] ab Ionico diversus est. Prima enim eius forma qua secunda species [dia tessaron] primae [tou dia pente] superimponitur, incidit in quintam speciem [dia pason], quae ex clave G fit Regularis systematis, ex clave C verò Transpositi, et vocatur vel MixoLydius absolutè, vel MixoLydius contentus, sive authentus. Vulgo verò Tonus septimus.</p>
+
+<p><span class='pageNo'>[31]</span> In regulari systemate sic scribitur:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 31,1] <a href="CALVEX_07GF.gif">[CALVEX 07GF]</a></p>
+
+<p>Eius Exemplum in Harmonijs Cantionum Ecclesiasticarum nullum est.</p>
+
+<p>In transposito systemate hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 31,2] <a href="CALVEX_08GF.gif">[CALVEX 08GF]</a></p>
+
+<p>Exemplum in Harmonijs unicum est.</p>
+
+<p>Rex Christe factor omnium. Quod tamen fine variat.</p>
+
+<p>Altera eius forma, qua eadem secunda species [dia tessaron] ad primam [tou dia pente] inferiore loco assumitur, incidit in secundam speciem [dia pason], quae in Regulari systemate est ex clave D. in Transposito verò ex clave G. et vocatur HypoMixoLydius, vel MixoLydius Remissus sive Plagalis. Vulgò Tonus octavus. Frequenter hic miscere solet clausulam principalem Ionici, quemadmodum et suus contentus MixoLydius interdum.</p>
+
+<p>In regulari systemate in notulis et Clausulis sic scribitur:</p>
+
+<p><span class='pageNo'>[32]</span> [Calvisius, Exercitationes musicae duae, 32,1] <a href="CALVEX_08GF.gif">[CALVEX 08GF]</a></p>
+
+<p>Exempla in Harmonijs Cantionum Ecclesiasticarum sunt:</p>
+
+<p>Gelobet seystu Jesu Christ.<br />Dancksagen wir alle.<br />Festum nunc celebre, magnaque gaudia.<br />Diss sind die heiligen zehen Gebot.<br />Gott sey gelobet vnd gebenedeyet.</p>
+
+<p>In Transposito systemate hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 32,2] <a href="CALVEX_08GF.gif">[CALVEX 08GF]</a></p>
+
+<p>Exempla in Harmonijs nulla habentur.</p>
+
+<p>De AElio Modo.</p>
+
+<p>AEolius Modus secundam speciem [dia pente] cum tertia [tou dia tessaron] coniungit, eius prima forma, qua [Dia tessaron] superiore loco ponitur, incidit in sextam speciem [dia pason], quae in Regulari systemate est ex clave A. in Transposito verò ex clave D. vocaturque vel AEolius absolutè, vel AEolius Contentus, sive Authentus. Vulgò Peregrinus Tonus, quae <span class='pageNo'>[33]</span> appellatio ipsi contigisse videtur ex versu nono Psalmi sexagesimi primi. Extraneus factus sum fratribus meis, et filijs matris meae peregrinus. In vulgaribus enim Musicis libellis hic versus intonationi huius Modi olim subscribi, et exempli loco proponi solitus fuit.</p>
+
+<p>In systemate regulari hoc modo scribitur:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 33,1] <a href="CALVEX_08GF.gif">[CALVEX 08GF]</a></p>
+
+<p>Exemplum eius unicum est in Harmonijs.</p>
+
+<p>Gib vnserm Fürsten vnd aller Obrigkeit.</p>
+
+<p>In Transposito systemate hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 33,2] <a href="CALVEX_08GF.gif">[CALVEX 08GF]</a></p>
+
+<p>Exempla sunt:</p>
+
+<p>Spiritus sancti gratia.<br />Meine Seel erhebt den HErren.<br />Ich danck dem HErrn von gantzem hertzen.<br />Es wolt vns Gott gnedig seyn.</p>
+
+<p>Altera forma AEolij, qua eadem tertia species [dia tessaron], secundae [tou dia pente] <span class='pageNo'>[34]</span> inferiore loco subijcitur, comprehenditur in tertia specie [dia pason], quae in Regulari systemate est ex clave E. in Transposito verò ex clave A. et appellatur vel Hypo AEolius, vel AEolius Remissus, sive Plagalis.</p>
+
+<p>In regulari systemate sic scribitur:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 34,1] <a href="CALVEX_08GF.gif">[CALVEX 08GF]</a></p>
+
+<p>Exempla sunt:</p>
+
+<p>Allein zu dir HErr Jesu Christ.<br />Wer Gott nicht mit vns diese zeit.<br />Wo Gott der HErr nicht bey vns helt.<br />Vater vnser / der du bist / Kyrie eleison.</p>
+
+<p>In Transposito systemate hoc modo:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 34,2] <a href="CALVEX_09GF.gif">[CALVEX 09GF]</a></p>
+
+<p>Exempla in Harmonijs nulla sunt.</p>
+
+<p>Haec est doctrina duodecim Modorum, scitu ut iucunda et necessaria, ita facilima, usu verò longè celeberrima et fructu copiosissima.</p>
+
+<p>Quod ad usitatos octo Modos attinet, qui vulgò octo toni, sive tropi et differentiae nominantur, <span class='pageNo'>[35]</span> et ad fines Antiphonorum ascribuntur, sunt illi tantum clausulae, quibus Psalmi decantantur, nec Modorum essentiam rectè vel indicant vel explicant, praecipuè illae clausulae, quae Contentos Modos delineare debent. Praeterquam enim quòd ferè nec in propria clave ordiantur, in impropria praeterea semper finiuntur. Cognitio tamen earum necessaria est ijs, qui in decantandis Psalmis occupantur, et scientia eorundem ex vulgaribus Musicis libellis facilè acquiri poterit. Igitur de illis dicere hoc loco supersedebimus, et de variatione duodecim Modorum in figurato cantu aliquid monebimus.</p>
+
+<p>DE SECVNDO.</p>
+
+<p>De variatione Modorum in cantu figurato.</p>
+
+<p>EX his quae dicta sunt, cognitio cuiuslibet Modi in cantilenis facilis est. Finis enim eius ostendit ultimam clavem [tou dia pente] atque ita certam etiam eius speciem, quae applicata ad illam ipsam Cantilenam, <span class='pageNo'>[36]</span> certam etiam speciem [tou dia tessaron] atque eius situm, an videlicet superiore vel inferiore loco collocata sit, indicat unde certissimum de Modo iudicium fieri potest. Etsi autem quaedam cantilenae irregulariter finiuntur: tamen id rarò fit, et reliquae eius clausulae, atque ambitus facilè eius verum et regularem finem ostendunt, ut in exemplis apparet. Sunt praeterea quaedam Cantilenae, quae Modum suum certis clausulis in quadam sui parte demonstrant, ut sunt Responsoria, Introitus et Antiphona. Responsoria enim et Introitus Modum in versibus ostendunt. Antiphona verò eum in fine ascriptum habent subiunctis literis, E, u, o, u, a, e, quae seculorum Amen denotant. Quanquam autem et versus, et tropi illi Antiphonorum, quibus E, u, o, u, a, e, subscribitur, Modos, ut dictum est, non satis exprimunt, tamen, quoniam vulgò ita agnoscuntur, cognitionem Modi, qui aliàs etiam in Introitibus, Responsorijs et Antiphonis satis exprimitur, faciliorem reddunt.</p>
+
+<p>In figurali etiam Musica cognitio Modorum eadem est. Ex fine enim Cantilenae certa species [dia pente], et ex applicatione [tou dia] <span class='pageNo'>[37]</span> [pente] ad Cantilenam certa species et situs etiam [tou dia tessaron] in qualibet voce cognoscitur, tantum hoc de fine observandum, quod non promiscuè, in omnibus vocibus, ex ultima notula finis iudicandus sit, sed tantum ex ea, quae omnium infima est. Haec enim prae reliquis veram clavem finalem semper observat, cum reliquarum omnium sit fundamentum. Ex hac igitur clavis finalis desumta, et ad [dia pason], vel etiam [dis dia pason], si opus fuerit, elevata, vocibusque reliquis applicata, facile ubivis veram clavem finalem cuiusvis vocis, in ea cantilena ostendit, unde et de Modo et de certa etiam eius forma rectè pronunciari poterit. Ambae enim formae alicuius Modi in cantu figurato in una eademque Cantilena sed in diversis vocibus, semper coniungi solent, praeterquam in bicinijs quibusdam, vel etiam tricinijs, ubi duae, vel ternae voces, in eodem ambitu, in sonis aequabilibus, aut etiam in sonis per [dia pason] disiunctis progrediuntur, quae unicam tantum formam alicuius Modi observant.</p>
+
+<p>In reliquis Cantilenis, ubi ambae formae alicuius Modi coniunguntur, voces ita connecti <span class='pageNo'>[38]</span> solent, ut quaevis cum sibi proxima, idem vel [dia tessaron] vel [dia pente] habeat, ita ut cum singulae quidem voces suo ambitu [dia pason] complectantur: duae tamen simul sumtae intervallum [dia pason] tantum per [dia tessaron] vel [dia pente] excedant. Tres verò voces tantum [dis dia pason] impleant.</p>
+
+<p>Denominatio verò Modi sumitur à media voce, à Tenore videlicet. Et si is contenti alicuius sit modi, videlicet exempli gratia Ionici, tum de toto illius Cantilenae systemate pronunciatur, quod ad Ionicum Modum decurrat, etiamsi quaedam voces inter reliquas HypoIonicum observent. Et contra: Si Tenor alicuius Cantilenae ad Remissum aliquem Modum decurrat, exempli gratia, ad HypoIonicum, de tota Cantilena pronunciatur, quod sit HypoIonici Modi, etiamsi quaedam voces ad Ionicum canantur. Et haec regula universaliter de omnibus Cantilenis figuratis observatur.</p>
+
+<p>Sunt autem figuratae Cantilenae, si quis eas distinguere et in certas quasi classes redigere velit, in quadruplici ferè differentia. Quaedam enim dicuntur cantari ad AEquales, non quidem, quod aequali sonorum intensione omnes <span class='pageNo'>[39]</span> voces progrediantur, sed quod consonantias viciniores habeant. Harum cantilenarum systema, sive totum Harmoniae corpus in [dis dia pason] ferè consistit. Et si exteriores voces Contentum aliquem Modum observent, mediae Remissum eius nominis Modum cantabunt. Et contra: Si exteriores Remissum canent, mediae Contentum habebunt. Exempla ubique multa occurrunt. Praecipuè tamen apud Iacobum Handelium.</p>
+
+<p>Quaedam suo systematis ambitu [dis dia pason], vel per [dia tessaron], vel per [dia pente] excedunt. Quod autem non semper aequale ad [dis dia pason] intervallum, in constituendo Harmonico systemate assumitur, in causa est diversa Modorum forma. Cantilenae enim, quarum Tenor Contentum aliquem Modum observat, assumunt in infima voce in Basso videlicet tantum [dia tessaron], atque ita [dis dia pason] in integro Harmoniae systemate tantum per [dia tessaron] exceditur. Quarum verò Tenor in Remisso aliquo Modo progreditur, earum systema [dia pente] ultra [dis dia pason] implet. Tanto enim intervallo Bassus in hisce Cantilenis quam Tenor profundior est. In hisce <span class='pageNo'>[40]</span> Cantilenis Modus ita distribuitur, ut si Tenor cum Discanto Contenti alicuius sit Modi, Bassus et Altus Remissum eius observent, et contra. Atque haec est secunda Classis figuratarum Cantilenarum.</p>
+
+<p>Ad tertiam classem referri possunt Cantilenae, quae suo Harmoniae systemate integrum [tris dia pason] complectuntur. Faciunt hae si plures voces coniungantur, et omnia eius loca rectè consonantijs expleantur, plenam, perfectam et intumescentem quasi Harmoniae constitutionem. Verùm cum ad diversos choros plerunque huiusmodi Cantilenae canantur, et singuli chori nimium vel in acutioribus, vel contrario modo in profundioribus sonis progrediantur, fit, si separatim chori audiantur, ut ex paucioribus hisce vocibus Harmonia exilior oriatur, nisi instrumentis Musicis utrobique sedulò adiuventur. Ad unam Modi alicuius formam huiusmodi Cantilenae referri non possunt, propter diversos Tenores, quorum alter Contentum aliquem Modum, alter verò Remissum observat. Rectius itaque ad ambas formas alicuius modi, sive ut aliàs loquimur, ad connexum aliquem Modum, quod Contentus <span class='pageNo'>[41]</span> cum suo Remisso connectatur, vel etiam ad principalem aliquem Modum referuntur. Exempla ubique habentur, ut apud Orlandum.</p>
+
+<p>In convertendo Dominus captivitatem. ab 8. <br />Quod ad Dorium connexum decurrit. Item: <br />Tristis est anima mea.<br />quod ad Ionicum. Et alia.</p>
+
+<p>Sunt qui quarto loco Cantilenas instituant, quarum systema ultra [tris dia pason], [dia tessaron] vel [dia pente] complectatur, verùm huiusmodi constitutio et propter acutissimos sonos summa vi expressos, et propter gravissimos susurrorum bombos omnem ferè gratiam amittit, et rarissimè usurpatur, nisi plurimis consonantijs ubique expleatur, et exquisitissimis Musicorum instrumentis adiuvetur, quae cum ubique haberi non possint, huiusmodi cantilenae, inter eas, quae voce humana canuntur, recenseri vix possunt. Exempla tamen inveniuntur, vt Cantilena prima continuationum Lindneri quae est:</p>
+
+<p>Angelus ad Pastores ait.</p>
+
+<p>Item in Melodijs sacris Norinbergicis.<br />Laudate Dominum. ab 8. Claudij Meruli.<br />Confiteantur tibi populi Deus. ab 8. Claudij Meruli.<br /><span class='pageNo'>[42]</span> Gaude Maria virgo. à 10. Claudij Meruli.<br />Benedicam Domino in omne tempore. à 10. Iohannis Gabrielis.<br />Omnes gentes plaudite manibus. à 16. Iohannis Gabrielis.</p>
+
+<p>Etsi ex his, quae de variatione Modorum in figurata Musica dicta sunt, et ex exemplis ad quemque Modum, ex Harmonijs Cantionum Ecclesiasticarum additis, Modus quilibet facilè agnosci potest: tamen ne fortè quid desiderari possit, exempla ex probatia autoribus desumta maximê illustria, et ubivis obvia ad singulos Modos ascribamus, ut discentes habeant, quo Modorum naturam rectius introspicere et contemplari possint.</p>
+
+<p>Exempla Ionici Modi. </p>
+
+<p>Et Ionicus quidem specialiter sic dictus, sive Ionicus contentus in suo systemate regulari rarius usurpatur, idque ut videtur, praeter causam, cum claves ordinarias nullibi, vel acumine vel profunditate excedat, habentur tamen aliqua exempla. Vt:</p>
+
+<p>Cum intrasset Iesus. à 5. Iacobi de Wert.<br />Item. O magnum mysterium. ab 8. ad aequales. <br /><span class='pageNo'>[43]</span> Omnes gentes plaudite manibus. ab 8. <br />Ego sum panis vivus. à 6. Iacobi Handelij.<br />Sic classica cantica plaeraque ad hunc modum canuntur. Vt Vngaricum hoc:<br />Magnanimi Heroes. à. 6.<br />Heroes pugnate viri. à 4. Iacobi Handelij.</p>
+
+<p>In transposito systemate frequentior est, ut apud Orlandum.</p>
+
+<p>Congratulamini mihi omnes. à 6.<br />Decantabat populus Israel. à 7.<br />Legem pone mihi. à 5.<br />Exultet coelum. à 5.<br />Dum complerentur dies Pentecostes. à 6. Iohannis de Palestrina.<br />Sic apud Iacobum de Wert.<br />Speremus meliora omnes. à 5.<br />Omnis homo primum bonum vinum. à 5.<br />Intravit Iesus in quoddam castellum. à 5.<br />Sic in continuationibus Lindneri.<br />Quaeramus cum pastoribus. ab 8.<br />In illo tempore exurgens Maria. à 5.<br />Puer qui natus est nobis. à 6.<br />Inter natos mulierum. à 5.<br />Sic Super flumina Babylonis. à 4. Iacobi Handelij et alia multa.</p>
+
+<p><span class='pageNo'>[44]</span> HypoIonicus, sive Ionicus remissus non minus frequens est, tam in regulari quam in transposito systemate.</p>
+
+<p>In regulari quidem systemate apud Orlandum.</p>
+
+<p>In te Domine speravi. à 6.<br />Surrexit Pastor bonus. à 5.<br />Quem vidistis Pastores. à 5.<br />Hodie completi sunt dies Pentecostes. à 6.<br />Apud Iacobum Wert.<br />Nolite esse prudentes. à 5.<br />Providebam Dominum. à 5.<br />Deus Iudex iustus. à 5.<br />In continuationibus Lindneri.<br />Tulerunt Dominum. ab 8.<br />Sancta Trinitas. à 6.<br />In Corollario Lindneri.<br />Surrexit Pastor bonus. à 6.<br />Angelus Domini descendit de coelo. à 6.<br />Ascendo ad Patrem meum. à 5.<br />Tu es Petrus, et super hanc Petram. à 7.<br />Canite tuba in Sion. à 5.<br />Ascendit Deus in iubilatione. à 6. Albini Fabricij.</p>
+
+<p>In Transposito systemate, vt apud Orlandum.</p>
+
+<p><span class='pageNo'>[45]</span> Tempus est ut revertar. à 6.<br />Fremuit spiritu Iesus. à 6.<br />Estote ergo misericordes. à 7.<br />Levavi oculos meos ad montes. ab 8.<br />Sidus ex claro veniens Olympo. à 5.<br />Resonet in laudibus. à 5. et alia natalitia cantica plaeraque.<br />Ascendente Iesu in naviculam. à 6. Iacobi Wert.<br />Cantate Domino canticum novum. à 6. Et <br />Hodie Christus natus est. à 6. Albini Fabricij.<br />In Corollario Lindneri.<br />In illo tempore, postquam consummati sunt. à 7.<br />O crux splendidior cunctis astris. ab 8.<br />Tulerunt Dominum. à 6. et à 5.<br />Virtute magna reddebant Apostoli. à 6.<br />Gaudent in coelis. à 6. et cetera. Et alia.</p>
+
+<p>Tertiae etiam classis Cantiones ad hunc modum institutae, ubi Ionicus cum Hypo Ionico connectitur, et Harmonia integrum [tris dia pason] suo systemate complet vel etiam superat, multae reperiuntur, ut in Regulari systemate.</p>
+
+<p>Benedicam Domino in omni tempore. à 10. in Melodijs sacris. </p>
+
+<p><span class='pageNo'>[46]</span> In Transposito systemate apud Orlandum. </p>
+
+<p>Beatus qui intelligit super egenum. à 6.<br />Tristis est anima mea. à 5.<br />Deus misereatur nostri. à 12. Andreae Gabrielis.<br />Sic apud Iacobum Handelium.<br />Laudate Dominum. à 16.<br />Cantate Domino. à 12.<br />Laudate Dominum. à 10.<br />Impetum inimicorum. à 12.<br />Tribus miraculis ornatum diem. à 12.</p>
+
+<p>Exempla Dorij.</p>
+
+<p>Dorij etiam specialiter sic dicti, sive Dorij Contenti exempla multa inveniuntur. Et quidem in systemate Regulari, apud Orlandum.</p>
+
+<p>Quare tristis es anima mea. à 6.<br />De ore Prudentis procedit mel. à 5.<br />Quid prodest stulto habere divitias. à 5.<br />Animam meam dilectam. à 5.<br />Non auferetur sceptrum. à 6. Iacobi Meilandi.<br />In continuationibus Lindneri.<br />Surrexit Pastor bonus. à 6.<br />Eructavit cor meum verbum bonum. à 6.<br />Isti qui amicti sunt stolis albis. à 6.<br /><span class='pageNo'>[47]</span> Sic in Corollario.<br />Victimae paschali laudes. ab 8.<br />Regna terrae cantate Deo. à 8.<br />Egredimini et videte. ab 8. et caetera.</p>
+
+<p>In systemate Transposito. Vt itidem apud Orlandum.</p>
+
+<p>Confitemini Domino. à 5.<br />Omnia quae fecisti nobis Domine. à 5.<br />Videntes stellam Magi. à 5.<br />Emendemus in melius. à 5.<br />Pater Abraham. à 5.<br />Transeunte Domino. à 5. Iacobi de Wert.<br />In continuationibus Lindneri.<br />Expurgate vetus fermentum. ab 8.<br />Veni sancte Spiritus. ab 8.<br />In Corollario Lindneri.<br />Pueri Hebraeorum. à 5.<br />Angelus Domini descendit de coelo. à 5.<br />Veni sancte Spiritus. ab 8.<br />Veni Domine et noli tardare. à 6.<br />In Melodijs sacris Norinbergicis.<br />Cantate Domino canticum novum. à 4.<br />Decantabat populus Israel. à 6.<br />Duo Seraphin clamabant. ab 8.<br />Veni in hortum meum ab 8.<br />Iubilate Deo. ab 8.</p>
+
+<p><span class='pageNo'>[48]</span> Sic et Dorij Remissi sive Hypodorij exempla multa inveniuntur, variora quidem in regulari systemate, longè verò frequentiora in transposito. Exempla Hypodorij in regulari systemate sunt apud Orlandum.</p>
+
+<p>Surge propera amica mea. à 6.<br />Concupiscendo concupivit anima mea. à 6.<br />Alleluia vox laeta personet. à 5.<br />Beatus ille qui procul negocijs. à 5.<br />Elizabeth Zachariae. à 6. Iacobi Handelij.<br />Vespere autem Sabbathi. Vincentij Ruffi in continuationibus.<br />Nunc dimittis servum tuum. à 8. et <br />Surge illuminare. à 8. In Corollario Linderi.<br />Misericordias Domini. à 4. In Melodijs sacris.</p>
+
+<p>In Transposito systemate itidem apud Orlandum.</p>
+
+<p>Iesu nostra redemtio. à 6.<br />In principio erat verbum. à 6.<br />Domine deduc me. à 6.<br />Dixit Ioseph undecim fratribus. à 6.<br />Laudate pueri Dominum. à 7.<br />Confitebor tibi Domine. à 8.<br />Veni in hortum meum. à 5.<br />Angelus ad pastores ait. à 5.<br />Taedet animam vitae meae. à 5.<br />Ego sum qui sum. à 6.<br /><span class='pageNo'>[49]</span> Iam non dicam. à 8. Dominici Phinot.<br />Praeter rerum feriem. à 6. Iosquini de Pres.<br />Quiescat vox tua à ploratu. à 6. Iacobi de Wert.<br />Deus Canticum novum cantabo tibi. à 6. item:<br />Non vos relinquam orphanos. à 6. et<br />Quare tristis es anima mea. à 6. Albini Fabricij.<br />In continuationibus Lindneri.<br />Quem vidistis pastores dicite. à 8.<br />O magnum mysterium. à 8.<br />Iam de somno in quo tam diu. à 8.<br />In Corollario.<br />Beata viscera Mariae virginis. à 8.<br />O admirabile commercium. à 6.<br />Omnes de Saba veniunt. à 8.<br />Haec est dies. à 8.<br />Gloria patri qui creavit nos. à 8.<br />Hi sunt qui venerunt. à 8. et caetera. Et alia multa.</p>
+
+<p>In systemate Harmoniae perfecto, quod ambitu suo [tris dia pason] complectitur aut etiam excedit, ubi Dorius cum Hypodorio connectitur, exempla similiter habentur, tam in Regulari quam in Transposito systemate.</p>
+
+<p>In Regulari quidem.</p>
+
+<p>Adjuro vos filiae Ierusalem. à 12. et</p>
+
+<p>Dominus Iesus in qua nocte. à 8. Iacobi Handelij.</p>
+
+<p>Item in Medolijs sacris.</p>
+
+<p><span class='pageNo'>[50]</span> Laudate Dominum. à 8. Claudij Meruli.<br />Confiteantur tibi populi Deus. à 8.<br />Omnes gentes plaudite manibus. à 16. Iohannis Gabrielis.<br />In Transposito verò, ut apud Orlandum.<br />In convertendo Dominus. à 8.<br />Domine Dominus noster. à 6.<br />Verbum caro factum est. à 10. Iacobi Handelij et<br />Exultate Deo adjutori nostro. à 8.<br />In continuationibus Lindneri.<br />Congratulamini mihi omnes. à 8.<br />Laudate Dominum. à 10.<br />Exurgat Deus et dissipentur. à 8.<br />Benedicam Dominum. à 12.<br />Nuptiae factae sunt in Cana Galilaeae. à 12.<br />In Melodijs sacris Norinbergicis.<br />In tribulatione mea. à 8.<br />Deus noster refugium et virtus. à 8.<br />Domine Dominus noster. à 8.<br />Diligam te Domine. à 8. et caetera.</p>
+
+<p>Exempla Phrygij Modi.</p>
+
+<p>Phrygius ab Hypophrygio, ut supra diximus, non magnopere differt. Clausulis enim ut reliqui eiusdem nominis Modi, conveniunt, <span class='pageNo'>[51]</span> ambitu parum discrepant, nisi quod Phrygius paulò acutiores sonos amat, Hypophrygius verò remissiores, quamvis et hic interdum assurgat.</p>
+
+<p>Phrygij in regulari systemate exempla sunt apud Orlandum.</p>
+
+<p>Dominus mihi adjutor. à 6.<br />Locutus sum in lingua mea. à 6.<br />Deus misereatur nostri. à 8.<br />Missus est angelus Gabriel. à 5.<br />Fili, quid fecisti nobis sic. à 5.<br />Quam benignus es ô Domine. à 5.<br />In me transierunt. à 5.<br />Credidi propter quod locutus sum. à 5.<br />Stabunt iusti. à 5.<br />Cum invocarem. à 6.<br />Tanquam ovis ad occisionem. à 6. Iacobi de Wert.<br />Sic in Corollario Lindneri.<br />Senex puerum portabat. à 5.<br />Christus verè languores nostros tulit. à 5.<br />Tulerunt Dominum meum. à 8.<br />In Melodijs sacris Norinbergicis.<br />O Iesu Christe miserere mei. à 5.<br />In lectulo meo. à 5.<br />Misericordias Domini. à 8. et caetera.</p>
+
+<p><span class='pageNo'>[52]</span> In Transposito systemate exempla non habentur. Nam si quae Cantilenae in clave A. Transpositi systematis finiuntur, eae potius ad HypoPhrygium referuntur. Cum Transpositio illa ex clave E. in acutiorem clavem A. propter graviores sonos, scalam ferè ambitu suo excedentes facta videatur. Exempla igitur Hypophrygij ascribamus, quorum tamen pauca inveniuntur, ut in Regulari systemate apud Orlandum.</p>
+
+<p>Infelix ego omnium auxilio destitutus. à 6.<br />In monte oliveti oravi Patrem. à 6.<br />In omnibus requiem quaesivi. à 7.<br />Terra tremuit ab ira tua. à 6. Alexandri Utendalij.<br />Item. O profunditatem divitiarum. à 6.</p>
+
+<p>In Transposito systemate apud Orlandum.</p>
+
+<p>Te Deum laudamus. à 6.<br />Deliciae Phoebi. à 5.<br />Peccavi. à 5.<br />Susanna se videns, et caetera à 6. in Miscellis Lechneri.<br />In Cantionibus sacris Lindneri.<br />Adorna thalamum. à 5.<br />O rex gentium. à 6.<br />In Corollario Lindneri.<br />Canite tuba in Sion. à 6.<br />Ierusalem cito veniet salus tua. à 6. et caetera.</p>
+
+<p><span class='pageNo'>[53]</span> Ad connexum Phrygij systema, ubi Phrygius cum Hypophrygio connectitur, in ambitu trium [dia pason], referri possunt:</p>
+
+<p>Dilexi, quoniam exaudiet Dominus. à 8. Ludovici Daseri.<br />Angelus ad Pastores. à 12. In continuatiobus Lindneri.</p>
+
+<p>Exempla Lydij Modi.</p>
+
+<p>Lydius Modus, ut supra monuimus, propter Tritonum duriusculè auribus accidit, non tantum in modulatione simplici, sed praecipuè in figurata, in clausulis formandis, et Harmonia plurium vocum deducenda, ideò rarissima huius Modi exempla reperiuntur: aliqua tamen, quae occurrent, recensebimus. Et Lydium quidem propriè sit dictum, sive Lydium Contentum in regulari systemate eleganter expressit Vtendalius in Cantilena: Fratres expurgate vetus fermentum. à 6. Item Philippus de Monte in Cantilena: Beati qui habitant. à 5. in Miscellis Lindneri. Sic aliquot etiam exempla inveniuntur apud Italos in Magdrigalibus Lucae Marentij et aliorum etiam in Trasposito systemate.</p>
+
+<p><span class='pageNo'>[54]</span> Hypolydij exemplum est apud Orlandum.</p>
+
+<p>Quid prodest homini. à 5.</p>
+
+<p>Verum propter crebram fictionem, qua ad vitandum tritonum, b rotundum inseritur, ferè in Hypo Ionicum transit. Purius exemplum est in Corollario Lindneri.</p>
+
+<p>Non turbetur cor vestrum. à 5.<br />Ecce Dominus veniet. à 5. Iacobi Handelij.</p>
+
+<p>Exempla MyxoLydij.</p>
+
+<p>MixoLydius tam Contentus quàm Remissus frequentior est in systemate regulari, quàm in transposito. Consuetudine ita invalescente, cum non minus commodè in transposito decurrat.</p>
+
+<p>Exempla in utroque, systemate referemus, et primo MixoLydij contenti in regulari systemate, ut apud Orlandum.</p>
+
+<p>Iubilate Deo. à 6.<br />Ubi est Abel frater tuus. à 5.<br />Tibi laus tibi gloria. à 5.<br />Sicut mater consolatur filios. à 5.<br />In convertendo Dominus. à 6. Lechneri.<br />Maria Magdalena. à 5. Clementis non Papae.<br />Sic in Miscellis Lechneri.<br /><span class='pageNo'>[55]</span> Fuit homo missus à Deo. à 5.<br />Factus est repente sonus. à 5.<br />Beata Dei genitrix. à 5.<br />In continuationibus Lindneri.<br />Pacem relinquo vobis. à 5.<br />Repleti sunt omnes Spiritu sancto. à 6.<br />Si quis diligit me. à 6.<br />Tu es Pastor ovium. à 6.<br />In Corollario Lindneri.<br />Hodie nobis coelorum rex. à 6.<br />Beata es virgo Maria. à 5.<br />Mane nobiscum Domine. à 5.<br />Solve iubente Deo. à 6.<br />Tu es Petrus. à 6.<br />Ibant Apostoli gaudentes. à 5.</p>
+
+<p>In Transposito systemate exemplum habetur apud Orlandum.</p>
+
+<p>Quis valet eloquio. à 5. Item:<br />Petre amas me. à 6. Iacobi Handelij.<br />HypomixoLydij exempla in regulari systemate sunt apud Orlandum.<br />Timor et tremor. à 6.<br />Vexilla regis prodeunt. à 6.<br />Nuptiae factae sunt. à 6.<br />Iunior fui, etenim senui. à 6.<br />Veni creator Spiritus. à 6.<br /><span class='pageNo'>[56]</span> Tityre tu patulae recubans. à 6.<br />Gustate et videte à 5.<br />Ecce Maria genuit nobis. à 5.<br />Benedicam Dominum in omni tempore. à 5.<br />Inter natos mulierum. à 5.<br />Dixit Dominus Domino meo. à 8.<br />Ingrediente Domino in sanctam. à 5. Pandolphi Zallamellae.<br />Iubilate Deo. à 8. Lucae Marentij.<br />Ego dormivi et soporatus sum. à 6. Brunonis.<br />Cor mundum crea in me Deus. à 6.<br />Sic in continuationibus Lindneri.<br />Tribus miraculis ornatum diem. à 5.<br />Maria Magadalena. à 7.<br />In Corollario Lindneri.<br />Quem vidistis pastores. à 8.<br />Cum esset desponsata mater Iesu. à 5.<br />O gloriose Domine. à 6.<br />Si quis diligit me. à 8.<br />In Melodijs sacris Norinbergicis.<br />Paratum cor meum Deus. à 5.<br />Domine Iesu Christe adoro te. à 8.<br />Iubilemus singuli. à 8.<br />In Transposito systemate, haec sunt praecipuè:<br />Lauda Ierusalem Dominum. à 6. Orlandi.<br />Laudate Dominum in sanctis eius. à 4. Handelij.<br />Surge illuminare. à 6. Vincentij Ruffi in continuationibus.</p>
+
+<p><span class='pageNo'>[57]</span> Exempla etiam habentur MixoLydij contenti, cum HypomixoLydio connexi, in systemate pleno, quod ambitu suo intervallum trium [dia pason] complectitur, quale est celebris illa Cantilena Alexandri Strygij, quadraginta vocum discriminibus composita.</p>
+
+<p>Laudem Iehovae summi, et caetera. Item:<br />Iubilate Deo. à 8. Andreae Gabrielis in continuationibus.<br />Ecce venit desideratus gentibus. à 12. in Corollario.<br />Mirabiles elationes maris. à 8. in Melodijs sacris.<br />In te Domine speravi. à 12. ibidem.<br />Plaudite jubilate Deo omnis terra. à 12. ibidem.<br />Nisi Dominus ipse fuisset nobiscum. à 16. et caetera.</p>
+
+<p>Exempla AEolij Modi.</p>
+
+<p>AEolius Modus, ut quondam nomine peregrinus appellatus est, ita reipsa olim peregrinus fuit et exul in figurata Musica, rarissimè enim est usurpatus. Hodie verò non minus frequentia eius exempla occurrunt, ut aliorum Modorum, quorum quaedam recensebimus, et primum quidem in systemate Regulari AEolij contenti, ut apud Orlandum.</p>
+
+<p><span class='pageNo'>[58]</span> Ad te levavi animam meam. à 6.<br />Benedictio et claritas. à 6.<br />Deus in adiutorium meum. à 6.<br />O altitudo divitiarum. à 6.<br />In Deo salutare meum. à 6.<br />Domine Deus rex magne. Hannibalis Paduani à 6.<br />Sic in continuationibus Lindneri.<br />Angelus Domini descendit de coelo. à 7.<br />Isti, qui amicti sunt stolis albis. à 6.<br />In Corollario Lindneri.<br />Tempus est, ut revertar. à 6.<br />Duo Seraphin clamabant à 8.<br />In Melodijs sacris Norinbergicis.<br />Ave Maria gratia plena. à 5.<br />Ad te levavi animam meam. à 5.<br />Iustorum animae in manu Dei sunt. à 5.<br />Verba mea auribus percipe. à 5.<br />Audi Hymnum et orationem. à 6.<br />Suscepimus Deus misericordiam. à 6.<br />Exaudi Domine iustitiam meam. à 6.<br />Sanctificavit Domnus tabernaculum. à 7.<br />In tribulatione miserere mei. à 8. et caetera.</p>
+
+<p>In systemate Transposito pauciora exempla habentur, et haec ferè:</p>
+
+<p>O profunditatem divitiarum. à 6. Iohannis Thomae Tribio.<br /><span class='pageNo'>[59]</span> O vos omnes qui transitis. à 6. Iacobi Handelij.<br />O vos omnes quis transitis. Alphonsi Ferabosci in Cantionibus sacris Lindneri.<br />In Corollario Lindneri.<br />Laudem dicite Deo nostro. à 8.<br />Timete Dominum omnes sancti eius. à 6.<br />Ecce ego mitto vos sicut oves. à 5.<br />Ad Dominum cum tribularer. a 8.<br />Psalmus Paschalis in exitu Israel. Meilandi et aliorum.</p>
+
+<p>Hypo AEolij exempla in systemate Regulari non facilè inveniuntur, apud Iacobum Handelium verò hic Modus est longè frequentissimus, cuiusmodi exempla sunt:</p>
+
+<p>O quàm metuendus est locus iste. à 8.<br />Usque quo Domine. à 8.<br />Laus et perennis gloria. à 3.<br />Duo Seraphin clamabant. à 8.<br />Rorate coeli desuper. à 6.<br />Quid gloriaris. à 6.<br />Domine quando veneris. à 6.<br />Adoramus te Iesu Christe. à 6.<br />Usque quo Domine. à 6.<br />Miserere mei Deus à 6. et caetera et alia multa.<br />Sic et apud alios Autores, ut:<br />Pater peccavi in coelum. à 6. Andreae Pevernage.<br /><span class='pageNo'>[60]</span> Domine à lingua dolosa. à 5. Hannibal Paduanus.<br />Beati immaculati in via, à 8. in Melodijs sacris, et caetera.</p>
+
+<p>In Transposito systemate rarior est. Exemplum habetur in Cantionibus sacris Friderici Lindneri.</p>
+
+<p>Timor et tremor à 6. Item:<br />Ad Dominum cum tribularer clamavi. à 4. Handelij.</p>
+
+<p>Exemplum AEolij connexi, ubi AEolius cum HypoAEolio in systemate pleno, quod spacium trium octavarum complet, connectitur, est:</p>
+
+<p>Exultate iusti in Domino. à 10. in continuationibus Lindneri.<br />Item: Deus, Deus meus. à 10. in Corollario.<br />Et in Melodijs sacris.<br />Domine à lingua dolosa. à 8. et caetera.</p>
+
+<p>Haec exempla Modorum, si diligenter inspiciantur, studioso Modorum Musicorum sufficient. Satis enim uniuscuiusque Modi clausulas, ambitum, finem, variationem, naturamque, quò inclinet, indicabunt. Ideo pergamus ad reliqua.</p>
+
+<p><span class='pageNo'>[61]</span> DE TERTIO.</p>
+
+<p>Ad quam clavem in organo Pneumatico in templis usitato, quilibet Modus cantari debeat vel possit.</p>
+
+<p>CAntoris offcium inter caetera hoc etiam praecipuum est, ut in choro Musico regendo Cantilenas suas ea sonorum intensione inchoet, qua omnibus suis concentoribus rectè conveniat, ut quilibet suam partem sive vocem, quam canit, ambitumque eius, tam in acumine, quam in profunditate, suavi modulatione permeare possit. Hoc enim modo suavius consonantiae miscebuntur, et plurimum gratiae et autoritatis toti cantilenae conciliabitur. Contra verò, si in hac re peccatum fuerit, sonusque in inchoando datus, nimium vel ad profunditatem vel ad acumen accesserit, omnis gratia cantilenae perit, et Harmonia penitus destruitur. Nam ut quisque concentorum ambitum suae partis sive vocis rectè attingere possit, necessarium erit, cum id naturali facultate praestare non queat, ut magno <span class='pageNo'>[62]</span> conatu et vi quadam hoc efficiat. Omne autem violentum, ut naturae, ita et Harmoniae penitus inimicum. Diligenter igitur is, qui alijs incipiendi sonum praeit, et cantilenam, quam ad modulandum proponit, quo ad ambitum et progressum, et deinde concentorum etiam suorum in altitudine et profunditate sonorum exprimenda, vires rectè cognitas habeat, ut inde cantilenae suae convenientem sonum in initio capere possit. Et exercitato quidem in hac re Cantori fortassis, si et vocis suae mensuram rectè noverit, et in privato loco, ex suo arbitrio cum suis concentoribus modulatus fuerit, hoc difficile non erit. In templo verò, ubi alternatim et in organo pneumatico, et in choro Musico canendum est, incipiendi modus iam non amplius in arbitrio Cantoris situs est, sed ipsi sonus, quem in qualibet clave organum praebet, praescribitur. Cantoris tamen erit clavem in organo, quam suae cantilenae convenire putabit, ab organico poscere. Organici verò eam rectè in Diatonico genere, ut natura fert, exhibere, nec per Chromaticas claves species [dia pente] et [dia tessaron] in alias atque alias formas detorquere. Hoc enim modo, dum organicus <span class='pageNo'>[63]</span> Cantorem imperitiae arguere conatur, omnem rationem inchoandi cantilenam adimit, et confundit, unde et confusionem totius Harmoniae consequi necesse est, nec in potestate Cantoris etiam exercitatissimi situm est hoc avertere, nisi paululum organo desinente quieverit, et inde mutato aliquantulum vel in grave vel in acutum sono, veras et suae cantilenae convenientes [tou dia pente] et [tou dia tessaron] species concentoribus praemonstraverit, falsasque ab organico auribus intrusas obliteraverit. Quod quidem ut Cantori necessarium est, Ecclesiae verò dedecori, ita tota eius culpa organico imputanda.</p>
+
+<p>Quam autem clavem in quolibet Modo Cantor poscere debeat, iam docendum, et ut tota res facilius expediri possit, prius de intensione organorum pneumaticorum est statuendum, quae rarò sunt eiusdem vel propinquae intensionis, interdum enim tono, vel semiditono, vel ditono vel etiam amplius acumine vel gravitate inter se differre solent, unde fit, ut universaliter de sono ex organorum clavibus poscendo, in omnibus Modis Musicis statui non possit. </p>
+
+<p><span class='pageNo'>[64]</span> Ea igitur intensio Organorum videtur optima et choro Musico apta, quae instrumentis Musicis, qualia praecipuè sunt Cornua, Germanis Zincken / item, quae Italis Dulce soun dicuntur, convenit. In hac enim intensione, Harmonia totius sui systematis ambitu [dis dia pason dia pente] comprehendens, si vel ad Hypophrygium ex clave E. vel ad Hypo AEolium ex clave A. canatur, ita haberi poterit, ut illa à profunditate, haec verò ab acumine non magnopere laboret. Inter hos autem fines omnis huiusmodi Harmonia in omnibus Modis decurrit. Et huius intensionis ferè sunt organa pneumatica, quae in templis aulicis principum ad chorum Musicum adhibentur, item quae in urbibus maritimis habentur, et quae hodie etiam nova fabricantur. Ad hanc vel propinquam intensionem totam rem dirigamus. Si quis in diversae intensionis organon inciderit, is comparatione facta, quae eius clavis cuilibet Modo convenire possit, facilè hinc divinabit.</p>
+
+<p>Et primo quidem de ea Harmonia, quae [dis dia pason dia pente] toto sui systematis ambitu non excedit, et ad quam clavem in <span class='pageNo'>[65]</span> organis quilibet eius modus sive in systemate regulari, sive in transposito scriptus fuerit, simplicissima ratione cani possit, dicamus. De ijs enim cantilenis, quae ad AEquales canuntur, praecipere necesse non est, cum exiguo ambitu concludantur, et ad extremos in scala sonos non facilè accedant, atque ideò ut lubet, etiam ex diversis clavibus, tantummodo observatis speciebus [dia pente] et [dia tessaron] incipiendi sonum accipere possint. Ionicus igitur contentus ad clavem C. regularis systematis canitur. HypoIonicus verò ad clavem F. transpositi. Dorius contentus ad clavem D. regularis systematis Hypodorius ad clavem G. transpositi. Phrygius et Hypophrygius ex clave E procedunt. Lydius contentus ex clave B. transpositi systematis cani potest: Hypolydius ex clave F. systematis regularis. MixoLydius contentus ex clave C. transpositi: HypoMixoLydius ex clave G. regularis systematis. AEolius contentus ex clave D. transpositi. HypoAEolius verò ex clave A. regularis systematis.</p>
+
+<p>Haec quidem est simplicissima et facilima ratio transponendi cantilenas in organis ad eas claves in quibus eadem species [dia pente] <span class='pageNo'>[66]</span> et [dia tessaron] permanent, quaeque Cantorem de incipiendi sono dubium reddere non possunt.</p>
+
+<p>Verùm cum et hac ratione cantilenae interdum ad graviores sonos, quam par est, deijciantur, et Harmonia inde langvidior generetur pigriorque, perito Cantori saepè ad alias claves confugiendum est, quae quidem naturali ratione easdem species [dia pente] et [dia tessaron] illius cantilenae, quam ad modulandum proposuit, non exhibent, sed quae tamen per Chromaticam clavem, quam Fis vocant, si in organica modulatione loco Diatonicae clavis F. tangatur, et reliquis Diatonicis clavibus immisceatur, eò redigi possunt, ut aliquo modo eas repraesentent, ubi observandum, non nimis strictè ab Organico hanc fictionem per clavem Chromaticam Fis esse postulandam. Nam cum haec clavis nullam Diatonicam in perfectis consonatijs admittat praeterquam [sqb] quadratam in quinta consonantem, fit, ut omnis modulationis suavitas in organis pneumaticis hac ratione destruatur, et dura, aspera et auribus pariter ac animis ingrata Harmonia exoriatur, quod magno studio ab Organico <span class='pageNo'>[67]</span> declinandum et cavendum. Acquiescendum igitur est Cantori, si [dia pente] tantummodo rectè exhibeatur, etiamsi [dia tessaron] exactè haberi non possit. Putant quidam, qui Musicam figuratam exercent in instrumentis Musicis, sive illa inflentur, sive intendantur, omnem cantilenam, quae transpositione egeat, per quartam rectè deijci et ad profundiores sonos manentibus ijsdem speciebus [dia pente] et [dia tessaron] traduci posse. Verùm cum id fieri non possit, nisi clavis Chromatica Fis inseratur, quae Diatonicis clavibus in perfectis consonantijs vix consonat, illos falli in confesso est. Fictio autem haec specialis sive transpositio, ut vocant, in quibus Modis et clavibus accidat, breviter indicabimus. Et quidem Ionicus contentus suam clavem rarò: Dorius verò, Phrygius, Hypophrygius, Lydius, HypoLydius, HypomixoLydius et HypoAEolius nunquam mutare consueverunt, sed ex ijs clavibus, ut iam dictum est, semper canuntur. Reliquis verò Modis incipiendi sonus, etiam ex alijs quam hactenus monstratum est, clavibus exhiberi potest, ut Ionico quidem contento ex clave D. quando organicus, dum organo praecinit, <span class='pageNo'>[68]</span> pro clave F, clavem Chromaticam Fis, quam vocant, tangit, et reliquis Diatonicis interserit. Hac enim ratione prima species [dia pente], huic Modo conveniens exhibetur. Sic HypoIonico clavis G. regularis systematis aliquo modo convenit, eadem enim hic prima species [dia pente] habetur, etiamsi secunda species [dia tessaron] praeter HypoIonici Modi naturam adiungatur. Hypodorio verò clavis A. ex qua secunda species [dia pente] huic Modo conveniens procedit, etiamsi et hic tertia species [dia tessaron] pro secunda inseratur. MixoLydius cum Ionico contento ex clave D. cani potest, si et hîc pro clave F. clavis Chromatica Fis substituatur. AEolius ex clave E. plerumque canitur, etiamsi hic pro secunda specie [dia pente], quae huic Modo convenit, tertia exhibeatur: tamen haec vel ad secundam redigi potest, si pro clave F. clavis Chromatica Fis tangatur: vel quamvis et hoc non fiat, tamen inter secundam et tertiam [tou dia pente] speciem non adeò magnum est discrimen. Atque haec de Harmonia, quae [dis dia pason dia pente] ambitu suo non excedit. </p>
+
+<p><span class='pageNo'>[69]</span> Quae verò integro sui systematis ambitu [tris dia pason] implet, vel etiam excedit, non facilè per [dia tessaron] transponi vel fingi potest, sed vel ex ijs clavibus, quibus scripta est, canitur, vel in propinquam clavem, per tonus vel semiditonum, tantummodo eadem vel cognata species [dia pente] retineatur, deijcitur, vel elevatur. Qua ratione autem id fieri possit in singulis Modis videbimus.</p>
+
+<p>Et Ionicus quidem cum HypoIonico connexus, in sua clave, qua exhibetur, canitur, videlicet ex clave F. transpositi systematis. Si in clave C. quod similiter fieri posset, scriberetur, per secundam posset in clavem B. deprimi, in quartam speciem [dia pente], quae tamen cognata est primae, et facilè per fictionem clavis Chromaticae Dis pro clave E assumtae, in primam redigitur.</p>
+
+<p>Dorius cum Hypodorio connexus scribitur et in clave D. regularis systematis, et in clave G. transpositi, ille ex clave D. qua scriptus est, canitur, vel per secundam in clavem C. deprimitur, fictione per clavem Chromaticam Dis pro E. facta, ut secunda species <span class='pageNo'>[70]</span> [dia pente] exprimatur, interdum etiam per quartam deprimi potest in clavem A. Hic verò per semiditonum in clavem E. transponi potest, ubi quidem pro secunda specie [dia pente] tertia exhibetur: sed tamen quae à secunda non magnoperè differat et inchoandi rationem non turbet. Fieri etiam potest ut ad secundam exaltetur, et ex clave A. canatur, si in profundioribus sonis scriptus fuerit, quae omnia usus docebit.</p>
+
+<p>Phrygius cum Hypophrygio connexus ex clave E. qua scribi solet, canitur. Quemadmodum et Lydius cum HypoLydio connexus ex sua clave F. regularis systematis, quanquam eius exempla non facilè inveniuntur. MixoLydius cum HypoMixoLydio connexus in clave G. Regularis systematis scribi solet, per secundam hic deprimi, et ex clave F. in organis fingi potest, eadem enim species [dia pente] retinetur, quod accideret etiam AEolio cum HypoAEolio connexo, et in clave A. descripto, si per secundam in clavem G. tranpositi systematis deprimeretur, cum utrobique secunda species [dia pente] exprimatur.</p>
+
+<p><span class='pageNo'>[71]</span> Atque haec sunt etiam, quae de hac parte huius exercitationis admonenda duxi. Si quae occurrent quae ab hac delineatione variare videbuntur, ea usus docebit, neque enim omnia praeceptis possunt comprehendi, sed multa industriae Cantorum sunt relinquenda.</p>
+
+<p>FINIS.</p>
+
+<p><span class='pageNo'>[73]</span> EXERCITATIO ALTERA De INITIO ET PROGRESSV MVsices, et aliis qvibusdam ad eam rem spectantibus;</p>
+
+<p>PRAEMISSA PRAELEctioni Musicae, in ludo Senatorio Lipsiensi ad Divum Thomam.</p>
+
+<p><span class='pageNo'>[74]</span> DE INITIO ET PROgressv mvsices exercitatio.</p>
+
+<p>QVi artem aliquam liberalem explicandam suscipiunt, ij, quae ad illius dignitatem amplificandam, et utilitatem commendandam faciunt, studiosè conquirere, et auditoribus proponere solent omnia, eo fine, ut discipuli, si de ea disciplina, in qua edoceri debent, praeclaram animo imbiberint opinionem, et existimationem hauserint honorificam, ad indefessum studium, in ea percipienda, collocandum, et ad maiores in ea progressus faciendos, magis accendantur. Huic consuetudini si obsequi vellem, ea se oblatura essent argumenta in laudanda Musica, quae vel maximo temporis spacio proponi, et satis explicari non possent. Verum cum brevitatis rationem in primis habendam duxerim, et Musica per se satis laudata sit, omissa omni alia commendatione, priusquam ad ipsa praecepta transeamus, unicum tantum caput, quod ad Historiam Musices praecipue facere videtur, tractabo. Quibus videlicet initijs Musica coeperit, quae incrementa <span class='pageNo'>[57 &lt;recte 75&gt;]</span> sumserit, et quomodo ad eam perfectionem, qua hodie floret, pervenerit. de qua re si breuiter quaedam annotavero ad Musica Theoremata et praecepta explicanda commodius accedemus.</p>
+
+<p>Praepotentem Deum, omnium bonarum artium in vita hominum necessariarum, datorem esse, non solum sacrae literae ostendunt, sed etiam qui apud profanos atque Ethnicos saniores extiterunt, Philosophi et Poetae, idem agnoverunt. Quid enim habet homo, quod non accepit. Cum ipse ex sese minus nihilo sit? Ideo Deus qui Danieli, socijsque ipsius scientiam et disciplinam in omni libro ac sapientia, apud Chaldaeos dedit et Bezaleelem in aedificando et exornando tabernaculo, omni artificio instruxit: Primus nostris parentibus, statim in ipso creationis exordio, omnium artium principia indidit, affectum animi, ad eruendas artes accommodatum, insevit, et longaevitatem, ad eas excolendas et propagandas necessariam, concessit, cum ipse sit solus sapiens, et omnis scientia ab ipso promanet. Quod Plato etiam in Philebo affirmat, cum ait, Philosophiam, qua omnes artes liberales comprehenduntur, [dosin theon eis anthropous einai], Esse donum Deorum datum hominibus. Et nullum maius bonum nec venisse <span class='pageNo'>[75bis]</span> nec venturum generi humano, quam Philosophiam à Deo hominibus donatam, in Timaeo concludit. Idem et Poetae censent, dum omnium rerum in vita necessariarum inventionem certis quibusdam Dijs acceptam retulerunt, quod, si opus esset, plurimae ex Poetis sententiae excerptae, planum facere possent.</p>
+
+<p>Ut autem verissimum est, bonarum artium datorem Deum esse: ita idem de arte Musica affirmari liquido potest Quod vel Plutarchus, quamvis Ethnicus agnoscit, qui in libello, qui de Musica inscribitur, sic ait: [semne oun kata panta he mousike theon heurema]. Omnibus modis veneranda est Musica, cum Deorum inventum sit. Deus igitur statim post hominum creationem, Adami temporibus, Iubalem, Lamechi, ex vxore Ada, filium excitauit, qui Musicam, antea inventam, et usu vocis humanae cultam, excultam, politamque, instrumentis Musicis, tam ijs, quae inflantur, quam quae chordis intenduntur, aptaret. unde idem Iubal dictus est Pater omnis tractantis, sive apprehendentis Chinor et Hugab [Hebrew: kynor w'ugb] Quae duo instrumenta Musica latinus interpres vertit Citharam et organum. rectius Lutherus, qui hunc locum ita reddidit, Von dem sind verkommen die Geiger vnd Pfeiffer. Instrumenta enim fuerunt quae apprehendi, <span class='pageNo'>[76]</span> tractari, et suspendi poterant, quod de organo, nisi generaliter accipiatur, affirmare vix licet. Et simul sub hisce duobus omnis generis instrumenta alia intelliguntur. ut sub Chinor omnia illa quae Chordis sive fidibus intenduntur: ut sunt, Clavichordia, instrumenta peculiariter sic dicta, Cithara, Psalterium, testudo, Lyra, Pandura, Sambuca, Rotula illa, quae Germanis perperam lyra dicitur, qua mendici ostiatim uti solent. Sub altero vero sub Hugab, quod à suspirijs trahendis nomen habet, omnia illa, quae spiritu inflantur: ut tuba, Cornu, buccina, lituus, tibia, Syrinx, utricula, monaulus, organon.</p>
+
+<p>Etsi autem ante diluvium, aureo illo seculo, cum non tantum, quae ad vitam degendam necessaria erant: sed etiam, quae ad omnis generis voluptates excitandas facerent, affluerent, et hominibus superessent, in Musicae studio, procul dubio plurimum laboris, et industriae positum fuit, atque ideo tum temporis cultissima Musica extitit: tamen cum per diluvium praeter paucos, totus mundus, voluptatibus penitus mersus, ultricibus aquis immergeretur et suffocaretur: afflictionibus quae diluvium subsecutae sunt, Musicae studium ferè extinctum est, tantumque apud paucos, in Semi Patriarchae potissimum familia, <span class='pageNo'>[78 &lt;recte 77&gt;]</span> eius reliquiae remanserunt Iapheti enim posteri, cum in omnes insulas, in incultissima loca dispergerentur, priusquam, quibus vitam in vastissimis istis locis, tolerare commodè possent, invenissent: Cum diu ferarum more in sylvis, glandibus, radicibus et herbis vixissent, omnes Musices studium abjecerunt, inde factum, ut seris temporibus tandem, cum cultiores iam essent, et vitam agerent tolerabiliorem et commodiorem, eius usum à Patriarchae Semi, vel etiam Chami posteris, cum literis alijsque artibus, per Cadmum Agenoris regis Phoeniciae filium, et alios repeterent, vel novam Musicam, qualem quisque poterat, excogitarent. Unde tot et tam varij apud Ethnicos Musicae inventores recensentur.</p>
+
+<p>Proculdubio autem Musica ex usu humanae vocis tum temporis initium sumsit. Cum enim homines communicatione sermonis, qua praecipuè à bestijs differunt, relictis sylvis et solitudinibus congregarentur: paulatim ille sermonis usus excultus est, et rythmi excogitati, quos ut sono vocis paululum variato, in modulationis forma proferrent avicularum cantilationes videntur esse imitati. in qua opinione etiam Poetam Lucretium fuisse, apparet ex hisce ipsius versiculis:</p>
+
+<p><span class='pageNo'>[78]</span> At liquidas avium voces imitarier ore<br />Ante fuit multò, quàm lenia Carmina cantu<br />Concelebrare omnes possent, auresque iuvare.<br />Et Zephyri cava per calamorum sibila, primum<br />Agrestes docuere cavas inflare cicutas.<br />Inde minutatim dulces didicere querelas,<br />Tibia quas fundit digitis pulsata canentum,<br />Avia per nemora ac sylvas atque oria diae.<br />Sic anum quicquid paulatim protrahit aetas.</p>
+
+<p>Caeterum valde rudis in initio Musica fuit. Agrestes enim homines, cum à natura insitum haberent, Deum colendum esse, et beneficijs divinis fertilitate scilicet agrorum et copia fructuum, ad gratias Deo agendas, invitarentur: aut calamitatibus ad earum mitigationem petendam adigerentur: Si quando à laboribus vacui, diebus festis conveniebant, victimas immolarunt. id enim ferè reliquum fuit, ex studio et exercitio pietatis, Patriarchis usitato, quod per manus veluti traditum, à maioribus suis acceperunt. Circa illas victimas choros egerunt, et simplici, rudique modulationis genere Deorum laudes, rythmis quibusdam comprehensas celebrarunt. Postero tamen tempore adhibitus fuit, qui sacris praecineret: sed simplici instrumento, ex canis vel avena facto, vel etiam ex animalium sive gruum cruribus, unde tibiae nomen sortitae <span class='pageNo'>[79]</span> sunt, absque ullo artificio. ut hodie pueri solent, qui ex corticibus salicum, aut ex avena, vel arundinibus fistulas sibi conficiunt. Ex huiusmodi usu, cum Chori dextrorsum, sinistrorsumque circa victimas ducerentur, Musica paulatim incrementa sumsit, et in varia instrumentorum genera excrevit. Quod et Horatius in arte Poetica affirmat in hisce versibus:</p>
+
+<p>Tibia non ut nunc, O richalco vincta, tubaeque<br />AEmula: sed tenuis, simplexque foramine pauco<br />Aspirare, et adesse choris erat utilis, atque<br />Nondum spissa nimis complere sedilia flatu.<br />Quo sanè populus numerabilis, ut pote parvus<br />Et frugi, castusque verecundusque coibat.<br />Postquam coepit agros extendere victor: et urbem<br />Latior amplecti murus: vinoque diurno<br />Placari Genius festis impunè diebus:<br />Accessit numerisque modisque licentia maior.<br />Indoctus quid enim saperet, liberque laborum<br />Rusticus urbano confusus, turpis honesto?<br />Sic priscae motumque et luxuriam addidit artè<br />Tibicen: traxitque vagus per pulpita vestem.<br />Sic etiam fidibus voces crevere sonoris.</p>
+
+<p>Primi autem Musicae in inventores apud Ethnicos, censentur Mercurius et Apollo. Et Mercurius quidem, ut Lucianus in Dialogis scribit, cum testudinem sive cochleam exare <span class='pageNo'>[80]</span> factam invenisset, brachia adaptavit, iugum statuit, et tres Chordas ad numerum trium partium anni, veris scilicet, aestatis, et autumni, cum quo antiquitus hiemem coniungebant, induxit: quanquam postea quartam addidit et tetrachordum, quod lyra Mercurij vocatum fuit, effecit. Apollo verò, cum Admeti Thessalorum regis, boves custodiret, ocij pertaesus Citharam invenit, ut refert Pausanias in prioribus Eliacis. Hinc Apollo Musicae Deus habitus fuit, et ab Ovidio primo Metamorphoseon haec de se verba faciens, inducitur:</p>
+
+<p>Iupiter est genitor, per me, quod eritque fuitque,<br />Estque, patet: per me concordant Carmina nervis.</p>
+
+<p>Eodem seculo et Amphionem Musicum vixisse, Historici quidam statuunt. Item Hyagnin Phrygem, qui primus tibiae foramina addidit, duasque tibias, quae uno spiritu animarentur, coniunxit, atque ita primus, dextris laevisque foraminibus acuto tinnitu, et gravi bombo concentum Musicum miscuit. Huic successisse aiunt filium Marsyam, qui cum Apolline de peritia, elegantia et suavitate canendi, in instrumentis Musicis, an videlicet ipse tibia, vel an Apollo Cithara elegantius uteretur, certamen inijt, quo in certamine cum Apollo voce sua concentum Musicum in Cithara editum adjuvaret, Marsyas victus et excoriatus ast.</p>
+
+<p><span class='pageNo'>[81]</span> Caeterum, quo seculo hi Musices inventores vixerint, ex autoribus conijcere vix licet. Quemadmodum enim omnia, quae apud Graecos ante Olympiades gesta sunt, ut Censorinus asserit, fabulosa et incerta sunt: ita quae de Musicorum primo seculo Graeci tradunt, incertissima. Aliqui enim eos Iosephi seculo, cum Patriarcha Iacobus fame coactus in AEgyptum descenderet, floruisse contendunt. aliqui eos longè posteriores faciunt. Causa haec videtur, quod Graeci, cum suae genti omnium artium inventionem asscribere cupiant, antiquissimos etiam eos, quibus inventio artium attribuitur, fingant. Ita Herodotus Cadmum, qui primus literas in Graeciam attulit: item Bacchum, ante seculum Abrahami collocat, vix ducentos annos post diluvium. Eusebius eundem Cadmum coaetaneum Iosuae facit, et Abrahamo quadringentis annis posteriorem. Manetho vetus Historicus eundem adhuc centum annis iuniorem facit et Apollinem tum natum asserit. Musicam enim et alias artes, antequam literas et Grammaticam Graeci discerent, inventas esse, vix credi potest. Nos, si quid veri in hac historia est, regrediendo eorum seculum investigabimus. </p>
+
+<p>Troja capta est. secundum Iosephum Scaligerum, <span class='pageNo'>[82]</span> anno à condito Mundo 2769. decem annis post victoriam Iephtae de Ammonitis. Centum viginti tribus annis, antequam David Sauli in regno succederet, regnante Proteo in AEgypto. Anno autem vigesimo octavo ante captam Trojam, Latinus rex, ad quem AEneas supplex in Italiam venit, fundamenta regni sui iecit. Eodem anno Hercules ex impatientia doloris, se in ignem conjecit. atque ita fato functus est, cum vixisset annos quinquaginta duos, ut vetustissimus Historicus Manetho testatur. Natus est igitur Hercules septuagesimo ante captam Troiam anno. Et in juventute condiscipulus fuit Orphei, praeceptoremque suum Linum, cum ab ipso rigidius increparetur, quod rusticè caneret, interfecit. Linus verò Apollinis et Terpsichores filius fuit, quod et Virgilius in Eclogis confitetur cum inquit:</p>
+
+<p>Non me Carminibus vincet, nec Thracius Orpheus,<br />Nec Linus: huic mater quamvis, atque huic pater adsit<br />Orphei Calliopeia: Lino formosus Apollo.</p>
+
+<p>Orpheus verò et ipse Apollinis filius fuit, et discipulum habuit Musaeum Eumolpi filium, qui cum Argonautis in Colchidem navigavit. Ex quibus omnibus apparet: Etiamsi Linus fortassis sexagesimo aetatis anno ab Hercule interfectus fuisset, Patrem tamen ipsius <span class='pageNo'>[83]</span> Apollinem et alios Musicae inventores et cultores centum annis eversionem Trojae non antecessisse, sed Gideonis judicis Israelitici saeculo vix floruisse. Atque ita Musica apud Graecos non ita vetusta est, ut quidem autores astruere conati sunt, et antiquitate sua Musicae Iudaicae, ut quae et apud Patriarchas, et statim post migratam AEgyptum, apud Israelitas celeberrima fuit, longè cedit.</p>
+
+<p>Quatuor autem illae Chordae, in Lyra Mercurij, cuius mentionem fecimus, ita dispositae fuerunt, ut minima à maxima, sive ut clarius loquar, ut acutissima à gravissima per octavam distaret, Mediarum verò altera, à gravissima per Quintam: altera per Quartam abesset. Et dispositionem hanc vocarunt Harmoniam maximam, quae magnae autoritatis posteriore etiam seculo fuit. Statim tamen inventae Lyrae, extra hunc usum Harmoniae Maximae, ut complerent omnes claves, quae in intervallo Diapason, sive Octavae, per gradus ascendendo et descendendo numerantur, additae sunt aliae Chordae, ex quibus initium factum est ordinis illius, in deductione vocum Musicalium usitati, qui Scala vulgò appellatur.</p>
+
+<p>Quis verò primus sit, qui Chordas plures huic Lyrae addere ausus fuerit, apud autores controvertitur. Boethius enim cum alijs quibusdam <span class='pageNo'>[84]</span> affirmat, Terpandrum Lesbium primum lyram septem chordarum effecisse, et lyricos modos conscripsisse. Fuit autem Terpander, ut quidam volunt, Homeri Poetae abnepos: ut alij, Hesiodi filius. Et Esaiae Prophetae seculo, centum circiter annis ante captivitatem Babylonicam, cum Olympiades aliquot actae essent, vixit, ultra quadringentos annos post Troiam captam. Verum ipse Homerus, qui centum annis primam Olympiadem antecessit, tempore Elisae Prophetae, centum annis post Salomonem defunctum, in Hymno Mercurij, lyrae septem chordas attribuit. Ideò necesse est, usum septem chordarum in lyra multò antiquiorem esse, quam ut Terpander illarum autor esse possit. Propter excellentiam fortasse artis, et quod primus Musicam peritissimè apud Lacedaemonios exercuerit, inventio septem chordarum ipsi attributa est. Septenarius verò numerus in chordis lyricis observatus fuisse creditur, vel ob septem illas Atlantidas, in quarum numero Mater Mercurij Maja habetur, vel ob septem Planetas.</p>
+
+<p>Agnoscit autem et hic studiosus Musices, quanto antiquior et perfectior Musica apud Israelitas fuerit, quàm apud Ethnicos. Nam Davidis tempore: qui Homerum et Terpandrum <span class='pageNo'>[85]</span> aliquot seculis antecessit, Praeter instrumenta illa, quae inflabantur, ut tubas, buccinas, tubas ductiles, tubas corneas, et caetera instrumenta habuerunt octo chordarum. item decem chordarum, Psalteria, Citharam, et alia. Et memorabile est, quod Divus Hieronymus, in Epistola ad Dardanum, scribit: Citharam Hebraeorum viginti quatuor chordas habuisse: factamque in forma literae delta Graecorum [Delta], quae forma Citharae nostrae, Germanicè Harffe / non absimilis videtur. </p>
+
+<p>Non dubium autem est Terpandrum secutos esse Musicos insignes, qui Musicam summo studio coluerunt, ingeniosa inventione auxerunt, et hominibus commendatiorem reddiderunt, in quorum numero etiam fuit Arion ille, qui Delphino insidens, sicariorum et piratarum violentas manus effugisse creditur. describit ejus Historiam Herodotus, Ovidius et Gellius. Vixit tempore septem sapientum in Graecia, cum Iudaei à Nebucadnezare in captivitatem Babylonicam transferrentur, vivente Ieremia Propheta. Sed tamen Musica adhuc valde imperfecta fuit, certitudo enim ejus tantum pendebat ab auditu, qui sensus est omnium maximè fallax, et discrimina sonorum in minutioribus intervallis certò dijudicare non potest. Ideò certa intervallorum distantia <span class='pageNo'>[86]</span> et proportio ignorabatur. Donec Pythagoras, qui Cambysis regis Persarum seculo floruit, soluta post septuaginta annos captivitate Babylonica, cum ultimus apud Romanos rex Tarquinius superbus rerum potiretur, ultra sexcentos annos post captam Trojam, quingentis annis ante Christum natum, Musica intervalla consona certis proportionibus contineri deprehenderet, eaque non auditui tantum subjacere vellet, sed ratione ac certissima demonstratione ob oculos poneret. Occasionem autem demonstrationis inveniendae praebuerunt fabriferrarij, quam describit Boethius, libro primo Musices: capitulo 10. et 11. hisce ferè verbis:</p>
+
+<p>Pythagoras, cum certam intervallorum distantiam inquireret, relicto aurium iudicio ad regularum momenta migravit. Nec enim credidit humanis auribus, quae partim natura, partim etiam extrinsecus accidentibus permutantur, partim ipsis variantur aetatibus. Nullis etiam deditus instrumentis fuit, penes quae saepè multa varietas ac inconstantia nascitur. dum nunc quidem, si chordas velis aspicere, vel aër humidior, pulsus obtundat, vel siccior exsiccet, vel alio quopiam modo statum prioris <span class='pageNo'>[87]</span> constantiae permutet. Et cum idem esset in caeteris instrumentis, omnia haec inconsulta, minimaeque aestimans fidei, diuque aestuans inquirebat, quanam ratione firmiter, et constanter consonantiarum momenta perdisceret. Cum interea divino quodam motu, praeteriens fabrorum officinas, pulsus malleorum exaudivit et diversis sonis unam quodammodo concinentiam personare. Ita igitur ad id, quod diu inquirebat, attonitus, accessit ad opus: diuque considerans, arbitratus est, vires ferientium efficere diversitatem sonorum, idque, ut apertius liqueret, imperavit ut malleos inter se permutarent. Sed sonorum proprietas non in hominum lacertis haerebat, sed mutatos malleos comitabatur. Vbi igitur id animadvertit, maleorum pondera examinat. Et cum quinque fortè esent mallei, dupli reperti sunt pondere, qui sibi secundum diapason consonantiam respondebant. Et ex his eum, qui duplus erat ad minimum, comprehendit esse sesquitertium alterius, ad quem diatessaron sonabat. Et rursus eundem duplum, reperit esse sequialterum ad eum, cum quo in diapente consonantia iungebatur. Duo verò hi, ad quos superior duplus, <span class='pageNo'>[88]</span> sesquitertius et sesquialter esse, probatus est, ad se invicem sesquioctavam proportionem perpensi sunt custodire. Quintus verò malleus, qui cunctis erat inconsonans, reiectus est. Cum igitur et ante Pythagoram consonantiae Musica, partim Diapason, partim Diapente, partim Diatessaron, quae omnium minima consonantia putabatur, vocarentur, primus Pythagoras hoc modo reperit, qua proportione sibimet haec sonorum diversitas iungeretur. Et ut sit clarius quod dictum est, sint verbi gratia, malleorum quatuor pondera, quae subterscriptis numeris contineantur. 12. 9. 8. 6. Hi igitur mallei, qui duodecim et sex ponderibus librabantur, Diapason sive octavam in duplo consonantiam personabant. Malleus verò duodecim ponderum, ad malleum novem ponderum, et ulterius, malleus octo ponderum, ad malleum sex ponderum, secundum sesquitertiam proportionem, in quarta, sive in diatessaron, consonantia, iungebantur. Novem verò ponderum ad sex, et duodecim ponderum ad octo, quintam sive Diapente consonantiam, in sesquialtera proportione permiscebant. Rursus Novem ponderum ad octo, in sesquioctava proportione <span class='pageNo'>[89]</span> resonabant Tonum. Hinc igitur domum reversus, varia examinatione perpendit, an in his proportionibus ratio consonantiarum tota consisteret, atque nunc pondera, quae recens inventis proportionibus respondebant, chordis aptans, earum consonantias aure dijudicabat. Nunc verò in longitudine chordarum duplicitatem, medietatemque observans, caeterasque proportiones aptans, integerrimam fidem diversa experientia capiebat. Et se nihil diversum à vero invenisse, laetabatur. Hactenus Boëthius.</p>
+
+<p>Inventis igitur harum trium, Octavae scilicet, Quintae et Quartae consonantiarum proportionibus, cum adhuc duae omnino consonantiae superessent, quae veteribus in usu fuerunt: Diapason videlicet cum Diapente, quae nobis est duodecima, et Disdiapason, quae nobis est decima quinta: harum etiam proportiones inquisivit, et invenit priorem quidem contineri in tripla proportione. Posteriorem verò in quadrupla. Et cum omnes consonantiae Musicae, quae ipsi notae erant, vel in multiplicibus vel in super Particularibus proportionibus continerentur: conclusit reliquas Proportiones in Arithmeticis: ut sunt Proportio superpatiens, Multiplex super Particularis, <span class='pageNo'>[90]</span> et Multiplex superpartiens, ad consonantias gignendas ineptas esse. In hac opinione ipse Pythagoras permansit, et qui ipsum postea secuti sunt. Diversum enim à tantae eruditionis et authoritatis viro, qui statuere ausus fuerit, longo tempore inventus est nemo. Donec ducentis annis post Pythagoram, atque ita trecentis et triginta ferè annis ante natum Christum, circa annum mundi 3620. Aristoxenus natione Italus, Patria Tarentinus, Discipulus Aristotelis, qui propter peritiam rerum Musicarum, cognomine Musicus, appellatus fuit, contra Pythagoram diversam sententiam tutatus est. Nam cum soni, in quibus explicandis et dijudicandis Musica occupata est, sint res naturales, et subjecti sensibus, auditui videlicet: sic ratiocinatus est: Sensus ad quod propriè percipiendum aptus est, nunquam fallitur, dummodo et intervallum moderatum sit, et id quod interijcitur, probè affectum. At verò auditus ad percipiendum et dijudicandum sonum propriè aptus est. Ratione igitur auditus, non ratione proportionum de intervallis, praecipuè verò de consonantijs, est pronunciandum. Allegavit etiam hoc: Quod nisi auditus esset, nulla omnino de sonis disputatio oriri posset. Et etiamsi aliquid rationi et proportionibus dandum esset: auditum tamen <span class='pageNo'>[91]</span> in sonorum et eorundem distantiarum dijudicatione, non tantum non excludi, sed praeponi debere. Cum Aristoteles pronunciaverit: Nihil esse in intellectu, quod non prius fuerit in sensu. Hoc est, nihil intelligi, nisi id antea sensu perceptum fuerit. Quapropter non ex proportione tantum multiplici et super Particulari: sed etiam ex alijs Proportionum speciebus, si auditui ita exploratum esset, consonantias formari posse contendit. Hisce et similibus Argumentis Aristoxenus Pythagoreorum Theoremata impugnabat. Et quidem non plane illum falsum fuisse, usus et experientia satis testatur. Sextam enim, quae veteribus esset Tonus sive Semitonium cum Diapente, consonantiam esse, nemo est hodiè, modicè tantum in rebus Musicis versatus, qui dubitat, cum ab ipsius vero et legitimo usu, omne artificum, omnis elegantia et suavitas harmoniae pendeat. Et tamen ipsa nec in multiplici, nec in super Particulari proportione, ut Pythagorei consonantiarum formas definierunt, continetur, sed in Proportionibus superpartientibus: id quod etiam in alijs quibusdam consonantijs accidit, ut in Theorematibus Musicis hac de re prolixius audiemus. Effecit etiam Aristoxenus tum temporis, talibus disputationibus, ut à quibusdam consonantia <span class='pageNo'>[92]</span> etiam illa, quae veteribus est Diapason cum Diatessaron, nobis verò undecima, ad reliquas, ab omnibus receptas quinque consonantias adderetur. Cum tamen et ipsa nec in multiplici, nec superparticulari proportione circumscriberetur. Sed Multiplici superpartiente, quam Pythagoras ad formandam consonantiam inhabilem esse pronunciaverat. Hoc modo, qui studium Musices excolebant, in diversas sectas dividebantur, cum alij Pythagorae, alij Aristoxeno adhaererent. Et qui quidé Pythagorae placitis addicti erant, vocabantur Canonici, quod Musicae sonos ad Proportionis sive rationis Canonem rigidè examinarent. Qui verò Aristoxenum sequebantur, Harmonici, quod auribus in Harmonia judicanda plus fiderent; quam rationi. Duravit illud dissidium Musicorum ferè ad annos quingentos, usque ad Claudium Ptolomaeum, insignem illum Mathematicum, cujus opera, diligentia et industria Astronomia inprimis, Item Musica et Geographia mirificè exculta est. Vixit is sub Antonino Pio Imperatore, post Christum natum, circiter annum centesimum et trigesimum. Et mediam quandam viam, inter Musicos Canonicos et Harmonicos, ingressus est. Tantum enim rationi attribuit, quantum Pythagoraei: tantum itidem <span class='pageNo'>[93]</span> auditui, quantum Aristoxenici, si in una eademque re, ratio scilicet et sensus conspirarent. Tum enim iudicium sincerum et verax nasci putavit, ubi sensus et ratio conspiratu niterentur consono. Econtrario nihil sensui tribuit, ubi ratio adversaretur, nihil itidem rationi, ubi auditui aliter visum esset. Atque hoc modo quasi arbiter datus, controversiam Musicam inter Canonicos et Harmonicos apud plerosque composuit, et finivit. Post Claudium Ptolomaeum Pelusium, annis penè quadringentis elapsis, Anitius Manlius Severinus Boethius, vir Patriciae stirpis atque ob id nobilissimus, et Consularis Romae, Philosophus item et Theologus insignis, quae passim apud Graecos autores de Musica sparsa erant, collegit, et in latina lingua ad posteros propagavit. Quo suo opere, extinctis Barbarorum populorum in Italiam irruptione bonis artibus et linguis, Musicae artis scientia utcunque conservata est, et ut hoc nostro seculo, cum aliis artibus, ex profundissima barbarie emergentibus, efflorescere posset, magnoperè adjuta fuit. De alijs qui post Boethium floruerunt Musicis, non necesse est, ut hoc loco prolixius instituatur sermo. Nihil enim novi in proportionibus Musicis invenerunt, vel addiderunt. Hoc tantum monendum, quod ante ducentos <span class='pageNo'>[94]</span> circiter annos, cum Musica, quam figuralem vocamus, per Pneumatica illa instrumenta in templis usitata, organa vocant, excoli coepisset, Ditonus et Semiditonus, sexta item minor et major in numerum consonantiarum recepta, et Harmonijs Musicis inserta fuerunt. Sed tamen nemo fuit, qui veram et legitimam intervallorum non solùm consonorum istorum, sed etiam aliorum, Proportionem investigare potuerit, donec nostra memoria, Iosephus Zarlinus Clodiensis Italus chori Musici apud Duces Venetos Magister, secutus veros et certissimos intervallorum Musicorum iudices, sensum videlicet et rationem, adhibita regula Harmonica, quae est divisio intervallorum medio Harmonico formam novarum istarum consonantiarum, et multorum aliorum intervallorum, in veris et iustis proportionibus inveniret. ut audiemus in ipsis Theorematibus Musicis.</p>
+
+<p>Pergamus ad alia. Dicendum enim etiam est aliquid De generibus Harmoniarum, de Modis, Clavibus, vocibus Musicalibus, Item de notulis, et de Musica figurata.</p>
+
+<p>GEnus Harmoniae est certa dispositio intervallorum minorum in diatessaron. Veteres <span class='pageNo'>[95]</span> enim, ut supra diximus, cum diatessaron putarent omnium minimam consonantiam, iuxta eam deductiones sonorum in intervallis minoribus instituebant. Intervalla minora quam Diatessaron, referente Euclide in suo introductorio, sunt: Ditonus, Semiditonus, Tonus, Semitonium majus, Semitonium minus et [diesis]. In Diatessaron igitur, in quolibet Harmoniarum genere, tria ex his intervalla ponebant, quatuor chordis comprehensa, ob quarum numerum hujusmodi intervallorum dispositio in Diatessaron Tetrachordum appellabatur, et sonus gradatim à gravissima sive prima chorda ad quartam usque intendebatur et elevabatur. Veteres autem, qui simpliciorem Musicam amabant, ante Pythagoram, et post eum, ad nostra usque secula, in tetrachordis constituendis, ita disponebant intervalla minora: ut inter primam et secundam chordam inveniretur Semitonium minus, inter secundam et tertiam tonus, et inter tertiam et quartam itidem tonus. Huiusmodi sonorum distributio in tetrachordo quolibet vocabatur Diatonicum Harmoniae genus, propterea quod per tonos incederet.</p>
+
+<p>Verum quis primus hujus dispositionis autor fuerit ignoratur. Primam et vetustissimam esse facile apparet. Cum absque hac nullus <span class='pageNo'>[96]</span> omnino Musices usus esse possit. Convenit autem propemodum, si ad nostram Musicam respicias, haec sonorum distributio, ad tertiam speciem intervalli Diatessaron, quae in vocibus Musicalibus per Mi La effertur.</p>
+
+<p>Secundum Harmoniae genus vocatur Chromaticum. Tertium verò Enharmonicum. Et Chromaticum quidem duo semitonia recipiebat. Majus scilicet et Minus, et tertio loco semiditonum. Inter primam enim chordam et secundam semitonium minus, ut in Diatonico inveniebatur, inter secundam vero et tertiam Semitonium Majus, et inter tertiam et quartam [triemitonion] sive Semiditonus, quem vocabant Incompositum, propterea, quod non reciperet medium sonum, qui Semiditonum divideret in Semitonium et tonum, ut aliàs fieri consuevit, et antea factum erat in Diatonico generè inter primam secundam et tertiam chordam, sed quod simpliciter contineretur in duabus chordis. Si ad nostram Musicam respicias, convenit Chromaticum genus penè cum ijs sonis, qui gignuntur ex clave a. usque ad clavem d. Nam à clave a. usque ad b. rotundum habetur Semitonium, à b rotundo usque ad [sqb] quadratum, itidem Semitonium, et à [sqb] quadrato, usque ad clavem d. omissa clave C. <span class='pageNo'>[97]</span> Semiditonus. Chromaticum hoc genus invenit Timotheus Milesius Lyricus, ut testatur Aristoteles et Boethius. Aristoteles quidem secundo Metaphysica capitulo secundo ubi affirmat Musicam suo tempore tot variationes recipere non potuisse, nisi fuisset Timotheus. Clarius Boethius in Proemio Musices, cum ait:</p>
+
+<p>Spartiatas idcirco Timotheo Milesio succensuisse, quod multiplicem Musicam reddens, puerorum animis, quos erudiendos acceperat, officeret, et à virtutum modestia praepediret, et quod Harmoniam, quam modestam susceperat, in genus Chromaticum, quod mollius est, invertisset.</p>
+
+<p>Vixit hic Timotheus tempore Euripidis Poetae Tragici, ferè quinquaginta annis ante Aristotelem. Suidas etiam meminit hujus Timothei, sed alio in loco confundit eum cum Timotheo tibicine, Alexandri Magni Musico, cum diversi fuerint, ut temporis intervallum ostendit.</p>
+
+<p>De Enharmonici generis inventione ita scribit Plutarchus in libello, quem inscripsit de Musica:</p>
+
+<p>Olympius, ut est Aristoxenus autor, existimatur à Musicis Enharmonici generis inventor fuisse. Quippe ante eum omnia Diatona et <span class='pageNo'>[98]</span> Chromatica fuerunt. Inventum autem hoc modo. Cum versaretur in Diatonico Olympus, modumque subinde in Diatonon Parhypaten, nunc à Paramese, nunc à Mese traijceret, ac transiliret Diatonon Lichanon, elegantiam animadvertit eius affectus. Itaque cum contextum ex convenientia conflatum obstupuisset atque probasset, hoc genus Tono Dorio inseruit.</p>
+
+<p>Hactenus Plutarchus. Quis vero Olympus fuerit, non satis constat ex historijs. Nam quendam Olympum, Marsiae Musici discipulum fuisse satis liquet. Sed cum idem ante bellum Trojanum floruerit, Enharmonici generis inventor esse non potuit. Chromaticum enim prius Enharmonico fuisse, ex eodem Plutarcho manifestum est, at idem Chromaticum à Timotheo Milesio post bellum Trojanum annis ultra octingentis inventum est. Alium igitur Olympum quendam paucis annis post Timotheum illum Musicum vixisse necesse est. Erat autem Enharmonicum Harmoniae genus tale, quod progrederetur per duas [dieseis] et Ditonum. [Diesin] Enharmonicam veteres definiverunt quod esset Semitonij minoris dimidium, ut duae [dieseis] Semitonium minus, sive [leimma] complerent. Constitutio igitur Enharmonici generis huiusmodi erat, <span class='pageNo'>[99]</span> ut à prima chorda, usque ad secundam haberetur [diesis], à secunda ad tertiam chordam iterum [diesis], et à tertia usque ad quartam Ditonus incompositus, videlicet qui non haberet medium, quo divideretur in duos tonos, ut in Diatonico genere à secunda ad quartam chordam factum erat, sed qui unico intervallo absolveretur. Ejusmodi Harmoniae constitutio valde subtilis et difficilis erat, ideo difficultate sua paulò post abolita est, ut idem Plutarchus, in eodem libello, affirmat cum ait:</p>
+
+<p>Enimvero nostrae aetatis Musici, quod genus praecipua in dignatione erat apud veteres, (Enharmonicum intelligit) id semel repudiaverunt adeo, ut ne minima quidem in re vindicare vulgus intervalla Enharmonica valeat, usque adeò sunt inertes et socordes, ut omninò [diesin] Enharmonicam ne repraesentare quidem sub sensum cadentia arbitrentur, exterminentque eam ex modulamentis, ac pro nugatoribus habeant illos, qui aliquam de ea opinionem habuerunt, et hoc genus usurpaverunt. Haec de generibus Harmoniarum.</p>
+
+<p>Modos Musicos, sive Tonos ut vocant, quis invenerit, ex veteribus non constat, imò propemodum ignoratur, quales fuerint veterum Modi. Nemo enim fuit, qui eos à propria <span class='pageNo'>[100]</span> differentia, quae est dispositio semitoniorum in qualibet specie Diapason definiret, usque ad Claudium Ptolomaeum et postea Boethium. Quanquam neque apud hos etiam semitoniorum collocatio in qualibet Diapason specie apertè indicatur, sed qualis esse possit vel debeat conjectura potius et ex antecedentibus positis (si modo ea etiam rectè intelliguntur) colligitur: ut ita non nihil relinquatur, de quo in hac doctrina dubitari possit. Primus autem, qui Modos Musicos ex Boethio hoc nostro seculo illustrare conatus est, fuit Franchinus Gaforus Laudensis Brixiae in Italia Musicae Professor, ante annos ferè centum elapsos. Hunc secutus est Heinricus Glareanus Helvetius, qui duodecim Modos in nostra Musica haberi et inveniri, firmissimis rationibus in opere suo Musico, quod Dodecachordum, anno quadragesimo septimo super millesimum et quingentesimum inscripsit, demonstravit.</p>
+
+<p>Quod ad claves attinet, eae inventae sunt à Guidone Aretino, ut et voces Musicales, ut postea dicemus. Pro utraque re veteres usurpabant chordas, unde vulgata illa vocabula Trichordum, Tetrachordum, Pentachordum, et caetera, quod tres vel quatuor vel quinque haberent claves sive chordas. Ut autem res melius <span class='pageNo'>[101]</span> intelligatur, chordas veterum secundum nostram Musicam clavibus, quibus conveniunt, appellabimus, Nomina verò chordarum apud veteres, si omnes claves, quibus usi fuerunt, collegerimus, addemus.</p>
+
+<p>Mercurius itaque tetrachordum invenit, ut supra monuimus, certo modo dispositum, ut Diapason, Diapente, et Diatessaron consonantias comprehenderet. Infima igitur chorda hujus tetrachordi conveniet nostrae clavi E majori. Secunda ascendendo clavi a. Tertia [sqb] quadrato, et quarta clavi e. minori. Claves appello majores vel minores, ut in scala vulgò appellari solent. Hoc modo enim clavis E ad e. habebit Diapason. Idem E ad [sqb] quadratum ascendendo Diapente, et rursum E ad a. Diatessaron. Ex consequentibus autem clavibus, et ex ordinatione tetrachordorum asserimus, hanc speciem intervalli Diapason, in tetrachordo Mercurij, collocatam fuisse, aliàs extra hanc considerationem, quaelibet Diapason species ad quatuor istas chordas applicari potuit, excepta quarta et septima, si primam ex clave C. constituas. Quintam chordam sive clavem addidit, ut Boethius affirmat, Chorebus Lydorum rex. Sextam Hyagnis Phryx, Ambo hi, ante bellum Trojanum floruerunt. <span class='pageNo'>[102]</span> Septimam verò Terpander Lesbius, qui quingentis ferè annis post captam Trojam vixit, de qua re tamen dubitatur, ut supra etiam monuimus. Has septem claves distribuerunt in duo tetrachorda, ita ut media clavis ex hisce septem communis esset utrique tetrachordo, ut eadem videlicet clavis in priori tetrachordo esset quarta, sive suprema clavis, in posteriori verò prima vel infima. Hoc posterius tetrachordum vocaverunt [sunemmenon], id est, conjunctarum scilicet clavium, eò, quod prima clavis hujus tetrachordi in unisono, ad praecedentem clavem adderetur. Convenit posterius tetrachordum, si ad nostram Musicam respicias, ad cantum transpositum, sive ut vulgo loquimur, ad cantum mollem. Media enim clavis quae est a. abest à sequenti ascendendo, per semitonium, ut videre est in hisce clavibus: E. F. G. a. b. c. d. A clave E igitur ad clavem a. habetur prius tetrachordum, et ab a. ad d. habetur posterius. Hoc modo hae septem claves in Diatonico Harmoniae genere inventae et distributae fuerunt. Octavam clavem invenit Lichaon ex Samo oriundus, illamque eo loco in tetrachordis inseruit, ut amborum tetrachordorum ratio integra servaretur. Mediam enim eam fecit, inter illa, ut hac clave integro tono ab invicem <span class='pageNo'>[103]</span> segregarentur, unde tetrachordum posterius, quod [sunemmenon] conjunctarum clavium vocatum erat, appellari coepit [diezeugmenon], hoc est disiunctarum, eò quod prima eius clavis à praecedenti inferiore integro tono disiungeretur. Claves igitur octo hae sunt: E. F. G. a. [sqb]. c. d. e. et prius tetrachordum ab E. usque ad a. ut antea manet, alterum vero non à clave a. rursum incipit, sed à [sqb] quadrato, et ad clavem e. usque porrigitur, atque ita integro Tono, ab a. scilicet ad [sqb] quadratum haec duo tetrachorda disiunguntur.</p>
+
+<p>Nonam clavem quidam Prophrastus nomine inferiore loco addidit, eaque nobis est clavis D. sed in nullo tetrachordo tum comprehendebatur. Decimam Hiesteus Colophonius invenit. Undecimam verò Timotheus Milesius, is qui Chromaticum Harmoniae genus excogitavit. Omnes hae claves assumtae fuerunt inferiore loco, et simul coaptatae in unum tetrachordum, quod fuit appellatum tetrachordum [hupaton], hoc est, gravium, dignitate praecellentium et honorabiliorum. Graeci enim Iovem nuncupant [hupaton], ut et Consulem Romanum, propter excellentiam dignitatis. Claves igitur omnes undecim numero sunt hae: [sqb]. C. D. E. F. G. a. [sqb]. c. d. e. à [sqb] quadrato inferiori et majori incipit tetrachordum <span class='pageNo'>[104]</span> [hupaton], definitque in clave E majori. In eadem clave E rursum incipit secundum tetrachordum, vocaturque [meson], quod medio loco inter duo tetrachorda collocaretur, et pertingit usque ad clavem a. ulterius à [sqb] quadrato incipit tertium tetrachordum [diezeugmenon] et finitur in clavi minori e.</p>
+
+<p>Iam videbatur Musica, quo ad profunditatem sive gravitatem satis habere clavium, sed deficiebat in acutis vocibus. Vox humana enim has claves excedere poterat. Ideoque ut perfectior Musica esset, statim post Timotheum Milesium adjectum fuit adhuc unum tetrachordum superiori loco, quod quia acumine reliqua transcendebat, tetrachordum [huperbolaion] nuncupatum fuit, incipiebatque ubi tertium illud tetrachordum [diezeugmenon] definebat in clavi e. et comprehendens sequentes ascendentes claves, f. g. finiebatur in clave a a. geminata. Habebat ita veterum Musica quatuordecim chordas, sed eae tamen [dis dia pason] quae veteribus fuit perfectissima consonantia et omnium in sonis maxima distantia, utpote proverbio inde ducto celebris, non complebant. Ne igitur in hac re veterum Musicae aliquid deesset, assumta est ultimo loco infima clavis A. quae extra ulla tetrachorda usurparetur, et fundamentum quasi reliquarum sustineret. Hoc <span class='pageNo'>[105]</span> modo tantum in quindecim clavibus perfecerunt veteres suam Musicam, et in quatuor hisce tetrachordis modulabantur in Diatonico Harmoniae genere cantum regularem, sive ut vulgò loquimur, cantum durum. Quod si liberet in cantum mollem sive transpositum transcendere, assumebant tetrachordum [sunemmenon], de quo supra diximus, copulabantque cum clave a. ubi tetrachordum [meson] finitur. Nec enim prorsus diversa fuerunt tetrachordum [sunemmenon] et [diezeugmenon], sed tantum in duabus clavibus, in b videlicet rotundo et [sqb] quadrato. Quod enim ad reliquas duas ad c et d attinet, erant eae communes utrique tetrachordo, diverso tantum nomine appellabantur, in tetrachordo enim [sunemmenon] incidebant hae claves in tertiam et quartam chordam, in [diezeugmenon] vero in secundam et tertiam, ut conferenti ambo tetrachorda facilè apparet.</p>
+
+<p>Quod ad appellationem clavium apud veteres attinet, studiosus Musices observet, non eadem facilitate claves apud veteres nominari potuisse, ut apud nos nostrae claves proferuntur. Apud nos enim singulae singulis literis vocantur: apud veteres ad singulas claves nominandas, non tantum non singulae literae, sed <span class='pageNo'>[106]</span> nec singulae quidem dictiones sufficiebant. Sed opus erat ipsis binis dictionibus, ut simul tetrachordi, quo clavis illa comprehendebatur, mentio fieri posset. Et cum nos tantum septem claves numeremus, reliquas vero per octavas repetamus, illi singulis quotquot habuerunt, singulas appellationes indiderunt, nec ad octavas respectum ullum habuerunt. Quindecim igitur suas claves ita proferebant, ut infima et gravissima, quam A magnum appellamus, ipsis esset [proslambanomenos] sive [prosmelodos], propterea quod in tetrachordis non comprehensa, exteriori loco assumeretur, et tetrachordis adjungeretur. Post hanc clavem ascendendo sequitur tetrachordum [hupaton], quod comprehendit claves [sqb] quadratum. C. D. E. Prima huius tetrachordi clavis [sqb] quadratum appellabatur [hupate hupaton]. Secunda C. [parupate hupaton]. Tertia D. [lichanos hupaton]. Quarta clavis E. in hoc tetrachordo erat simul prima clavis sequentis tetrachordi [meson], quod comprehendebat claves E. F. G. a. ideo hujus potius tetrachordi, quàm praecedentis nomine vocabatur [hupate meson]. Secunda hujus tetrachordi clavis F. appellabatur [parupate meson]. Tertia G. [lichanos meson]. Quarta vero a. [mese]. Iam si in cantum transpositum transirent, et tetrachordum <span class='pageNo'>[107]</span> [sunemmenon] assumerent, quod claves habebat a. b. rotundum. c. d. tunc a. clavis nomen suum [mese] retinebat. b. verò appellabatur [trite sunemmenon]. c. [paranete sunemmenon]. Et d. [nete sunemmenon]. Si verò omisso hoc tetrachordo in cantu duro pergerent, et tetrachordum [diezeugmenon] ordirentur, quod habebat claves [sqb] quadratum, c. d. e. tum [sqb] quadratum vocabatur [paramese] quod prope [mesen], hoc est, propè clavem a. collocaretur. c. verò [trite diezeugmenon], d. [paranete diezeugmenon] et e. [nete diezeugmenon]. Restabat ultimum tetrachordum, quod fuit, ut diximus [huperbolaion] et claves comprehendit e. f. g. aa. geminatam. Clavis e igitur, quae fuit etiam in praecedenti tetrachordo nomen suum non mutabat. f. verò appellabatur [trite huperbolaion]. g. [paranete huperbolaion] et suprema clavis aa. [nete huperbolaion]. Haec sunt clavium sive chordarum apud veteres nomina. Porro voces Musicales, vulgatas scilicet has sex: Ut, re, mi, fa, sol, la, quibus si incipientes in arte Musica assueverint, facilius sonum in determinata intervalla deflectere certiusque ea dignoscere, et celerius mutare possunt, veteres non habuerunt. Sed certa signa, ex lineis vel rectis, vel obliquis, vel incurvis, ex angulis item obtusis vel acutis ad formam ferè literarum Graecarum <span class='pageNo'>[108]</span> efformata, excogitarunt, ut indices essent chordarum, atque ita sonorum vel ascendentium vel descendentium, ea signa supra dictiones scripserunt, infra dictiones verò alia signa in diversis figuris, quibus tempus percussionis sive tactum indicarent. Priora sive superna signa recenset Boethius libro quarto Musices capitulo tertio. inferiora interciderunt. Neque tamen etiam superna Boethius annotat omnia, sed tantum quae in Lydio Modo usurpabantur, Numero viginti novem, tot enim in singulis modis, si tria genera Harmoniarum, Diatonicum, Chromaticum et Enharmonicum miscerentur, requirebantur. Nec eadem permanebant, sed in singulis modis nova signa assumebantur. Propterea quod etiamsi clavium sive chordarum nomina in Modis retinerentur, ut videlicet ultima clavis cujusque Modi [proslambanomenos] nuncuparetur, secunda [hupate hupaton] atque ita ordine deinceps. Potestate tamen plurimum mutabantur propter multiplicem Semitonij in singulis modis variationem. Exempli gratia: Si in uno aliquo modo in infima chorda in [proslambanomeno] cecinisses vocem Musicalem ut: in alio modo canendum erat, re, in alio item, mi. Et sic deinceps, ratione positus Semitonij, atque hoc modo in omnibus clavibus, <span class='pageNo'>[109]</span> in singulis modis ratio sonorum mutabatur, unde penè infinita clavium varietas et multiplex sonorum confusio oriebatur. Ideo non poterat, qui modum aliquem, Lydium puta, modulari posset, alios item, ut Ionicum, Dorium, Phrygium, AEolium, Mixolydium, vel alios etiam accinere, cum ubique nova signa, in alijs atque alijs modis inusitata occurrerent, sed si in omnibus duodecim modis excellere cuperet, ultra trecenta diversissima signa superna ipsi addiscenda erant, ut calculus Arithmeticus ostendit. Praeter has difficultates accedere etiam hoc videtur, quod signa percussionis, ut vocat ea Boethius, sive tactus, quae infra dictiones scribebantur, non tantum diversarum potestatum fuisse videntur, in duratione sonorum continuandorum, vel omittendorum indicanda sed etiam vim suam in superiora signa exeruisse, ijsque vel perfectionem, vel imperfectionem, vel alia ejusmodi accidentia attribuisse. Ab ijs enim signis derivati videntur characteres illi, qui apud nostros Musicos antiquiores in figurali Musica inveniuntur. Puta signa illa perfectionis et imperfectionis, Modi majoris vel minoris, Prolationis perfectae vel imperfectae. Puncti item divisionis, alterationes, augmentationis, et caetera et aliarum rerum, unde apparet signa <span class='pageNo'>[110]</span> etiam illa veterum inferna, multivaria et diversissima fuisse, et plurimum laboris requisitum fuisse ab eo, qui et haec signa inferiora cognoscere vellet. Has immensas difficultates veteris Musicae, non temerè fingi, sed ex certis veterum Musicorum verbis apertè describi, veterum monumenta abunde testantur.</p>
+
+<p>Non dubium autem est, plurimos summi ingenij viros magna diligentia conatos fuisse, faciliori modo et ratione res Musicas posteris tradere, et veteris Musicae difficultatibus mederi: Verùm nullius conatui eventus respondere voluit, donec frequenti et quotidiano usu Musica seipsam ex hisce difficultatibus expediret. Quod accidit, cum in primitiva Ecclesia passim coenobia instituerentur, et quotidianus in ijs Musices usus introduceretur. Hoc modo enim paulatim aliae atque aliae difficultates amotae sunt, et facilior totius Musicae forma excogitata. Primus autem qui nova Methodo et novis inventis characteribus Musicam tradere et exercere ausus fuit, est Iohannes Damascenus Theologus, qui prius scriba Imperatoris fuerat, postea factus est Monachus Damasci, circa annum post Christum. natum 725. Is referente Iosepho Zarlino excogitavit quosdam Characteres novos, numero <span class='pageNo'>[111]</span> paucos et faciles, quibus quaelibet cantilena scriberetur et caneretur ijs characteribus intervalla exprimebantur, quibus vel ascendendum vel descendendu erat in canendo. Temporis autem nulla habebatur ratio, utpote in cantu, ut vocamus chorali, qui tum solus in Ecclesia locum habebat. Cum igitur intervalla Musica pauca sint, paucos etiam characteres fuisse necesse est, nisi quod duorum generum fuerunt, quorum priorum usus fuit in vocis elevatione, posteriorum vero in vocis remissione, aliter enim scribebatur intervallum aliquod, quando in graviorem sonum per illud descendebatur: aliter vero idem intervallum, quando in acutiorem sonum vox elevabatur. Ratio haec cantilenas scribendi, non absimilis fuit ab ea, qua hodie utuntur, qui instrumenta Musica proprie sic dicta, clavichordia item et organa tractant. Ij enim cantilenas describunt clavibus, quibus ascensus vel descensus cantilenae significatur. Apponunt et praeterea quaedam signa, quibus continuatio vel intermissio soni, sive tempus in Musica figurata indicatur, nisi quod claves eaedem et in ascensu et descensu cantilenae permanent, et propter vocum Musicalium usum, quibus omnes iam assuevimus, diversae intervallorum species facilius discerni possunt. In Damasceni autem <span class='pageNo'>[112]</span> characteribus, eum unicus tantum character ad intervallum aliquod, cujus in vocis elevatione vel depressione usus esset, describendum adhiberetur, Eodem illo charactere, diversae etiam illius intervalli species, quae propter alium atque alium semitonij positum mirè variant, indicari non poterant, unde diversa et dubia cantionum modulatio proculdubio oriebatur. Semitonij enim positu variato, non tantum unumquodque intervallum mutatur, sed etiam tota illius cantilenae modulatio errabunda vagatur, et propter mutatus [tou dia pente] et [tou dia tessaron] species, ad alios atque alios Modos subinde detorquetur. Hocque ita accidisse Historiarum monumenta satis ostendunt, ut exempli gratia, quod tempore Caroli Magni, paucorum annorum spacio aliquoties Ecclesiastici cantus in Ecclesia Metensi emendati, et ad authoritatem Romani cantus revocati sunt. Cum enim diversimodè in Italia atque Gallia cantiones Ecclesiasticas modularentur quas tamen Pipinus, Francorum sive Galliae rex, parens Caroli Magni, Anno post Christum natum 751. rectè a Romanis describi, et in Ecclesia Metensi atque Gallia doceri et exerceri iusserat) offensus illa dissonantia Carolus, clericos duos Romam misit, qui authenticum cantum ibi à Romanis discerent, <span class='pageNo'>[113]</span> et Gallos docerent. Verúm cum iterum post annos sedecim, in psallendo et legendo à consuetudine Romana variatum esset, Pontifex Romanus Adrianus, missis cantoribus eam etiam dissonantiam in Gallijs correxit. Prior emendatio contigit anno post Christum natum 774. posterior vero anno 790.</p>
+
+<p>Etsi autem Iohannes Damascenus propter hanc inventionem eam autoritatem sibi comparavit, ut non solum omnibus Musicis praeferretur, sed etiam ob pietatem, et eximiam in Musicis peritiam ipsi mandaretur, ut cantilenas, quas decretum in Christianorum Ecclesijs cani iuberet, ipse melodijs comprehenderet, praescriberet, et alios doceret, unde [kat' exochen], Melodos sive cantor appellatus fuit: tamen cum certitudo penitus nulla in illis inventis characteribus statui posset, post aliquot annos à Guidone Aretino Italo, claves et voces Musicales, quibus adhuc utimur excogitatae sunt. Vixit is sub Imperatoribus Germanicis, Conrado secundo, et Henrico tertio, circa annum post Christum natum 1030. Occasionem autem inventarum clavium et vocum Musicalium proculdubio ipsi praebuerunt instrumenta Musica, stabiles, determinatos et certos sonos exprimentia, tum temporis vel primum inventa, vel à Graecis ad Latinos translata. <span class='pageNo'>[114]</span> Aventinus enim et alij Historici tradunt, Pipino Francorum regi per legatos ab Imperatore Orientis Constantino Copronymo instrumentum Musicum maximum, Germanis et Gallis incognitum dono datum fuisse, quod cicutis ex albo plumbo compactum fuerit, follibus inflatum, manuum digitis pedibusque pulsatum, et organon appellatum. Quanquam quod pedibus etiam tum temporis pulsatum fuerit, vix verisimile videtur. Cum circa annum à Christo nato 1470. ea ratio demum apud Venetos à Bernhardo, natione Germano, et Venetorum duci ab organis, inventa credatur, teste Sabellico libro octavo Enead. decimo. Scribit enim ibidem, hunc Bernhardum adeo excellentem Musicum fuisse, ut numinis providentia ad id natus putaretur, ut unus esset, in quo ars pulcerrima Musica omnes suas vires experiretur. Vocem ipsi ad omnes numeros et sonos accommodatam fuisse affirmat, omnia instrumenta Musica illum scientissimè tractasse, numeros etiam ac sonos in organis auxisse, utque pedes etiam concentum Musicum adjuvare possent, funiculorum attractu effecisse. Quod autem Aventinus et alij Historici tradunt, organon tum temporis à Graecis primùm ad Gallos translatum, ipsisque instrumentum incognitum <span class='pageNo'>[115]</span> fuisse, dubitare quis meritò posset, cum Platina in vitis Pontificum referat, trecentis ante Pipinum Galliae regem annis, à Pontifice Vitaliano organa in templa recepta, et ad consonantias cantui Ecclesiastico inserendas accommodata fuisse, quod et Beda Presbyter paucis post annis confirmat. Verum Platina et Beda vel loquuntur de informi illo instrumento Musico, cujus quindecim cicutae vento ex duodecim fabrorum sufflatorijs emisso, inflabantur, quale Hierosolymis fuisse à Divo Hieronymo affirmatur, cujus sonitus in monte etiam oliveti, tanquam tonitru exaudiebatur: Vel loquuntur de instrumento Musico Hydraulico, cujus prolixa descriptio extat apud Vitruvium, libro decimo Architecturae capitulo 13. quod et antiquissimum est, et peculiari nomine organon appellatum fuit. Discrimen autem, ut hoc obiter addam, inter Hydraulicum et nostrum organum, cum forma externa non magnopere differre videantur, fuit: Quod totum corpus Hydraulici unà cum cicutis ex aere fieret, cicutarum ordo unicus tantum esset, et sonus ob infusam aquam diversimode agitatam proferretur. Organi vero nostri corpus ex ligno compingitur, factis receptaculis plurimorum ordinum cicutarum et sonus ipse flatu ex follibus recepto perficitur. <span class='pageNo'>[116]</span> Corpus organi appello, arcam illam cui cicutae insistunt, et ex qua flatum recipiunt. Atque hoc modo unicum etiam organum hodie interdum pluribus constat corporibus, Quorum aliud posset vocari anticum, aliud posticum, aliud pectorale, aliud laterale, aliud pedale, et similiter. Cicutarum etiam ordines plurimum inter se differunt, dum alij consonant in unisono, si ad unam clavem respicias, alij in Diapason inferiore vel superiore, quidam in Disdiapason, quidam in diapente, quidam in ditono, et caetera. Quidam etiam ordines dupli sunt, ut Cymbalorum, quidam tripli, quadrupli, item decupli, et caetera ut mixtarum. Cicutae ipsae vel ex stanno puro, vel cum plumbo mixto fiunt, vel ex aere Cyprio, quaedam cum stanneae sint, os habent Cyprium, quaedam superius clausae sunt, plurimae apertae, quaedam non penitus clausae, quaedam incurvae, unde ex omnibus diversissimi gignuntur soni, dum aliae sonum proferunt gravem, aliae acutum, aliae medium, aliae cum raucedine quadam aut strepitu, vel susurro, aut etiam modica dissonantia intersibilante conjunctum, aliae prorsus sibilant, vel tonant, vel frendent, vel tremunt. Clavium etiam ordo quibus flatus cicutis immittitur, interdum duplex est, interdum triplex, vel etiam quadruplex, ut <span class='pageNo'>[117]</span> non tantum manuum digitis: sed etiam pedibus tangi, et inter se diversis modis misceri possint, unde infinitae penè Harmoniae varietates oriuntur, simplicitati illi Hydraulicae longè anteferendae.</p>
+
+<p>Ex tali igitur aliquo instrumento, praecipuè ex organo, ut arbitror, Guido Aretinus, quando sonos determinatos et stabiles, ex cicutis emissos, invicem in Diatonico Harmoniae genere examinaret, statim deprehendit, post septimam clavem, quando ordine progrederetur, aequisonam haberi consonantiam, quae Graecis [dia pason], latinis octava appellatur. (Claves hic in organis et alijs instrumentis Musicis nostro more appello, quae veteribus plectra sive pectines dici possent, quibus aut flatus cicutis immittitur, aut aliàs in instrumentis Musicis chordae tanguntur.) Et claves etiam quae sequuntur, cum primis non quidem ejusdem intensionis, sed tamen ejusdem naturae sonos producere, qui nulla alia re inter se differrent, nisi quod per [dia pason] ratione acuminis et gravitatis sejungerentur, unde facilè animadvertit, claves non plures esse debere quam septem, et easdem in altero clavium septenario, sono per [dia pason] vel elevato vel depresso, iterari.</p>
+
+<p>Repudiatis igitur Graecorum prolixis et à <span class='pageNo'>[118]</span> celeritate atque promtitudine abhorrentibus chordarum nominibus, primis eas Alphabeti literis, quae principes occurrunt, appellavit, quae literae, cum postmodum voces Musicales adderentur, et ipsae cantibus in initio praefigerentur, claves appellatae sunt, quod quemadmodum clavis occlusa resecando aperit, et quae abstrusa intus erant, palàm omnia omnibus aspicienda proponit: ita hae literae lineis et characteribus per se mutis praefixae, eas animent, vivificent et omnem rationem canendi liquidò explicent et declarent. Quindecim etiam cum veteribus omnino essent chordae sive claves, ut supra audivimus, quinque insuper ijs addidit, ut viginti numero claves efficeret, unam quidem inferiori loco, reliquas quatuor superiori. Quemadmodum id in scala Guidonis deprehenditur. Gamma enim inferiori loco accessit, in superiori verò hae quatuor bb. cc. dd. ee. duplicatae. Hodie nostro seculo cum figurata Musica adeò exculta fit, ut nihil praeterea accedere posse videatur, neque his viginti clavibus contenti sumus, sed praeterea septem assumimus, ut omnino in Diatonico Harmoniae genere, praeter Chromaticas illas, quae aliàs cantilenis inseruntur, viginti septem numerentur claves. Incipiuntque in clave magna C. desinuntque in clave a. geminis <span class='pageNo'>[119]</span> virgulis notata, non illa, ubi veterum quindecim chordae finiebantur, sed quae integra octava ab illa, in acutum est remota. Comprehenduntque hae septem et viginti claves, excepto semiditono, integras quatuor octavas, duplum quam veteres habuerunt, cum clavichordia et alia instrumenta Musica usque ad clavem c. tribus virgulis notata ascendant.</p>
+
+<p>Inventio sex vocum Musicalium difficilior fuit. Ex tetrachordis enim veterum quatuor tantum elici potuerunt voces. Sed credibile est, Guidonem Aretinum, in fingendis vocibus Musicalibus, ad Diatessaron minimam veterum consonantiam, ut putabant, respexisse, in qua, ex ijsdem instrumentorum Musicorum sonis stabilibus et determinatis deprehendit, non tantum illam speciem haberi, quae in singulis veterum tetrachordis continetur, videlicet quae semitonium infimo loco habeat, sed ratione dispositionis semitonij duas insuper alias, ut ita tres omnino [dia tessaron] species numerentur. Prima, ubi semitonium supremum locum: secunda, ubi medium: tertia, ubi infimum obtineret. Hae tres [dia tessaron] species, ut conjungi possent, cum invicem sibi succedant, facile animadvertit, quatuor voces Musicales non sufficere, sed plures, et ad minimum sex requiri. Quas si excogitasset, eventurum praevidit, non modo, <span class='pageNo'>[120]</span> ut species [dia tessaron] rectè continuarentur, sed etiam ut veterum tetrachorda aptè connecterentur, et facilis ab alio ad aliud transitus praeberetur. Habebatur tum hymnus, factus in honorem Iohannis Baptistae, qui quoniam Vox clamantis in sacris literis appellabatur, clamantium in coenobijs, ut tum temporis solebant, atque ita etiam canentium, ex Pontificia superstitione, patronus, Deusque tutelaris creditus est, et ille ipse hymnus ad vocis raucedinem pellendam adhibitus. Ex hujus hymni strophe prima, separando primas Hemistichiorum syllabas, sex voces Musicales desumsit, et semitonium, ex cujus dispositione omnium intervallorum ratio, atque omnis modulatio et Harmonia dependet, medio et dignissimo loco collocavit. Hymnus sic incipit:</p>
+
+<p>VT queant laxis REsonare fibris,<br />MIra gestorum FAmuli tuorum,<br />SOLve polluti LAbij reatum,<br />Sante Iohannes.</p>
+
+<p>Primae hemistichiorum syllabae sunt: ut, re, mi, fa, sol, la, Et inter Vt et fa, primam speciem [dia tessaron] collocavit, ubi semitonium mi et fa, esset supremo loco: inter re et sol, secundam, ubi semitonium <span class='pageNo'>[121]</span> in medio haberetur: et inter mi et la, tertiam, semitonio in infimo loco existente.</p>
+
+<p>Satis quidem convenientes sunt hae voces Musicales et faciles, si eas cum veterum tetrachordis compares, sed tamen quia intergrum intervallum [dia pason] non explent, propter frequentem mutationem, ut quaeque vox suae clavi, cui competit, rectè applicetur, incipientibus non parum pariunt difficultatis. Cui etiam ut quidam mederentur, nuper in Belgio novas voces Musicales excogitarunt, numero septem, quae quoniam integrum [dia pason] explent, mutationi obnoxiae non sunt, sed quotiescunque opus est repetuntur, eaedemque et in ascendendo, et in descendendo permanent, et propter convenientem semivocalium et mutarum literarum in distributis syllabis consecutionem, ad promptam et expeditam pronunciationem haud difficulter se offerunt: Sunt autem hae septem cum octava repetita:</p>
+
+<p>Bo, ce, di, ga, lo, ma, ni, Bo.</p>
+
+<p>Applicantur verò clavibus ratione systematum. In regulari enim systemate, sive in cantu duro, incipiunt in clave C. atque ita ordine ascendunt, atque rursus descendunt, ut quaelibet clavis suam propriam syllabam habeat, quam <span class='pageNo'>[122]</span> semper tam ascendendo quam descendendo retineat, quousque etiam cantilena progrediatur. Itaque hoc modo in regulari systemate clavis C. habebit syllabam bo, clavis D. syllabam ce, clavis E. syllabam di, clavis F. syllabam ga, clavis G. lo, clavis A. ma, et [sqb] quadratum ni, C. rursum bo, atque ita deinceps etiam regregiendo, ut:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 122,1; text: bo, ce, di, ga, lo, ma, ni] <a href="CALVEX_09GF.gif">[CALVEX 09GF]</a></p>
+
+<p>In transposito verò systemate, quod cantum mollem vulgò appellamus, primam syllabam harum vocum Musicalium bo, non in clavem C. ut in regulari collocant, sed in clavem F. secundam ce in clavem G. tertiam di, in clavem A. quartam ga, in b rotundum: quintam lo in C. Sextam ma, in D. et ultimam ni, in E. ut:</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 122,2; text: bo, ce, di, ga, lo, ma, ni] <a href="CALVEX_09GF.gif">[CALVEX 09GF]</a></p>
+
+<p>Atque hoc modo, si puer hisce vocibus Musicalibus assueverit, atque insuper cantum regularem, et transpositum discernere sciverit, <span class='pageNo'>[123]</span> statim sponte sua, in quocunque notularum situ, sese hae voces Musicales offerent, cum nihil incidere possit, quod hunc vocum musicalium ordinem magnopere turbet, praeterquam si in regulari systemate in Clave [sqb] quadrata, aut in transposito in clave e occurrat b rotundum, tum enim, quemadmodum in nostris vocibus Musicalibus ibidem semper fa canimus, ita in hisce, pro syllaba ni, quae utrique clavi in suo systemate communis est, syllaba pa sumitur, ut in regulari.</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 123,1; text: bo, ce, di, ga, lo, ma, pa] <a href="CALVEX_09GF.gif">[CALVEX 09GF]</a></p>
+
+<p>Aut in Transposito.</p>
+
+<p>[Calvisius, Exercitationes musicae duae, 123,2; text: bo, ce, di, ga, lo, ma, pa] <a href="CALVEX_09GF.gif">[CALVEX 09GF]</a></p>
+
+<p>Reliqua Chromata, quae in cantilenis occurrere solent, voces has musicales non mutant. Monendi tantum sunt pueri, si [signum] cancellatum occurrat, ut syllabam illam, quaecunque sit, aliquo modo elevent, et durius paululum pronunciando intendant.</p>
+
+<p>Habent praeterea hae voces Musicales alias <span class='pageNo'>[124]</span> commoditates, ut quod convenientiam regularis et transpositi systematis, et qua ratione invicem transmutari possint, aperte ob oculos ponant. Item, quod species [dia pason] omnes, atque ita etiam species [dia tessaron] et [dia pente] ordine suo naturali ac proprio exhibeant, et Modos, quomodo se aptissimè ac nativo ordine, in speciebus [dia pason] sequantur, commodissimè ostendant, ut conferenti eas cum Modis Musicis et alijs intervallis facilè apparebit.</p>
+
+<p>Restat, ut de inventione notularum etiam, quae quantitate sua invicem discrepant, quaedam moneamus. Notulas enim, quae valore suo pares sunt, et in chorali cantu adhibentur, persequi non est operae precium. Cum pro libitu excogitatae sint, et qua forma scribantur, non magnoperè cantilenae intersit. Notulae vero, quae valore impares, et figura diversae sunt, tantum in figurali cantu usurpantur. Quare prius de cantu figurato, cujus gratia notulae inventae sunt, agendum.</p>
+
+<p>Cantus figuratus, qualis apud nos est, ut videlicet duae, vel tres, vel quatuor, quinque, sex, septem, octo, vel plures voces, in diversa intensione, motu, et tempore progredientes, consonantias misceant, et varias Harmonias efficiant, apud veteres non fuit, argumento <span class='pageNo'>[125]</span> est, Primum quod veteres nec ditono, nec semiditono, atque ita etiam, nec sexta Maiore, nec Minore, sine quibus tamen nulla omnino Harmonia, qualis apud nos in figuratis cantilenis habetur, gigni potest, pro consonantibus usi fuerint. Secundo, quod in instrumentis Musicis veterum, vel chordarum paucitas, vel clavium sive plectrorum magnitudo sive distantia diversas intensiones, et motus plurium vocum non admiserit. Tertiò, quod praestantissimi Musici, qui ad diversissimos animi motus auditores suos traducere potuerunt, à Poetis, Historicis, et alijs autoribus introducantur soli, ad instrumentum aliquod Musicum voce tantum modulantes. Et Quartò, quod nullum exemplum figuratae cantilenae apud veteres extet: imò ne mentio quidem eius fiat, atque ita, ut dici solet, nec vola, nec vestigium figurati cantus apud veteres appareat. Quemadmodum haec omnia, si opus esset, latius demonstrari possent. Cecinerunt quidem veteres in, sive cum Harmonia, ut ex autoribus manifestum est, sed qualis illa Harmonia fuerit, etsi fortassis non inconvenienter describi posset: tamen nisi id liquidò demonstretur, et ex firmis autorum testimonijs deducatur, quod brevibus fieri non potest, in tanta judiciorum diversitate, hoc loco asseverare <span class='pageNo'>[126]</span> periculosum arbitror. Omissa igitur veterum Musica Harmonica, quando nostra inventa sit, paululum disquiramus.</p>
+
+<p>Organa igitur, sive alia instrumenta Musica, quae nobis claves et voces Musicales pepererunt, procul dubio etiam principia figuratae Musicae monstraverunt. Etsi enim in instrumento Musico Hydraulico, quotidiano usu artifices edocti, praeter consonantias usitatas, Octavam scilicet, quartam et quintam, alteram etiam vocem ad choralem cantum addere ausi fuerunt, ut meminit Beda Presbyter, quando affirmat, suo tempore Musicam exercitatam fuisse in templis Concentu, Discantu, atque Organis, ubi per concentum consonantias insertas, per Discantum vero secundum cantum, sive aliam vocem chorali in Organis additam intelligere videtur: tamen cum diversitas in notularum quantitate nulla esset, nec ratio clausularum inventa, nec tactuum proportio, atque ita nulla varietas in Harmonia fieri posset, nullam gratiam ea res habuit, nec digna visa fuit, ut ratio illarum consonantiarum ac Harmoniae ab autoribus illius temporis, praeceptis comprehenderetur. Ideo etiam Guido Aretinus, Musicus per totam Europam celeberrimus, ac princeps, cum omnia, quae elegantem in Musica <span class='pageNo'>[127]</span> usum habere videbantur, praeceptis conformata, posteris traderet, hujusmodi Harmoniam improbavit, rejecit, et fatuos ejus cultores, ac sectatores vocavit. Verùm cum claves et voces Musicales inventae essent, Mensurabilis hujs Musicae usus, ut tum vocabant, paulatim excultus est. Homines enim ingeniosi ex distantia clavium consonantias rectius dijudicaverunt, et qua ratione aliae in alias commodè transirent, et in clausulis coirent, quotidiano in organis periculo facto paulatim deprehenderunt. Inde in frequenti clausularum usu, et ut taediosam ejusdem soni in singulis consonantijs quantitatem, et similitudinem vitarent, varietatemque Harmoniae adderent, et convenientius ex consonantijs in alias atque alias transirent, diversam in notulis quantitatem constituerunt, tempora distinxerunt, et omnia haec inaequalitate tactuum mirè variaverunt. Insuper cum haec omnia nova in insolita essent, ne statim à quovis arriperentur, usurparentur, vulgarentur, et tandem vulgata in contemtum venirent, et praesertim, ut haberent, quod discipulis proponerent, et ociosi, ut tum temporis solebant, specularentur, multiplicia signa excogitarunt, et varijs proportionibus usi sunt, quibus et notularum quantitatem variaverunt, et tactus simplicitatem <span class='pageNo'>[128]</span> multiplicem reddiderunt. Essentialem enim notularum quantitatem hisce signis varijs modis vel auxerunt, vel diminuerunt, et tactum ad omnia proportionum genera conformatum infinitis difficultatibus implicuerunt. Nihilominus tamen semper fuerunt, qui indefesso studio in hac arte posito, eam facultatem consecuti sunt, ut chorali cantui alias in diversis motibus ingredientes voces addere possent. Id enim tum temporis Musici, cum ex se novas cantilenas gignere non auderent, et alias, quas imitarentur, non haberent, inprimis studuerunt, unde novum hoc cantandi genus, Cantus Floridus appellatum fuit, propterea, quod choralis cantus, harmonia et consonantijs, ceu flosculis exornatus, elegantior redderetur, et quasi effloresceret. Nec fortassis à rigidioribus Musicae iudicibus hoc genus cantandi, in Ecclesia culpatum fuisset, nisi aliqui relicto chorali cantu, novas et auditoribus prorsus ignotas cantilenas ex suo ingenio fingere, et Ecclesijs obtrudere conati fuissent. Eas enim, cum nulla choralis cantus facta imitatione, nec observato certo Harmoniae modo, componerent, celeriorique motu veloces, omissisque convenientibus clausulis instabiles, et lubricas, et diversis tactibus leves, redderent, easque non, ut decebat, canerent:</p>
+
+<p><span class='pageNo'>[129]</span> Sed histrionum more varijs et indecoris gestibus agerent et repraesentarent, pontificia autoritate coêrciti et repressi fuerunt.</p>
+
+<p>Constitutio illa extat in Extravagante, libro 3. capitulo Docta Sanctorum. Titulus de vita et honestate Clericorum. Promulgataque est à Pontifice Iohanne vicesimo secundo, capulari sene, circa annum post Christum natum 1320. Qui cum prius utilitates, quas Musica in Ecclesijs exercitata, habet maximas, recensuisset, Figuratam prohibet his verbis:</p>
+
+<p>Sed nonnulli novellae scholae discipuli, dum temporibus mensurandis invigilant: novis notis intendunt, fingere suas, quàm antiquas cantare malunt. In semibreves et minimas Ecclesiastica cantantur, notulis percutiuntur. Nam Melodias hoquetis (pausas videtur intelligere) intersecant, discantibus lubricant, triplis et motetis vulgaribus nonnunquam inculcant, adeò ut interdum Antiphonarij et Gradualis fundamenta despiciant, ignorent super quo aedificant, Tonos nesciant, quos non discernunt, imò confundunt: Cum ex earum multitudine notarum, ascensiones pudicae, descensionesque temperatae plani cantus, quibus Toni ipsi discernantur, ab invicem obfuscentur. Currunt <span class='pageNo'>[130]</span> enim non quiescunt, aures inebriant, et non medentur: gestibus simulant, quod depromunt quibus devotio quaerenda contemnitur, vitanda lascivia propalatur. Hoc ideo dudum nos et fratres nostri correctione indigere percepimus, hoc relegare, imo prorsus abijcere, et ab eadem Ecclesia Dei profugare, efficacius properamus. Quocirca de ipsorum fratrum consilio districtè praecipimus, ut nullus deinceps talia, vel his similia, in dictis officijs, praesertim horis canonitis, vel cum Missarum solennia celebrantur, attentare praesumat. Si quis verò contra fecerit, ab ordinarijs locorum istorum per suspensionem ab officio, per octo dies, autoritate huius canonis puniatur. Per hoc autem non intendimus prohibere, quin interdum diebus festis praecipuè, sive solennibus in Missis, et praefatis divinis officijs, aliquae consonantiae quae melodiam sapiunt, puta octavae, quintae, quartae, et huiusmodi supra cantum Ecclesiasticum simplicem proferantur. Sic tamen, ut ipsius cantus integritas illibata permaneat, et nihil ex hoc de benè morata Musica immutetur, maximè cum huiusmodi consonantiae auditum demulceant, devotionem <span class='pageNo'>[131]</span> provocent, et psallentium Deo animos torpere non sinant. Hactenus Pontifex.</p>
+
+<p>Hanc constitutionem, utile est, extare non tam quod figuratam Musicam in templis prohibet, usu enim eam abrogatam fuisse, historiae et experientia satis ostendunt, quàm quod qualis illo seculo Musica fuerit, luculenter describit. Novam enim illam et nuper inventam satis arguit. Cum ejus autores appellet discipulos novellae scholae, qui novis notis intendant. Deinde etiam, inexcultam, rudem et imperfectam. Et quidem primò. Quod Musici illius seculi in diminutione notularum, tantum ad semibreves et minimas pervenerint, semiminimas verò, fusas et semifusas prorsus ignoraverint, quas si habuissent, procul dubio Pontifex nominasset, utpote invidiae propiores. Secundo, quod Modos non observaverint, nec Harmoniam vel ad Antiphona, vel Gradualia cantica direxerint, sed omnia progressionibus insolitis, vel in acumen, vel ad profunditatem directis deformaverint. Tertiò, quod clausulis cantilenas distinguere non noverint, nunquam quieverint, sed in perpetuo cursu cantum absolverint. Et Quartò, quod convenientibus clausulis, et commoda consonantiarum mixtarum consecutione, Harmoniam ad affectus inflectere non potuerint: <span class='pageNo'>[132]</span> Sed illos gestibus simulare, et auditoribus inserere conati fuerint, quod valdè deforme fuisse, ex Franchino etiam apparet. Falluntur ergo ij, qui ante hunc canonem, Musicam figuratam non minus floruisse arbitrantur, atque hodie, eamque hoc canone ex Ecelesia, atque ex hominum conventibus extrusam, atque ita obliteratam fuisse. Nec enim severitas poenae, qua usus Musicae interdicebatur, tanta fuit, ut magnoperè esset extimescenda, nec propterea, si Ecclesijs interdicta esset, à scholis etiam, à vita privata, et à conventibus hominum solennibus, exulare iubebatur. Imo potius magis magisque exculta fuisset: cum natura in vetitum nitamur, et negata desideremus. Quod autem Pontifex addit, se non prohibere, quin interdum consonantiae, Octavae scilicet, Quintae et quartae super cantum choralem sive Ecclesiasticum proferantur, de eo, quid sibi velit, cuique conjecturam facere licet, mihi videtur Musicam veteribus planè contrariam etiam tum temporis, ut hodie, introductam fuisse. Veteres enim cantabant, in, sive ad Harmoniam, hoc est, ut Harmonia sive consonantiae fundamentum essent cantilenae, quae accinebatur: Hic si tantum aliquo modo latinè loquitur Pontifex, choralem cantum fundamentum facit consonantiarum addendarum, <span class='pageNo'>[133]</span> unde procul dubio non alia Harmonia exorietur, quam contrapunctus extemporaneus, ut vocant, sive Harmonia, quae posset dici [autoschediasike], quando videlicet, qui graviorem sonum proferre possunt, choralem cantum simpliciter canunt. Reliqui vero, qui voce acutiores sunt, consonantias, octavas, quintas et quartas, pro libitu, non praemeditati addunt, quod apud concentores aulicos quosdam in capellis, ut vocant, et in quibusdam coenobijs apud Pontificios hodie in usu est. Quanquam hi de quibus Pontifex loquitur, fortassis ex praescripto, ut minus exercitati consonantias miscuerunt. Qui post floruerunt Musici, usque ad coelestis doctrinae, una cum bonis artibus et linguis, repurgationem, ferè toti fuerunt in eo, ut non tantum diversissima illa signa, et proportiones, quibus et figurarum quantitas innumeris modis variatur, et tactus in diversas partes discerpitur, explicarent. Sed etiam novis figmentis augerent, et scriptis libris inculcarent, et propugnarent. Vt enim quisque ingenio praecellere sibi videbatur, ita novum quid et alijs incognitum, aut inusitatum excogitare, et suis discipulis praecipere voluit, Unde factum, ut cum alij aliorum inventis contradicerent, controversiae plurimae in Musicis moverentur, de quibus cum digladiarentur, <span class='pageNo'>[134]</span> plurima inutilia iuxta ac difficilia Musicis praeceptis inserta sunt, quibus et ingenia discentium fuerunt conturbata, et impedita, ac verus Musicae usus neglectus.</p>
+
+<p>Caeterum proportiones, quibus tactus diversissimè formatur, ex falsa persuasione in Musicam irrepsisse videntur. Nam cum scirent illius aetatis Musici, hanc artem et Mathemata et quidem ad eam partem pertinere, qua res non simpliciter considerantur, sed quatenus ad alias habent respectum, id autem absque proportionibus fieri non possit: falso proportionum doctrinam, quibus sonos formare, comparare, distinguere, ac dijudicare debebant, ad tactus applicationem transtulerunt. Franchius Musicus, qui tantum necessaria, et ad Musicam pertinentia se traditurum pollicetur, species ex omnium proportionum generibus selectas, et in tactu mensurando usurpatas, recenset septuaginta novem. Cum alij plures tradant. Ex quibus proculdubio, tanta in applicatione tactus diversitas, obscuritas, difficultas et partium tactus dilaceratio orta, tradita et inculcata fuit, ut posteritas vix creditura videatur.</p>
+
+<p>Ex illo autem tempore, quo bonae artes, unà cum doctrina coelesti repurgari et purius tradi coeperunt, excitata sunt multa ingenia, <span class='pageNo'>[135]</span> quae non tantum senticeta haec ex agro Musico evulserunt, et extirparunt: sed etiam consonantias legitimis progressionibus per fugas, ut vocant, et elegantes clausulas, in suavissimam Harmoniam deducere potuerunt. Inter quos excellit inprimis Iodocus à Pratis, vulgò Iosquinus, hoc est, Iodoculus de Pres, Belga. Item Clemens non Papa, et alij. Quibus tamen omnibus deesse videtur, quod cum elegantem Harmoniam condere potuerint, à Melodia tamen rectè instituenda, quae fit, si et sententiae et verba alicuius dicti, aptè ad Harmoniam quadrent, et significanter ac rotundè exprimantur, longius abfuerint, quam rationem postea monstravit et observavit inter primos in Germania, Orlandus di Lassus, et post eum infiniti alij.</p>
+
+<p>Sed hisce omissis, ad notularum inventionem progrediamur, quae per se nec magnoperè ingeniosa nec difficilis fuit: Sed tamen priusquam de certa forma harum figurarum omnes, in illa [anarchia] Musicorum, vbi [oudeis oudena oudenos ekoue], consentiret, serò recepta. Franchini enim seculo, vt ex ejus libellis apparet, nondum omnes consenserant, quibus modis scribenda Longa, Maxima, Minima item et seminima, ut de fusis et semifusis taceam: cum tamen diversa in notulis quantitas, dudum observata et usurpata fuisset.</p>
+
+<p><span class='pageNo'>[136]</span> Brevem igitur notulam omnium primam constituerunt, propterea, quod in mensurandis syllabis, brevis omnium prima occurat, eam forma quadrata pinxerunt, et matrem, originemque omnium notularum appellarunt. Longam verò, quae duas breves contineret, cum duplicata magnitudine scribendam censerent, ne ea cum Maxima, quae post Longam constituenda esset, confunderetur, verebantur: ideo apposita cauda, quae bis notulae Brevis corpusculum longitudine excederet, eam efformandam putaverunt. Maximam duplicata quantitate scripserunt, quamquam in Longae et Maximae notulae efformatione, praeter caetera, controversum fuit, quod tactibus quaelibet esset mensuranda, ideo initio Maximam ita pingebant, ut tot corpori eius virgulas, quae tanquam pectines dependebant, appingerent, quot Brevibus eam mensurandam vellent. Similiter longae caudam eo usque producebant, ut vel ter, vel quater Brevis notulae corpusculum excederet, si tot Brevibus eam metiri constituissent. Verùm cum deformis esset scribendi ratio, et magnam ambiguitatem pareret, tandem consensum est, ut quemadmodum hodie scribuntur, pingerentur, et in dupla proportione sese sequerentur. Et si ad quantitatem earum aliquid addendum esset, ut id fieret vel <span class='pageNo'>[137]</span> appositis quibusdam signis, vel etiam puncto, quod dimidia parte, unamquamque notulam, cui asscriberetur, augeret. Semibrevem ex Brevi, in duas aequales partes obliquè dissecta, fecerunt, ita ut forma esset triangulari. Sed hodie scribitur quadrato oblongo. Minimae verò notulae virgulam sive caudam asscripserunt directè, vel supernè incumbentem, vel infernè dependentem, qua semibrevem in duas partes divisam, sive dimidiatam significarunt. Semiminimam denigrarunt. Fusas ut scriberent, quarum duae semiminimam perficerent, apposuerunt caudae binarium numerum, qui postea ad caudam in uncum coaluit. In semifusis verò binarium duplicaverunt. Plurimae porrò agitatae fuerunt controversiae de nominibus, valore ac forma omnium figurarum, quas recensere longum esset, nec operae precium, cum tales sint, quae nec scienti prosint, nec nescienti obsint. Si quem iuvat eas cognoscere, videat inter alios Franchini librum secundum Musicae praticae. Unicum hoc videtur addendum, quod veteres Fusas et Semifusas, quemadmodum et hodiè multi alij, appellent Chromata, hoc est colores, unde procul dubio Germanica phrasis Coloriren, hoc est, sonos in notulis maioribus descriptos, per Fusas et Semifusas discerpere, et motu vocis velociori <span class='pageNo'>[138]</span> lociori ac hinc inde vagabundo exprime originem traxit.</p>
+
+<p>Haec sunt, quae de origine et progresu rerum Musicarum, ab initio mundi, ad nostra usque tempora, annotare placuit, ex quibus omnibus apparet, ex quam parvis initijs Musica coeperit, quibus incrementis acuta fuerit, et quanto labore ad id fastigium pervenerit: ut ulterius ascendere non posse videatur. Nec enim plura intervalla, nec plures consonantiae, vel Modi, in quibus soni deducantur excogitari poterunt. Tantum restat, ut quod nobis veterum labore et industria in hac arte partum est, grato animo accipiamus, rectè collocemus, diligenter excolamus, et ad Dei optimi Maximi laudem, Ecclesiaeque decus, in quotidianis exercitijs piae institutionis, invocationis, et gratiarum actionis, utamur. Ipsique aeterno Deo gratias agamus, quod hoc ultimo mundi articulo, inter alias liberales artes, hanc etiam ad summam perfectionem deducere, et quasi [proaulion] praelusionem, sive ut vulgo loquimur, praeambulum fieri voluit, perfectissimae illius Musicae in vita coelesti, ab universo triumphantis Ecclesiae et beatorum Angelorum choro, propediem inchoandae, et per omnem aeternitatem continuandae.</p>
+
+<p>FINIS.</p>
+
+<p><span class='pageNo'>[139]</span> LIPSIAE</p>
+
+<p>Franciscvs Schnelboltz<br />Excvdebat.<br />Typis haeredum Beyeri.</p>
+
+<p>Anno <br />M. DC.</p>
+<!-- end text -->
+</div>
+</div>
+<!--</div>-->
+<br /><br />
+
+
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
+<div id="footer">
+  <div id="chmtl_logo">
+    <a href="https://chmtl.indiana.edu/">
+        <img src="_assets/img/chmtl_logo_trans.png" alt="CHMTL Logo" />
+    </a>
+  </div>
+  <div id="copyright">
+    <p>The <a href="https://chmtl.indiana.edu/">Center for the History of Music Theory and Literature</a> is a research center of the <a href="http://music.indiana.edu">Indiana University Jacobs School of Music</a>.</p>
+  </div>
+</div>
+
+<div id="iu_footer">
+    <hr />
+    <div id="copyright">
+        <div id="blockiu">
+            <a href="http://www.iub.edu" title="Indiana University">
+                <img alt="Block IU" height="28" src="https://chmtl.indiana.edu/tml/17th/_assets/img/blockiu_white.gif" width="22" />
+            </a>
+        </div>
+        <p id="statement">
+        <a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> © 2022 The Trustees of <a href="http://www.iu.edu" title="Indiana University">Indiana University</a> | <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> | <a href="https://music.indiana.edu/departments/offices/music-information-technology-services/privacy.shtml">Privacy Notice</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

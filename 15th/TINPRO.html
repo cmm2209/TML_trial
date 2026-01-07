@@ -1,0 +1,805 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>TINPRO_TEXT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="_assets/css/tml/layout.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/css/common/chmtl_identity.css" />
+    <!--<link rel="stylesheet" type="text/css" href="_assets/css/w3.css" />-->
+    <link rel='stylesheet' type='text/css' href='_assets/css/fancybox.css' />
+    <script type= 'text/javascript' src='_assets/js/chmtl_file.min.js'></script>
+</head>
+
+<body>
+  <div id="chmtl-identity">
+    <div id="identity-spacer"></div>
+<!--    <p>A project of <a href="http://chmtl.indiana.edu">CHMTL</a></p>-->
+    <div id="chmtl-border">
+      <div id="chmtl-blue"></div>
+      <div id="chmtl-yellow"></div>
+      <div id="chmtl-gray"></div>
+      <div id="chmtl-red"></div>
+    </div>
+  </div>
+    <div id="identity">
+    <div id="menu-container">
+  <a><span class="menu-btn"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</span></a>
+  <a href="../index.html"><span class="home-link">Home</span></a>
+  <span class="search-short">
+    <a class="modal-tooltip" modal="search-tip">&nbsp;<i class="fa fa-info-circle" aria-hidden="true">
+      <span class="sr-only">Click for more information</span></i></a>
+    <form  action="TINPRO.html#" id="menuSearch"><input type="text" id="menuSearchText" placeholder="Quick search"/></form><span class="navSearchButton"><i class="fa fa-search"></i></span></span>
+  <a href="../copyright.html" target="_blank"><span class="copyright-short">Copyright Notice</span></a>
+</div>
+
+<div id="search-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="search-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+
+     <p>Use the &ldquo;Quick search&rdquo; if you want to search for <em>all documents</em> within the <em>whole archive</em> where words <em>matching or containing</em> the searched string are found.</p>
+     <p>For more specific queries (phrase searching, operators, and filters), visit the <a href="../quaero.html" target="_blank">full Search</a> page.</p>
+   </div>
+ </div>
+ </div>
+    </div>
+<div id="container" class="tml-file">
+  <nav id="sliding-left-nav" class="pushy pushy-left">
+    <ul class="push-menu">
+        <li class="pushy-submenu">
+            <a class="submenu-heading">ABOUT</a>
+            <ul>
+                <li class="pushy-link"><a href="../about/introduction.html">Introduction</a></li>
+                <li class="pushy-link"><a href="../about/content.html">Content</a></li>
+                <li class="pushy-link"><a href="../about/policies.html">Policies</a></li>
+                <li class="pushy-link"><a href="../about/howTo.html">How-To</a></li>
+                <li class="pushy-link"><a href="../about/future_plans.html">Future plans</a></li>
+                <li class="pushy-link"><a href="../about/people.html">People</a></li>
+                <li class="pushy-link"><a href="../about/contact.html">Contacts</a></li>
+            </ul>
+        </li>
+        <li class="pushy-submenu">
+          <a class="submenu-heading">BROWSE</a>
+          <ul>
+            <li class="pushy-link"><a href="../browse/authors.html">by author</a></li>
+            <li class="pushy-link"><a href="../browse/contributors.html">by contributor</a></li>
+            <li class="pushy-link"><a href="../browse/incipits.html">by incipit</a></li>
+            <li class="pushy-link"><a href="../browse/sources.html">by source</a></li>
+            <li class="pushy-link"><a href="../browse/titles.html">by title</a></li>
+            <li class="pushy-submenu">
+            <a class="centuryPushy">by century</a>
+                   <ul>
+                     <li class="pushy-link"><a href="../3rd-5th/index.html">3rd-5th</a></li>
+                     <li class="pushy-link"><a href="../6th-8th/index.html">6th-8th</a></li>
+                     <li class="pushy-link"><a href="../9th-11th/index.html">9th-11th</a></li>
+                     <li class="pushy-link"><a href="../12th/index.html">12th</a></li>
+                     <li class="pushy-link"><a href="../13th/index.html">13th</a></li>
+                     <li class="pushy-link"><a href="../14th/index.html">14th</a></li>
+                     <li class="pushy-link"><a href="index.html">15th</a></li>
+                     <li class="pushy-link"><a href="../16th/index.html">16th</a></li>
+                     <li class="pushy-link"><a href="../17th/index.html">17th</a></li>
+                   </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pushy-submenu"><a href="../quaero.html">SEARCH</a></li>
+        <li class="pushy-submenu">
+            <a class="submenu-heading">EXTRAS</a>
+            <ul>
+              <li class="pushy-submenu">
+                <a href="../concordances.html">Concordances</a>
+                  <ul>
+                    <li class="pushy-link"><a href="../concordances/lml.html"><em>Lexicon musicum Latinum</em></a></li>
+                    <li class="pushy-link"><a href="../concordances/grove_anonymous.html">Grove Anonymous</a></li>
+                  </ul>
+            </ul>
+        </li>
+     </ul>
+</nav>
+  <div class="site-overlay"></div>
+
+<div id="content">
+  <noscript>
+  <div  id="noScript" class="warning">
+    <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> JavaScript Required</p>
+    <p>In order to ensure the proper functining of this website, please enable JavaScript in your browser security preferences or use a device that supports it.</p>
+  </div>
+</noscript>
+<div id="header">
+    <div id="source" class="ft-text">
+        <p class="author">Tinctoris, Johannes</p>
+        <p class="title">Proportionale musices</p>
+        <p class="tmlSource"><strong>Source</strong>: <i>Scriptorum de musica medii aevi nova series a Gerbertina altera</i>, 4 vols., ed. Edmond de Coussemaker (Paris: Durand, 1864-76; reprint ed., Hildesheim: Olms, 1963), 4:153–77.</p>
+                <p id="chmtl-staff">
+                    <span class="eca-span">Electronic version prepared by Stephen E. Hayes <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="entered">E</span></a>, Peter M. Lefferts, Bradley Jon Tucker <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="checked">C</span></a>, and Thomas J. Mathiesen <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="approved">A</span></a>
+              for the <i>Thesaurus Musicarum Latinarum</i>, 1992.
+            </p>
+              </div>
+
+</div> <!-- end header div -->
+<div id="entry-abbrv" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="entry-abbrv"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+     <p>The aforementioned individual(s) <span class="entered">E</span>ntered, <span class="checked">C</span>hecked, or <span class="approved">A</span>pproved the electronic transcription of the source document.</p>
+   </div>
+ </div>
+ </div>
+
+ <div id="entry-abbrv-short" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <a class="close-modal" modal="entry-abbrv-short"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+      <br />
+      <p><span class="checked">C</span>: Indicates the aforemententioned person(s) checked the transcription.</p>
+      <p><span class="approved">A</span>: Indicates the aforementioned person(s) approved the transcription for publication.</p>
+    </div>
+  </div>
+  </div>
+
+  <div id="multipart-tip" class="w3-modal">
+   <div class="w3-modal-content">
+     <div class="w3-container">
+       <a class="close-modal" modal="multipart-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+       <br />
+       <p>Historically, in the TML long texts were split into multiple files. These are now linked to each other for easier browsing. In a future version, they will be consolidated into a single view.</p>
+     </div>
+   </div>
+   </div>
+
+  <div id="metadata-contd">
+    <p class="text-sidebar-buttons"><button id="tml-notes" class="pure-button">TML notes</button>&nbsp;<button id="tml-concordances" class="pure-button">Concordances</button></p>
+
+  <div id="sidebar">
+      <div id="extras-wrapper">
+        <!---->
+        <div id="tml-canon-info">
+          <div class="extras-heading"><a class="close-modal repoToolbox" modal="tml-canon-info"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">TML Notes</i></span></div>
+          <p>Cf. <a href="TINPROM.html">TINPROM</a>. [TJM]</p>
+        </div>
+<div id="concordances">
+  <div class="extras-heading"><a class="close-modal repoToolbox" modal="concordances"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">Concordances</i></span></div>
+  
+      <div id="lml-info">
+          <p>&#8594; We have found the following concordances with the <i><a class="external" href="http://www.lml.badw-muenchen.de/" target="_blank">Lexicon musicum Latinum</a></i> and the <i>R&eacute;pertoire International des Sources Musicales</i></p>
+          <ul id="lml-entries">
+                        <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>IOH. TINCT. pr.</strong></span>
+             <div class="expando-data">
+                  <p>Iohannes Tinctoris: <i>Proportionale musices</i></p>
+                                      <ul>
+                  <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>MSS (RISM)</strong></span>
+                      <div class="expando-data">
+                      <!--<ul class="lml-ms-list">-->
+                      <table>
+                                                        <tr><td><span class="lib-siglum">B-Br</span> II 4147, 101-116v</td>
+                                                          <td><span class="lib-siglum">B-Br</span> II 4149, 2-26</td>
+                                                          <td><span class="lib-siglum">B-Gu</span> 70 (71), 187-206</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">E-VAu</span> 835, 144v-163v</td>
+                                                          <td><span class="lib-siglum">I-Bc</span> B 2/A, 28v-71</td>
+                                                          <td><span class="lib-siglum">I-Bu</span> 2573, 167-190v</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">I-Fl</span> Plut. XXIX. 48, 8-21</td>
+                                                  </tr></table>
+                      <!--</ul>--></div>
+                  </li>
+              </ul>
+              </div> <!-- expando-data -->
+                            </li>
+                    </ul>
+      </div>
+  
+  </div>
+  <div style="clear: both"></div>
+    </div><!--extras-wrapper -->
+  </div><!--sidebar-->
+  </div><!--metadata-contd-->
+  <div style="clear: both"></div>
+
+<div id="text-toolbox-wrapper">
+  <div id='floatingBox'>
+    <div class="floating-toolbox">
+      <table>
+        <tr>
+          <th>Actions</th>
+        </tr>
+      </table>
+    </div>
+    <p id="backToTop"> <a href='TINPRO.html#top'>Back to top</a></p>
+  </div>
+
+<div id="tml-text">
+
+<!-- begin text -->
+<p><span class='pageNo'>[153]</span> Proportionale</p>
+
+<p>Musices editum a Magistro Joanne Tinctoris in legibus licenciatio serenissimique principis Ferdinandi Regis Siciliae, Jherusalem et Ungariae cappellani feliciter.</p>
+
+<p>Incipit prohemium.</p>
+
+<p>Sacratissimo ac invictissimo principi divo Fernando regis regum dominique dominantium providentia regis Siciliae, Jherusalem et Ungariae, Johannis Tinctoris inter musicae professores suosque capellanos minimus pedum osculotenus humilem atque servilem obedientiam.</p>
+
+<p>Quamquam, o sapientissime rex, a tempore prothomusici Jubalis cui Moyses tantum tribuit, ut cum in Genesi principem canentium organis et cithara dixerit, plerique viri percelebres velut David, Ptolomeus, Epaminundas, principes Judeae, Egipti et Graeciae, Zoroastes, Pythagoras, Linus Thebeus, Zethus, Amphion, Orpheus, <span class='pageNo'>[154]</span> Museus, Socrates, Plato, Aristoteles, Aristoxenus, Thimoteus, ingenuae arti musicae operam adeo dederunt quod teste Tullio pene vim omnem ac materiam ejus infinitam cogitatione comprehenderint, quo nonnullos eorum, praecipue Pythagoram musicae primordia invenisse multi graecorum voluerunt. Tamen qualiter pronunciaverint aut composuerint scripto nobis minime constat, verum elegantissime id eos fecisse verisimilimum est. Summa etenim in hac scientia, quam plato vocat potentissimam, eruditionem ponebant, itaque eam omnes antiquibus discebant, nec qui nesciebat satis excultus doctrina putabatur. Et quanta precor illa fuit melodia virtute cujus dii, manes, spiritus immundi animalia etiam rationis expertia et inanimata moti fuisse leguntur. Quod (tam etsi partim fabulosum sit) non vacat a mysterio, nempe talia de musica poeta non finxissent nisi mirandam ejus virtutem, divino quondam animi vigore percepissent. At qui postquam plenitudo temporis advenit, quo summus ille musicus Jhesus Christus (pax nostra sub proportione dupla fecit utraque unum in ejus eclesia miri floruere musici, ut Gregorius, Ambrosius, Augustinus, Hilarius, Boetius, Martianus, Guido, Joannes de Muris, quorum ali usum in ipsa etiam salutari ecclesia canendi statuerunt, alii ad hoc hymnos canticaque numerosa confecerunt, alii divinitatem, alii theoricam, alii practicam hujus artis (jam vulgo dispersis codicibus) posteris relinquerunt. Denique principes christianissimi quorum omnium, rex piissime, animi, corporis, fortunaeque donis longe primus es, cultum ampliare divinum cupientes more davidico capellas instituerunt, in quibus diversos cantores per quos diversis vocibus (non adversis) Deo nostro jocunda decoraque esse laudatio, ingentibus expensis assumpserunt; et quoniam cantores principum (si liberalitate, quae claros homines facit praedicti sint) honore, gloria, divitiis afficiuntur, ad hoc genus studii ferventissime multi incenduntur. Quo fit ut hac tempestate, facultas nostrae musices tam mirabile susceperit incrementum quod ars nova esse videatur, cujus, ut ita dicam, novae artis fons et origo, apud Anglicos quorum caput Dunstaple exstitit, fuisse perhibetur, et huic contemporanei fuerunt in Gallia Dufay et Binchois quibus immediate successerunt moderni Okeghem, Busnois, Regis et Caron, omnium quos audiverim in compositione praestantissimi. Haec eis Anglici nunc (licet vulgariter jubilare, Gallici vero cantare dicuntur) veniunt conferendi. Illi etenim in dies novos cantus novissime inveniunt, ac isti (quod miserrimi signum est ingenii) una semper et eadem compositione utuntur. Sed proch dolor! non solum eos immo complures alios compositores famosos quo miror, dum tam subtiliter ac ingeniose cum incomprehensibili suavitate componunt proportiones musicas, aut penitus ignorare, aut paucas quas noverint, perperam signare cognovi; quod quidem ob defectum arithmeticae, sine qua nullus in ipsa musica praeclarus evadit, contingere non dubito. Ex ejus namque visceribus omnis proportio elicitur. Igitur ne juvenes hanc artem musicam liberalem ac honestam discere volentes, in proportionibus ipsis ignorantia et errore hujus modi capiantur, ad Dei laudem ex cujus munere sunt, et ad tuae majestatis sacratissimae splendorem qui prae caeteris principibus piis pietate effieeris, tamdemque ad honorem tuae proportionatissimae capellae cui similem in orbe non faciliter esse crediderim, hoc opusculum quod proportionale musices per quamdam rei consonantiam censeo nominandum pro modulo ingenii facillime aggredior. In quo si pluribus et fere omnibus famosissimis compositoribus refragari ausim, haud arrogantiae deprecor, ascribatur. Non enim mea plus quam aliorum scripta necessario observari jubeo, sub veritati militans quae respectu proportionum apud illos recta vel prava invenio, approbo vel <span class='pageNo'>[155]</span> reprobo. Quod si traditionem hanc meam legentibus juste videar agere, hortor mihi fidem adhibeant; si vero inique aliis potius credant, quia sicut alios refellere ita ab aliis refelle paratus sum.</p>
+
+<p>Incipit liber primus.</p>
+
+<p>Capitulum I.</p>
+
+<p>Diffinitio proportionis.</p>
+
+<p>Proportio est duorum terminorum ad invicem habitudo. Haec autem diffinitio generalis est cujusque proportionis sive musicae, sive geometricae verum ut specificetur proportioni musicae dicitur duorum terminorum, scilicet corporum musicalium quae sunt notae vocum significativae.</p>
+
+<p>Capitulum II.</p>
+
+<p>Qualiter et quot modis proportiones fiant.</p>
+
+<p>Fit igitur ista proportionalis habitudo vel canendo vel componendo quoties unus notarum numerus ad alium refertur; quodquidem dupliciter contingit, vel quando notas sequentes ad praecedentes in una et eadem parte cantus immediate referemus, ut hic:</p>
+
+<p>[CSIV:155,1; text: Discantus. Tenor.] <a href="TINPRO_01GF.gif">[TINPRO 01GF]</a></p>
+
+<p>Vel quando notae unius partis ad notas alterius contra quas componuntur directe referuntur, ut hic:</p>
+
+<p>[CSIV:155,2; text: Discantus. Tenor.] <a href="TINPRO_01GF.gif">[TINPRO 01GF]</a></p>
+
+<p>Verum quoniam duplex velut praemissum est, sit proportionandi modus utrum proportiones alicujus proferendi cantus primo modo est, id est per relationem ad numerum praecedentem in una et eadem parte aut secundo id est per relationem ad notas alterius partis secundum signa editae sint a nullo cantore nisi divinando, aut contrapunctum perspiciendo cognoscitur, quo fit ut dilatio dubietasque canendi generentur, quae tamen praecipue sunt evitandae; namque composita, dum in medium afferuntur, illico sine aliquo dubitatione pronuntiari debent. Unde consulerem simplicem tamen assumi modum videlicetque secundum relationem ad alteram partem proportiones signarentur, nisi obstaret altero modo silicet per relationem ad numerum precedentem in una et eadem parte multas proportiones esse cantabiles quae alias non essent</p>
+
+<p>Capitulum III.</p>
+
+<p>Divisio proportionum.</p>
+
+<p>Proportionum vero aliae sunt aequalitatis, aliae inaequalitatis.</p>
+
+<p>Proportiones aequalitatis sunt quae ex aequalibus numeris conficiuntur. Ut 1 ad 1, 2 ad 2, 3 ad 3, <span class='pageNo'>[156]</span> 4 ad 4, etc., et hujus modi proportionum aequalitatis species specialissimae sunt nec nomina in eloquutione specifica nec signa in compositione positiva recipientes, nempe cum in aliquo cantu nullum inaequalitatis signum videmus eum per aequales numeros compositum esse judicamus, ut hic patet:</p>
+
+<p>[CSIV:156,1; text: Discantus. Tenor.] <a href="TINPRO_01GF.gif">[TINPRO 01GF]</a></p>
+
+<p>Ex quo confunditur inexcusabilis error Okeghem qui suum carmen Bucolicum "L'autre dantan" [sic] ab omni parte numeris aequalibus compositum nedum signo proportionis, sed illo quod a quibusdam triplae ab aliis sesquialterae per se et male attribuitur signavit, et hoc sic:</p>
+
+<p>[CSIV:156,2; text: Supremum. Tenor. Contratenor.] <a href="TINPRO_01GF.gif">[TINPRO 01GF]</a></p>
+
+<p>Eodem autem signo Dufay suum "Qui cum patre" in Patrem de Sancto Anthonio per duplam sesquiquartam proportionatum signare voluit quo fit ut si ille bene, iste male signavit; diversae enim proportiones diversa signa requirunt. Sed sicut illum hic ita istum suo loco male signasse probabo, dum vero carmen praemissum scilicet "L'autre dantan" aut aliud similiter signatum habent imperiti dicunt repente canamus sesquialtera est. O puerilis ignorantia aequalitatis proportionem inaequalitatis asserere nec existimo compositorem, quamvis ita secundum aliquos signaverit, ita dici voluisse, sed ut carmen suum concitae instar sesquialterae cantaretur, ad quod efficiendum virgula per medium circuli cujusque partis traducta sufficiebat; nam proprium est ei mensurae accelerationem significare sive tempus perfectum sive imperfectum sit, ut in infinitis etiam suis compositionibus apparet cujus in utroque forma talis est: [Odim,Cdim on staff2]</p>
+
+<p>Capitulum IV.</p>
+
+<p>De proportionibus inaequalitatis.</p>
+
+<p>Proportiones inaequalitatis sunt quae ex inaequalibus numeris constituuntur ut 2 ad 1, 3 ad 2, 4 ad 3, etc., et hujus modi inaequalitatis species subalternae sunt quoniam genera effici possunt. Quinque genera inaequalitatis tamen esse inventum est. Videlicet 3 simplicia, multiplex, superparticulare et superpartiens, 2 quae ex his composita, multiplex superparticulare et multiplex superpartiens.</p>
+
+<p>De quibus, ut confusio evitetur, sigillatim tractare intendimus ea cum quibusdam suis speciebus diffiniendo ipsarumque specierum per exemplum, quo pro ut philozopho placet magis scimus praticam adjungendo.</p>
+
+<p>Capitulum V.</p>
+
+<p>De genere multiplici.</p>
+
+<p>Multiplex inaequalitatis genus est, quo major numerus ad minorem relatus illum multipliciter in se continet precise; puta bis et erit dupla, ter et erit tripla, quater et erit quadrupla, quinquies et erit quintupla, sexties et erit sextupla, et sic de aliis.</p>
+
+<p><span class='pageNo'>[157]</span> De dupla.</p>
+
+<p>Dupla est proportio, qua major numerus ad minorem relatus, illum bis in se continet praecise ut 2 ad 1, 4 ad 2, 6 ad 3, ut hic:</p>
+
+<p>[CSIV:157,1; text: Discantus. Tenor.] <a href="TINPRO_02GF.gif">[TINPRO 02GF]</a></p>
+
+<p>Ex hac proportione Pythagorici diapason oriri asserunt, eo quod in inventione concordantiarum Pythagoras (si graecis credendum sit) duobus malleis quorum unus 6 ponderum, alter 12 erat, consonantibus concordantiam diapason effici perciperit, unde fit, ut et plerique eam concordantiam duplam et hanc proportionem e contra diapason appellant. Quaequidem proportio tanquam facillima prae caeteris est ustitata. Et quo ad minimas non semper cyphris signatur, quia si 2 minimae ad 1, aut 4 ad 2, aut 6 ad 3, referuntur pro signo quovis colore scilicet nunc communius nigro scilicet encausto implentur, vel hujus modi duplaris minimae in suis summitatibus per quandam tractulum oblique a parte dextra reflectuntur, et hiis lex nulla finalis imponitur quae quidem minimae etiam ut aliae possunt impleri et iterum duplares effici, sed illis in prolatione minori istis autem in majori frequentius utimur, ut hic:</p>
+
+<p>[CSIV:157,2; text: Discantus. Tenor.] <a href="TINPRO_02GF.gif">[TINPRO 02GF]</a></p>
+
+<p>Et quamvis ita sub proportione dupla, 2 minimae pro una ponuntur, non tamen propter hoc ut indocti gariunt semiminimae sunt, sicut 2 maximae pro una, 2 longae pro una, 2 breves pro una, 2 semibreves pro una, sub hac proportione scribuntur aut proferuntur, nec tamen inde semimaximae, semilongae, semibreves, semisemibreves dicuntur.</p>
+
+<p>De tripla.</p>
+
+<p>Tripla est proportio qua major numerus ad minorem relatus, illum ter in se continet praecise ut 3 ad 1, 6 ad 2, 9 ad 3, et caetera, sicut hic:</p>
+
+<p>[CSIV:157,3; text: Discantus. Tenor.] <a href="TINPRO_02GF.gif">[TINPRO 02GF]</a></p>
+
+<p>De quadrupla. </p>
+
+<p>Quadrupla est proportio qua major numerus ad minorem relatus illum in se continet quater continet praecise, ut 4 ad 1, 8 ad 2, etc., sicut hic:</p>
+
+<p>[CSIV:157,4; text: Discantus.] <a href="TINPRO_02GF.gif">[TINPRO 02GF]</a></p>
+
+<p><span class='pageNo'>[158]</span> [CSIV:158,1; text: Tenor.] <a href="TINPRO_03GF.gif">[TINPRO 03GF]</a></p>
+
+<p>De quintupla.</p>
+
+<p>Quintupla est proportio qua major numerus ad minorem relatus illum in se quinquies continet praecise ut 5 ad 1, 10 ad 2, etc., ut hic:</p>
+
+<p>[CSIV:158,2; text: Discantus. Tenor.] <a href="TINPRO_03GF.gif">[TINPRO 03GF]</a></p>
+
+<p>De sextupla.</p>
+
+<p>Sextupla est proportio qua major numerus ad minorem relatus, illum in se sexties continet praecise ut 6 ad 1, 12 ad 2, etc., sicut hic:</p>
+
+<p>[CSIV:158,3; text: Discantus.] <a href="TINPRO_03GF.gif">[TINPRO 03GF]</a></p>
+
+<p>Capitulum VI.</p>
+
+<p>De generesuper particulari.</p>
+
+<p>Superparticulare genus est quo major numerus ad minorem relatus illum in se totem continet et in super ejus aliquotam partem. Puta alteram, et erit sesquialtera, terciam et erit sesquitertia, quartam et erit sesquiquarta, quintam et erit sesquiquinta, et sic de aliis.</p>
+
+<p>De sesquialtera.</p>
+
+<p>Sesquialtera est proportio qua major numerus ad minorem relatus illum in se totum continet et insuper ejus alteram partem aliquotam ut 3 ad 2, 6 ad 4, 9 ad 6, etc., sicut hic:</p>
+
+<p>[CSIV:158,4; text: Discantus. Tenor.] <a href="TINPRO_03GF.gif">[TINPRO 03GF]</a></p>
+
+<p>Signatur autem interdum haec proportio sine cyphris scilicet per impletionem notarum non solum minimarum sed caeterarum ex aliquo colore tamen frequentius nigro videlicet encausto, ut hic:</p>
+
+<p>[CSIV:158,5; text: Discantus. Tenor.] <a href="TINPRO_03GF.gif">[TINPRO 03GF]</a></p>
+
+<p>Sed cum haec notarum impletio non tamen ut praedictum est, duplam et sesquialteram, scilicet <span class='pageNo'>[159]</span> etiam ut patet per innumera compositorum opera perfectionem aut reductionem designet ad cognoscendum faciliter in aliquo cantu, quod istorum 4 (si fiat) significet, ita distingue; aut minimae solum implentur, et tunc aut ut integrales reduci possunt, et sic qualitercumque et qualicumque sint numero constitutae reducuntur integrae; aut ita reduci non possunt et tunc aut binariae sunt, et sic sive syncopatae sint sive non duplantur; aut ternariae et sic, nisi syncopata sit altera earum, sesquialterantur, ut hic:</p>
+
+<p>[CSIV:159,1; text: Tenor. Discantus.] <a href="TINPRO_04GF.gif">[TINPRO 04GF]</a></p>
+
+<p>Et hinc nota quod ista duplares minimae syncopari possunt, non autem sesquialterates, unde si ante majorem notam vel aequalem 3 minimas videris impletas, mox adverte si alia per syncopam praecedat aut sequatur, quia tunc per duplam non per sesquialteram canuntur, ut supra circa finem discantus ultimi patet. Sed si 6 minimae tamen taliter id est continuae impleantur, quoniam numerus senarius, et binarius et ternarius sit, quid est dicendum? Certe quod si praecedat aut sequatur integralis minima, ad quam illarum proportionatae sunt, omnes sub dupla canuntur, sin autem sesquialtera attribuntur, ut hic:</p>
+
+<p>[CSIV:159,2; text: Discantus. Tenor.] <a href="TINPRO_04GF.gif">[TINPRO 04GF]</a></p>
+
+<p>Et ita de simili numero concludas.</p>
+
+<p>Praeterea si 5 etiam vel 7 impletae componantur continuae, quamvis neque quinarius, neque septenarius numerus binarius aut ternarius sit, tamen ex binario et ternario, seu e converso quisque eorum constituatur si has quinque integralis minima praecedat et priores per duplam ei connumerabuntur reliquae vero tres sesquialterabantur. Sed si econtra has 5 integralis minima sequatur tres priores ad sesquialteram 2 autem sequentes ad duplam pertinebunt, ac de 7 cum <span class='pageNo'>[160]</span> dupla sesquialteram praecedat quatuor primae duplares erunt et aliae 3 sesquialterales, ut hic:</p>
+
+<p>[CSIV:160,1; text: Discantus. Tenor.] <a href="TINPRO_05GF.gif">[TINPRO 05GF]</a></p>
+
+<p>Et sic de similibus numeris facias.</p>
+
+<p>Aut haec minimae non solum sed cum majoribus se notis tanquam eis subjectoe sunt impletae, et tunc suarum majorum naturam sive per hujus modi impletionem imperficiatur sive reducantur sive duplentur sive sesquialterentur totaliter imitantur.</p>
+
+<p>Porro quod de numero et qualitate minimarum taliter impletarum dictum est hoc, et de valore earum intelligas, videlicet ut et punctus augmentationis et pausa eis attributa, et 2 si quae sint minimae nedum impletae, sed in suis summitatibus velut praemissum est reflexe diligenter annumerentur. Qui duo articuli non solum in hoc opere, sed ubique per exempla patescunt. Nescio tamen quis Pasquin in plerisque passibus suae Missae authenti prothi irregularis distincte omni arte ac melodia expertis quod ad primam ab omnibus dissentit. Nec mirum nam et sibi ipsi in cum Sancto Spiritu quod valde ridiculum est contrariatur, quoniam in exordio nobiscum infinem contra nos taliter operatus sit:</p>
+
+<p>[CSIV:160,2; text: Discantus. Tenor.] <a href="TINPRO_05GF.gif">[TINPRO 05GF]</a></p>
+
+<p>Aut semibreves, breves, longae vel maximae taliter implentur et tunc aut (major nota mediante) sunt syncopatae et ita solae reductionis aut aequali et nedum reductionis, sed etiam imperfectionis signum est. Aut non syncopantur et tunc aut sunt reducendae, et indistincte reducuntur, aut non et sic vel de se sunt perfectae et tunc (si salva perfectione numeri possunt sesquialterari) sesquialterantur, si vero non imperficiantur, si vero non imperficiantur, vel de se sunt imperfectae et ita sine distinctione ascribantur sesquialterae, ut hic:</p>
+
+<p>[CSIV:160,3; text: Tenor. Dis-] <a href="TINPRO_05GF.gif">[TINPRO 05GF]</a></p>
+
+<p><span class='pageNo'>[161]</span> [CSIV:161,1; text: cantus.] <a href="TINPRO_06GF.gif">[TINPRO 06GF]</a></p>
+
+<p>Quod autem dictum est de numero et qualitate hujus modi notarum sic impletarum ut de minimis, praemissi de valore etiam ipsarum notarum est intelligendum. Si quidem dum aliqui rudes, non modo cantores, sed (quod intollerabilius est) compositores notas taliter per impletionem sesquialteras inspiciunt non sesquialteram, sed emyoliam esse dicunt asserentes in sesquialtera et perfectionem et alterationem notarum cadere in emyolia vero minimae in quo inter sesquialteram et emyoliam manifeste ponunt differentiam, sed ad modum falluntur; una etenim ejusdemque naturae proportio est licet diversi nominis, verum sesquialtera apud arithmeticos, emyolia autem apud musicos frequenter terminus est. Quo fit ut Pythagorici dicunt pythagoram concordantiam diapente ex emyolia (quoniam audiverit binos malleos, quorum primus 6 aut 8 ponderum, alter 9 aut 12 erat assonantes) nasci percepisse; et ex eo a compluribus et ipsa concordantia diapenthe emyolia, et ipsa proportio emyolia diapenthe interdam vocitatur. Nec hic praetermittendum arbitror, nonnullos veteres notas impletas pro vacuis habuisse quod quidam nuperrimi eos imitantes dicunt, quoniam saepius hoc colore fit ut proposuimus nigras pro albis. Igitur dum tales, aut cantare aut componere volueris omnia quae de impletis praedicta sunt, vacuis attribuae quorum exempla, ex contrario praemissorum per te tibi forma.</p>
+
+<p>De sesquitertia.</p>
+
+<p>Sesquitertia est proportio quae major numerus ad minorem relatus, illum in se totum continet et insuper ejus tertiam partem aliquotam, ut 4 ad 3, 8 ad 6, 12 ad 8, etc., sicut hic:</p>
+
+<p>[CSIV:161,2; text: Discantus. Tenor.] <a href="TINPRO_06GF.gif">[TINPRO 06GF]</a></p>
+
+<p>Haec autem proportio frequentius a Pythagoricis epytritus nominatur ex quo secundum eos Pythagoras per malleum 8 vel 12 ponderum, ei qui 6 vel 9 erat consonantem, diatessaron concordantiam non simpliciter, sed secundum quid audiverit oriri hinc fit, ut plerique talem concordantiam diatessaron epytritum, aut sesquitertiam, et econtra proportionem hanc diatessaron vocitent.</p>
+
+<p><span class='pageNo'>[162]</span> De sesquiquarta.</p>
+
+<p>Sesquiquarta est proportio qua major numerus ad minorem relatus, illum in se totum continet et insuper ejus quartam partem aliquotam, ut 5 ad 4, 10 ad 8, 15 ad 12, etc., sicut hic:</p>
+
+<p>[CSIV:162,1; text: Discantus. Tenor.] <a href="TINPRO_07GF.gif">[TINPRO 07GF]</a></p>
+
+<p>De sesquiquinta.</p>
+
+<p>Sesquiquinta est proportio qua major numerus ad minorem relatus illum in se totum continet et insuper ejus quintam partem, aliquotam ut 6 ad 5, 12 ad 10, 18 ad 15, etc., sic ut hic:</p>
+
+<p>[CSIV:162,2; text: Discantus. Tenor.] <a href="TINPRO_07GF.gif">[TINPRO 07GF]</a></p>
+
+<p>De sesquioctava.</p>
+
+<p>Sub autem genere velut intuente perspicaciter apparet comprehenditur sesquioctava quae est proportio qua major numerus ad minorem relatus in se totum continet et insuper ejus octavam partem aliquotam, ut 9 ad 8, 18 ad 16, etc., ut hic:</p>
+
+<p>[CSIV:162,3; text: Discantus. Tenor.] <a href="TINPRO_07GF.gif">[TINPRO 07GF]</a></p>
+
+<p>Ex hac autem proportione Pythagoras dum malleos (quorum primus 8, secundus 9 ponderum erat) compulsare jussit tonum causari didicit. Quo fit ut haec proportio a Pythogoricis eam saepius epygdoum nominantibus, interdum tonus et converso tonus ipse sesquioctava vel epygdous vocetur.</p>
+
+<p>Capitulum VII.</p>
+
+<p>De genere superpartienti.</p>
+
+<p>Superpartiens genus est quo major numerus ad minorem relatus illum in se totum continet et insuper ejus aliquas partes aliquotas facientes unam aliquantam; puta 2 et erit superbipartiens, 3 et erit supertripartiens, 4 et erit superquadripartiens et sic de aliis. Hujus modi autem species subalternae sunt hinc genera effici possunt quarum quidem species specialissime specialia recipiunt nomina ex recto casu nominis propinqui generis et obliquo scilicet accusativo plurali sui minoris numeri ordinalis composita; verbi gratia si 5 ad 3 referuntur superbipartiens tertias dicitur, si 7 ad 5 superbipartiens quintas, si 7 ad 4 superbipartiens quartas, si 8 ad 5 superpartiens quintas, si vero 9 ad 5 superquadripartiens quintas, etc.</p>
+
+<p>Hinc primo species subalternas ita diffinitur. Superbipartiens est proportio qua major numerus ad minorem relatus, illum in se totum continet et insuper 2 ejus partes aliquotas unam facientes aliquantam, ut 5 ad 3, 7 ad 5, etc.</p>
+
+<p>Supertripartiens est proportio qua major numerus ad minorem relatus illum in se totum continet <span class='pageNo'>[163]</span> et insuper ejus 3 partes aliquotas unam facientes aliquantam, ut 7 ad 4, 8 ad 5, etc.</p>
+
+<p>Superquadripartiens est proportio qua major numerus ad minorem relatus illum in se totum continet et insuper 4 ejus aliquotas partes unam facientes aliquantam, ut 9 ad 5, etc.</p>
+
+<p>Species autem specialissime sic erant diffiniendae.</p>
+
+<p>De superbipartienti tertias.</p>
+
+<p>Superbipartiens tertias est proportio qua major numerus qui est 5 ad minorem qui est 3 refertur, ut hic:</p>
+
+<p>[CSIV:163,1; text: Discantus. Tenor.] <a href="TINPRO_08GF.gif">[TINPRO 08GF]</a></p>
+
+<p>De superbipartienti quintas.</p>
+
+<p>Superbipartiens quintas est proportio qua major numeras qui est 7 ad minorem qui est 5 refertur, ut hic:</p>
+
+<p>[CSIV:163,2; text: Discantus. Tenor.] <a href="TINPRO_08GF.gif">[TINPRO 08GF]</a></p>
+
+<p>De supertripartienti quartas.</p>
+
+<p>Supertripartiens quartas est proportio, qua major numerus qui est 7 ad minorem qui est 4 refertur, ut hic:</p>
+
+<p>[CSIV:163,3] <a href="TINPRO_08GF.gif">[TINPRO 08GF]</a></p>
+
+<p>De supertripartienti quintas.</p>
+
+<p>Supertripartiens quintas est proportio, qua major numerus qui est 8 ad minorem qui est 5 refertur, ut hic:</p>
+
+<p>[CSIV:163,4; text: Discantus. Tenor.] <a href="TINPRO_08GF.gif">[TINPRO 08GF]</a></p>
+
+<p>De superquadripartienti quintas.</p>
+
+<p>Superquadripartiens quintas est proportio qua major numerus qui est 9 ad minorem qui est 5 refertur, ut hic:</p>
+
+<p><span class='pageNo'>[164]</span> [CSIV:164,1; text: Discantus. Tenor.] <a href="TINPRO_09GF.gif">[TINPRO 09GF]</a></p>
+
+<p>Capitulum VIII.</p>
+
+<p>De genere multiplici superparticulari.</p>
+
+<p>Multiplex superparticulare genus est quo major numerus ad minorem relatus illum se multipliciter continet, et insuper ejus partem aliquotam; puta bis et alteram et erit dupla sesquialtera; bis et tertiam et erit dupla sesquitertia; bis et quartam, et erit dupla sesquiquarta; bis et quintam et erit dupla sesquiquinta, et sic de aliis:</p>
+
+<p>De dupla sesquialtera.</p>
+
+<p>Dupla sesquialtera est proportio qua major numerus ad minorem relatus illum in se bis continet et insuper alteram ejus aliquotam partem, ut 5 ad 2, 10 ad 4, 15 ad 6, etc., sicut hic:</p>
+
+<p>[CSIV:164,2; text: Discantus. Tenor.] <a href="TINPRO_09GF.gif">[TINPRO 09GF]</a></p>
+
+<p>De dupla sesquitertia.</p>
+
+<p>Dupla sesquitertia est proportio qua major numerus ad minorem relatus, illum in se bis continet et insuper tertiam ejus portem aliquotam ut 7 ad 3, 14 ad 6, sicut hic:</p>
+
+<p>[CSIV:164,3; text: Discantus. Tenor.] <a href="TINPRO_09GF.gif">[TINPRO 09GF]</a></p>
+
+<p>De dupla sesquiquarta.</p>
+
+<p>Dupla sesquiquarta est proportio qua major numerus ad minorem relatus illum in se bis continet, et insuper quartam ejus partem aliquotam, ut 9 ad 4, 18 ad 8, etc., sicut hic:</p>
+
+<p>[CSIV:164,4; text: Discantus.] <a href="TINPRO_09GF.gif">[TINPRO 09GF]</a></p>
+
+<p><span class='pageNo'>[165]</span> [CSIV:165,1; text: Tenor.] <a href="TINPRO_10GF.gif">[TINPRO 10GF]</a></p>
+
+<p>De dupla sesquiquinta.</p>
+
+<p>Dupla sesquiquinta est preportio qua major numerus ad minorem relatus illum in se bis continet, et ejus insuper quintam partem aliquotam, ut 11 ad 5, 22 ad 10, etc., ut hic:</p>
+
+<p>[CSIV:165,2; text: Discantus. Tenor.] <a href="TINPRO_10GF.gif">[TINPRO 10GF]</a></p>
+
+<p>De dupla sesquioctava.</p>
+
+<p>Et quoniam superius in genere superparticulari ultra 4 proportiones quae ad caeteras ejusdem generis comprehendendas cuique optimo intellectui sufficiunt per ordinem positas de sesquioctava specialem (non ab re fecimus mentionem) duplam sesquioctavam sub hoc genere contineri quamvis id solers indagator, per se possit intelligere congratissimum est ostendere. Est igitur dupla sesquioctava proportio qua major numerus ad minorem relatus illum in se bis continet et insuper octavam ejus partem aliquotam, ut 17 ad 8, 34 ad 16, etc., sicut hic:</p>
+
+<p>[CSIV:165,3; text: Discantus. Tenor.] <a href="TINPRO_10GF.gif">[TINPRO 10GF]</a></p>
+
+<p>Capitulum IX.</p>
+
+<p>De genere multiplici superpartienti.</p>
+
+<p>Multiplex superpartiens genus est quo major numerus ad minorem relatus illum in se multipliciter continet, et iusuper aliquas ejus partes aliquotas unam facientes aliquantam; puta bis et 2, et erit dupla superbipartiens, bis et 3, et erit dupla supertripartiens, bis et 4 et erit dupla superquadripartiens, et sic de aliis. Hujus modi vero species instar superpartientium subalternantur et hinc genere efficiuntur. Quorum quinque species specialissima nomen etiam recipit ex casu recto generis propinqui nominis et obliquo scilicet plurali accusativo sui minoris numeri ordinali compositum; verbi causa, si 8 ad 3 referuntur dupla superbipartiens tertias dicetur; si 12 ad 5 dupla superpartiens quintas; si 11 ad 4 dupla supertripartiens quartas; si 13 ad 5 dupla surpertripartiens quintas, si 14 ad 5 dupla superquadripartiens quintas, etc.</p>
+
+<p>Sic igitur primo species subalternae sunt diffiniendae.</p>
+
+<p>Dupla superbipartiens est proportio qua major numerus ad minorem relatus illum in se bis continet <span class='pageNo'>[166]</span> et insuper ejus 2 partes aliquotas unam facientes aliquantam, ut 8 ad 3, 12 ad 5, etc.</p>
+
+<p>Dupla supertripartiens est proportio qua major numerus ad minorem relatus illus in se bis continet et insuper ejus 3 partes aliquotas unam facientes aliquantam, ut 11 ad 4, 13 ad 5, etc.</p>
+
+<p>Dupla superquadripartiens est proportio qua major numerus ad minorem relatus illum in se bis continet et in super ejus 4 partes aliquotas unam facientes aliquantam, ut 14 ad 5, etc.</p>
+
+<p>Species quae specialissimas ita diffinies.</p>
+
+<p>De dupla superbipartiens tertias.</p>
+
+<p>Dupla superbipartiens tertias est proportio qua major numerus qui est 8 ad minorem qui est 3 refertur, ut hic:</p>
+
+<p>[CSIV:166,1; text: Discantus. Tenor.] <a href="TINPRO_11GF.gif">[TINPRO 11GF]</a></p>
+
+<p>De dupla superbipartiens quintas.</p>
+
+<p>Dupla superbipartiens quintas est proportio qua major numerus qui est 12 ad minorem qui est 5 refertur, ut hic:</p>
+
+<p>[CSIV:166,2; text: Discantus. Tenor.] <a href="TINPRO_11GF.gif">[TINPRO 11GF]</a></p>
+
+<p>De dupla supertripartiens quartas.</p>
+
+<p>Dupla supertripartiens quartas est proportio qua major numerus qui est 11 ad minorcm qui est 4 refertur, ut hic:</p>
+
+<p>[CSIV:166,3; text: Discantus. Tenor.] <a href="TINPRO_11GF.gif">[TINPRO 11GF]</a></p>
+
+<p>De dupla supertripartiens quintas.</p>
+
+<p>Dupla supertripartiens quintas est proportio qua major numerus qui est 13 ad minorem qui est 5 refertur ut hic:</p>
+
+<p>[CSIV:166,4; text: Discantus. Tenor.] <a href="TINPRO_11GF.gif">[TINPRO 11GF]</a></p>
+
+<p><span class='pageNo'>[167]</span> De dupla superquadripartiens quintas.</p>
+
+<p>Dupla superquadripartiens quintas est proportio qua major numerus qui est 14 ad minorem qui est 5 refertur, ut hic:</p>
+
+<p>[CSIV:167,1; text: Discantus. Tenor.] <a href="TINPRO_12GF.gif">[TINPRO 12GF]</a></p>
+
+<p>Liber secundus.</p>
+
+<p>Capitulum primum.</p>
+
+<p>De proportionibus inaequalitatis quae fiunt per relationem minoris numeri ad majorem.</p>
+
+<p>Quin ymmo sicut per 5 praedicta inaequalitatis genera numeri majores, ut ostensum est, ad minores referuntur ita econverso, per ea minores ad majores referri poterunt; in quo animadvertas nec nomina ipsorum generum nec suarum specierum immutari. Praeterquam primo dum compositionis cuilibet subpreponetur, ut submultiplex, subsuperparticulare, subsuperpartiens, submultiplex superpartiens, subdupla, subsesquialtera, subsuperbipartiens, subsuperbipartiens tertias, subdupla sesquialtera, subdupla superbipartiens, subdupla superbipartiens tertias, et sic de aliis.</p>
+
+<p>Diffinitio tamen cujuslibet taliter fuit ut quod subjectum ibi fuit hic praedicatum sit, et econtra. Quae rudibus magis ut innotescant praemissa 5 genera cum suis speciebus appositis caeteras at intelligendas me judice sufficientibus diffinire exemplique gratia practicare faciliter proposui.</p>
+
+<p>Capitulum II.</p>
+
+<p>De genere submultiplici.</p>
+
+<p>Submultiplex genus est quo minor numerus ad majorem relatus in illo multipliciter continetur praecise; puta bis est et erit subdupla, etc.</p>
+
+<p>De subdupla.</p>
+
+<p>Subdupla est proportio qua minor numerus ad majorem relatus in illo bis continetur praecise, ut 1 ad 2, etc., sicut hic:</p>
+
+<p>[CSIV:167,2; text: Discantus. Tenor.] <a href="TINPRO_12GF.gif">[TINPRO 12GF]</a></p>
+
+<p>Capitulum III.</p>
+
+<p>De genere subsuperpaticulari.</p>
+
+<p>Subsuperparticulare genus est quo minor numerus ad majorem relatus in illo totus et ejus insuper pars aliquota continetur; puta altera et erit subsesquialtera, etc.</p>
+
+<p>De subsesquialtera.</p>
+
+<p>Subsesquialtera est proportio qua minor numerus ad majorem relatus in illo totus et insuper ejus altera pars aliquota continetur, ut 2 ad 3, 4 ad 6, etc.:</p>
+
+<p>[CSIV:167,3; text: Discantus.] <a href="TINPRO_12GF.gif">[TINPRO 12GF]</a></p>
+
+<p><span class='pageNo'>[168]</span> [CSIV:168,1; text: Tenor.] <a href="TINPRO_13GF.gif">[TINPRO 13GF]</a></p>
+
+<p>Capitulum IV.</p>
+
+<p>De genere subsuperpartienti.</p>
+
+<p>Subsuperpartiens genus est quo minor numerus ad majorem relatus in illo totus et insuper aliquae partes ejus aliquotae unam facientes aliquantam continentur; puta 2 et erit subsuperbipartiens, et sic de aliis.</p>
+
+<p>De subsuperbipartienti.</p>
+
+<p>Subsuperbipartiens est proportio qua minor numerus ad majorem relatus in illo totus et insuper 2 partes ejus aliquotae unam facientes aliquantam continetur, ut 3 ad 5. Ex quibus superbipartiens tertias constituuntur. Et ita caeteras species specialissimas hujus modi generis componas et juxta formam sequentem prudenter diffinias.</p>
+
+<p>De subsuperbipartiens tertias.</p>
+
+<p>Subsuperbipartiens tertias est proportio qua minor numerus qui est 3 ad majorem qui est 5 refertur, ut hic:</p>
+
+<p>[CSIV:168,2; text: Discantus. Tenor.] <a href="TINPRO_13GF.gif">[TINPRO 13GF]</a></p>
+
+<p>Capitulum V.</p>
+
+<p>De genere submultiplici superparticulare.</p>
+
+<p>Submultiplex superparticulare genus est quo minor numerus ad majorem relatus in illo multipliciter, et insuper ejus una pars aliquota continetur; puta altera et erit subdupla sesquialtera, et sic de aliis.</p>
+
+<p>De subdupla sesquialtera.</p>
+
+<p>Subdupla sesquialtera est proportio qua minor numerus ad majorem relatus in illo bis et ejus insuper altera pars aliquota continetur, ut 2 ad 5, etc.:</p>
+
+<p>[CSIV:168,3; text: Discantus. Tenor.] <a href="TINPRO_13GF.gif">[TINPRO 13GF]</a></p>
+
+<p>Capitulum VI.</p>
+
+<p>De genere submultiplici superpartienti.</p>
+
+<p>Submultiplex superpartiens genus est quo minor numerus ad majorem relatus in illo multipliciter et insuper aliquae partes aliquotae unam facientes aliquantam continetur; puta bis et 2 et erit subdupla superpartiens, et sic de aliis.</p>
+
+<p>De subdupla superbipartienti.</p>
+
+<p>Subdupla superbipartiens est proportio qua minor numerus ad majorem relatus in illo bis et insuper 2 partes ejus aliquotae unam facientes aliquantam continentur, ut 3 ad 8. Ex quibus sub <span class='pageNo'>[169]</span> dupla superbipartiens tertias efficitur et sic hujus modi generis reliquae species specialissimae componantur secundumque formam sequentem diffiniantur.</p>
+
+<p>De subdupla superbipartiens tertias.</p>
+
+<p>Subdupla superbipartiens tertias est proportio qua minor numerus qui est 3 ad majorem qui est 8 refertur, ut hic patet:</p>
+
+<p>[CSIV:169,1; text: Discantus. Tenor.] <a href="TINPRO_13GF.gif">[TINPRO 13GF]</a></p>
+
+<p>Liber tertius.</p>
+
+<p>Capitulum primum.</p>
+
+<p>Quaedam circa proportiones consideranda.</p>
+
+<p>Tractato particulariter de generibus proportionum inaequalitatis cum quibusdam suis speciebus necessarium arbitror quaedam de hiis generaliter annotare, videlicet, qualiter, quando et ubi proportiones hujus modi signandae sint.</p>
+
+<p>Capitulum II.</p>
+
+<p>Qualiter proportiones signandae sint.</p>
+
+<p>Quo ad primum ut scilicet scias qualiter proportiones signare debeas, omnis proportio cyphris recte signatur; quae quidem hoc habent proprii quod numerum significent, ut 1, 2, 3, 4, 5, 6, 7, 8, 9; et haec simplices; compositae vero sunt infinitae, ut 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, etc., 30, 31, etc., 40, 41, etc., 50, 51, etc., 60, 61, etc., 70, 71, etc., 80, 81, etc., 90, 91, etc., 100, 101, etc.</p>
+
+<p>Natura earum itaque cyphrarum est quod si una alteri quantavis multiplicatione junguntur semper ipsius valor decuplatur; unde versus:</p>
+
+<p>Unam prima, secunda decem, dat tertia centum,</p>
+
+<p>Quarta dabit mille, millia quinta decem.</p>
+
+<p>Qui quidem ordo retrogradus est ut hic: 231471. Praeterea quoties ante, vel inter cyphras O semel aut pluries ponitur, non numerum, sed augmentum numeri tanquam cyphra denotat, ut hic: 700, 3050.</p>
+
+<p>Igitur si major numerus ad minorem referatur, tum compositor cyphram illius superponas, istius autem supponas; si vero e contra minor ad majorem sit relatus, cyphra illius superponatur ac istius supponatur, ut hic:</p>
+
+<p>[CSIV:169,2; text: Discantus. Tenor.] <a href="TINPRO_13GF.gif">[TINPRO 13GF]</a></p>
+
+<p>Ab hac tamen regula si compositor velit, dupla et sesquialtera excipiuntur; namque pro signo <span class='pageNo'>[170]</span> etiam minimae illius, ac omnes notae istius, ut suis praeostensum est locis, quovis colore implentur aut in oppositum aliarum vacuae dimittuntur. Item nonnulli veteres et istas et alias proportiones non cyphris immo nominibus propriis signare voluerunt, ut hic:</p>
+
+<p>[CSIV:170,1; text: Discantus. Tenor. Dupla. Emvolia. Epitritus.] <a href="TINPRO_14GF.gif">[TINPRO 14GF]</a></p>
+
+<p>Quod mihi non placet, si juxta commune proverbium quod brevius fit, melius fit; et quid ineptius est ordine longo litterarum, aut syllabarum designare, quod 2 cyphrunculis poterit agnosci. Sunt et alii, et fere omnes qui maximo errore ducti se penitus expertes aritmeticae manifestantes, una tantum cyphra, videlicet ejus numeri qui ad alium refertur omnes quas praticant proportiones signant, ut hic:</p>
+
+<p>[CSIV:170,2; text: Discantus. Tenor.] <a href="TINPRO_14GF.gif">[TINPRO 14GF]</a></p>
+
+<p>Et hoc nihil magis ab arithmeticis, a quibus proportiones accepimus alienum signo pertinenti numero per se, id est sine relatione aliqua constituto numerum ad aliquid, id est qui relative ad alium comparatur tantummodo signare.</p>
+
+<p>Praeterea si verbi gratia 2 aut 3 tantum notis aliquibus praeponamus, quoniam et 2 ad 1, 2 ad 3, et 2 ad 4, et 3 ad 2, et 3 ad 4, et 3 ad 5; et sic de aliis possimus referre, cur potius esse duplam quam subsesquialteram aut subduplam sesquialteram quam subsesquitertiam, aut subsuperbipartientem tertias, aut aliam quamvis proportionem ex hiis numeris practicabilem intelligimus propter consuetudinem dicunt qua et apud priscos et apud modernos per unicas has cyphras, scilicet 2 et 3 dupla et sesquialtera significantur. Quibus respondeo supplendum esse duces caecorum et caecos a claritate veritatis scientiae proportionandi multum errantes, et non optimos artis nostrae praeceptores eorum qui perspicassimos imitatores, ex quibus fuit ille Binchois qui sua compositione jocundissima nomen sibi peperit aeternum; nempe sesquialteram (libro teste regio) in suo "Patrem" autenti triti irregularis ita decentissime signavit:</p>
+
+<p>[CSIV:170,3; text: Supremum. Contratenor.] <a href="TINPRO_14GF.gif">[TINPRO 14GF]</a></p>
+
+<p><span class='pageNo'>[171]</span> Alii vero pro signo duplae signum temporis imperfecti minorisque prolationis cum tractulo traducto accelerationem mensurae ut praemissum est, denotante quo cantus vulgariter ad medium dicitur tantummodo, ut hic:</p>
+
+<p>[CSIV:171,1; text: Discantus. Tenor.] <a href="TINPRO_15GF.gif">[TINPRO 15GF]</a></p>
+
+<p>Quod, ut de Domarto et Faugues, in Missis "Spiritus almus" et unius ita signantibus placeam tolerabile censeo propter quamdam aequipollentiam illius proportionis ac istius prolationis; dum enim aliquid ad medium canitur, 2 notae sic per proportionem duplam unius mensurantur.</p>
+
+<p>At quidam signo prolationis majoris et temporis perfecti vel imperfecti sesquialteram signant, ut patet in sequenti:</p>
+
+<p>[CSIV:171,2; text: Discantus. Tenor.] <a href="TINPRO_15GF.gif">[TINPRO 15GF]</a></p>
+
+<p>Et alii eodem signo temporis imperfecti et prolationis majoris subsesquitertiam, ut hic:</p>
+
+<p>[CSIV:171,3; text: Discantus. Tenor.] <a href="TINPRO_15GF.gif">[TINPRO 15GF]</a></p>
+
+<p>Quod licet faciant Lerouge et Puyllois in Missis "Mon cuer pleure" et in quodam "Et in terra" plagalis autenti triti irregularis, tamen est intolerabilis. Non enim sesquialtera vel subsesquitertia et haec prolatio equipollent, quoniam 1 semibrevis prolationis majoris 3 minimas valens non sit uni aut 2 semibrevibus minoris commensuranda, immo semibrevi et minimae, ut patet per Dufay in suo "Et in terra" de "Sancto Anthonio", sic:</p>
+
+<p>[CSIV:171,4; text: Discantus. Tenor.] <a href="TINPRO_15GF.gif">[TINPRO 15GF]</a></p>
+
+<p>In quo quidem signo, quoniam isti tres formosissimi compositores dissentiant, Dufay potius quam aliis, crede quorum primus omnium proportionantium arrogantissimus; nam Anglorum errore labefactus nullas proportiones sciens omnes praecipit; secundus autem simplissimus est. Multi vero per praedictum temporis imperfecti majorisque prolationis signum taliter reversum [CLd] sesquialteram quod etiam deterius est per impletionem <span class='pageNo'>[172]</span> notarum denotabilem, ut Barbingant in suo "Et in terra" autenti prothi mixti et sesquitertiam per signum temporis imperfecti minorisque prolationis similiter sic reversum [CL]; ut illi quos nominare vereor, signare non erubescunt. Sed mihi deprecor parcant, quoniam haec signa adeo frivola, adeo erronea adeoque ab omni rationis apparentia sunt remota, ut nec exemplo digna crediderim.</p>
+
+<p>Capitulum III.</p>
+
+<p>Quando proportiones signandae sint.</p>
+
+<p>Quo ad secundum videlicet, quando proportiones signandae sint more majorum laudanda ratione potitorum statim ex quo proportionem aliquam inequalitatis edere volueris eam immediate signare teneris. Ad differentiam quidem proportionum aequalitatis quae sine signo tales (ut praemissimus) esse judicantur; in quo de Domarto pluries in missa "Spiritus almus" intolerabiliter peccavit; nam in primis partibus "Et in terra"; "Patrem"; "Sanctus", supremum et contratenores per relationem ad tenorem ex dupla confectos sine signo ac si aequaliter eos constituisset indiscrete reliquit, ut hic:</p>
+
+<p>[CSIV:172; text: Supremum. Contratenor primus. Tenor. Contratenor secundus.] <a href="TINPRO_15GF.gif">[TINPRO 15GF]</a></p>
+
+<p>Quod autem hic dupla sit facillime probatur quoniam 2 corpora ad 1 velut intuenti patet comparantur; nec eo quod pars primaria, scilicet tenor per prolationem majorem; partes vero secundariae, scilicet supremum et contratenores per minorem canuntur per aequivalentiam excusari poterit, si una majoris prolationis minima non 2 minoris immo soli sit commensuranda, ut per Dufay patet in exemplo capituli praecedentis. Quem quidem de Domarto, si in hoc errore Regis, Caron, Boubert, Faugues, Courbert aliique plurimi, ut in eorum operibus vidi, sint imitati, non miror quoniam illos minime litteratos audiverim. Et quis sine litteris veritatem hujus non solum scilicet cujusvis scientiae liberalis attingere valebit; sed eis fuisse pares in missis "De plus en plus" et "L'omme armé" Okeghem et Busnois, quos competenter latinitate praedictos non mediocrem pectori nostro admirationem incutit.</p>
+
+<p>Quid enim admirabilius est, quam videntes a via caecitatis ingredi, scilicet quoniam in tali eorum componendi modo (si ita signaretur [O2], prout ars requirit) difficultas pronuntiationis immo totius melodiae destructio propter nimiam velocitatem oriretur melius tenori canon apponeretur, scilicet crescit in duplo vel aequivalens, sicut laudabiliter fecit Dufay, in Missa "Se la face ay pale".</p>
+
+<p>Capitulum IV.</p>
+
+<p>Ubi proportiones signare debeamus.</p>
+
+<p>Quo ad tertium scilicet ubi id est qua parte et quo loco proportiones istas signare debeamus, dicendum quod si due aut tres aut plures sint partes in aliquo opere composito, sive partes secundariae <span class='pageNo'>[173]</span> sint unica proportione sive diversis ad primariam proportionatae secundum ipsius respectu debent signari et sine medio; ut proprius possent prothonotae proportioni signa praeponi, sicut hic:</p>
+
+<p>[CSIV:173,1; text: Supremum. Tenor. Contratenor.] <a href="TINPRO_16GF.gif">[TINPRO 16GF]</a></p>
+
+<p>Est autem primaria pars totius compositi cantus fundamentum relationis quam primo factam ut principalem caeterae respiciunt. Et haec frequentius immo fere semper tenor est, ita quidem dictus quasi caeteras partes sibi subditas tenens; hoc patet per infinitos cantus, quorum si tenor praetermittatur, ceterae partes ad invicem discordantes difformiter et acerbe nostras aures offendunt. Interdum vero suprema pars primaria est, scilicet dum alicui alto cantui simpliciter composito unam aut plures addimus partes, ut hic:</p>
+
+<p>[CSIV:173,2; text: Supremum. Pour vous la belle. Tenor. Contratenor.] <a href="TINPRO_16GF.gif">[TINPRO 16GF]</a></p>
+
+<p>Vel dum supra supremum cujusvis cantus compositi aliam partem novam edimus, ut hic:</p>
+
+<p>[CSIV:173,3; text: O Rosa bella. Tenor. Lomme lomme lomme armé et robinet tu m'as la mort donné, quant tu t'en vas.] <a href="TINPRO_16GF.gif">[TINPRO 16GF]</a></p>
+
+<p>Contratenor autem raro vel nunquam primaria pars est. Si tamen super quemvis cantum praecompositum aliquid operari voluerimus primariam efficiemus, ut hic:</p>
+
+<p>[CSIV:173,4; text: Contratenor. Tenor. Supremum.] <a href="TINPRO_16GF.gif">[TINPRO 16GF]</a></p>
+
+<p>Secundariae vero partes sunt omnes primariam tanquam relationis fondamentum principaliter respicientes.</p>
+
+<p><span class='pageNo'>[174]</span> Ab hiis vero tribus pariter articulis Busnois unicus dissidet qui suas emyolias etiam per impletionem notarum designatas suppositione istius cyphrae 3 iterum et iterum signat, ut patet in isto moteto suo "Animadvertere":</p>
+
+<p>[CSIV:174,1; text: Contratenor. Tenor.] <a href="TINPRO_17GF.gif">[TINPRO 17GF]</a></p>
+
+<p>In quo superflue, quia pro signo sufficit notarum impletio diminutus, quia licet signo cyphrali indigeret unica cyphra non satisfaceret, et inordinatus, quia quod propendum est, supponit cunctis esse perhibetur.</p>
+
+<p>Capitulum V.</p>
+
+<p>Considerandum est in quibus modo, tempore et prolatione proportiones fiant.</p>
+
+<p>Deinde notandum est quod circa quamlibet proportionem debemus considerare in quo modo, in quo tempore et in qua prolatione fiat; nam quaedam proportiones binariae sunt, ut dupla, quadrupla, etc.; quaedam ternariae, ut tripla, sesquialtera, etc.; quaedam utraque et sextupla, sesquiquinta, etc.; quaedam neutrae, ut sesquiquarta, superbipartiens tertias, etc. Non tamen naturam quantitatum, in quibus fiunt, immutare possunt; immo qualiscumque proportio sit sive binaria, sive ternaria, sive utraque, sive neutra, semper notae juxta perfectionem earum per respectum signi modalis, temporalis et prolationalis sub quo consistunt, computandae sunt, ut hic.</p>
+
+<p>Dupla et sesquialtera in utroque modo perfecto, tempore imperfecto et prolatione minori.</p>
+
+<p>[CSIV:174,2; text: Discantus. Tenor.] <a href="TINPRO_17GF.gif">[TINPRO 17GF]</a></p>
+
+<p>Dupla sesquialtera, sesquitertia et subsesquialtera in modo utroque imperfecto, tempore perfecto prolatione majori et minori.</p>
+
+<p>[CSIV:174,3; text: Discan-] <a href="TINPRO_17GF.gif">[TINPRO 17GF]</a></p>
+
+<p><span class='pageNo'>[175]</span> [CSIV:175,1; text: tus. Tenor.] <a href="TINPRO_18GF.gif">[TINPRO 18GF]</a></p>
+
+<p>In hoc de Domarto, multotiens in missa "Spiritus almus" defecit; nam dupla sub signo temporis perfecti composita, notas per tempus imperfectam computandas admisit, et hoc sic:</p>
+
+<p>[CSIV:175,2; text: Supremum. Tenor.] <a href="TINPRO_18GF.gif">[TINPRO 18GF]</a></p>
+
+<p>Atque non obstantibus Busnois et Regis in missis "Lomme arme" et per omnia sequentibus illum excusari poterit eo quod in hujusmodi partibus missae modus minor sit perfectus, idque circulus perfectus cum cyphra 2 denotet, quoniam circulus ipse perfectus, ut per opera etiam eorum patet infinita, non signum est modi, immo temporis perfecti; cyphra vero 2, licet diminute secundum eos duplam designat; modus autem minor imperfectus per praepositionem aut interpositionem pausarum tria occupantium spatia rationaliter signatur; sicut Eloy, quem in modis doctissimum accepi, in missa "Dixerunt discipuli" fecit hinc taliter partes hujus modi signandae sunt:</p>
+
+<p>[ClefC3,3LP,3LP,Cdim,2/1 on staff5]</p>
+
+<p>Praeterea plusquam semel idem de Domarto in praedicta missa "Spiritus almus" circa haec erravit; quoniam notas sesquialterae sub signo prolationis minoris constitutae quasi prolatio major esset numero voluit, ut hic:</p>
+
+<p>[CSIV:175,3; text: Tenor. Contratenor.] <a href="TINPRO_18GF.gif">[TINPRO 18GF]</a></p>
+
+<p>Et sub eodem signo Cousin in missa "Nigra sum" per tempus perfectum ipsam etiam proportionem sesquialteram notavit, ut hic:</p>
+
+<p>[CSIV:175,4; text: Supremum. Tenor.] <a href="TINPRO_18GF.gif">[TINPRO 18GF]</a></p>
+
+<p>Itaque consideremus differentiam istorum non parvae auctoritatis compositorum; sub una et eadem <span class='pageNo'>[176]</span> signatione, primus scilicet de Domarto semibreves perfecit et breves imperfecit, secundus scilicet Cousin e converso semibreves imperfecit et breves perfecit; alterum errasse necessarium est. Et revera uterque deficit de Domarto in signo prolationis, Cousin in temporis, et ambo in proportionis. Debebat enim de Domarto, quoniam ibi prolatio major sit taliter signare [Cd3]; Cousin vero, quia tempus perfectum, ut sic: [O3/2]. Consulo tamen ut cuilibet proportioni si non mediate quantitas sibi similior immediate praesignatur; ut puta binariae modus imperfectus, tempus imperfectum et prolatio minor ternariae modus perfectus, tempus perfectum et prolatio major utrique vero et neutrae indifferenter.</p>
+
+<p>Capitulum VI.</p>
+
+<p>Qualiter intelligendum sit aliquis notas ad alias referri.</p>
+
+<p>Item quia per quamvis proportionem, aliquae notae sive aequaliter sive inaequaliter ad alias simpliciter referri dicuntur, intelligendum est ut sint ejusdem valoris; puta dum 3 semibreves ad 2 comparantur, si quaelibet illarum valet duas minimas, quaelibet istarum etiam 2 valere debet. Et quamvis notae proportionaliter relatae sint unius quantitatis et notae ad quas referuntur alterius, istae tamen per quamdam suppositionem secundum quantitatem illarum erant computandae. Aliter enim saepe numero falleremur; nempe si verbi gratia cupientes sesquialteraliter 3 ad 2 referri, tres breves temporis imperfecti contra 2 perfecti componeremus non sesquialteram immo nec proportionem aliquam inaequalitatis, sed aequalitatis, videlicet 6 ad 6 efficeremus, ut hic:</p>
+
+<p>[CSIV:176,1; text: Discantus. Tenor.] <a href="TINPRO_19GF.gif">[TINPRO 19GF]</a></p>
+
+<p>Nec si e converso 3 breves temporis perfecti ad 2 imperfecti referantur sesquialtera conficietur, sed dupla sesquiquarta; erunt enim 9 ad 4 ejusdem prout decet valoris, in quo Dufay in suo "Qui cum patre" de "Sancto Anthonio" mirabiliter erravit, nam ibi proportionem ipsam scilicet duplam sesquiquartam quoniam 3 breves perfectas ad 2 imperfectas retulit signo quo ipse ac fere omnes alii sesquialteram licet diminutae signant signare voluit, ut hic patet:</p>
+
+<p>[CSIV:176,2; text: Supremum.] <a href="TINPRO_19GF.gif">[TINPRO 19GF]</a></p>
+
+<p>Quod quidem ita signasse debuit [O9/4]; nam non sesquialtera, immo, ut praemissimus, de seque patet, dupla sesquiquarta est.</p>
+
+<p>Capitulum VII.</p>
+
+<p>De numero et ejus partibus quantum ad intelligendas proportiones necessarium est.</p>
+
+<p>Finaliter eo quod necessarium sit cupienti proportiones intelligere aliqua de numero scire pauca quae ad hoc necessaria mihi visa sunt ostendere proposui, et ab ipsius numeri diffinitione proficisci. Unde numerus est multitudo ex unitatibus constituta, ut: 2, 3, 4, 5, 6, 7, 8, 9, 10, etc. Neque 1 proprie numerus est, sed materia numeri et elementum arithmeticae, sicut unisonus <span class='pageNo'>[177]</span> musicae punctus geometriae et instans astrologiae. Omnis vero numerus aut est par aut impar. Numerus par est ille qui in duas partes aequales dividi potest, ut: 2, 4, 6, 8, etc. Numerus impar est ille qui in duas partes aequales dividi non potest, ut: 3, 5, 7, 9, etc.</p>
+
+<p>Praeterea omnis numerus quomodo sit quoddam totum ex diversis partibus est compositus. Quaequidem partes aut sunt aliquotae aut aliquantae. Pars aliquota numeri est illa quae pluries sumpta reddit suum totum praecise, ut 1 est aliquota pars 4, quoniam 1 quater sumptum praecise 4 reddit. Pars aliquanta numeri est illa quae pluries sumpta suum totum excedit aut ad illum non pervenit, ut 3 sunt pars aliquanta 8; quoniam si 3 ter sumantur, 9 reddunt et sic 8 excedunt. Si vero bis tantum 6, et sic ad 8 non perveniunt.</p>
+
+<p>Praeterea omnis numerus ternarius, id est qui per tria numeratur, secundum musicos est perfectus, ut: 3, 6, 9, 12, etc. Cujus ratio est eo quod ad quantitates perfectas scilicet modum utrumque perfectum, tempus perfectum et prolationem majorem pertineat.</p>
+
+<p>Et omnis numerus binarius, id est qui per duo numerantur, est imperfectus, ut: 2, 4, 6, 8, 10, 12, etc. Cujus ratio est eo quod ad ad quantitates imperfectas, scilicet modum utrumque imperfectum, tempus imperfectum et prolationem minorem pertineat. Et quoniam 6, 12 et similes numeri sunt ternarii et binarii quia per 3 et per 2 numerantur possunt diversis respectibus esse perfecti et imperfecti, perfecti quidem sub quantitatibus perfectis et imperfecti sub imperfectis.</p>
+
+<p>Praeterea omnis numerus aut est per se aut ad aliquid. Numerus per se est ille qui sine aliqua relatione constituitur, ut: 1, 2, 3, 4, 5. Numerus ad aliquid est ille qui relative ad alium comparatus, ut: 2 ad 2, 3 ad 3, etc.</p>
+
+<p>Horum autem numerorum qui sunt ad aliquid, alii sunt aequales, alii inaequales. Numeri aequales sunt illi qui per aequalitatem quantitatis ad invicem comparantur, ut: 2 ad 2, 3 ad 3, etc. Numeri inaequales sunt illi qui per inaequalitatem quantitatis ad invicem comparantur, ut: 2 ad 3, 3 ad 2, 3 ad 4, 4 ad 3, etc.</p>
+
+<p>Hinc istorum inaequalium numerorum alius est major, alius minor. Numerus major est ille qui numerum ad quem refertur excedit, ut si 3 ad 2 referantur illa in 1 excedunt ista. Numerus minor est ille quia numero ad quem est relatus exceditur, ut si 2 ad 3 sint relata ab istis in 1 exceduntur illa. Et ex hujus modi numeris, scilicet qui sunt ad aliquid, omnis, ut patet superius, proportio elicitur.</p>
+
+<p>Capitulum VIII.</p>
+
+<p>Hujus operis conclusio.</p>
+
+<p>Haec quidem, Clementissime Rex, de proportionibus musicis specialiter et generaliter, licet eas non summis rethoricae coloribus tinxerit praeter causas in prohemio positas, tuus Tinctoris tractavit, ut et Dei gratiam precibus eorum, si qui per ea proficiant et tuum favorem assequi mereatur. Quo et in praesenti et in futuro saeculo bene beateque vivere possit.</p>
+<!-- end text -->
+</div>
+</div>
+<!--</div>-->
+<br /><br />
+
+
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
+<div id="footer">
+  <div id="chmtl_logo">
+    <a href="https://chmtl.indiana.edu/">
+        <img src="_assets/img/chmtl_logo_trans.png" alt="CHMTL Logo" />
+    </a>
+  </div>
+  <div id="copyright">
+    <p>The <a href="https://chmtl.indiana.edu/">Center for the History of Music Theory and Literature</a> is a research center of the <a href="http://music.indiana.edu">Indiana University Jacobs School of Music</a>.</p>
+  </div>
+</div>
+
+<div id="iu_footer">
+    <hr />
+    <div id="copyright">
+        <div id="blockiu">
+            <a href="http://www.iub.edu" title="Indiana University">
+                <img alt="Block IU" height="28" src="https://chmtl.indiana.edu/tml/15th/_assets/img/blockiu_white.gif" width="22" />
+            </a>
+        </div>
+        <p id="statement">
+        <a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> © 2022 The Trustees of <a href="http://www.iu.edu" title="Indiana University">Indiana University</a> | <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> | <a href="https://music.indiana.edu/departments/offices/music-information-technology-services/privacy.shtml">Privacy Notice</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

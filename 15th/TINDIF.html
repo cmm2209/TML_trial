@@ -1,0 +1,947 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>TINDIF_TEXT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="_assets/css/tml/layout.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/css/common/chmtl_identity.css" />
+    <!--<link rel="stylesheet" type="text/css" href="_assets/css/w3.css" />-->
+    <link rel='stylesheet' type='text/css' href='_assets/css/fancybox.css' />
+    <script type= 'text/javascript' src='_assets/js/chmtl_file.min.js'></script>
+</head>
+
+<body>
+  <div id="chmtl-identity">
+    <div id="identity-spacer"></div>
+<!--    <p>A project of <a href="http://chmtl.indiana.edu">CHMTL</a></p>-->
+    <div id="chmtl-border">
+      <div id="chmtl-blue"></div>
+      <div id="chmtl-yellow"></div>
+      <div id="chmtl-gray"></div>
+      <div id="chmtl-red"></div>
+    </div>
+  </div>
+    <div id="identity">
+    <div id="menu-container">
+  <a><span class="menu-btn"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</span></a>
+  <a href="../index.html"><span class="home-link">Home</span></a>
+  <span class="search-short">
+    <a class="modal-tooltip" modal="search-tip">&nbsp;<i class="fa fa-info-circle" aria-hidden="true">
+      <span class="sr-only">Click for more information</span></i></a>
+    <form  action="TINDIF.html#" id="menuSearch"><input type="text" id="menuSearchText" placeholder="Quick search"/></form><span class="navSearchButton"><i class="fa fa-search"></i></span></span>
+  <a href="../copyright.html" target="_blank"><span class="copyright-short">Copyright Notice</span></a>
+</div>
+
+<div id="search-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="search-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+
+     <p>Use the &ldquo;Quick search&rdquo; if you want to search for <em>all documents</em> within the <em>whole archive</em> where words <em>matching or containing</em> the searched string are found.</p>
+     <p>For more specific queries (phrase searching, operators, and filters), visit the <a href="../quaero.html" target="_blank">full Search</a> page.</p>
+   </div>
+ </div>
+ </div>
+    </div>
+<div id="container" class="tml-file">
+  <nav id="sliding-left-nav" class="pushy pushy-left">
+    <ul class="push-menu">
+        <li class="pushy-submenu">
+            <a class="submenu-heading">ABOUT</a>
+            <ul>
+                <li class="pushy-link"><a href="../about/introduction.html">Introduction</a></li>
+                <li class="pushy-link"><a href="../about/content.html">Content</a></li>
+                <li class="pushy-link"><a href="../about/policies.html">Policies</a></li>
+                <li class="pushy-link"><a href="../about/howTo.html">How-To</a></li>
+                <li class="pushy-link"><a href="../about/future_plans.html">Future plans</a></li>
+                <li class="pushy-link"><a href="../about/people.html">People</a></li>
+                <li class="pushy-link"><a href="../about/contact.html">Contacts</a></li>
+            </ul>
+        </li>
+        <li class="pushy-submenu">
+          <a class="submenu-heading">BROWSE</a>
+          <ul>
+            <li class="pushy-link"><a href="../browse/authors.html">by author</a></li>
+            <li class="pushy-link"><a href="../browse/contributors.html">by contributor</a></li>
+            <li class="pushy-link"><a href="../browse/incipits.html">by incipit</a></li>
+            <li class="pushy-link"><a href="../browse/sources.html">by source</a></li>
+            <li class="pushy-link"><a href="../browse/titles.html">by title</a></li>
+            <li class="pushy-submenu">
+            <a class="centuryPushy">by century</a>
+                   <ul>
+                     <li class="pushy-link"><a href="../3rd-5th/index.html">3rd-5th</a></li>
+                     <li class="pushy-link"><a href="../6th-8th/index.html">6th-8th</a></li>
+                     <li class="pushy-link"><a href="../9th-11th/index.html">9th-11th</a></li>
+                     <li class="pushy-link"><a href="../12th/index.html">12th</a></li>
+                     <li class="pushy-link"><a href="../13th/index.html">13th</a></li>
+                     <li class="pushy-link"><a href="../14th/index.html">14th</a></li>
+                     <li class="pushy-link"><a href="index.html">15th</a></li>
+                     <li class="pushy-link"><a href="../16th/index.html">16th</a></li>
+                     <li class="pushy-link"><a href="../17th/index.html">17th</a></li>
+                   </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pushy-submenu"><a href="../quaero.html">SEARCH</a></li>
+        <li class="pushy-submenu">
+            <a class="submenu-heading">EXTRAS</a>
+            <ul>
+              <li class="pushy-submenu">
+                <a href="../concordances.html">Concordances</a>
+                  <ul>
+                    <li class="pushy-link"><a href="../concordances/lml.html"><em>Lexicon musicum Latinum</em></a></li>
+                    <li class="pushy-link"><a href="../concordances/grove_anonymous.html">Grove Anonymous</a></li>
+                  </ul>
+            </ul>
+        </li>
+     </ul>
+</nav>
+  <div class="site-overlay"></div>
+
+<div id="content">
+  <noscript>
+  <div  id="noScript" class="warning">
+    <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> JavaScript Required</p>
+    <p>In order to ensure the proper functining of this website, please enable JavaScript in your browser security preferences or use a device that supports it.</p>
+  </div>
+</noscript>
+<div id="header">
+    <div id="source" class="ft-text">
+        <p class="author">Tinctoris, Johannes</p>
+        <p class="title">Diffinitorium musicae</p>
+        <p class="tmlSource"><strong>Source</strong>: <i>Scriptorum de musica medii aevi nova series a Gerbertina altera</i>, 4 vols., ed. Edmond de Coussemaker (Paris: Durand, 1864-76; reprint ed., Hildesheim: Olms, 1963), 4:177–91.</p>
+                <p id="chmtl-staff">
+                    <span class="eca-span">Electronic version prepared by Stephen E. Hayes <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="entered">E</span></a>, Peter M. Lefferts, Bradley Jon Tucker <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="checked">C</span></a>, and Thomas J. Mathiesen <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="approved">A</span></a>
+              for the <i>Thesaurus Musicarum Latinarum</i>, 1992.
+            </p>
+              </div>
+
+</div> <!-- end header div -->
+<div id="entry-abbrv" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="entry-abbrv"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+     <p>The aforementioned individual(s) <span class="entered">E</span>ntered, <span class="checked">C</span>hecked, or <span class="approved">A</span>pproved the electronic transcription of the source document.</p>
+   </div>
+ </div>
+ </div>
+
+ <div id="entry-abbrv-short" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <a class="close-modal" modal="entry-abbrv-short"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+      <br />
+      <p><span class="checked">C</span>: Indicates the aforemententioned person(s) checked the transcription.</p>
+      <p><span class="approved">A</span>: Indicates the aforementioned person(s) approved the transcription for publication.</p>
+    </div>
+  </div>
+  </div>
+
+  <div id="multipart-tip" class="w3-modal">
+   <div class="w3-modal-content">
+     <div class="w3-container">
+       <a class="close-modal" modal="multipart-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+       <br />
+       <p>Historically, in the TML long texts were split into multiple files. These are now linked to each other for easier browsing. In a future version, they will be consolidated into a single view.</p>
+     </div>
+   </div>
+   </div>
+
+  <div id="metadata-contd">
+    <p class="text-sidebar-buttons"><button id="tml-notes" class="pure-button">TML notes</button>&nbsp;<button id="tml-concordances" class="pure-button">Concordances</button></p>
+
+  <div id="sidebar">
+      <div id="extras-wrapper">
+        <!---->
+        <div id="tml-canon-info">
+          <div class="extras-heading"><a class="close-modal repoToolbox" modal="tml-canon-info"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">TML Notes</i></span></div>
+          <p></p>
+        </div>
+<div id="concordances">
+  <div class="extras-heading"><a class="close-modal repoToolbox" modal="concordances"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">Concordances</i></span></div>
+  
+      <div id="lml-info">
+          <p>&#8594; We have found the following concordances with the <i><a class="external" href="http://www.lml.badw-muenchen.de/" target="_blank">Lexicon musicum Latinum</a></i> and the <i>R&eacute;pertoire International des Sources Musicales</i></p>
+          <ul id="lml-entries">
+                        <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>IOH. TINCT. diff.</strong></span>
+             <div class="expando-data">
+                  <p>Iohannes Tinctoris: <i>Terminorum musicae diffinitorium</i></p>
+                                      <ul>
+                  <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>MSS (RISM)</strong></span>
+                      <div class="expando-data">
+                      <!--<ul class="lml-ms-list">-->
+                      <table>
+                                                        <tr><td><span class="lib-siglum">B-Br</span> II 4147, 117-124v</td>
+                                                          <td><span class="lib-siglum">B-Br</span> II 4149, 32-40</td>
+                                                          <td><span class="lib-siglum">I-Bc</span> B 2/A, 1-28v</td>
+                                                  </tr></table>
+                      <!--</ul>--></div>
+                  </li>
+              </ul>
+              </div> <!-- expando-data -->
+                            </li>
+                    </ul>
+      </div>
+  
+  </div>
+  <div style="clear: both"></div>
+    </div><!--extras-wrapper -->
+  </div><!--sidebar-->
+  </div><!--metadata-contd-->
+  <div style="clear: both"></div>
+
+<div id="text-toolbox-wrapper">
+  <div id='floatingBox'>
+    <div class="floating-toolbox">
+      <table>
+        <tr>
+          <th>Actions</th>
+        </tr>
+      </table>
+    </div>
+    <p id="backToTop"> <a href='TINDIF.html#top'>Back to top</a></p>
+  </div>
+
+<div id="tml-text">
+
+<!-- begin text -->
+<p><span class='pageNo'>[177]</span> Johannis Tinctoris ad illustrissimam virginem et dominam D. Beatricem de Aragonia.</p>
+
+<p>Diffinitorium musicae feliciter incipit.</p>
+
+<p>Prologus.</p>
+
+<p>Prudentissimae virgini ac illustrissimae dominae Beatrici de Aragonia, serenissimi principis, Divi Ferdinandi dei gratia regis Scicliae, Hierusalem et Ungariae probissimae filiae, Joannes Tinctoris eorum qui musicam profitentur infimus voluntariam ac perpetuam servitutem. Moris est cujuslibet <span class='pageNo'>[178]</span> scientiae praeceptoribus, inclita virgo, dum ingeniorum suorum exercitia litteris mandant, aut ea viris illustribus, aut claris dirigere mulieribus. Cujus profecto motivum arbitror, vel ut illorum opera majorem habeant auctoritatem, vel ut istorum animos, qui multum illis prodesse possunt, quod proprius virtutis est, sibi concilient. Ego autem enitens tuam, (non adulescentulorum more, sed stabilitate et constantia) benevolentiam captare tibi semper et prae omnibus morem gerere cupio. Quod mihi profuturum haud modicum expecto, si tibi ipsa persuadeas ei plurimum debere, a quo plurimum diligeris. Quamobrem artis liberalissimae ac inter mathematicas honestissimae, videlicet divinae musicae, studiosus, nunc a substantia, nunc ab accidenti, suos diffinire terminos utilissimum existimans quibus intellectis de ea acturi facilius et naturam ejus et suarum partium comprehendant, praesens opusculum quod rationaliter diffinitorium musicae dicetur, ad honorem tuae celsitudinis edidi, editumque tibi mulierum clarissimae dirigendum censui, confidens id pergratum fore tibi, quae a poematibus, oratoriis, muneribus et aliis artibus bonis, in quibus (quod pulcherrimum est) excellis, prudentissime secedens animi recreandi contemplatione ad hanc artem jocundissimam te confers, non modo deductionem in omni suo genere per alios more principum Persarum atque Medorum, sed etiam per te ipsam assumens. Quo praestantissimum accedit nostrae facultatis decus, si quam formossimam, quam illustrissimam, quam fontibus honesti habundantissime refectam, quam denique omnium dominarum et suae aetatis et praeteritorum et futurorum temporum ab omni parte beatissimam cuncti praedicant, ei studere dignatur. Atqui, regia proles, si in ipso opusculo aliquid imperfectum, quod te, quam perfectissimam audeo dicere, non deceat, tui perspectissimi viderint oculi, parce precor. Nam (ut praeclare Virgilius cecinit) non omnia possumus omnes. Unde, quoniam diversis naturaliter gaudens non unica arte contentus plurium cognitionem attingere, sicut tua jam discretio novit, in dies animo ferventi praetendam, non mirum, si in qualibet adeo perfectus non evadam, ut illos, qui singulariter in singulis artibus operam et curam efficassime ponunt, vincere possim. Tamen si in theoria musices pariter et praxi omnes nostri temporis cantores excedam aut excedar ab aliquo, tuae caeterorumque in ipsa arte peritissimorum perspicientiae discurrendum relinquo. Se ipsum etenim (ut prudentibus placet) laudare vani est, vituperare stulti.</p>
+
+<p>Diffinitiones terminorum musicalium</p>
+
+<p>Et primo per A.</p>
+
+<p>Capitulum I.</p>
+
+<p>A est clavis locorum A re et utriusque A la mi re.</p>
+
+<p>Acutae claves, acuta loca et acutae voces sunt illae et illa quae in manu ab A la mi re inferiori inclusive usque ad A la mi re superius exclusive continentur.</p>
+
+<p>A la mi re est locus cujus clavis est A et in quo tres voces scilicet la, mi et re canuntur et ipsum duplex est, videlicet acutum et superacutum.</p>
+
+<p>A la mi re acutum est linea cujus clavis est A, et in qua tres voces scilicet la, mi et re canuntur: la per naturam ex loco C fa ut; mi per b molle ex loco F fa ut gravi; et re per b durum ex loco G sol re ut gravi.</p>
+
+<p>A la mi re superacutum est spatium cujus clavis est A, et in quo tres voces scilicet la, mi et re canuntur: la per naturam ex loco C sol fa ut; mi per b molle ex loco F fa ut acuto; et re per b durum ex loco G sol re ut acuto.</p>
+
+<p><span class='pageNo'>[179]</span> Alteratio est proprii valoris alicujus notae duplicatio.</p>
+
+<p>Ambitus est toni debitus ascensus et descensus.</p>
+
+<p>Apothome est major pars toni quae semitonium majus vulgariter dicitur.</p>
+
+<p>A re est spatium cujus clavis est A, et in quo unica vox, scilicet re, canitur per b durum ex loco [Gamma] ut.</p>
+
+<p>Armonia est amoenitas quaedam ex convenienti sono causata.</p>
+
+<p>Arsis est vocum elevatio.</p>
+
+<p>Augmentatio est ad aliquam notam dimidiae partis sui valoris proprii additio.</p>
+
+<p>Capitulum II.</p>
+
+<p>Per B.</p>
+
+<p>B est clavis locorum [sqb] mi et utriusque b fa [sqb] mi, et est duplex, videlicet quadrum et rotundum.</p>
+
+<p>B quadrum est clavis locorum [sqb] mi et utriusque b fa [sqb] mi designans ibi per [sqb] durum mi esse canendum.</p>
+
+<p>B rotundum est clavis utriusque b fa [sqb] mi designans ibi per b molle fa canendum esse.</p>
+
+<p>B durum est proprietas per quam in omni loco cujus clavis est G, ut canitur, et ex illo caeterae voces deducuntur.</p>
+
+<p>B fa [sqb] mi est locus cujus una clavis est b rotundum, altera [sqb] quadrum et in quo duae voces scilicet fa et mi canuntur.</p>
+
+<p>B fa [sqb] mi acutum est spatium cujus una clavis est b rotundum, altera [sqb] quadrum, et in quo duae voces, scilicet fa et mi, canuntur: fa per b molle, ex loco F fa ut gravi, et mi per [sqb] durum, ex loco G sol re ut gravi.</p>
+
+<p>B fa [sqb] mi superacutum est linea cujus una clavis est b rotundum, altera [sqb] quadrum, et in qua duae voces, scilicet fa et mi, canuntur: fa per b molle ex loco F fa ut acuto, et mi per [sqb] durum ex loco G sol re ut acuto.</p>
+
+<p>B mi est linea cujus clavis est b quadrum et in qua mi canitur per [sqb] durum ex loco [Gamma] ut.</p>
+
+<p>Brevis est nota in tempore perfecto valoris trium semibrevium et in imperfecto duarum.</p>
+
+<p>Capitulum III.</p>
+
+<p>Per C.</p>
+
+<p>C est clavis locorum C fa ut, C sol fa ut, et C sol fa.</p>
+
+<p>Canon est regula voluntatem compositoris sub obscuritate quadam ostendens.</p>
+
+<p>Cantilena est cantus parvus cui verba cujuslibet materiae sed frequentius amatoriae supponuntur.</p>
+
+<p>Cantor est qui cantum voce modulatur.</p>
+
+<p>Cantus est multitudo ex unisonis constituta qui aut simplex aut compositus est.</p>
+
+<p>Cantus simplex est ille qui sine ulla ratione simpliciter constituitur, et hic est planus aut figuratus.</p>
+
+<p>Cantus simplex planus est qui simplicibus notis incerti valoris simpliciter est constitutus, cujus modi est gregorianus.</p>
+
+<p>Cantus simplex figuratus est qui figuris notarum certi valoris simpliciter efficitur.</p>
+
+<p>Cantus compositus est ille qui per relationem notarum unius partis ad alteram multipliciter est editus qui resfacta vulgariter appellatur.</p>
+
+<p>Cantus per medium est ille in quo duae notae sicut per proportionem duplam uni commensurantur.</p>
+
+<p><span class='pageNo'>[180]</span> Cantus ut jacet dicitur qui plane sine illa diminutione canitur.</p>
+
+<p>Carmen est quicquid cantari potest.</p>
+
+<p>C fa ut est spatium cujus clavis est C, et in quo duae voces, scilicet fa et ut, canuntur: fa per [sqb] durum ex loco [Gamma] ut, et ut per naturam ex loco proprio.</p>
+
+<p>Circulus est signum quantitatis temporalis qui aut perfectus aut imperfectus est.</p>
+
+<p>Circulus perfectus est signum temporis perfecti.</p>
+
+<p>Circulus imperfectus est signum temporis imperfecti qui ab aliis semicirculus idem dicitur.</p>
+
+<p>Clavis est signum loci, lineae vel spatii.</p>
+
+<p>Clausula est cujuslibet partis cantus particula in fine cujus vel quies generalis vel perfectio reperitur.</p>
+
+<p>Color est identitas particularum in una et eadem parte cantus existentium quo ad formam et valorem notarum et pausarum suarum.</p>
+
+<p>Coma est illud in quo tonus superat duo semitonia minora.</p>
+
+<p>Compositor est alicujus novi cantus editor.</p>
+
+<p>Concordantia est sonorum diversorum mixtura dulciter auribus conveniens, et haec aut perfecta aut imperfecta est.</p>
+
+<p>Concordantia perfecta est quae continue pluries ascendendo vel descendendo fieri non potest, ut unisonus, diapenthe sub et supra quantumvis diapason.</p>
+
+<p>Concordantia imperfecta est quae continue pluries ascendendo vel descendendo fieri potest ut dytonus, semidytonus, diapenthe cum tono, et diapenthe cum semitonio sub et supra quantumvis diapason.</p>
+
+<p>Conjuncta est dum fit de tono regulari semitonium irregulare aut de semitonio regulari tonus irregularis, vel sic:</p>
+
+<p>Conjuncta est appositio b rotundi aut [sqb] quadri in loco irregulari.</p>
+
+<p>Conjunctio est unius vocis post aliam immediata junctio.</p>
+
+<p>Contrapunctus est cantus per positionem unius vocis contra aliam punctuatim effectus; et hic est duplex: scilicet simplex et diminutus.</p>
+
+<p>Contrapunctus simplex est dum nota vocis, quae contra aliam ponitur, est ejusdem valoris cum illa.</p>
+
+<p>Contrapunctus diminutus est dum plures notae contra unam per proportiouem aequalitatis aut inaequalitatis ponuntur, qui a quibusdam floridus nominatur.</p>
+
+<p>Contratenor est pars illa cantus compositi quae principaliter contra tenorem facta inferior est supremo, altior autem aut aequalis aut etiam ipso tenore inferior.</p>
+
+<p>Contratenorista est ille qui contratenorem canit.</p>
+
+<p>C sol fa est spatium cujus clavis est C, et in quo duae voces, scilicet sol et fa, canuntur: sol per b molle ex loco F fa ut acuto, et fa per [sqb] durum ex loco G sol re ut acuto.</p>
+
+<p>C sol fa ut est linea cujus clavis est, C et in qua tres voces, scilicet sol fa et ut, canuntur; sol per b molle ex loco F fa ut gravi, fa per [sqb] durum ex loco G sol re ut gravi, et ut per naturam ex loco proprio.</p>
+
+<p>Capitulum IV.</p>
+
+<p>Per D.</p>
+
+<p>D est clavis locorum D sol re, D la sol re, et D la sol.</p>
+
+<p><span class='pageNo'>[181]</span> Deductio est vocum de uno loco ad alium per aliquam proprietatem ordinatam ductio.</p>
+
+<p>Diacisma est dimidium semitonii minoris.</p>
+
+<p>Diapason equivocum est ad tria, nam concordantiam, conjunctionem et proportionem significat; unde pro primo significato sic diffinitur:</p>
+
+<p>Diapason est concordantia ex mixtura duarum vocum ab invicem perfecto diapenthe et diatessaron aut imperfecto diapenthe et tritono distantium effecta. Pro secundo sic:</p>
+
+<p>Diapason est conjunctio ex distantia perfecti diapenthe et diatessaron aut imperfecti diapenthe et tritono constituta. Et pro tertio sic:</p>
+
+<p>Diapason est proportio qua major numerus ad minorem relatus illum in se bis continet praecise, ut 2 ad 1, 4 ad 2, etc. Et hic adverte quod quotienscumque diapason per se invenitur, de perfecto intelligitur. Est enim triplex, scilicet perfectum et imperfectum et superfluum.</p>
+
+<p>Diapason perfectum est illud quod constat ex quinque tonis et duobus semitoniis, ut A mi de [sqb] mi usque ad mi de b fa [sqb] mi acuto.</p>
+
+<p>Diapason imperfectum est illud quod constat ex quatuor tonis et tribus semitonis, ut a mi de [sqb] mi usque ad fa de b fa [sqb] mi acuto.</p>
+
+<p>Diapason superfluum est illud quod constat ex sex tonis et uno semitonio minori, ut a fa de b fa [sqb] mi acuto usque ad mi de b fa [sqb] mi superacuto; et ista duo ultima diapason discordantiae sunt.</p>
+
+<p>Diapenthe tria significat, scilicet concordantiam, conjunctionem et proportionem. Pro primo autem significato diffinitur sic:</p>
+
+<p>Diapenthe est concordantia ex mixtura duarum vocum ab invicem diatessaron et tono, aut tritono et semitonio distantium effecta. Pro secundo sic:</p>
+
+<p>Diapenthe est conjunctio ex distantia diatessaron et toni aut tritoni et semitonii constituta. Et tertio sic:</p>
+
+<p>Diapenthe est proportio quae major numerus ad minorem relatus illum in se totum et insuper ejus alteram partem aliquotam continet, ut 3 ad 2, 6 ad 4. Hoc autem notandum est triplex esse diapenthe, scilicet perfectum, imperfectum, et superfluum.</p>
+
+<p>Diapenthe perfectum est illud quod constat ex tribus tonis et uno semitonio, ut a mi de E la mi gravi usque ad mi de b fa [sqb] mi acuto.</p>
+
+<p>Diapenthe imperfectum est illud quod constat ex duobus tonis et duobus semitoniis, ut a mi de E la mi gravi usque ad fa de b fa [sqb] mi acuto.</p>
+
+<p>Diapenthe superfluum est illud quod constat ex quatuor tonis, ut si fa in E la mi acuto fingatur, et contra hoc mi in b fa [sqb] mi superacuto ponatur; et haec duo ultima diapenthe sunt discordantiae. Ubicumque vero diapenthe sine aliqua adjunctione ponitur, de perfecto intelligitur.</p>
+
+<p>Diapenthe cum semitonio equivocatur ad duo, nam et concordantiam et conjonctionem designat. Unde pro primo significato sic diffinitur:</p>
+
+<p>Diapenthe cum semitonio est concordantia ex mixtura duarum vocum diapenthe et semitonio ab invicem distantium effecta. Et pro secundo sic:</p>
+
+<p>Diapenthe cum semitonio est conjunctio ex distantia diapenthe et semitonio constituta.</p>
+
+<p>Diapenthe cum tono duo significat, scilicet concordantiam et conjunctionem. Hinc ita pro primo significato sic diffinitur:</p>
+
+<p>Diapenthe cum tono est concordantia ex mixtura <span class='pageNo'>[182]</span> duarum vocum diapenthe et tono distantium effecta. Et ita pro secundo:</p>
+
+<p>Diapenthe cum tono est conjunctio ex distantia diapenthe et toni constituta.</p>
+
+<p>Diapenthe cum semidytono pro duplici significato accipitur, scilicet pro discordantia et conjunctione. Unde pro primo sic diffiniendum est:</p>
+
+<p>Diapenthe cum semidytono est discordantia ex mixtura duarum vocum ab invicem diapenthe et semidytoni distantium effecta. Et pro secundo sic:</p>
+
+<p>Diapenthe cum semidytono est conjunctio ex distantia diapenthe et semidytoni constituta.</p>
+
+<p>Diapenthe cum dytono aequivocum est ad duo: ad discordantiam scilicet et conjunctionem. Hinc pro primo significato sic difinitur:</p>
+
+<p>Diapenthe cum dytono est discordantia ex mixtura duarum vocum ab invicem diapenthe et dytono distantium effecta. Et pro secundo sic:</p>
+
+<p>Diapenthe cum dytono est conjunctio ex distantia diapenthe et dytoni constituta.</p>
+
+<p>Diaphonia idem est quod discordantia.</p>
+
+<p>Diatessaron etiam tria habet significata, scilicet concordantiam, conjunctionem et proportionem. Pro primo significato sic diffinitur:</p>
+
+<p>Diatessaron est concordantia secundum quod ex mixtura duarum vocum ab invicem dytono et semitonio vel econtra distantium effecta. Pro secundo sic:</p>
+
+<p>Diatessaron est conjunctio ex distantia dytoni et semitonii vel econtra constituta. Et pro tertio sic:</p>
+
+<p>Diatessaron est proportio qua major numerus ad minorem relatus illum in se totum continet et ejus insuper tertiam partem aliquotam, ut 4 ad 3, etc.</p>
+
+<p>Diastema est vocum intervallum suspensio.</p>
+
+<p>Diesis secundum aliquos idem est quod semitonium minus; secundum alios ipsius semitonii minoris dimidium. Nonnulli vero diesim esse volunt quintam partem toni, alii tertiam, quartam et octavam. Atque, si Thomae credamus, diesis ipsa semitoniorum est differentia, sed quicquid sit ut philosophus asserit in Capitulo metaphesicae, diesis non secundum auditum, sed secundum rationem distinguitur.</p>
+
+<p>Diminutio est alicujus grossi cantus in minutum redactio.</p>
+
+<p>Discantus est cantus ex diversis vocibus et notis certi valoris editus.</p>
+
+<p>Discordantia est diversorum sonorum mixtura naturaliter aures offendens.</p>
+
+<p>Dytonus aequivocum est ad duo, nam concordantiam et conjunctionem designat. Unde pro primo significato sic diffinitur:</p>
+
+<p>Dytonus est concordantia ex mixtura duarum vocum ab invicem duobus tonis distantium effecta. Et pro secundo sic:</p>
+
+<p>Dytonus est conjuctio ex distantia duorum tonorum constituta.</p>
+
+<p>Divisio est unius aut plurium notarum ab illa seu ab illis cum qua vel cum quibus regulariter est annumeranda vel sunt annumerandae separatio.</p>
+
+<p>D la sol est linea cujus clavis est D et in qua duae voces, scilicet la et sol canuntur: la per b molle ex loco F fa ut acuto, et sol per [sqb] durum ex loco G sol re ut acuto.</p>
+
+<p>D la sol re est spatium cujus clavis est, D et in quo tres voces scilicet la sol et re canuntur: la per b molle ex loco F fa ut gravi, sol per [sqb] durum ex loco G sol re ut gravi, et re per naturam ex loco C sol fa ut.</p>
+
+<p><span class='pageNo'>[183]</span> D sol re est linea cujus clavis est D, et in qua duae voces, scilicet sol et re canuntur: sol per [sqb] durum ex loco [Gamma] ut, et re per naturam ex loco C fa ut.</p>
+
+<p>Duo est cantus duarum tantum partium relatione ad invicem compositus.</p>
+
+<p>Dupla idem est quod diapason. Unde secundum tria ejus significata instar diapason diffinitur.</p>
+
+<p>Dupla sesquialtera est proportio qua major numerus ad minorem relatus illum in se bis continet et ejus insuper alteram partem aliquotam ut 5 ad 2, etc.</p>
+
+<p>Dupla superbipartiens est proportio qua major numerus ad minorem relatus illum in se continet et insuper ejus duas partes aliquotas unam facientes aliquantam, ut 8 ad 3.</p>
+
+<p>Capitulum V.</p>
+
+<p>Per E.</p>
+
+<p>E est clavis utriusque E la mi et E la.</p>
+
+<p>E la est spatium cujus clavis est E, et in quo unica vox, scilicet la, canitur per [sqb] durum ex loco G sol re ut acuto.</p>
+
+<p>E la mi est locus cujus clavis est E, et in quo duae voces, scilicet la et mi, canuntur; et est duplex, videlicet grave et acutum.</p>
+
+<p>E la mi grave est spatium cujus clavis est E in quo duae voces, scilicet la et mi, canuntur: la per [sqb] durum ex loco [Gamma] ut, et mi per naturam ex loco C fa ut.</p>
+
+<p>E la mi acutum est linea cujus clavis est E et in qua duae voces, scilicet la et mi, canuntur: la per [sqb] durum ex loco G sol re ut gravi, et mi per naturam ex loco C sol fa ut.</p>
+
+<p>Emyolia idem est quod diapenthe; unde sicut diapenthe secundum tria ejus significata eam diffinies.</p>
+
+<p>Epygdous tria significat, scilicet discordantiam, conjunctionem et proportionem. Pro primo ejus significato sic diffinitur:</p>
+
+<p>Epygdous est discordantia ex mixtura duarum vocum tono ab invicem distantium effecta. Pro secundo sic:</p>
+
+<p>Epygdous est conjunctio ex distantia toni constituta. Et pro tertio sic:</p>
+
+<p>Epygdous est proportio qua major numerus ad minorem relatus, illum in se totum continet et ejus insuper octavam partem, ut 9 ad 8, 18 ad 16, etc.</p>
+
+<p>Epytritus idem est quod diatessaron. Hinc secundum tria ejus significata ut diatessaron diffinies.</p>
+
+<p>Euphonia idem est quod armonia.</p>
+
+<p>Extractio est unius partis cantus ex aliquibus notis alterius confectio.</p>
+
+<p>Capitulum VI.</p>
+
+<p>Per F.</p>
+
+<p>F est clavis utriusque F fa ut.</p>
+
+<p>Fa est quarta vox distans a tertia semitonio et a quinta tono.</p>
+
+<p>Fa sol est mutatio quae fit in C sol fa ut et in C sol fa ad descendendum de [sqb] duro in b molle.</p>
+
+<p>Fa ut est mutatio quae fit in C fa ut et in C sol fa ut ad ascendendum a [sqb] duro in naturam, et in utroque F fa ut ad ascendendum a natura in b molle.</p>
+
+<p>F fa ut est locus cujus clavis est F et in quo duae voces, scilicet fa et ut canuntur: fa per naturam ex loco C fa ut, et ut per b molle ex loco <span class='pageNo'>[184]</span> proprio. Et est duplex, scilicet grave et acutum.</p>
+
+<p>F fa ut grave est linea cujus clavis est F et in qua duae voces, scilicet fa et ut canuntur: fa per naturam ex loco C fa ut, et ut per b molle ex loco proprio.</p>
+
+<p>F fa ut acutum est spatium cujus clavis est F et in quo duae voces, scilicet fa et ut, canuntur: fa per naturam ex loco C sol fa ut, et ut per b molle ex loco proprio.</p>
+
+<p>Ficta musica est cantus propter regularem manus traditionem editus.</p>
+
+<p>Fuga est identitas partium cantus quo ad valorem, nomen, formam, et interdum quo ad locum tonarum et pausarum suarum.</p>
+
+<p>Capitulum VII.</p>
+
+<p>Per G.</p>
+
+<p>G est clavis [Gamma] ut.</p>
+
+<p>G est clavis utriusque G sol re ut.</p>
+
+<p>G ut est linea cujus clavis est [Gamma], et in qua unica vox, scilicet ut, per [sqb] durum ex loco proprio canitur.</p>
+
+<p>Graves claves, gravia loca et graves voces sunt illae et illa, quae in manu ab A re inclusive usque ad A la mi re acutum exclusive continentur.</p>
+
+<p>Gravissimus locus est [Gamma] ut, gravissima clavis et gravissima vox illius.</p>
+
+<p>G sol re ut est locus cujus clavis est G, et in quo tres voces, scilicet sol, re et ut, canuntur: quod quidem duplex est, scilicet grave et acutum.</p>
+
+<p>G sol re ut grave est spatium cujus clavis est G, et in quo tres voces, scilicet sol, re et ut canuntur: sol per naturam ex loco C fa ut, re per b molle ex loco F fa ut gravi, et ut per [sqb] durum ex loco proprio.</p>
+
+<p>G sol re ut acutum est linea cujus clavis est G, et in qua tres voces, scilicet sol, re et ut canuntur: sol per naturam ex loco C sol fa ut, re per b molle ex loco F fa ut, et ut per [sqb] durum ex loco G sol re ut acuto.</p>
+
+<p>Capitulum VIII.</p>
+
+<p>Per H.</p>
+
+<p>Hymnus est laus Dei cum cantico.</p>
+
+<p>Hymnista est ille qui hymnos canit.</p>
+
+<p>Capitulum IX.</p>
+
+<p>Per I.</p>
+
+<p>Imperfectio est tertiae partis valoris totius notae aut partim ipsius abstractio.</p>
+
+<p>Instrumentum est corpus naturaliter aut artificialiter soni causativum.</p>
+
+<p>Intonatio est debita cantus inchoatio.</p>
+
+<p>Iubilus est cantus cum excellenti quadam laetitia pronuntiatus.</p>
+
+<p>Intervallum est soni gravis et acuti distantia.</p>
+
+<p>Capitulum X.</p>
+
+<p>Per L.</p>
+
+<p>La est sexta et ultima vox, tono distans a quinta.</p>
+
+<p>La mi est mutatio quae fit in utroque E la mi, ad ascendendum a [sqb] duro in naturam, et in utroque A la mi re ad ascendendum a natura in b molle.</p>
+
+<p>La re est mutatio quae fit in utroque A la mi re ad ascendendem a natura in [sqb] durum, et in D la sol re ad ascendendum a b molli in naturam.</p>
+
+<p><span class='pageNo'>[185]</span> La sol est mutatio quae fit in D la sol re et in D la sol ad ascendendum de b molli in [sqb] durum.</p>
+
+<p>Ligatura est duarum aut plurium notarum ad invicem continua junctura.</p>
+
+<p>Lima est minor pars toni quam alii semitonium minus appellant.</p>
+
+<p>Linea est locus pro tractu recto alicujus coloris effectus, quam alii regulam dicunt.</p>
+
+<p>Locus est vocum situs.</p>
+
+<p>Longa est nota in modo minori perfecto valoris trium brevium et in imperfecto duarum.</p>
+
+<p>Capitulum XI.</p>
+
+<p>Per M.</p>
+
+<p>Manus est brevis et utilis doctrina ostendens compendiose qualitates vocum musicae.</p>
+
+<p>Maxima est nota in modo majori perfecto valoris trium longarum et in imperfecto duarum.</p>
+
+<p>Melodia idem est quod armonia.</p>
+
+<p>Melos idem est quod armonia.</p>
+
+<p>Melum idem est quod cantus.</p>
+
+<p>Mensura est notarum adaequatio quantum ad pronuntiationem.</p>
+
+<p>Mi est tertia vox tono distans a secunda et semitonio a quarta.</p>
+
+<p>Mi la est mutatio quae fit in utroque E la mi ad descendendum de natura in [sqb] durum, et in utroque A la mi re ad descendendum de b molli in naturam.</p>
+
+<p>Minima est nota valoris individui.</p>
+
+<p>Mi re est mutatio quae fit in utroque A la mi re ad ascendendum a b molli in [sqb] durum.</p>
+
+<p>Missa est cantus magnus cui verba Kyrie, et In terra, Patrem, Sanctus et Agnus, et interdum caeterae partes a pluribus canendae supponuntur, quae ab aliis officium dicitur.</p>
+
+<p>Modus est quantitas cantus ex certis longis maximam, aut brevibus longam respicientibus constituta. Est igitur duplex scilicet major et minor.</p>
+
+<p>Modus major est quantitas cantus ex certis longis maximam respicientibus constituta, qui subdividitur, nam alius est modus major perfectus, alius est modus major imperfectus.</p>
+
+<p>Modus major perfectus est dum tres longae pro uua maxima numerantur.</p>
+
+<p>Modus major imperfectus est dum duae longae pro una maxima numerantur.</p>
+
+<p>Modus minor est quantitas cantus ex certis brevibus longam respicientibus constituta, qui etiam subdividitur, nam alius est modus minor perfectus, alius est modus minor imperfectus.</p>
+
+<p>Modus minor perfectus est dum tres breves pro una longa numerantur.</p>
+
+<p>Modus minor imperfectus est dum duae tantummodo breves pro una longa numerantur.</p>
+
+<p>Motetum est cantus mediocris cui verba cujusvis materiae, sed frequentius divinae supponuntur.</p>
+
+<p>Multiplex proportionum genus est, quo major numerus ad minorem relatus illum in se plusquam semel continet praecise ut 2 ad 1, 3 ad 1, 4 ad 1, etc.</p>
+
+<p>Multiplex superparticulare proportionum genus est quo major numerus ad minorem relatus illum in se totum plusquam semel continet et ejus insuper unam partem aliquotam, ut 5 ad 2, 7 ad 3, 9 ad 4, etc.</p>
+
+<p>Multiplex superpartiens proportionum genus <span class='pageNo'>[186]</span> est quo major numerus ad minorem relatus illum in se plusquam semel continet et ejus insuper aliquas partes aliquotas facientes tamen unam partem aliquantam, ut 8 ad 3, 11 ad 4, 14 ad 5.</p>
+
+<p>Musica est modulandi peritia, cantu sonoque consistens. Et est triplex, scilicet armonica, organica et rithmica.</p>
+
+<p>Musica armonica est illa quae per vocem practicatur humanam.</p>
+
+<p>Musica organica est illa quae fit in instrumentis flatu sonum causantibus.</p>
+
+<p>Musica rithmica est illa quae fit per instrumenta tactu sonum reddentia.</p>
+
+<p>Musicus est qui perpensa ratione beneficio speculationis, non operis servitio, canendi officium assumit. Hinc differentiam inter musicum et cantorem quidam sub tali metrorum serie posuit:</p>
+
+<p>Musicorum et cantorum magna est differentia:</p>
+
+<p>Illi sciunt, ii dicunt quae componit musica.</p>
+
+<p>Et qui dicit quod non sapit diffinitur bestia.</p>
+
+<p>Mutatio est unus vocis in aliam variatio.</p>
+
+<p>Capitulum XII.</p>
+
+<p>Per N.</p>
+
+<p>Natura est proprietas per quam in omni loco cujus clavis est C, ut canitur, et ex illa caeterae voces deducuntur.</p>
+
+<p>Neuma est cantus fini verborum sine verbis annexus.</p>
+
+<p>Nota est signum vocis certi vel incerti valoris.</p>
+
+<p>Capitulum XIII.</p>
+
+<p>Per O.</p>
+
+<p>Octava idem est quod diapason aut dupla conjunctio et concordantia. Unde secundum haec duo significata eam ut diapason diffinies.</p>
+
+<p>Officium idem est quod missa secundum Hyspalos.</p>
+
+<p>Capitulum XIV.</p>
+
+<p>Per P.</p>
+
+<p>Pausa est taciturnatitatis signum secundum quantitatem notae cui appropriatur fiendae.</p>
+
+<p>Perfectio equivocum est ad duo; nam notae in sua perfectione permanentiam, et totius cantus aut particularum ipsius conclusionem designat. Unde pro primo significato sic diffinitur:</p>
+
+<p>Perfectio est quod nota maneat perfecta ostensio. Et pro secundo sic:</p>
+
+<p>Perfectio est totius cantus aut particularum ipsius conclusio.</p>
+
+<p>Prolatio est quantitas cantus ex certis minimis semibrevem respicientibus constituta. Quae quidem duplex est, scilicet major et minor.</p>
+
+<p>Prolatio major est dum in aliquo cantu tres minimae pro una semibrevi numerantur.</p>
+
+<p>Prolatio minor est dum in aliquo cantu duae tantum minimae pro una semibrevi numerantur.</p>
+
+<p>Pronunciatio est venusta vocis emissio.</p>
+
+<p>Proportio est duorum numerorum ad invicem habitudo; et haec est duplex scilicet aequalitatis et inaequalitatis.</p>
+
+<p>Proportio aequalitatis est quae aequalibus numeris conficitur, ut 2 ad 2, 3 ad 3, etc.</p>
+
+<p>Proportio inaequalitatis est quae in aequalibus numeris fit ut 2 ad 1, 3 ad 2, etc. Et hic adverte quod in praesenti diffinitorio genera proportionum cum quibusdam speciebus suis diffinivi; si vero plures habere cupias in nostro proportionali musices invenies illas.</p>
+
+<p>Proprietas est propria quaedam vocum deducendarum qualitas.</p>
+
+<p><span class='pageNo'>[187]</span> Punctus est signum augmentationis, aut divisionis, aut perfectionis, et hoc si alicui notae adjungatur. Si vero in circulo aut semicirculo a parte dextra aperto ponatur, significat quod prolatio major est; et si in semicirculo ab inferiori parte aperto ponatur, moram generaliter fiendam in illa nota supra quam constituitur designat, qui punctus organi vulgariter dicitur.</p>
+
+<p>Capitulum XV.</p>
+
+<p>Per Q.</p>
+
+<p>Quadrupla est proportio qua major numerus ad minorem relatus illum in se quater praecise continet ut 4 ad 1, 8 ad 2.</p>
+
+<p>Quadrupla sesquialtera est proportio qua major numerus ad minorem relatus illum in se quater continet et ejus insuper alteram partem aliquotam, ut 9 ad 2, 18 ad 4, etc.</p>
+
+<p>Quadrupla superbipartiens est proportio qua major numerus ad minorem relatus illum in se quater continet et ejus insuper duas partes aliquotas unam facientes aliquantam, ut 14 ad 3, 22 ad 5.</p>
+
+<p>Quantitas est secundum quam quantus fit cantus intelligitur.</p>
+
+<p>Quarta idem est quod diatessaron conjunctio et concordantia. Hinc secundum haec duo signfiicata sicut diatessaron diffinitur.</p>
+
+<p>Quinta idem est quod diapenthe concordantiam et conjunctionem importans. Igitur sicut diapenthe quo ad haec duo significata erit diffinienda.</p>
+
+<p>Capitulum XVI.</p>
+
+<p>Per R.</p>
+
+<p>Re est secunda vox tono distans a prima totidem quod a tertia.</p>
+
+<p>Reductio est unius aut plurium notarum cum majoribus quas imperficiunt aut cum sociis annumeratio.</p>
+
+<p>Regula idem est quod linea.</p>
+
+<p>Re la est mutatio quae fit in utroque A la mi re ad descendendum de [sqb] duro in naturam, et in D la sol re ad descendendum de natura in b molle.</p>
+
+<p>Re mi est mutatio quae fit in utroque A la mi re ad ascendendum a natura in b molle.</p>
+
+<p>Resfacta idem est quod cantus compositus.</p>
+
+<p>Re sol est mutatio quae fit in D sol re et in D la sol re ad descendendum de natura in [sqb] durum, et in utroque G sol re ut ad descendendum de b molli in naturam.</p>
+
+<p>Resumpto est cantus finiti totaliter aut partim replicatio.</p>
+
+<p>Re ut est mutatio quae fit in utroque G sol re ut ad ascendendum a b molli in [sqb] durum.</p>
+
+<p>Capitulum XVII.</p>
+
+<p>Per S.</p>
+
+<p>Scisma est dimidium comatis.</p>
+
+<p>Secunda equivocatur ad duo, hoc est discordantiam et conjunctionem. Unde pro primo significato sic diffinitur:</p>
+
+<p>Secunda est discordantia ex mixtura duarum vocum tono vel semitonio ab invicem distantium effecta. Et pro secundo sic:</p>
+
+<p>Secunda est conjunctio ex distantia unius toni vel semitonii constituta.</p>
+
+<p>Semibrevis est nota in prolatione majori valoris trium minimarum et in minori duarum.</p>
+
+<p>Semitonium duo significat, scilicet discordantiam et conjunctionem. Hinc pro primo significato sic diffinitur.</p>
+
+<p><span class='pageNo'>[188]</span> Semitonium est discordantia ex mixtura duarum vocum duobus diacismatibus et uno comate ab invicem distantium effecta. Et pro secundo sic:</p>
+
+<p>Semitonium est conjunctio ex distantia duorum diacismatum tantum aut duorum diacismatum et uno comate constituta. Et ita collige duplex esse semitonium, scilicet majus et minus.</p>
+
+<p>Semitonium majus est illud quod ex duobus diacismatibus et uno comate constat, ut de mi in b fa [sqb] mi usque ad fa in eodem loco, quod a pluribus apothome seu semitonium diatonicum appellatur.</p>
+
+<p>Semitonium minus est illud quod ex duobus diacismatibus tantummodo constat ut de mi in A la mi re usque ad fa in b fa [sqb] mi, quod a Platone lima, ab aliis semitonium enarmonicum appellatur. Et est aliud semitonium quod cromaticum dicitur: fit autem dum canendo aliqua vox ad pulcritudinem pronunciatonis sustinetur. Quotienscumque vero semitonium per se scriptum invenitur aut dicitur, minus esse intelligitur.</p>
+
+<p>Semidytonus equivocum est ad duo, scilicet concordantiam et conjunctionem; unde pro primo significato sic diffinitur:</p>
+
+<p>Semidytonus est concordantia ex mixtura duarum vocum tono et semitonio ab invicem distantium effecta. Et pro secundo sic:</p>
+
+<p>Semidytonus est conjunctio ex distantia unius toni et semitonii constituta.</p>
+
+<p>Semicirculus idem est quod circulus imperfectus.</p>
+
+<p>Septima perfecta idem est quod diapenthe cum dytono.</p>
+
+<p>Septima imperfecta idem est quod diapenthe cum semidytono.</p>
+
+<p>Sesquialtera idem est quod diapenthe aut emyolia proportio; unde secundum hoc significatum sicut illud diffinitur.</p>
+
+<p>Sesquitertia idem est quod diatessaron aut epytritus proportio. Hinc instar ipsorum quo ad id significatum diffinienda est.</p>
+
+<p>Sesquiquarta idem est proportio qua major numerus ad minorem relatus illum in se totum continet et ejus insuper quartam partem aliquotam, ut 5 ad 4, 10 ad 8.</p>
+
+<p>Sexta perfecta idem est quod diapenthe cum tono.</p>
+
+<p>Sexta imperfecta idem est quod diapenthe cum semitonio.</p>
+
+<p>Symphonia idem est quod concordantia.</p>
+
+<p>Sincopa est alicujus notae interposita majore per partes divisio.</p>
+
+<p>Sol est quinta vox tono distans a quarta totidemque ab ultima.</p>
+
+<p>Sol fa est mutatio quae fit in C sol fa ut et in C sol fa ad descendum de b molle in [sqb] durum.</p>
+
+<p>Solfisatio est cantando vocum per sua nomina expressio.</p>
+
+<p>Sol la est mutatio quae fit in D la sol re et in D la sol ad descendendum a [sqb] duro in b molle.</p>
+
+<p>Sol re est mutatio quae fit in D sol re, et in D la sol re ad ascendendum a [sqb] duro in naturam, et in utroque G sol re ut ad ascendendum a natura in b molle.</p>
+
+<p>Sol ut est mutatio quae fit in utroque G sol re ut ad ascendendum a natura in [sqb] durum, et in C sol fa ut ad ascendendum a B molli in naturam.</p>
+
+<p>Sonitor est qui instrumento artificiali sive organico sive rithmico musicam exercet.</p>
+
+<p>Sonus est quicquid proprie et per se ab auditu percipitur.</p>
+
+<p><span class='pageNo'>[189]</span> Spatium est locus supra vel infra lineam relictus.</p>
+
+<p>Schema est dimidium comatis.</p>
+
+<p>Subdupla est proportio qua minor numerus ad majorem relatus in illo bis praecise continetur, ut 1 ad 2.</p>
+
+<p>Submultiplex proportionum genus est, quo minor numerus ad majorem relatus in illo multipliciter praecise continetur, ut 1 ad 2, 1 ad 3, etc.</p>
+
+<p>Superacutae claves, superacuta loca et superacutae voces sunt illae et illa quae ab A la mi re superiori usque ad E la inclusive in manu continentur.</p>
+
+<p>Superbipartiens est proportio quae major numerus ad minorem relatus illum in se totum continet et insuper duas ejus partes aliquotas unam facientes aliquantam, ut 5 ad 3.</p>
+
+<p>Superparticulare proportionum genus est, quo major numerus ad minorem relatus illum in se totum continet et ejus insuper aliquam partem aliquotam, ut 3 ad 2, 4 ad 3, etc.</p>
+
+<p>Superpartiens proportionum genus est, quo major numerus ad minorem relatus illum in se totum continet et ejus insuper aliquas partes aliquotas unam facientes aliquantam, ut 5 ad 3, 7 ad 5, etc.</p>
+
+<p>Suppositio est aliquorum corporum ut voces loco notarum significent introductio.</p>
+
+<p>Supremum est pars cantus compositi altitudine caeteras excedens.</p>
+
+<p>Capitulum XVIII.</p>
+
+<p>Per T.</p>
+
+<p>T est littera quae per se ad aliquam partem cantus posita tenorem institutione significat. Quae quidem si prima sit mei cognominis, quod Tinctoris est, non mihi dedecori venit, quoniam et nomen domini ineffabile Tetragamaton ab ea sumat exordium.</p>
+
+<p>Talea est identitas particularum in una et eadem parte cantus existentium, quoad nomen, locum et valorem notarum et pausarum suarum.</p>
+
+<p>Tempus est quantitas cantus ex certis semibrevibus brevem respicientibus constituta. Quod quidem duplex est, scilicet perfectum et imperfectum.</p>
+
+<p>Tempus perfectum est dum in aliquo cantu tres semibreves pro una brevi numerantur.</p>
+
+<p>Tempus imperfectum est dum in aliquo cantu duae semibreves tantum pro una brevi numerantur.</p>
+
+<p>Tenor est cujusque cantus compositi fundamentum relationis.</p>
+
+<p>Tenorista est ille qui tenorem canit.</p>
+
+<p>Tertia perfecta idem est quod dytonus.</p>
+
+<p>Tertia imperfecta idem est quod semidytonus.</p>
+
+<p>Thesis est vocum dispositio.</p>
+
+<p>Tonus est aequivocum ad quatuor, nam significat conjunctionem, discordantiam, intonationem et tropum. Hinc pro primo significato sic diffinitur:</p>
+
+<p>Tonus est conjunctio ex distantia unius semitonii majoris et unius minoris constituta. Et pro secundo sic:</p>
+
+<p>Tonus est discordantia ex mixtura duarum vocum uno semitonio majore et uno minore distantium effecta. Et pro tertio sic.</p>
+
+<p>Tonus est cantus intonatio. Et pro quarto sic.</p>
+
+<p>Tonus est tropus per quem omnis cantus debite componitur. Hujus autem significati octo sunt toni.</p>
+
+<p><span class='pageNo'>[190]</span> Tonus primus est ille qui ex primis speciebus diapenthe et diatessaron formatus, potest a suo fine diapason ascendere ac dytonum vel semidytonum descendere, qui ab antiquis autenticus prothus est appellatus.</p>
+
+<p>Tonus secundus est ille qui ex primis speciebus diapenthe et diatessaron formatus, potest a suo fine diapenthe cum dytono aut cum semidytono ascendere et diatessaron descendere; qui plagalis, aut subjugalis aut collateralis autentici prothi ab antiquis dicitur.</p>
+
+<p>Tonus tertius est ille qui ex secundis speciebus diapenthe et diatessaron formatus, potest a suo fine diapason ascendere ac dytonum vel semidytonum descendere; qui ab antiquis autenticus deuterus est appellatus.</p>
+
+<p>Tonus quartus est ille qui ex secundis speciebus diapenthe et diatessaron formatus, potest a suo fine diapenthe cum dytono aut cum semidytono ascendere, ac diatessaron descendere; qui plagalis aut subjugalis aut collateralis autentici deuteri ab antiquis dicitur.</p>
+
+<p>Tonus quintus est ille qui ex tertia aut quarta species diapenthe et tertia specie diatessaron formatus, potest a suo fine diapason ascendere ac dytonum vel semidytonum descendere; qui ab antiquis autenticus tritus est appellatus.</p>
+
+<p>Tonus sextus est ille qui ex tertia aut quarta specie diapenthe et tertia specie diatessaron formatus, potest a suo fine diapenthe cum dytono aut cum semidytono ascendere ac diatessaron descendere; qui plagalis aut subjugalis aut collateralis autentici triti ab antiquis dicitur.</p>
+
+<p>Tonus septimus est ille qui ex quarta specie diapenthe et prima specie diatessaron formatus, potest a suo fine diapason ascendere ac dytonum vel semidytonum descendere; qui ab antiquis autenticus tetrardus est appellatus.</p>
+
+<p>Tonus octavus est ille qui ex quarta specie diapenthe et prima specie diatessaron formatus, potest a suo fine diapenthe cum dytono aut cum semidytono ascendere ac diatessaron descendere; qui plagalis aut subjugalis aut collateralis autentici tetrardi ab antiquis dicitur.</p>
+
+<p>Istorum autem tenorum alii sunt regulares, alii irregulares, alii mixti, alii commixti, alii perfecti, alii imperfecti, alii plusquamperfecti.</p>
+
+<p>Tonus regularis est qui in loco sibi regulariter determinato finitur.</p>
+
+<p>Tonus irregularis est qui in alio loco quam in illo qui sibi regulariter est determinatus finem accipit.</p>
+
+<p>Locus autem regularis primi et secundi toni est D sol re.</p>
+
+<p>Locus regularis tertii et quarti est E la mi grave.</p>
+
+<p>Locus regularis quinti et sexti est F fa ut grave.</p>
+
+<p>Locus regularis septimi et octavi est G sol re ut grave. Et caetera loca sunt irregularia.</p>
+
+<p>Tonus mixtus est qui si autenticus fuerit descensum sui plagalis, si vero plagalis ascensum sui autentici attingit.</p>
+
+<p>Tonus commixtus est ille qui si autenticus fuerit cum alio quam cum suo plagali, si vero plagalis cum alio quam suo autentico miscetur.</p>
+
+<p>Tonus perfectus est qui perfecte suum implet ambitum.</p>
+
+<p>Tonus imperfectus est cujus ambitus non est perfectus.</p>
+
+<p>Tonus plusquamperfectus est qui ultra suum ambitum si autenticus fuerit ascendit, si vero plagalis descendit.</p>
+
+<p><span class='pageNo'>[191]</span> Tripla est proportio qua major numerus ad minorem relatus illum in se ter praecise continet, ut 3 ad 1, 6 ad 2.</p>
+
+<p>Triplum antiqui posuerunt partem illam compositi cantus quae superiori magis appropinquabat.</p>
+
+<p>Tritonus duo significat, scilicet discordantiam et conjunctionem; unde pro primo significato sic diffinitur:</p>
+
+<p>Tritonus est discordantia ex mixtura duarum vocum tribus tonis ab invicem distantium effecta. Pro secundo sic:</p>
+
+<p>Tritonus est conjunctio ex distantia trium tonorum constituta.</p>
+
+<p>Capitulum XIX.</p>
+
+<p>Per V.</p>
+
+<p>Unisonus duo significat, scilicet solum tonum et concordantiam; hinc pro primo significato sic diffinitur:</p>
+
+<p>Unisonus est elementum musicae, namque ex unisonis cantus conponitur omnis. Et tamen dicitur unisonus quasi unus sonus. Pro secundo autem sic:</p>
+
+<p>Unisonus est concordantia ex mixtura duarum vocum in uno et eodem loco positarum effecta, quem dicunt fontem et originem omnium concordantiarum. Et tunc dicitur unisonus, quasi una id est simul sonans.</p>
+
+<p>Vox est sonus naturaliter aut artificialiter prolatus.</p>
+
+<p>Ut est prima vox tono distans a secunda.</p>
+
+<p>Ut fa est mutatio quae fit in C fa ut, et in C sol fa ut ad descendendum de natura in [sqb] durum, et in utroque F fa ut ad descendendum de b molli in naturam.</p>
+
+<p>Ut re est mutatio quae fit in utroque C sol re ut ad ascendendum a [sqb] duro in b molle.</p>
+
+<p>Ut sol est mutatio quae fit in utroque G sol re ut, ad descendendum de [sqb] duro in naturum, et in G sol fa ut ad descendendum de natura in b molle.</p>
+
+<p>Capitulum XX.</p>
+
+<p>Operis conclusio.</p>
+
+<p>Hoc opusculum Dei gratia absolutum tibi, gloriosissima virgo diva Beatrix, tuus offert Tinctoris. Quod ut benigne suscipias auctorique faveas humilime praecatur. Qui non solum id, sed si qua alia animi corporis ac fortunae bona, ei superiorum dono collata sint, omnia tuo submittit imperio. Deum amplius exorans, ut talem qualem te fecit, caeterarum scilicet dominarum perfectissimam perpetuo conservare tuerique dignetur.</p>
+<!-- end text -->
+</div>
+</div>
+<!--</div>-->
+<br /><br />
+
+
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
+<div id="footer">
+  <div id="chmtl_logo">
+    <a href="https://chmtl.indiana.edu/">
+        <img src="_assets/img/chmtl_logo_trans.png" alt="CHMTL Logo" />
+    </a>
+  </div>
+  <div id="copyright">
+    <p>The <a href="https://chmtl.indiana.edu/">Center for the History of Music Theory and Literature</a> is a research center of the <a href="http://music.indiana.edu">Indiana University Jacobs School of Music</a>.</p>
+  </div>
+</div>
+
+<div id="iu_footer">
+    <hr />
+    <div id="copyright">
+        <div id="blockiu">
+            <a href="http://www.iub.edu" title="Indiana University">
+                <img alt="Block IU" height="28" src="https://chmtl.indiana.edu/tml/15th/_assets/img/blockiu_white.gif" width="22" />
+            </a>
+        </div>
+        <p id="statement">
+        <a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> © 2022 The Trustees of <a href="http://www.iu.edu" title="Indiana University">Indiana University</a> | <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> | <a href="https://music.indiana.edu/departments/offices/music-information-technology-services/privacy.shtml">Privacy Notice</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,858 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>TINLIB_TEXT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="_assets/css/tml/layout.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/css/common/chmtl_identity.css" />
+    <!--<link rel="stylesheet" type="text/css" href="_assets/css/w3.css" />-->
+    <link rel='stylesheet' type='text/css' href='_assets/css/fancybox.css' />
+    <script type= 'text/javascript' src='_assets/js/chmtl_file.min.js'></script>
+</head>
+
+<body>
+  <div id="chmtl-identity">
+    <div id="identity-spacer"></div>
+<!--    <p>A project of <a href="http://chmtl.indiana.edu">CHMTL</a></p>-->
+    <div id="chmtl-border">
+      <div id="chmtl-blue"></div>
+      <div id="chmtl-yellow"></div>
+      <div id="chmtl-gray"></div>
+      <div id="chmtl-red"></div>
+    </div>
+  </div>
+    <div id="identity">
+    <div id="menu-container">
+  <a><span class="menu-btn"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</span></a>
+  <a href="../index.html"><span class="home-link">Home</span></a>
+  <span class="search-short">
+    <a class="modal-tooltip" modal="search-tip">&nbsp;<i class="fa fa-info-circle" aria-hidden="true">
+      <span class="sr-only">Click for more information</span></i></a>
+    <form  action="TINLIB.html#" id="menuSearch"><input type="text" id="menuSearchText" placeholder="Quick search"/></form><span class="navSearchButton"><i class="fa fa-search"></i></span></span>
+  <a href="../copyright.html" target="_blank"><span class="copyright-short">Copyright Notice</span></a>
+</div>
+
+<div id="search-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="search-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+
+     <p>Use the &ldquo;Quick search&rdquo; if you want to search for <em>all documents</em> within the <em>whole archive</em> where words <em>matching or containing</em> the searched string are found.</p>
+     <p>For more specific queries (phrase searching, operators, and filters), visit the <a href="../quaero.html" target="_blank">full Search</a> page.</p>
+   </div>
+ </div>
+ </div>
+    </div>
+<div id="container" class="tml-file">
+  <nav id="sliding-left-nav" class="pushy pushy-left">
+    <ul class="push-menu">
+        <li class="pushy-submenu">
+            <a class="submenu-heading">ABOUT</a>
+            <ul>
+                <li class="pushy-link"><a href="../about/introduction.html">Introduction</a></li>
+                <li class="pushy-link"><a href="../about/content.html">Content</a></li>
+                <li class="pushy-link"><a href="../about/policies.html">Policies</a></li>
+                <li class="pushy-link"><a href="../about/howTo.html">How-To</a></li>
+                <li class="pushy-link"><a href="../about/future_plans.html">Future plans</a></li>
+                <li class="pushy-link"><a href="../about/people.html">People</a></li>
+                <li class="pushy-link"><a href="../about/contact.html">Contacts</a></li>
+            </ul>
+        </li>
+        <li class="pushy-submenu">
+          <a class="submenu-heading">BROWSE</a>
+          <ul>
+            <li class="pushy-link"><a href="../browse/authors.html">by author</a></li>
+            <li class="pushy-link"><a href="../browse/contributors.html">by contributor</a></li>
+            <li class="pushy-link"><a href="../browse/incipits.html">by incipit</a></li>
+            <li class="pushy-link"><a href="../browse/sources.html">by source</a></li>
+            <li class="pushy-link"><a href="../browse/titles.html">by title</a></li>
+            <li class="pushy-submenu">
+            <a class="centuryPushy">by century</a>
+                   <ul>
+                     <li class="pushy-link"><a href="../3rd-5th/index.html">3rd-5th</a></li>
+                     <li class="pushy-link"><a href="../6th-8th/index.html">6th-8th</a></li>
+                     <li class="pushy-link"><a href="../9th-11th/index.html">9th-11th</a></li>
+                     <li class="pushy-link"><a href="../12th/index.html">12th</a></li>
+                     <li class="pushy-link"><a href="../13th/index.html">13th</a></li>
+                     <li class="pushy-link"><a href="../14th/index.html">14th</a></li>
+                     <li class="pushy-link"><a href="index.html">15th</a></li>
+                     <li class="pushy-link"><a href="../16th/index.html">16th</a></li>
+                     <li class="pushy-link"><a href="../17th/index.html">17th</a></li>
+                   </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pushy-submenu"><a href="../quaero.html">SEARCH</a></li>
+        <li class="pushy-submenu">
+            <a class="submenu-heading">EXTRAS</a>
+            <ul>
+              <li class="pushy-submenu">
+                <a href="../concordances.html">Concordances</a>
+                  <ul>
+                    <li class="pushy-link"><a href="../concordances/lml.html"><em>Lexicon musicum Latinum</em></a></li>
+                    <li class="pushy-link"><a href="../concordances/grove_anonymous.html">Grove Anonymous</a></li>
+                  </ul>
+            </ul>
+        </li>
+     </ul>
+</nav>
+  <div class="site-overlay"></div>
+
+<div id="content">
+  <noscript>
+  <div  id="noScript" class="warning">
+    <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> JavaScript Required</p>
+    <p>In order to ensure the proper functining of this website, please enable JavaScript in your browser security preferences or use a device that supports it.</p>
+  </div>
+</noscript>
+<div id="header">
+    <div id="source" class="ft-text">
+        <p class="author">Tinctoris, Johannes</p>
+        <p class="title">Liber imperfectionum notarum musicalium</p>
+        <p class="tmlSource"><strong>Source</strong>: <i>Scriptorum de musica medii aevi nova series a Gerbertina altera</i>, 4 vols., ed. Edmond de Coussemaker (Paris: Durand, 1864-76; reprint ed., Hildesheim: Olms, 1963), 4:54–66.</p>
+                <p id="chmtl-staff">
+                    <span class="eca-span">Electronic version prepared by Stephen E. Hayes <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="entered">E</span></a>, Peter M. Lefferts, Luminita Florea Aluas <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="checked">C</span></a>, and Thomas J. Mathiesen <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="approved">A</span></a>
+              for the <i>Thesaurus Musicarum Latinarum</i>, 1992.
+            </p>
+              </div>
+
+</div> <!-- end header div -->
+<div id="entry-abbrv" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="entry-abbrv"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+     <p>The aforementioned individual(s) <span class="entered">E</span>ntered, <span class="checked">C</span>hecked, or <span class="approved">A</span>pproved the electronic transcription of the source document.</p>
+   </div>
+ </div>
+ </div>
+
+ <div id="entry-abbrv-short" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <a class="close-modal" modal="entry-abbrv-short"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+      <br />
+      <p><span class="checked">C</span>: Indicates the aforemententioned person(s) checked the transcription.</p>
+      <p><span class="approved">A</span>: Indicates the aforementioned person(s) approved the transcription for publication.</p>
+    </div>
+  </div>
+  </div>
+
+  <div id="multipart-tip" class="w3-modal">
+   <div class="w3-modal-content">
+     <div class="w3-container">
+       <a class="close-modal" modal="multipart-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+       <br />
+       <p>Historically, in the TML long texts were split into multiple files. These are now linked to each other for easier browsing. In a future version, they will be consolidated into a single view.</p>
+     </div>
+   </div>
+   </div>
+
+  <div id="metadata-contd">
+    <p class="text-sidebar-buttons"><button id="tml-notes" class="pure-button">TML notes</button>&nbsp;<button id="tml-concordances" class="pure-button">Concordances</button></p>
+
+  <div id="sidebar">
+      <div id="extras-wrapper">
+        <!---->
+        <div id="tml-canon-info">
+          <div class="extras-heading"><a class="close-modal repoToolbox" modal="tml-canon-info"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">TML Notes</i></span></div>
+          <p>Cf. <a href="TINLIMP.html">TINLIMP</a>. [TJM]</p>
+        </div>
+<div id="concordances">
+  <div class="extras-heading"><a class="close-modal repoToolbox" modal="concordances"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">Concordances</i></span></div>
+  
+      <div id="lml-info">
+          <p>&#8594; We have found the following concordances with the <i><a class="external" href="http://www.lml.badw-muenchen.de/" target="_blank">Lexicon musicum Latinum</a></i> and the <i>R&eacute;pertoire International des Sources Musicales</i></p>
+          <ul id="lml-entries">
+                        <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>IOH. TINCT. imp.</strong></span>
+             <div class="expando-data">
+                  <p>Iohannes Tinctoris: <i>Liber imperfectionum notarum musicalium</i></p>
+                                      <ul>
+                  <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>MSS (RISM)</strong></span>
+                      <div class="expando-data">
+                      <!--<ul class="lml-ms-list">-->
+                      <table>
+                                                        <tr><td><span class="lib-siglum">B-Br</span> II 4147, 36-44</td>
+                                                          <td><span class="lib-siglum">B-Gu</span> 70 (71), 177v-186v</td>
+                                                          <td><span class="lib-siglum">E-VAu</span> 835, 55-66v</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">I-Bu</span> 2573, 61-75</td>
+                                                  </tr></table>
+                      <!--</ul>--></div>
+                  </li>
+              </ul>
+              </div> <!-- expando-data -->
+                            </li>
+                    </ul>
+      </div>
+  
+  </div>
+  <div style="clear: both"></div>
+    </div><!--extras-wrapper -->
+  </div><!--sidebar-->
+  </div><!--metadata-contd-->
+  <div style="clear: both"></div>
+
+<div id="text-toolbox-wrapper">
+  <div id='floatingBox'>
+    <div class="floating-toolbox">
+      <table>
+        <tr>
+          <th>Actions</th>
+        </tr>
+      </table>
+    </div>
+    <p id="backToTop"> <a href='TINLIB.html#top'>Back to top</a></p>
+  </div>
+
+<div id="tml-text">
+
+<!-- begin text -->
+<p><span class='pageNo'>[54]</span> Liber imperfectionum notarum musicalium editus a Magistro Johanni Tinctoris in legibus licentiato Regisque Magnae Siciliae Capellano.</p>
+
+<p>Prologus.</p>
+
+<p>Artis musicae studiosissimo Juveni Jacobo Frontin, Joannes Tinctoris ejusdem artis professor minimus immortalem amicitiam.</p>
+
+<p>Laudabili plurimum affectu (inclite Juvenis), expetisti ut tibi de imperfectionibus notarum musicalium aliquid scripto traderem, cui profecto justa petenti mox assentire volui, quippe non modo tuae indoli clarissimae, verum et ceteris bonarum artium amatoribus a Deo sum affectus, quod si quid a me exigant eorumque de illis sentiam id exibere non differam; neque (precor) credas hanc mihi materiam levis esse speculationis, quoniam nostros majores super ea parum, coevos vero minus dissertasse legerim audiverimque; gratis igitur accipe minusculum hoc egregio nomine tuo cum ingenti benevolentia dicatum, traditionique perutili exhortor vehementissime studeas ne (quod absit) tanta virtutis imperfectione polluaris ut quod laudabiliter exoptasti, impudenter ipse contemnas.</p>
+
+<p>Liber primus.</p>
+
+<p>Capitulum I.</p>
+
+<p>De imperfectionis diffinitione et notarum qualitate.</p>
+
+<p>Tractaturus autem de ipsis notarum musicalium imperfectionibus, prius imperfectionem diffiniendum existimativi. Unde imperfectio est tertie partis proprii valoris totius notae aut suarum partium abstractio; et ut ipsa haec materia clarius eluscescat preponendum est quod quinque universales notae certi valoris in musica tantummodo reperiuntur quae sub hoc uno versu penthametro artificiose ordinanantur.</p>
+
+<p>Maxima: [MXv]; longa: [Lv]; brevis: [Bv]; semibrevis: [Sv]; minima: [Svcd].</p>
+
+<p>Quarum quinque notarum aliae sunt majores, aliae minores. Majores notae sunt illae que supra inferiores sunt. Minores notae sunt illae quae infra superiores sunt.</p>
+
+<p>Preterea quaedam diversis respectibus et majores et minores sunt, quoniam supra et infra aliquas sunt, hinc est quod maxima nota major est solum quia coeterae infra eam sunt. Longa respectu maxime nota minor est, quoniam illa infra istam est; respectu vero caeterarum, scilicet: brevis, semibrevis et minima, nota major est, quia illa supra istas est. Brevis respectu maxime et longe nota minor est quoniam illa infra istas est. Respectu vero semibrevis et minimae nota major est quia illa supra ista est. Semibrevis respectu maximae, longae et brevis nota minor est, quoniam illa infra istas est. Respectu vero minimae nota major est quia illa supra istam est. Minima nota minor est solum quoniam caeterae supra eam sunt.</p>
+
+<p>Itaque concludendum est quod maxima est nota major longae, brevis, semibrevis et minimae; longa est nota minor maximae major brevis, semibrevis et minimae; brevis est nota minor maximae et longae major semibrevis et minimae; semibrevis est nota minor maximae, longae et brevis, major minimae; minima est nota minor maximae, longae, brevis et semibrevis et hinc note minores majorum sunt partes quarum quidem partium. Aliae sunt propinquae, aliae remotae, aliae remotiores, aliae remotissimae; partes propinquae sunt illae inter quas et notas quarum hujus modi partes sunt, nulla major habetur. Sic longae sunt propinquae partes maximae, breves longae, semibreves brevis, et minimae semibrevis; partes remotae <span class='pageNo'>[55]</span> sunt illae inter quas et notas quarum hujusmodi partes sunt sola major invenitur. Sic breves sunt partes remotae maximae, semibreves longae et minimae semibrevis. Partes remotiores sunt illae inter quas et notas quarum hujusmodi partes sunt, due majores reperiuntur. Sic semibreves sunt partes remotiores maximae et minimae longae; partes remotissimae sunt illae inter quas et notas cujus partes hujus modi sunt, caeterae majores inveniuntur. Sic minimae solum sunt remotissimae, partes maximae.</p>
+
+<p>Ex quibus colligendum est quod partes propinquae maximae sunt longae, remotae breves, remotiores semibreves et remotissimae minimae; partes propinquae longae sunt breves, remotae semibreves et remotiores minimae; partes propinquae brevis sunt semibreves et remotae minimae; partes autem propinquae semibrevis sunt minime.</p>
+
+<p>Itaque unica nota totalis est tantum, scilicet maxima; tres totales et partiales, scilicet longa, brevis et semibrevis; et unica partialis tantum, scilicet minima. Harum autem quinque notarum, pro qualitate prolationis, temporis et utriusque modi, tres imperficiunt et imperficiuntur, scilicet longa, brevis et semibrevis; unica imperficitur, et non imperficit, scilicet maxima; et unica imperficit et non imperficitur, scilicet minima; namque minores notae majores imperficiunt, quo fit ut notae majores a minoribus imperficiantur. Hinc est quod longa maximam imperficit et imperficitur a brevi, semibrevi et minima; brevis maximam ac longam imperficit, a semibrevi et minima imperficitur; semibrevis maximam, longam et brevem imperficit et imperficitur a minima; maxima a longa, brevi et semibrevi et minima imperficitur, et quia majorem non habet, nullam imperficit. Minima vero maximam, longam, brevem et semibrevem imperficit, et quia minorem non habet a nulla imperficitur, ut hic:</p>
+
+<p>[ClefC4,Od,MXP,MXP,MXP,MXv,Lv,MXv,Bv,MXv,Sv,MXvcsdx,Mv,Lv,Bv,Lv; ClefC5,Sv,Lv,Bv,Lv,Mv,Bv,Sv,Bv,Mv,Lig2vd,Lig2vcssnod,Mv,Mv,Sv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Capitulum II.</p>
+
+<p>De pausarum imperfectione.</p>
+
+<p>Et quoniam quatuor sunt istarum quinque notarum quarum cuilibet una singularis pausa est appropriata ejusdem valoris cujus et sua nota, scilicet: longa, [2LP on staff3]; brevis, [BP on staff3]; semibrevis, [SP on staff3], et minima, [MP on staff3], sciendum est quod omnis pausa imperficere potest, imperfici vera non, ut hic:</p>
+
+<p>[ClefC4,Od,MXP,MXP,MXP,Bv,MXP,MXv,pt,Sv,BP,Lv,Bv,Sv,Bv,SP,MP,Sv,Svcd,Svcd,Svcd,Sv,Svcd,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Hinc quot et quales notas possunt longa, brevis, semibrevis et minima imperficere, tot et tales possunt earum pausae; sicque pausa longe maximam; pausa brevis maximam et longam; pausa semibrevis maximae, longam et brevem; pausa minimae, maximam, longam, brevem et semibrevem, imperficere poterit, ut hic:</p>
+
+<p>[ClefC4,Od,MXP,MXP,MXP,MXv,MXP,MXv,BP,MXv,SP,MXv,SP,Lv,BP,Lv,SP,Lv,MP,Bv,SP,Bv,MP,Sv,SP,Bv,Lig2vLacddx on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Capitulum III.</p>
+
+<p>De tredecim generalibus imperpectionum regulis.</p>
+
+<p>Primum igitur circa ipsarum notarum musicalium imperfectiones generaliter versando tredecim regulas generales tradere proposui.</p>
+
+<p><span class='pageNo'>[56]</span> Prima regula generalis.</p>
+
+<p>Prima regula generalis est quod imperfectio quatuor modis fieri potest: primo, quantum ad totum tantum; secundo, quantum ad omnes vel aliquas partes vel aliquam partem tantum; tertio, quantum ad totum et aliquas partes vel aliquam partem tantum; quarto, quantum ad totum et omnes partes simul, ut hic:</p>
+
+<p>[ClefC4,Od,MXP,MXP,MXP,MXv,Lv,LP,LP,Lig2vcssnod,Lv,Mv,Mv,Mv,Mv,Lig2va,MXP,MXP,MXP,Lv,Bv,Sv,Sv,Lv,Sv,Lv,Lig2vd,Mv,Bv,Lig2vcssna,Sv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Secunda regula generalis.</p>
+
+<p>Secunda regula generalis est quod quando nota imperficitur quantum ad totum, hoc est a parte ejus propinqua et quando imperficitur quantum ad partes, vel est quantum ad partes propinquas et tunc est hoc a partibus remotis, vel quantum ad remotas et tunc a remotioribus, vel quantum ad remotiores et tunc a remotissimis; ut hic:</p>
+
+<p>[ClefC4,Od,MXP,MXP,MXP,MXv,Lv,MXv,Lig2va,MXv,Mv,Mv,Lv,Mv,Lv,Lv,MXv,Mv,Mv,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Tertia regula generalis.</p>
+
+<p>Tertia regula generalis est quod non differt si nota imperficiatur a parte unita vel dispersa a partibus unitis vel dispersis, ut hic patet:</p>
+
+<p>[ClefC4,O,MXP,MXP,MXP,MXv,Lv,MXv,Lig3vaa,MXv,Cd,LP,LP,Lv,Sv on staff5; ClefC3,Lv,Mv,pt,M,Mv,Bv,Mv,Sv,Sv,Mv,Lv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Quod ut melius intelligatur notandum est quod quaedam nota imperficit ut pars unita, sicut:</p>
+
+<p>[ClefC3,Od,MXP,MXP,MXP,Lig2vMXcddxacddx,Lv,Bv,Bv,Sv,pt,Sv,Mv,Lig2vcssna,Bv,Lv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Quaedam notae imperficiunt ut pars dispersa, sicut hic:</p>
+
+<p>[ClefC2,Od,MXP,MXP,MXP,MXv,Lig3vaa,Lv,Lig2vcssnod,Sv,Bv,Mv,Mv,Mv,Lig2vcssna,Sv,Bv,Lv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Quaedam notae imperficiunt ut partes unitae, sicut hic:</p>
+
+<p>[ClefC3,O,LP,LP,MXv,Bv,Lig2vd,Cd,Lv,Sv,Bv,Bv,MXv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Et quaedam notae imperficiunt ut partes dispersae, sicut hic:</p>
+
+<p>[ClefC2,O,LP,LP,MXv,Lig2vcssna,Sv,pt,M,M,Lig2vLacddx,Cd,Lv,Mv,Mv,pt,M,Mv,Lv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Quarta regula generalis.</p>
+
+<p>Quarta regula generalis est quod imperficere proprium est notae minoris, imperfici vero majoris; quoniam nec major nota minorem nec similis similem imperficere potest; unde sequitur quod nec nota minor a majori, nec similis a simili poterit imperfici, ut hic patet:</p>
+
+<p>[ClefC2,Od,MXP,MXP,MXP,MXv,Lv,Lv,Bv,pt,Bv,Sv,Sv,Mv,Sv,Mv,Mv,Sv,Mv,Mv,Mv,Mv,Mv,Mv,Mv,Sv,MXv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p><span class='pageNo'>[57]</span> Quinta regula generalis.</p>
+
+<p>Quinta regula generalis est quod omnis nota quae imperficitur a parte ante necessario ante majorem vel minorem imperficitur, quia similis ante similem imperfici non potest, ut hic:</p>
+
+<p>[ClefC4,O,MXP,MXP,MXP,Lv,MXv,MXv,Lig2va,pt,Sv,Bv,Lv,Bv,Sv,Mv,pt,Mv,Sv,Bv,Sv,Bv,Lv,Bv,pt,Bv,Bv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Ex quaquidem regula notandum est quod nulla nota etiam ante suam pausam tanquam ante similem poterit imperfici, ut hic:</p>
+
+<p>[ClefC4,Od,MXP,MXP,Lv,pt,Bv,Lv,MXP,Lv,Bv,pt,Sv,Bv,BP,Bv,Lig2vcssnod,pt,Sv,Sv,SP,Sv,Mv,Sv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Sexta regula generalis.</p>
+
+<p>Sexta regula generalis est quod nulla nota quantum ad totum imperfici potest, nisi de se perfecta sit. Similiter quantum ad partes imperfici non poterit nisi et illae de se sint perfectae, quoniam aliter tertia pars non inveniretur, quia per imperfectionem a toto vel a parte subtrahitur, ut hic:</p>
+
+<p>[ClefC4,Od,LP,LP,MXv,Lv,Mv,Bv,Sv,Sv,Mv,Mv,Mv,pt,M,Mv,Sv,Lig2vd on staff5]</p>
+
+<p>[ClefC4,C,MXP,MXP,MXP,MXv,Lig2va,Lv,Bv,Bv,Sv,pt,M,M,Bv,Lv,Bv,Lv on staff5]</p>
+
+<p>Exempla.</p>
+
+<p>Septima regula generalis.</p>
+
+<p>Septima regula generalis est quod quoties nota in tres partes aequales dividi poterit, toties et imperfici; itaque ad minimum ejus valorem deveniet, verbi gratia longa in modo minori perfecto, tempore perfecto et prolatione majori valet vigenti septem minimas, quae vigenti septem in tres partes aequales divisibilem numerum efficiunt, scilicet in ter novem auferatur ei tertia pars scilicet novem, remanebunt octodecim. Octodecim autem in tres partes aequales rursus dividi possunt, scilicet in ter sex; cui si tertia pars auferatur scilicet sex, duodecim remanebunt; quae quidem duodecim etiam in tres partes aequales divisibilem numerum faciunt scilicet in ter quatuor; auferatur ei tertia pars, scilicet quatuor, octo remanebunt; octo vero in tres partes aequales dividi non possunt. Hinc in isto valore qui minimus est ejus, scilicet octo minimarum, ipsa longa persistet, ut hic:</p>
+
+<p>[ClefC4,Od,MXP,MXP,Lv,Bv,Lv,Bv,Lig2vcssna,Lv,Mv,Bv,pt,Lig2vcssna,pt,Mv,Sv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Octava regula generalis.</p>
+
+<p>Octava regula generalis est quod nota quae imperficit praemitti et postponi potest secundum voluntatem componentis; quae si praemittitur nota quae imperficitur, a parte ante imperficitur, et si postponitur, a parte post imperfici dicitur, ut hic:</p>
+
+<p>[ClefC4,O,MXP,MXP,MXP,Bv,MXv,Lig2vLa,Sv,Lv,Od,Sv,Svcd,Mv,Sv,Mv,Sv,Mv,Sv,Bv,Lig2vcssnod,pt,Mv,Sv,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Nona regula generalis.</p>
+
+<p>Nona regula generalis est quod si completo numero aut nullis praecedentibus notis aliis, nota minor sola ante majorem ab ea imperfectibilem inveniatur, ipsam imperficit, ut hic:</p>
+
+<p><span class='pageNo'>[58]</span> [ClefC4,O,MXP,MXP,MXP,Bv,Lv,Lig3vaa,Bv,Lv,Bv,pt,Sv,Bv,Lig2vcssnod,Sv,Lig2vcssnod,Bv,Bvcsdx on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Si vero sola minor nota post majorem ab ea imperfectibilem inveniatur sive sequatur, alia major etiam ab ea imperfectibilis sive non ipsam imperficit, ut hic patet:</p>
+
+<p>[ClefC4,O,MXP,MXP,MXP,MXv,Lv,MXv,Lv,Bv,ClefC3,Lv,Bv,Sv,Bv,Lig2vcssnod,Sv,Lig2vd,Sv,Lig2vcdsnod,Sv,Bv,Sv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Pariformiter si plures notae minores completo numero aut nullis aliis praecedentibus notis ante majorem ab eis imperfectibilem in imperfecto numero constitutae inveniantur, tot quot sunt aut possunt, ipsam imperficiunt; et si aliquae supersint etiam imperfectae numero transibunt ad proximiorem locum quem habere poterunt, ut hic:</p>
+
+<p>[ClefC4,O,MXP,MXP,MXP,Lv,pt,Bv,Sv,Bv,Sv,pt,Sv,pt,Mv,Lig2vcssna,Lig2va,MXv,Lv,Lig4vcdsnddd,Bv,pt,Sv,pt,Mv,Lig3vcssnaacddx,Lig2va,pt,Sv,Bv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Si vero plures notae minores in imperfecto numero constitutae post majorem ab eis imperfectibilem inveniantur, sive sequatur alia major etiam ab eis imperfectibilis sive non, tot quot sunt aut possunt aut imperfectionem numeri tollunt, ipsam imperficiunt; et si aliquae etiam imperfectae numero superfuerint, transibunt ad proximiorem locum quem habere poterunt, ut hic patet:</p>
+
+<p>[ClefC4,O,MXP,MXP,Lig2vLa,pt,Lig2vcssnod,Lig2vLa,Sv,pt,Lig2vcssna,Lig3vcssnad,Bv,Sv,pt,Mv,Mv,Mv,Sv,Bv,pt,Lig6vLaaddd,Lig2vcssna,Lig2vcssna on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Ipsa autem praemissa generalis regula tribus signis exceptionem patitur, scilicet puncto divisionis, impletione et ligatura, namque si notis minoribus quae aliter juxta praemissam regulam majorem aliquam imperficerent, punctus divisionis apponatur, non illam imperficient, immo transibunt ad proximorem locum quem habere poterunt, ut hic:</p>
+
+<p>[ClefC4,O,MXP,MXP,MXP,Lig2vcssna,Sv,pt,Lv,Lig2vcdsnod,Lv,Bv,pt,Lv,Lig2vcdsnod,Lv,pt,Lig2vcssna,Lig2vLd,Sv,pt,Mv,Sv,Sv,Mv,Mv,Sv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Et si notae minores quae aliter juxta praemissam regulam imperficerent aliquam majorem impletae sunt, non ipsam imperficient, imo ad alias similiter impletas reducentur, ut hic:</p>
+
+<p>[ClefC4,C,MXP,B,Bvcsdx,B,Lv,B,Lv,Lv,Lig2cssnod,Lv,L,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Si vero notae minores quae aliter secundum eamdem regulam imperficerent aliquam majorem precedentem ligatae sint cum alia majori sequente aut simili quae cum eis majorem ipsam praecedentem imperficere non possit, non illam imperficient, immo cum istis numerabuntur, ut hic patet:</p>
+
+<p>[ClefC4,O,MXP,MXP,MXP,MXv,Lig2vLaMXcddx,Lv,Lig2va,Lig2vcssna,pt,Mv,Sv,Bv,Lv,Lig2va,Lv,Lig2vcssnod,Lv,Lig3vcssnaacddx,Lig3vaod,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p><span class='pageNo'>[59]</span> Decima regula generalis.</p>
+
+<p>Decima regula generalis est quod si sola minor nota seu plures in imperfecto numero constitutae inveniantur, ante vel post majorem quae ab eis imperfici non potest, puta si major ipsa sit ante similem suam aut pausam, vel punctum perfectionis habeat, vel ab aliis tam imperfecta sit quam possit, transeunt ad proximiorem locum quem habere possunt, ut hic:</p>
+
+<p>[ClefC4,Od,MXP,MXP,MXP,Lv,MXv,MXv,Lig2vLacddx,pt,Bv,Lv,MXP,Sv,Mv,Mv,Bv,Sv,Mv,Bv,Lv,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Undecima regula generalis.</p>
+
+<p>Undecima regula generalis est quod si alicui notae pro se tantum ante suam similem, aut minorem punctus divisionis appositus sit, primam majorem quam poterit imperficiet, nisi ante eam socias habeat, ut hic patet:</p>
+
+<p>[ClefF4,O,MXP,Bv,pt,Lig2va,Lv,Lig3vaa,Bv,pt,Lig2vcssna,Sv,Bv,Lv,MXv,MXP,pt,Sv,pt,Lig2vcssnod,Bv,Lig2vcssna,Lv,Mv,Mv,Mv,Mv,Sv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Si vero punctus divisionis alicui notae ante suam similem aut minorem non solum pro se, sed pro aliis apponatur, illa cum istis etiam primam majorem quam poterunt, imperficient, dummodo similiter ante eam socias non habeant, ut hic patet:</p>
+
+<p>[ClefF2,O,MXP,MXP,Bv,Lig2vcssnod,pt,Lig4vcssnaoda,Lv,Bv,Lig2vcssna,pt,Lig2vd,Lig2vod,Sv,Bv,Bv,Lig3vcdsndd on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Duodecima regula generalis.</p>
+
+<p>Duodecima regula generalis est quod nota cui punctus divisionis appositus est, imperfici potest, ut hic patet:</p>
+
+<p>[ClefF4,Od,MXP,MXP,MXP,Bv,Lv,pt,Lig2vcdsnod,Bv,Lv,MXv,MXP,pt,Sv,Bv,pt,Lv,Lig2vcdsnod,Sv,Lv,Sv,Mv,Lv,Lig2vacddx,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Nota vero cui punctus perfectionis vel augmentationis apponitur, nunquam imperficitur; et ratio est haec: perfectio et imperfectio contraria sunt; contraria vero non possunt esse simul in eodem subjecto; igitur est impossibile unam et eamdem notam esse perfectam simul et imperfectam, ut hic:</p>
+
+<p>[ClefF4,O,MXP,MXP,Bv,Lv,pt,Lig2vcdsnod,Lv,Bv,pt,Sv,Bv,Lig2vcssna,Sv,Lig2vd,pt,Sv,Bv,pt,Mv,Mv,Sv,Mv,Mv,Mv,Mv,Sv,Bvcsdx on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Eadem ratione quoniam secundum arithmeticam et musicam quae sub alternatur ei, additio et abstractio sint contraria, augmentatio autem sit quaedam additio, et imperfectio quaedam abstractio impossibile est unam et eamdem notam augmentari simul et imperfici, ut hic patet:</p>
+
+<p>[ClefF3,O,LP,LP,MXv,pt,Sv,Bv,Lv,Lv,pt,Sv,Bv,Lig2vcssnod,pt,Mv,Sv,ClefF4,MXv,pt,Sv,Lv,pt,Sv,Lig2vcssna,Mv,Mv,Sv,Mv,Mv,Sv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p><span class='pageNo'>[60]</span> Forte dicent aliqui: Tinctoris nimium presumit asserendo notam augmentatam imperfici non posse, quoniam de Domarto in Tenore Patrem quinti toni irregularis, et Barbingant in tenore cantilena Lomme Bany contrarium fecerint, ut hic patet:</p>
+
+<p>[CSIV: 60; text: Supremum. Patrem omnipotentem factorem coeli et terrae, etc. Tenor. Patrem. Lomme bany de sa plaisance. Lomme bany.] <a href="TINLIB_01GF.gif">[TINLIB 01GF]</a></p>
+
+<p>Quibus respondeo licet Busnois aliique cumplures illos imitati fuerint, quod nullos tanquam nomini alicujus individens reprehendere presumo; sed amicam veritatem quoad possum sustinens errasse demonstro. Errantes quoque nomino ne falsa opinione decepti propter famam immortalem quam sibi dulcissime componendo pepereunt, in hoc juvenes eos imitentur, omnia facta eorum perfecta existimantes, quod longe aliter se habent, namque (ut sapientes asserunt) nihil est ab omni parte perfectum.</p>
+
+<p>Tertia decima regula generalis.</p>
+
+<p>Tertia decima regula generalis est quod omnis nota quae potest imperfici et alterari, velut longa, brevis et semibrevis, si alteretur, solum imperfici poterit, quantum ad aliquas partes, scilicet tantas quod notae minores ipsam majorem imperficientes valorem ejus non attingant, ut hic:</p>
+
+<p>[ClefC4,Od,MXP,MXP,MXP,Lv,pt,Lig2vcssna,Sv,Lv,MXv,pt,Lv,Mv,Mv,Bv,Lv,pt,Sv,Mv,pt,Mv,Sv,Lig2vcdsnod,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Liber secundus.</p>
+
+<p>Capitulum I.</p>
+
+<p>De imperfectionibus notarum musicalium in particulari.</p>
+
+<p>Tractato generaliter de imperfectionibus notarum musicalium ordini debito congruit de imperfectione cujuslibet particulariter tractare. Hinc primum a maxima quae caeterarum notarum caput et princeps est, incipiamus ut sic a majore usque ad minorem procedamus.</p>
+
+<p>Capitulum II.</p>
+
+<p>De imperfectione maximae in modo majori perfecto.</p>
+
+<p>Maxima in modo majori perfecto, quantum ad totum, imperfici potest, namque tunc valet tres longas quarum una tanquam tertia pars ipsius maximae abstrahi poterit, ut hic patet:</p>
+
+<p>[ClefC4,C,MXP,MXP,MXP,MXv,Lv,pt,Lv,MXv,Lig2vLacddx,Lv,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>De imperfectione maximae in modo minori perfecto.</p>
+
+<p>Praeterea maxima in modo minori perfecto potest <span class='pageNo'>[61]</span> imperfici, quantum ad duas partes propinquas, aut unam tantum, quia tunc longa quae pars ejus propinqua est valet tres breves; hinc pro qualibet longa poterit una brevis tanquam tertia pars ipsius abstrahi, ut hic patet:</p>
+
+<p>[ClefC4,Od,MXP,MXP,MXv,Lig2va,MXv,Bv,MXv,Lig3vcdsnddMX,Bv,MXv,Lig2vLacddx,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>De imperfectione maximae in tempore perfecto.</p>
+
+<p>Praeterea maxima in tempore perfecto potest imperfici, quantum ad quinque, quatuor, tres aut duas partes remotas aut unam tantum, namque tunc brevis, quae pars ejus remota est, valet tres semibreves; hinc pro qualibet brevi poterit una semibrevis tanquam tertia pars ipsius abstrahi, ut hic:</p>
+
+<p>[ClefC3,O,LP,LP,LP,MXv,Bv,Lig2vcssnod,MXv,Lig2vcssna,Lig2vcssna,pt,Lig2vcssna,pt,M,M; ClefC4,MXv,Lig2vcssnod,MXv,Lig2vLacddx,MXv,Sv,Lv,Lig3vcdsndod,Lv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>De imperfectione maximae in majori prolatione.</p>
+
+<p>Praeterea maxima in prolatione majori potest imperfici, quantum ad undecim, decem, novem, octo, septem, sex, quinque, quatuor, tres aut duas partes remotiores aut unam tantum, quia tunc semibrevis quae pars ejus remotior est, valet tres minimas. Hinc pro qualibet semibrevi poterit una minima tanquam tertia pars ipsius abstrahi, ut hic:</p>
+
+<p>[ClefC4,Cd,LP,LP,LP,MXv,Mv,Mv,Bv,Sv,MXv,Mv,Bv,Sv,Mv,MXv,Lig2vcssnod,Sv,MXv,Mv,Mv,Bv,MXv,Mv,Lig2vcssnod,MXv,Sv,MXv,Mv,pt,M,MV,Mv,pt,M,MXv,Svcd,Svcd,Sv,MXv,Sv,MXv,Mv,Mv,MXv,Sv,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Capitulum III.</p>
+
+<p>De quindecim modis imperfectionis maximae.</p>
+
+<p>Et quoniam plerisque cantibus omnes quantitates perfectae sunt, et in aliis passim commiscentur plures perfectae, aut una tantum cum pluribus imperfectis aut una solum, fit quod maxima quindecim modis potest imperfici.</p>
+
+<p>Primus modus imperfectionis maximae.</p>
+
+<p>Primo quantum ad totum tantum et hoc in modo majori perfecto, modo minori imperfecto, tempori imperfecto et prolatione minori:</p>
+
+<p>[ClefC4,[rob],C,LP,LP,LP,MXv,Lv,pt,Lv,MXv,Lig2vd,Lv,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Secundus modus imperfectionis maximae.</p>
+
+<p>Secundo modo quantum ad partes propinquas tantum et hoc in modo majori imperfecto, modo minori perfecto, tempore imperfecto et prolatione minori, ut hic:</p>
+
+<p>[ClefC2,[rob],C,MXP,MXP,MXv,Bv,pt,Bv,pt,Sv,MXv,Sv,Bv,Sv,Bv,Lv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Tertius modus imperfectionis maximae.</p>
+
+<p>Tertio modo quantum ad partes remotas tantum, et hoc in utroque modo imperfecto, tempore perfecto et prolatione minori, ut hic:</p>
+
+<p><span class='pageNo'>[62]</span> [ClefC3,O,LP,LP,MXv,Mv,pt,M,Mv,Mv,pt,M,Sv,Sv,MXv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Quartus modus imperfectionis maximae.</p>
+
+<p>Quarto modo quantum ad partes remotiores tantum et hoc in utroque modo imperfecto, tempore imperfecto, et prolatione majori, ut hic:</p>
+
+<p>[ClefC2,[rob],Cd,LP,LP,MXv,Mv,Mv,Mv,Mv,pt,M,Sv,Mv,MXv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Quintus modus imperfectionis maximae.</p>
+
+<p>Quinto modo quantum ad totum et partes propinquas tantum, et hoc in utroque modo perfecto, tempore imperfecto, et prolatione minori:</p>
+
+<p>[ClefC3,[rob],MXP,MXP,MXP,Lv,pt,Bv,MXv,Bv,MXv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Sextus modus imperfectionis maximae.</p>
+
+<p>Sexto modo quantum ad totum et partes remotas tantum, et hoc in modo majori perfecto, modo minori imperfecto, tempore perfecto et prolatione minori, ut hic:</p>
+
+<p>[ClefC3,[rob],C,LP,LP,LP,Lv,MXv,Sv,Mv,Mv,pt,M,Sv,Mv,MXv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Septimus modus imperfectionis maximae.</p>
+
+<p>Septimo modo quantum ad totum et partes remotiores tantum et hoc in modo majori perfecto, modo minori imperfecto, tempore perfecto et prolatione majori, ut hic patet:</p>
+
+<p>[ClefC4,[rob],Cd,LP,LP,LP,Lv,MXv,Mv,Mv,Mv,pt,M,Mv,Mv,Sv,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Octavus modus imperfectionis maximae.</p>
+
+<p>Octavo modo quantum ad totum, partes propinquas et remotas tantum, et hoc in utroque modo perfecto, tempore perfecto et prolatione minori, ut hic:</p>
+
+<p>[ClefC2,O,MXP,MXP,MXP,MXv,Lv,pt,Bv,Lig2vcssnod,pt,Mv,Sv,pt,Mv,pt,M,Mv,Sv,MXv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Nonus modus imperfectionis maximae.</p>
+
+<p>Nono modo quantum ad totum, partes propinquas et remotiores tantum, et hoc in utroque modo perfecto, tempore imperfecto et prolatione majori, ut hic patet:</p>
+
+<p>[ClefC3,[rob],Cd,MXP,MXP,MXP,Lv,MXv,Mv,Mv,Lig2va,Sv,pt,Mv,Sv,MXv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Decimus modus imperfectionis maximae.</p>
+
+<p>Decimo modo quantum ad totum partes remotas, et remotiores tantum, et hoc in modo majori perfecto, modo minori imperfecto, tempore perfecto et prolatione majori, ut hic:</p>
+
+<p>[ClefC4,[rob],Od,LP,LP,LP,Lv,MXv,Mv,Mv,Bv,Lig2vcssnod,Mv,pt,Mv,Sv,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Undecimus modus imperfectionis maximae.</p>
+
+<p>Undecimo modo quantum ad partes propinquas et remotas tantum, et hoc in modo majori imperfecto, modo minori perfecto, tempore perfecto et prolatione minori, ut hic:</p>
+
+<p>[ClefC3,[rob],O,MXP,MXP,MXv,Lig2vcdsnod,Mv,Mv,pt,M,Mv,Sv,Mv,Sv,MXv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Duodecimus modus imperfectionis maximae.</p>
+
+<p>Duodecimo modo quantum ad partes propinquas et remotiores tantum, et hoc in modo majori imperfecto, modo minori perfecto, tempore imperfecto et prolatione majori, ut hic patet:</p>
+
+<p><span class='pageNo'>[63]</span> [ClefC2,[rob],Cd,MXP,MXP,Lig2vcdsnod,MXv,Mv,Mv,pt,M,Mv,Mv,Mv,pt,M,Sv,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Tertius decimus modus imperfectionis maximae.</p>
+
+<p>Tertio decimo modo quantum ad partes remotas et remotiores tantum, et hoc in utroque modo imperfecto, tempore perfecto et prolatione majori, ut hic patet:</p>
+
+<p>[ClefC4,[rob],Od,LP,LP,Bv,pt,Sv,MXv,Mv,Mv,Mv,Mv,pt,M,Mv,Sv,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Quartus decimus modus imperfectionis maximae.</p>
+
+<p>Quarto decimo modo quantum ad partes propinquas remotas et remotiores tantum, et hoc in modo majori imperfecto, modo minori perfecto, tempore perfecto et majori prolatione:</p>
+
+<p>[ClefC3,[rob],Od,MXP,MXP,Bv,Bv,MXv,Mv,Mv,Bv,pt,Mv,pt,M,Mv,Mv,Mv,pt,M,Sv,Sv,MXv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Quintus decimus modus imperfectionis maximae.</p>
+
+<p>Quinto decimo modo quantum ad totum, partes propinquas, partes remotas et remotiores simul, et hoc in utroque modo perfecto, tempore perfecto et prolatione majori, ut hic patet:</p>
+
+<p>[ClefC4,[rob],Od,MXP,MXP,MXP,MXv,Mv,Mv,Lv,pt,Lig2va,Lig2vcssna,Sv,Lig2vcssnod,pt,Mv,Sv,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Capitulum IV.</p>
+
+<p>De imperfectione longae in modo minori perfecto.</p>
+
+<p>Longa in modo minori perfecto potest imperfici quantum ad totum, namque tunc valet tres breves quarum una tanquam tertia pars ipsius longae poterit abstrahi, ut hic patet:</p>
+
+<p>[ClefC4,O,MXP,Lv,Bv,pt,Bv,Lv,MXv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>De imperfectione longae in tempore perfecto.</p>
+
+<p>Praeterea longa in tempore perfecto potest imperfici quantum ad duas partes propinquas aut unam tantum, quia tunc brevis quae pars ejus propinqua est valet tres semibreves; hinc pro qualibet brevi poterit una semibrevis tanquam tertia pars ipsius abstrahi, ut hic patet:</p>
+
+<p>[ClefC4,O,Lv,Lig2vcssnod,Lv,pt,Bv,pt,Sv,Lv,Lig3vad on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>De imperfectione longae in prolatione majori.</p>
+
+<p>Praeterea longa in prolatione majori potest imperfici quantum ad quinque, quatuor, tres aut duas partes remotas aut unam tantum, namque tunc semibrevis, quae pars ejus remota est, valet tres minimas; hinc pro qualibet semibrevi poterit una minima tanquam tertia pars ipsius abstrahi, ut hic:</p>
+
+<p>[ClefC4,Cd,MXP,Lv,Mv,Mv,Mv,pt,M,Mv,Lv,Mv,Sv,Lv,Sv,Lv,Mv,Lv,Mv,Mv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Capitulum V.</p>
+
+<p>De septem modis imperfectionis longae.</p>
+
+<p>At quoniam in plerisque cantibus sub quolibet modo majori quantitates, modi minoris, temporis, et prolationis perfectae consistunt et in aliis plures perfectae aut una tantum passim commiscentur cum pluribus imperfectis aut una solum, fit quod longa septem modis imperfici potest.</p>
+
+<p>Primus modus imperfectionis longae.</p>
+
+<p>Primo modo quantum ad totum tantum et hoc in quolibet modo majori, modo minori perfecto, tempore imperfecto et prolatione minori, ut hic:</p>
+
+<p><span class='pageNo'>[64]</span> [ClefC3,[rob],C,MXP,MXP,MXP,Lv,Bv,Sv,pt,Mv,Lv,Lig2vMXcddxaMXcddx on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Secundus modus imperfectionis longae.</p>
+
+<p>Secundo modo quantum ad partes propinquas tantum et hoc in quolibet modo majori, modo minori imperfecto, tempore perfecto et prolatione minori, ut hic:</p>
+
+<p>[ClefC4,[rob],O,LP,Lv,Sv,Lv,Lig2vcssnod,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Tertius modus imperfectionis longae.</p>
+
+<p>Tertio modo quantum ad partes remotas tantum, et hoc in quolibet modo majori, modo minori imperfecto, tempore imperfecto et prolatione majori, ut hic:</p>
+
+<p>[ClefC3,[rob],Cd,LP,Lv,Mv,Mv,Mv,pt,M,Lig2vcdsnod,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Quartus modus imperfectionis longae.</p>
+
+<p>Quarto modo quantum ad totum et partes propinquas tantum, et hoc in quolibet modo majori, modo minori perfecto, tempore perfecto et prolatione minori, ut hic:</p>
+
+<p>[ClefC4,[rob],O,MXP,Lv,Bv,Lig2vcssnod,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Quintus modus imperfectionis longae.</p>
+
+<p>Quinto modo quantum ad totum et partes remotas tantum, et hoc in quolibet modo majori, modo minori perfecto tempore imperfecto et prolatione majori, ut hic:</p>
+
+<p>[ClefC4,[rob],Cd,MXP,MXP,Lv,Sv,Lig2vcssnod,pt,Mv,Sv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Sextus modus imperfectionis longae.</p>
+
+<p>Sexto modo quantum ad partes propinquas et partes remotas tantum, et hoc in quolibet modo majori, modo minori imperfecto, tempore perfecto et prolatione majori, ut hic:</p>
+
+<p>[ClefC4,[rob],Od,LP,Lv,Mv,Mv,Mv,Mv,Sv,Mv,Sv,Sv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Septimus modus imperfectionis longae.</p>
+
+<p>Septimo modo quantum ad totum partes propinquas ac partes remotas simul, et hoc in quolibet modo majori, modo minori perfecto, tempore perfecto et prolatione majori, ut hic patet:</p>
+
+<p>[ClefC4,[rob],Od,MXP,Bv,Lv,Sv,Lig2vcssna,Mv,pt,Mv,Sv,Lv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Capitulum VI.</p>
+
+<p>De imperfectione brevis in tempore perfecto.</p>
+
+<p>Brevis in tempore perfecto potest imperfici quantum ad totum, quia tunc valet tres semibreves quarum una tanquam tertia pars ipsius brevis abstrahi poterit, ut hic:</p>
+
+<p>[ClefC4,O,Bv,Sv,pt,Sv,Bv,Lv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>De imperfectione brevis in prolatione majori.</p>
+
+<p>Praeterea brevis in prolatione majori potest imperfici quantum ad duas partes propinquas aut una tantum, namque tunc semibrevis quae pars ejus propinqua est, valet tres minimas; hinc pro qualibet semibrevi poterit una minima tanquam tertia pars ipsius abstrahi, ut hic:</p>
+
+<p>[ClefC3,Od,Bv,Mv,Mv,Bv,pt,Mv,Bv,Lig2vcssnod,Sv,Lv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p><span class='pageNo'>[65]</span> De tribus modis imperfectionis brevis.</p>
+
+<p>Et quoniam in plerisque cantibus sub quolibet modo majori sive minori, tempus perfectum ac prolatio major concurrunt et in aliis tempus imperfectum cum prolatione majori vel e converso perfectum tempus cum prolatione minori commiscetur, fit quod brevis tribus modis imperfici potest.</p>
+
+<p>Primus modus imperfectionis brevis.</p>
+
+<p>Primo modo quantum ad totum et hoc in quolibet modo majori sive minori, tempore perfecto et prolatione minori, ut hic:</p>
+
+<p>[ClefC3,[rob],O,Bv,Sv,pt,Sv,Bv,Mv,Lig2vcssna,Mv,Lv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Secundus modus imperfectionis brevis.</p>
+
+<p>Secundo modo quantum ad partes propinquas tantum, et hoc in quolibet modo majori sive minori, tempore imperfecto et prolatione majori, ut hic patet:</p>
+
+<p>[ClefC2,[rob],Cd,Bv,Mv,Mv,Sv,Mv,pt,M,Mv,Bv,Mv,Lv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Tertius modus imperfectionis brevis.</p>
+
+<p>Tertio modo quantum ad totum et partes propinquas simul, et hoc in quolibet modo majori sive minori tempore perfecto et prolatione majori, ut hic:</p>
+
+<p>[ClefC2,[rob],Od,Bv,Bv,Mv,Mv,Mv,pt,M,Mv,Lv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Capitulum X.</p>
+
+<p>De unico modo imperfectionis semibrevis.</p>
+
+<p>Semibrevis unico modo potest imperfici scilicet quantum ad totum tantum, et hoc in prolatione majori, sub quolibet modo et tempore, quia tunc palet tres minimas quarum una tanquam tertia pars ipsius semibrevis abstrahi poterit, ut hic:</p>
+
+<p>[ClefC2,[rob],Od,Sv,Mv,pt,&lt;...&gt;,Mv,pt,M,Mv,Mv,pt,M,Sv,Mv,pt,Mv,Sv,Mv,Mv,Mv,Lv on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p>Capitulum XI.</p>
+
+<p>De tribus imperfectionum signis.</p>
+
+<p>Finaliter eo quod certa quaedam signa sunt quibus notae cognoscuntur imperfici de his aliqua dicere necessarium arbitramur. Unde sciendum est quod tria sunt signa notam imperfectibilem imperfici demonstrantia, videlicet: numeralis imperfectio, notalis impletio et punctualis divisio.</p>
+
+<p>De primo signo imperfectionis.</p>
+
+<p>Quo ad primum quotienscumque notae minores ante vel post majorem in imperfecto numero constitutae inveniuntur, signum est quod prima major ab eis imperfectibilis imperficiatur, nisi ad socias prius reducantur, ut hic:</p>
+
+<p>[ClefC4,O,LP,Lig2vcssnod,Lv,Sv,Bv,pt,Sv,Lv,pt,Lig2vcssnod,Lv,Bv,Sv,pt,Mv,Mv,Mv,Bv,Sv,pt,Mv,pt,M,Mv,Sv,MXv on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>De secundo signo imperfectionis.</p>
+
+<p>Quo ad secundum quotienscumque nota tota impletur; signum est quod tertia parte totius sui valoris imperficitur, et si dimidia pars notae tantum impleta sit, signum est quod tertia parte dimidii valoris sui imperfecta sit; debentque notae minores, quae taliter imperficiunt majores, impleri sicut e ipsae, nec refert si illae precedant aut sequantur istas mediate vel immediate, ut hic:</p>
+
+<p>[ClefC3,Cd,LP,Lv,L,Bv,M,M,M,Bv,MXP,Lv,Lv,Lig2va; ClefC2,M,M,M,Lig2vd,O on staff4]</p>
+
+<p>Exemplum.</p>
+
+<p><span class='pageNo'>[66]</span> [ClefC4,Lig2od,Lig2vd,LP,LP,Lig2vd,S,Lv,Lv; ClefC4,Lv,pt,L,Bv,B,Lv,Bv,S,Sv,Mv,Mv,Sv,Lv on staff5]</p>
+
+<p>Si vero tres notae similes in signum imperfectionis impletae sint, sive ponantur immediate una post aliam sive non, media ut partes propinquae unita primam imperficit a parte post et ultimam a parte ante, ut hic patet.</p>
+
+<p>[ClefC4,O,MXP,Lv,L,L,L,Bv,B,Bv,B,Bv,B,Bv,Lig3vcdsndod,Bvcsdx on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Et quoniam notarum impletio non solum imperfectionem, sed reductionem sesquialteram et duplam significat, qualiter in promptu scitur dum in aliquo cantu hujusmodi notarum impletio invenitur, quod istorum quatuor signorum accipiendum sit in nostro proportionali musices amplissime declaravimus, quapropter super hoc in isto tractatu nihil dicimus.</p>
+
+<p>De tertio signo imperfectionis.</p>
+
+<p>Quo ad tertium quotienscumque punctus divisionis alicui notae sive pro se tantum sive pro se et aliis adjicitur, signum est quod prima major ab eis imperfectibilis imperficiatur nisi ad socias prius reducantur, ut hic:</p>
+
+<p>[ClefC4,O,MXP,Bv,pt,Lig2va,Lv,MXv,pt,Bv,Lig2vcdsnod,Lv,pt,Bv,Sv,pt,Mv,Sv,MXv,Lv,pt,Lig2vcssna,Sv,Lig3vad,MXv,pt,Sv,pt,Mv,pt,Lig5vcssnaaaacddx,pt,Sv,Lig2va,Lv,Lig3vcdsndd on staff5]</p>
+
+<p>Exemplum.</p>
+
+<p>Capitulum XII.</p>
+
+<p>Operis conclusio.</p>
+
+<p>Et haec de notarum musicalium imperfectionibus dicta sufficiant, in quibus si aliquid imperfecte positum inveniatur, omnes, precor, in hac arte divina perfectos, ut amore perfectiori velint id perficere quo Deus, ille scientiarum dominus, qui opus imperfectionis non novit, eos beatitudine perfectissima remunerare dignetur.</p>
+
+<p>Explicit.</p>
+<!-- end text -->
+</div>
+</div>
+<!--</div>-->
+<br /><br />
+
+
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
+<div id="footer">
+  <div id="chmtl_logo">
+    <a href="https://chmtl.indiana.edu/">
+        <img src="_assets/img/chmtl_logo_trans.png" alt="CHMTL Logo" />
+    </a>
+  </div>
+  <div id="copyright">
+    <p>The <a href="https://chmtl.indiana.edu/">Center for the History of Music Theory and Literature</a> is a research center of the <a href="http://music.indiana.edu">Indiana University Jacobs School of Music</a>.</p>
+  </div>
+</div>
+
+<div id="iu_footer">
+    <hr />
+    <div id="copyright">
+        <div id="blockiu">
+            <a href="http://www.iub.edu" title="Indiana University">
+                <img alt="Block IU" height="28" src="https://chmtl.indiana.edu/tml/15th/_assets/img/blockiu_white.gif" width="22" />
+            </a>
+        </div>
+        <p id="statement">
+        <a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> © 2022 The Trustees of <a href="http://www.iu.edu" title="Indiana University">Indiana University</a> | <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> | <a href="https://music.indiana.edu/departments/offices/music-information-technology-services/privacy.shtml">Privacy Notice</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

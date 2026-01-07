@@ -1,0 +1,865 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>TINNAT_TEXT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="_assets/css/tml/layout.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/css/common/chmtl_identity.css" />
+    <!--<link rel="stylesheet" type="text/css" href="_assets/css/w3.css" />-->
+    <link rel='stylesheet' type='text/css' href='_assets/css/fancybox.css' />
+    <script type= 'text/javascript' src='_assets/js/chmtl_file.min.js'></script>
+</head>
+
+<body>
+  <div id="chmtl-identity">
+    <div id="identity-spacer"></div>
+<!--    <p>A project of <a href="http://chmtl.indiana.edu">CHMTL</a></p>-->
+    <div id="chmtl-border">
+      <div id="chmtl-blue"></div>
+      <div id="chmtl-yellow"></div>
+      <div id="chmtl-gray"></div>
+      <div id="chmtl-red"></div>
+    </div>
+  </div>
+    <div id="identity">
+    <div id="menu-container">
+  <a><span class="menu-btn"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</span></a>
+  <a href="../index.html"><span class="home-link">Home</span></a>
+  <span class="search-short">
+    <a class="modal-tooltip" modal="search-tip">&nbsp;<i class="fa fa-info-circle" aria-hidden="true">
+      <span class="sr-only">Click for more information</span></i></a>
+    <form  action="TINNAT.html#" id="menuSearch"><input type="text" id="menuSearchText" placeholder="Quick search"/></form><span class="navSearchButton"><i class="fa fa-search"></i></span></span>
+  <a href="../copyright.html" target="_blank"><span class="copyright-short">Copyright Notice</span></a>
+</div>
+
+<div id="search-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="search-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+
+     <p>Use the &ldquo;Quick search&rdquo; if you want to search for <em>all documents</em> within the <em>whole archive</em> where words <em>matching or containing</em> the searched string are found.</p>
+     <p>For more specific queries (phrase searching, operators, and filters), visit the <a href="../quaero.html" target="_blank">full Search</a> page.</p>
+   </div>
+ </div>
+ </div>
+    </div>
+<div id="container" class="tml-file">
+  <nav id="sliding-left-nav" class="pushy pushy-left">
+    <ul class="push-menu">
+        <li class="pushy-submenu">
+            <a class="submenu-heading">ABOUT</a>
+            <ul>
+                <li class="pushy-link"><a href="../about/introduction.html">Introduction</a></li>
+                <li class="pushy-link"><a href="../about/content.html">Content</a></li>
+                <li class="pushy-link"><a href="../about/policies.html">Policies</a></li>
+                <li class="pushy-link"><a href="../about/howTo.html">How-To</a></li>
+                <li class="pushy-link"><a href="../about/future_plans.html">Future plans</a></li>
+                <li class="pushy-link"><a href="../about/people.html">People</a></li>
+                <li class="pushy-link"><a href="../about/contact.html">Contacts</a></li>
+            </ul>
+        </li>
+        <li class="pushy-submenu">
+          <a class="submenu-heading">BROWSE</a>
+          <ul>
+            <li class="pushy-link"><a href="../browse/authors.html">by author</a></li>
+            <li class="pushy-link"><a href="../browse/contributors.html">by contributor</a></li>
+            <li class="pushy-link"><a href="../browse/incipits.html">by incipit</a></li>
+            <li class="pushy-link"><a href="../browse/sources.html">by source</a></li>
+            <li class="pushy-link"><a href="../browse/titles.html">by title</a></li>
+            <li class="pushy-submenu">
+            <a class="centuryPushy">by century</a>
+                   <ul>
+                     <li class="pushy-link"><a href="../3rd-5th/index.html">3rd-5th</a></li>
+                     <li class="pushy-link"><a href="../6th-8th/index.html">6th-8th</a></li>
+                     <li class="pushy-link"><a href="../9th-11th/index.html">9th-11th</a></li>
+                     <li class="pushy-link"><a href="../12th/index.html">12th</a></li>
+                     <li class="pushy-link"><a href="../13th/index.html">13th</a></li>
+                     <li class="pushy-link"><a href="../14th/index.html">14th</a></li>
+                     <li class="pushy-link"><a href="index.html">15th</a></li>
+                     <li class="pushy-link"><a href="../16th/index.html">16th</a></li>
+                     <li class="pushy-link"><a href="../17th/index.html">17th</a></li>
+                   </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pushy-submenu"><a href="../quaero.html">SEARCH</a></li>
+        <li class="pushy-submenu">
+            <a class="submenu-heading">EXTRAS</a>
+            <ul>
+              <li class="pushy-submenu">
+                <a href="../concordances.html">Concordances</a>
+                  <ul>
+                    <li class="pushy-link"><a href="../concordances/lml.html"><em>Lexicon musicum Latinum</em></a></li>
+                    <li class="pushy-link"><a href="../concordances/grove_anonymous.html">Grove Anonymous</a></li>
+                  </ul>
+            </ul>
+        </li>
+     </ul>
+</nav>
+  <div class="site-overlay"></div>
+
+<div id="content">
+  <noscript>
+  <div  id="noScript" class="warning">
+    <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> JavaScript Required</p>
+    <p>In order to ensure the proper functining of this website, please enable JavaScript in your browser security preferences or use a device that supports it.</p>
+  </div>
+</noscript>
+<div id="header">
+    <div id="source" class="ft-text">
+        <p class="author">Tinctoris, Johannes</p>
+        <p class="title">Liber de natura et proprietate tonorum</p>
+        <p class="tmlSource"><strong>Source</strong>: <i>Scriptorum de musica medii aevi nova series a Gerbertina altera</i>, 4 vols., ed. Edmond de Coussemaker (Paris: Durand, 1864-76; reprint ed., Hildesheim: Olms, 1963), 4:16–41.</p>
+                <p id="chmtl-staff">
+                    <span class="eca-span">Electronic version prepared by Stephen E. Hayes <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="entered">E</span></a>, Peter M. Lefferts, Bradley Jon Tucker <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="checked">C</span></a>, and Thomas J. Mathiesen <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="approved">A</span></a>
+              for the <i>Thesaurus Musicarum Latinarum</i>, 1992.
+            </p>
+              </div>
+
+</div> <!-- end header div -->
+<div id="entry-abbrv" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="entry-abbrv"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+     <p>The aforementioned individual(s) <span class="entered">E</span>ntered, <span class="checked">C</span>hecked, or <span class="approved">A</span>pproved the electronic transcription of the source document.</p>
+   </div>
+ </div>
+ </div>
+
+ <div id="entry-abbrv-short" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <a class="close-modal" modal="entry-abbrv-short"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+      <br />
+      <p><span class="checked">C</span>: Indicates the aforemententioned person(s) checked the transcription.</p>
+      <p><span class="approved">A</span>: Indicates the aforementioned person(s) approved the transcription for publication.</p>
+    </div>
+  </div>
+  </div>
+
+  <div id="multipart-tip" class="w3-modal">
+   <div class="w3-modal-content">
+     <div class="w3-container">
+       <a class="close-modal" modal="multipart-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+       <br />
+       <p>Historically, in the TML long texts were split into multiple files. These are now linked to each other for easier browsing. In a future version, they will be consolidated into a single view.</p>
+     </div>
+   </div>
+   </div>
+
+  <div id="metadata-contd">
+    <p class="text-sidebar-buttons"><button id="tml-notes" class="pure-button">TML notes</button>&nbsp;<button id="tml-concordances" class="pure-button">Concordances</button></p>
+
+  <div id="sidebar">
+      <div id="extras-wrapper">
+        <!---->
+        <div id="tml-canon-info">
+          <div class="extras-heading"><a class="close-modal repoToolbox" modal="tml-canon-info"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">TML Notes</i></span></div>
+          <p>Cf. <a href="TINLDN.html">TINLDN</a>. [TJM]</p>
+        </div>
+<div id="concordances">
+  <div class="extras-heading"><a class="close-modal repoToolbox" modal="concordances"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">Concordances</i></span></div>
+  
+      <div id="lml-info">
+          <p>&#8594; We have found the following concordances with the <i><a class="external" href="http://www.lml.badw-muenchen.de/" target="_blank">Lexicon musicum Latinum</a></i> and the <i>R&eacute;pertoire International des Sources Musicales</i></p>
+          <ul id="lml-entries">
+                        <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>IOH. TINCT. nat.</strong></span>
+             <div class="expando-data">
+                  <p>Iohannes Tinctoris: <i>Liber de natura et proprietate tonorum</i></p>
+                                      <ul>
+                  <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>MSS (RISM)</strong></span>
+                      <div class="expando-data">
+                      <!--<ul class="lml-ms-list">-->
+                      <table>
+                                                        <tr><td><span class="lib-siglum">B-Br</span> II 4147, 10-28</td>
+                                                          <td><span class="lib-siglum">E-VAu</span> 835, 15-43</td>
+                                                          <td><span class="lib-siglum">I-Bu</span> 2573, 17v-46v</td>
+                                                  </tr></table>
+                      <!--</ul>--></div>
+                  </li>
+              </ul>
+              </div> <!-- expando-data -->
+                            </li>
+                    </ul>
+      </div>
+  
+  </div>
+  <div style="clear: both"></div>
+    </div><!--extras-wrapper -->
+  </div><!--sidebar-->
+  </div><!--metadata-contd-->
+  <div style="clear: both"></div>
+
+<div id="text-toolbox-wrapper">
+  <div id='floatingBox'>
+    <div class="floating-toolbox">
+      <table>
+        <tr>
+          <th>Actions</th>
+        </tr>
+      </table>
+    </div>
+    <p id="backToTop"> <a href='TINNAT.html#top'>Back to top</a></p>
+  </div>
+
+<div id="tml-text">
+
+<!-- begin text -->
+<p><span class='pageNo'>[16]</span> Liber de natura et proprietate tonorum a Magistro Johanne Tinctoris legum artiumque professore compositus feliciter incipit.</p>
+
+<p>Prologus.</p>
+
+<p>Praestantissimis ac celeberrimis artis musicae professoribus Domino Johanni Okeghem, christianissimi regis Francorum Protho-capellano ac Magistro Antonio Busnois, illustrissimi Burgondorum ducis cantori, Johannes Tinctoris inter eos qui jura scientiasque mathematicas profitentur minimus, immortalem observantiam.</p>
+
+<p>Ponderanti mihi graecum illud proverbium, viri splendidissimi, quam quisque norit artem, in ea se exerceat; tametsi, naturam, ut philosopho placet, varietatis indigentem sequuntur, numerosis artibus operam accuratissime impenderim, me tamen in musica tanquam caeteris copiosius nota exercere decretum est. Hinc nonnulla cum super his que ad theoriam tum que ad praxim hujus insignis peritiae attinent opuscula condidi. Inter quae proportionale musices extat signorum proportionum, quibus abusi estis sine quavis indulgentia reprehensionum atque correctionum. Quod ut in manibus plurimorum venit, censuerunt aliqui et praecipue unus non modo hic, sed etiam in omni alia honesta ac liberali institutione, velut cunctarum bonarum artium expers, nominari indignus, merito vituperii nota me afficiendum; insuper iste unus omnium qui est cantorum ridiculosissimus <span class='pageNo'>[17]</span> mihi si unquam patriam repeterem ipsius libelli violentam comestionem minari haud formidavit, eo quod, ut praedictum est, abusum vestrum circa proportionalia signa improbare, attentassem. O verba prudenti homine dignissima! O minae forti viro decentissimae! Enimvero quod prudenter praedixit, quodque fortiter minatus est, nobis integre contigit. Patriam saepe numero deinceps posthac repetii.</p>
+
+<p>Corpus etenim licet ab ea plurimum distet, animus parentes et amicos frequentissime recolens, profecto parum aut nihil abest. Nonne et libellum ipsum comedi? Comedi nimirum; quod etiam a spiritu Ezechieli dictum fuit: "venter tuus comedet et viscera tua complebuntur"; volumine isto in me impletum esse asserere non erubesco. Quid enim est comedere volumen quum quod continet ingenti cura considerare, ac eo viscera compleri, quam consideratum indelebili memoria retinere? Hercle! et antequam et postquam hoc proportionale edidissem, considerationi ejus contenti operosissime vacavi, ac in memoriam quidquid in eo dixerim revocans, me hactenus vera praecepisse nec indigne veros errores circa praefata proportionum signa reprehendisse constantissima mente confiteor; ratus a viris eruditis nullum consequi vituperium, imo laudem immensam, si, ratione praevia, veritatis non vanitatis per me ferens amorem, quod in artem nostram commissum fuerit delere pro viribus studeam.</p>
+
+<p>Quis enim usque adeo sensus immunem se praebet, ut in omni studiorum genere alterum alterius erronea scripta et corrigere et damnare passim ignoret?</p>
+
+<p>Quod qui tamen recte facit, non modo non vituperandus, verum et summis laudibus est efferendus. Id namque ad officium boni prudentisque viri spectat, Horatio in poemate suo dicente:</p>
+
+<p>vir bonus et prudens versus reprehendit inertes.</p>
+
+<p>Ignoscat igitur quaeso mihi inimicus aut potius ei Deus qui fortunae fallacibus alis in coelum evectus, se putans aliquid esse, quoniam nihil sit, non veretur superbe gloriari et excelsa loqui, judicium ex ore suo cum de praeceptis, tum de pronunciationibus et compositionibus artis nostrae partibus impudentissime proferens. Discat prius, discat; postmodum judicis officium usurpet.</p>
+
+<p>Animadvertatque hos Prudentii versus elegantissimos:</p>
+
+<p>Desine grande loqui frangit Deus omne superbum,</p>
+
+<p>Magna cadunt; inflata crepant, tumefacta premuntur.</p>
+
+<p>Haec, praestantissimi viri, dicere institui, ne omnino ut verbis Hieronimi utar, calumniantibus tacere videar. Caeterum canum rabidorum latratibus horrisonis, aut morsibus veneficis, minime absterrebor, quin, dum spiritus hos reget artus, divinae arti musicae insistam. Atque, ut posteritati serviam, quod, Tullio auctore, optimi cujusque officium est, quidquid in eo utile invenero, litteris mandabo. Unde quoniam scientia et cognitio tonorum sit compositoribus utilissima, opusculum hoc de natura et proprietate eorum conscripsi. Quod quidem vobis tanquam luminibus summae claritatis inter recentiores compositores dicare in animum venit, non ut eo veram, admirabilem, rarissimamque dignitatem et auctoritatem in sublimi prudentia componendi erudire conari videar, sed ut disciplinam hanc, si vera fuerit, approbare, si falsa reprobare dignemini. Rem gratissimam mihi quidem facietis, si tales in eis operibus vos ostenderitis, qualem me ostendo in vestris.</p>
+
+<p>Capitulum primum.</p>
+
+<p>De diffinitione, numero, institutione et appellatione tonorum.</p>
+
+<p>Secundum Ciceronis praeceptum in eo libro quem de Officiis inscripsit, omnis quae a ratione suscipitur de aliqua re institutio debet a diffinitione <span class='pageNo'>[18]</span> proficisci ut intelligatur quid sit id de quo disputatur. Quoniam igitur de natura et proprietate tonorum disserere instituerim ad intelligendum quod tonus sit, eum ut debito more proficiscar definire decrevi.</p>
+
+<p>Tonus itaque nihil aliud est quam modus per quem principium, medium et finis cujuslibet cantus ordinatur. Quem quidem tonum nonnulli tropum, id est conversionem vocant, eo quod per tonos omnes cantus in diversas species convertantur. Octo autem toni ex disciplina Gregorii inveniuntur, videlicet quatuor impares et quatuor pares, eos denominando secundum arithmeticem sine qua praeclarum evadere musicum contingit neminem. Quatuor impares sunt primus, tertius, quintus et septimus; quatuor autem pares secundus, quartus, sextus et octavus.</p>
+
+<p>Neque silentio praetereundum est Boethium septem tonos in sua "Institutione armonica" posuisse; quos ex septem speciebus diapason existere clarissima ratione demonstravit; quos et ipse diffinivit constitutiones in totis vocum ordinibus vel gravitate vel acumine differentes. Eorumque nomina sunt haec: Ypodorius, Ypophrygius, Ypolydius, Dorius, Phrygius, Lydius et Myxtolydius. Porro octavum tonum Ptholomaeus superaddidit quem Hypomixtolydium nominavit. Hinc evenit ut multi asseruerunt octo quibus utimur tonos esse Boethianos, sed profecto admodum falluntur. Quilibet namque tonorum Boethii specificam habebat speciem diapason ex quo formatus erat, excepto duntaxat octavo, hoc est ypermyxtolydio qui necessario ex specie alterius formabatur, eo quod impossibile sit plures quam septem diapason inveniri species. Praeterea omnibus his tonis idem erat ambitus, finis autem diversus. Nostri vero bini et bini paribus ex speciebus diapenthe et diatessaron constituti fine sunt equales et ambitu differentes. Sed quoniam Dorii, Phrygii, Lydii gentes sint a Doria, a Phrygia et a Lydia provinciis denominati. Cur tres tonorum supradictorum talibus vocabulis nominantur? Respondendum est, ut Boethio assentiamur, quod quilibet ipsorum tonorum vocabulo gentis quae eo gaudebat, nuncupabatur: verbi gratia Dorius quo Dorii, Phrygius quo Phrygii, Lydius quo Lydii gaudebant.</p>
+
+<p>De caeteris nihil dicit: mea vero sententia ypodorius, ypophrygius, et ypolydius ab ypo graece quod est sub latine, ac Dorius, Phrygius et Lydius componuntur eo quod sub eis constituantur.</p>
+
+<p>Mixtolydius vero dicitur quasi mixtus Lydius et ypermixtolydius ut supermixto Lydium positus. Insuper scire non est inutile Aristotelem suis in politicis de quatuor melodiis, hoc est myxtolydia, Lydia, Phrygia et Doria copiose et eleganter disseruisse. Quas quidem melodias non ex speciebus diapason, sed ex propriis qualitatibus distinxit. Namque Mixtolydiam planctivam, Lydiam remissam, Phrygiam rigidam et Doriam mediam affirmat. Quae licet melodiae pari ratione tonorum Boethianorum nuncupari possint a vocabulis gentium eis gaudentium. Istae enim illis plurimum sunt dissimiles; enimvero quoniam secundum species diapason ipsi toni distinguantur si una species non potest esse plures, impossibile est unam et eamdem speciem diapason plures recipire tonos, in qua tamen una et eadem specie diapason quaelibet melodiarum Aristotelicarum constitui potest; nempe unius et ejusdem toni carmen possibile erit et planctivum et remissum et rigidum et medium esse, tum ex parte compositorum et prononciatorum, tum instrumentorum et sonitorum. Quis enim hujus artis peritus ignorat alios planctive, alios remisse, alios rigide, alios medie, componere, prononciare et sonare; quamvis eorum compositio, prononciatio, et sonitus eodem tono ducantur.</p>
+
+<p>Vocum etiam et instrumentorum genera quaedam planctiva, quaedam remissa, quaedam rigida et quaedam media naturaliter aut artificialiter sunt aut efficiuntur; unde et secundum ea differentias harmoniarum, <span class='pageNo'>[19]</span> cum de fistulis et organis, tum de cytharis et aliis instrumentis loquens ipse philosophus assignat quarum quidem harmoniarum aliae aliis aetatibus et moribus conveniunt, decent et expediunt; nec earum apud omnes eadem est delectatio aut simile judicium. Remissus enim animus harmoniis remissis delectatur, e converso rigidae rigido sunt acceptae. Quod Augustinus sentire videtur in libro Confessionum dicens: omnes affectus spiritus nostri pro sua diversitate habent proprios modos in voce atque cantu quorum occulta familiaritate excitantur. Denique tametsi Lacedemones dixerint se non addiscentes bonas et malas harmonias judicare posse, non tamen omnino tutum est. Ut enim omnis omnium philosophorum fert opinio, sensus, auditus, saepe numero fallitur. Si quae vera fateri licet complures, non surdos, sed artis musicae expertes novi, et expertus sum qui vocis grossiciem non venustatem admirantes, virulentos mugitus moderatis rationabilibus, et ut ita dicam, angelicis cantibus proferunt. Quos existimo dignos, ut numine divino, quemadmodum regi Midae Cytharam Phoebi fistulae Panos insule postponenti contigit stolidarum aurium eorum humana figura in asininam convertatur.</p>
+
+<p>Soli igitur musici de sonis recte judicant. Quapropter ad Hortensium Tullius haec scripsit: "Multaque nos fugiunt in cantu; exaudiunt in eo genere exercitati." Hinc non incassum consulit Aristoteles in octavo Potiticorum: "juvenes arti musicae operam dare ut senes effecti recte de ea judicare gaudereque possint." Cujus quidem primae auctoritatis philosophi consilio freta, diva Beatrix Aragonia, Ungarorum sacratissima Regina, nec illiberale nec summa ejus amplitudine indignum duxit hujus scientiae studio se ferventissime dedere. Quo affectum est ut sua pene divina majestas forma (velut Diana nymphas) et arte (velut Caliope musas) mulieres supereminens omnes, non modo cantu, sed pronunciatione vehementius gaudeat. Unde tamen ex Aristotelis scientia intemperans vocari non debet, sed etiam de omni genere musicorum rectissimum proferat judicium. Neque mirum sit velim alicui quod praetermissis reliquis nobilibus ac ignobilibus musicae scientissimis, hanc serenissimam Dominam huic opusculo meo inseruerim. Nempe quemadmodum plus aliis singulari quodam amore arti nostrae sua humanitas afficitur, ita illam singulari privilegio non solum hic, verum, si possem, in excelsis coelorum sedibus collocarem. Caeterum ut unde digressi sumus revertamur apud nonnullos doctores musicos, quatuor tantum reperi tonos primum fuisse institutos, videlicet prothum, deutrum, tritum et tetrardum; idem latina interpretatione primum, secundum, tertium et quartum quorum quilibet a suo fine diapason ascendere et diatessaron descendere debebat. Sed quoniam id erat humanae voci nimis difficile, quoniam secundum communem cursum rarisssimae sint voces quae ditonum supra diapason perfecte ac jucunde attingant, cuilibet praedictorum quatuor tonorum alter fuit additus, et sic octo effecti sunt, prothoque idest primo in ordine suo permanente; deutrus, hoc est secundus, est effectus tertius; tritus id est tertius, quintus; et tetrardus hoc est quartus septimus. Verum isti quatuor primi vocantur authentici sive magistri et quatuor ultimi eis additi plagales, subjugales, collaterales sive discipuli. Denique ascensu priori authenticis relicto, pars descensus eis adempta fuit; et parte ascensus dempta plagalibus prior descensus eis remansit. Hii autem sunt octo toni, quibus non tantum in cantu gregoriano qui simplex est et planus; verum et in omni alio cantu figurato et composito utimur. Circa quos hoc in libello versari nostra fert intentio.</p>
+
+<p>Capitulum II.</p>
+
+<p>De speciebus diatessaron ac diapenthe.</p>
+
+<p>Sciendum est igitur primum quod isti octo toni ex speciebus diapenthe et diatessaron formantur. Sed antequam qualiter aut quomodo id fiat, ostendamus <span class='pageNo'>[20]</span> ipsas species praescire necessarium arbitramur; unde ut a diatessaron quae pars est diapenthe incipiamus, tres eas habere species comperi: prima ex tono, semitonio et tono componitur, sicut a re D la sol re usque ad sol G sol re ut gravis, quoniam ab ipso re D sol re usque ad mi E la mi gravis tonus est; ab isto mi E la mi gravis usque fa FF fa ut gravis semitonium, et ab hoc FF fa ut gravis usque ad praedictum sol G sol re ut gravis, alius tonus, ut hic patet:</p>
+
+<p>[CSIV:20,1] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p>Secunda ex semitonio et ditono sicut a mi E la mi gravis usque ad la A la mi re acuti; nam ab isto mi E la mi gravis, ut praediximus, usque ad fa FF fa ut gravis, semitonium est. Ab hoc fa FF fa ut gravis usque ad sol G sol re ut gravis, tonus et ab isto sol G sol re ut gravis usque ad la praefati A la mi re acuti, tonus alius; qui duo toni ditonum constituunt, ut hic probatur:</p>
+
+<p>[CSIV:20,2] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p>Tertia ex ditono et semitonio sicut ab ut FF fa ut gravis usque ad fa B fa [sqb] mi acuti, quoniam ab ipso ut FF fa ut gravis usque ad re G sol re ut gravis, tonus est; ab ipso re G sol re ut gravis usque ad mi A la mi re acuti alius tonus; ex quibus duobus tonis ditonus efficitur. Et ab hoc A mi la mi re acuti usque ad praedictum fa B fa [sqb] mi acuti semitonium, ut hic patet:</p>
+
+<p>[CSIV:20,3] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p>Species vero diapenthe quatuor inveniuntur: prima constat ex prima specie diatessaron et tono, sicut a re D sol re usque ad la A la mi re acuti; nam a re ipsius D sol re usque ad sol G sol re ut gravis, pro ut ostendimus, prima species diatessaron ponitur, a quo quidem sol G sol re ut gravis usque ad la praefati A la mi re acuti, tonus esse perhibetur, ut hic patet:</p>
+
+<p>[CSIV:20,4] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p>Secunda ex secunda specie diatessaron et tono, sicut a mi E la mi gravis usque ad mi B fa [sqb] mi acuti; ab ipso enim mi E la mi gravis usque ad la A la mi re acuti secundam speciem diatessaron consistere praedemonstravimus et a la istius A la mi re usque ad praedictum mi B fa [sqb] mi tonum inveniri non dubitamus, ut hic patet:</p>
+
+<p>[CSIV:20,5] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p>Tertia ex tritono et semitonio, sicut a fa FF fa ut gravis usque ad fa C sol fa ut; nam ab isto fa FF fa ut gravis usque ad sol G sol fa ut gravis, velut praeostensum est, tonus habetur ab hoc sol G sol re ut gravis usque ad la A la mi re acuti alius tonus, et a la istius A la mi re acuti usque ad mi B fa [sqb] mi acuti iterum tonus; qui tres simul tritonum efficiunt a quo quidem mi B fa [sqb] mi acuti usque ad fa praefati C sol fa ut semitonium conspicitur, ut hic patet:</p>
+
+<p>[CSIV:20,6] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p>Quarta ex tertia specie diatessaron et tono sicut ab ut G sol re ut gravis usque ad sol D la sol re, quoniam ab ut ipsius G sol re ut gravis usque ad fa C sol fa ut tertia species diatessaron, veluti praemissimus, constituitur; et ab isto fa C sol fa ut usque ad praedictum sol D la sol re tonum haberi manifestum est, ut hic probatur:</p>
+
+<p>[CSIV:20,7] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p><span class='pageNo'>[21]</span> Capitulum III.</p>
+
+<p>De formatione tonorum, et primo de formatione primi toni.</p>
+
+<p>Cognitis diatessaron ac diapenthe speciebus ex quibus, ut praediximus, toni nostri formantur, videre expedit qualiter et quomodo id fiat; unde sciendum quod primus tonus ex prima specie diapenthe et prima specie diatessaron superius, id est supra ipsum diapenthe formatur, ut hic patet:</p>
+
+<p>[CSIV:21,1] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p>Capitulum IV.</p>
+
+<p>De formatione secundi toni.</p>
+
+<p>Secundus autem formatur ex prima specie diapenthe et prima specie diatessaron inferius, hoc est infra ipsum diapenthe, ut hic probatur:</p>
+
+<p>[CSIV:21,2] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p>Capitulum V.</p>
+
+<p>De formatione tertii toni.</p>
+
+<p>Tertius tonus ex secunda specie diapenthe et secunda specie diatessaron superius, id est supra ipsum diapenthe formatur, ut hic patet:</p>
+
+<p>[CSIV:21,3] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p>Capitulum VI.</p>
+
+<p>De formatione quarti toni.</p>
+
+<p>Quartus vero formatur ex secunda specie diapenthe et secunda specie diatessaron inferius, hoc est infra ipsum diapenthe, ut hic probatur:</p>
+
+<p>[CSIV:21,4] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p>Capitulum VII.</p>
+
+<p>De formatione quinti toni.</p>
+
+<p>Quintus tonus ex tertia specie diapenthe et tertia specie diatessaron superius id est supra ipsum diapenthe formatur, ut hic patet:</p>
+
+<p>[CSIV:21,5] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p>Capitulum VIII.</p>
+
+<p>De formatione sexti toni.</p>
+
+<p>Sextus autem formatur ex tertia specie diapenthe et tertia specie diatessaron inferius; hoc est infra ipsum diapenthe, ut hic probatur:</p>
+
+<p>[CSIV:21,6] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p>Praeterea uterque istorum duorum tonorum formari potest ex quarta specie diapenthe quod, nisi exigente necessitate, fieri minime debet. Necessitas autem quae eos ita formari cogit duplex est, videlicet aut ratione concordantiarum perfectarum, quod cantui composito incidere possunt, aut ratione tritoni evidendi; namque si fundamentum relationis in cantu cujusvis istorum tonorum ascendat supra finem suum usque ad diapenthe et pars ad ipsum relata note accidenti in B fa [sqb] mi acuto per concordantiam perfectam in fa contraponatur necessario canendum est per b molle, id enim regulariter dicitur et bene, nunquam in concordantiis perfectis fa contra mi fieri posse, ut hic patet:</p>
+
+<p>[CSIV:21,7; text: Exemplum quinti. Tenor. Contrapunctus.] <a href="TINNAT_01GF.gif">[TINNAT 01GF]</a></p>
+
+<p><span class='pageNo'>[22]</span> [CSIV:22,1; text: Exemplum sexti toni. Tenor. Contrapunctus.] <a href="TINNAT_02GF.gif">[TINNAT 02GF]</a></p>
+
+<p>Et in hoc casu signum b mollis, hoc b rotundum, debet poni in ipso B fa [sqb] mi, quod si in exordio linearum ponatur, totus per b molle cantabitur. Si vero in quavis alia parte positum sit, quamdiu deductio cui praeponetur durabit, tamdiu cantus b mollaris erit, ut hic patet:</p>
+
+<p>[CSIV:22,2; text: Exemplum primi dicti. Exemplum secundi.] <a href="TINNAT_02GF.gif">[TINNAT 02GF]</a></p>
+
+<p>Ut autem evitetur tritoni durities necessario ex quarta specie diapenthe isti duo toni formantur. Neque tunc b mollis signum apponi est necessarium, immo si appositum videatur, asininum esse dicitur, ut hic probatur:</p>
+
+<p>[CSIV:22,3] <a href="TINNAT_02GF.gif">[TINNAT 02GF]</a></p>
+
+<p>Notandum autem quod non solum in his duobus tonis tritonus est evitandus, sed etiam in omnibus aliis. Unde regula haec generaliter traditur, quod in quolibet tono si post ascensum ad B fa [sqb] mi acutum citius in FF fa ut gravem descendatur quam ad C sol fa ut ascendatur, indistincte per b molle canetur, ut hic patet:</p>
+
+<p>[CSIV:22,4] <a href="TINNAT_02GF.gif">[TINNAT 02GF]</a></p>
+
+<p>Non tamen ignorandum est quod in cantu composito a fa contra mi in concordantia perfecta fiat interdum tritono uti necessarium sit, et tunc ad significandum ubi fa evitandi tritoni gratia cantari deberet ibi mi esse canendum [sqb] duri signum hoc est [sqb] quadrum ipsi mi censeo praeponendum, ut hic probatur:</p>
+
+<p>[CSIV:22,5; text: Tenor. Contrapunctus.] <a href="TINNAT_02GF.gif">[TINNAT 02GF]</a></p>
+
+<p>Denique sciendum quod non solum in tonis regularibus et vera musica secundum exempla praemissa <span class='pageNo'>[23]</span> tritonum praedictis modis fugere ac eo uti debemus, verum etiam in irregularibus tonis et musica facta, ut hic patet:</p>
+
+<p>[CSIV:23,1; text: Tonus in exemplum evitandi tritoni. Contrapunctus in exemplum usus tritoni.] <a href="TINNAT_03GF.gif">[TINNAT 03GF]</a></p>
+
+<p>Sumitur autem hic tritonus; ipse ut clariusquae de eo diximus intelligantur, pro immediato aut mediato progressu sive per arsin sive per thesin de una nota ad aliam ab illa tribus tonis distantem sed quamvis humana vox tritono mediato possibiliter utatur eam tamen immediato uti, aut est difficile, aut impossibile, ut hic probatur:</p>
+
+<p>[CSIV:23,2; text: Exemplum tritonorum immediatorum.] <a href="TINNAT_03GF.gif">[TINNAT 03GF]</a></p>
+
+<p>Capitulum IX.</p>
+
+<p>De formatione septimi toni.</p>
+
+<p>Septimus tonus ex quarta specie diapenthe et prima specie diatessaron superius, id est supra ipsum diapenthe formatur, ut hic patet:</p>
+
+<p>[CSIV:23,3; text: Exemplum. Exemplum septimi. Exemplum octavi.] <a href="TINNAT_03GF.gif">[TINNAT 03GF]</a></p>
+
+<p>Non tamen ignorandum est quod in cantu composito ex fa contra mi, id est supra ipsum diapenthe formatur, ut hic patet:</p>
+
+<p>[CSIV:23,4] <a href="TINNAT_03GF.gif">[TINNAT 03GF]</a></p>
+
+<p>Capitulum X.</p>
+
+<p>De formatione octavi toni.</p>
+
+<p>Octavus vero formatur ex quarta specie diapenthe et prima specie diatessaron inferius, hoc est infra ipsum diapenthe, ut hic probatur:</p>
+
+<p>[CSIV:23,5; text: Exemplum.] <a href="TINNAT_03GF.gif">[TINNAT 03GF]</a></p>
+
+<p>Captulum XI.</p>
+
+<p>De similitudine formationis quinti toni et sexti ac septimi et octavi.</p>
+
+<p>Sed quoniam ita sit, quod quintus tonus et sextus etiam, ut praeostensum est, possint ex ipsa quarta specie diapenthe formari, quaeritur quae differentia sit inter formationem eorum et formationem septimi et octavi. Respondere possumus quod (hoc nonobstante) adhuc inter illos et istos, major est dissimilitudo, quam similitudo. Namque licet quintus et sextus ex quarta specie diapenthe formantur, ille tamen cum hoc superius et iste inferius tertiam speciem diatessaron requirunt; septimus autem superius et octavus inferius post <span class='pageNo'>[24]</span> quartam speciem diapenthe ex qua etiam formantur, primam speciem diatessaron assumunt. Preterea quintus et sextus ex ipsa quarta specie diapenthe formati per b molle canuntur et in FF fa ut gravi finiunt. Septimus vero et octavus, quamvis ex eadem specie quarta diapenthe formentur, tamen per [sqb] durum cantati, in G sol re ut gravi terminantur; quae omnia in praepositis eorum exemplis manifeste probati sunt.</p>
+
+<p>Capitulum XII.</p>
+
+<p>De similitudine formationis primi toni et secundi ac septimi et octavi.</p>
+
+<p>Insuper sicut inter formationem quinti et sexti, ac septimi et octavi potest esse similitudo quantum ad quartam speciem diapenthe, ita et similitudinem formationis inter se habent primus et secundus ac septimus et octavus quantum ad primam speciem diatessaron, quae quidem similitudo necessaria est. Enimvero quoniam quatuor sint tonorum copulae, nec plures quam tres diatessaron species quae ordinatim (ut visum est) tribus primis copulis attribuuntur quartae copulae unam ipsarum specierum diatessaron necesse est assignari, et quoniam prima diatessaron species illa sit quae supra et infra quartam speciem diapenthe cantatam per [sqb] durum immediate per naturam canitur, opportet si septimus et octavus ex ipsa specie quarta diapenthe formentur quod ibi superius; isti vero inferius haec species prima diatessaron sit attributa. Magna tamen differentia inter primum et secundum ac septimum et octavum remanet illi quippe cum hac specie prima diatessaron ex prima specie diapenthe compositi per naturam canuntur, et in D sol re terminantur; isti autem licet cum eadem prima specie diatessaron ex quarta specie diapenthe formantur et per [sqb] durum cantati finiunt in G sol re ut gravi sicut praeposita eorum exempla liquido manifestant.</p>
+
+<p>Capitulum XIII.</p>
+
+<p>De commixtione tonorum.</p>
+
+<p>Si vero aliquis octo tonorum praedictorum a principio usque ad finem ex speciebus diapenthe ac diatessaron sibi, modo quo diximus, attributis non fuerit formatus, immo speciebus unus alterius aut plurium commiscatur hujusmodi tonus commixtus vocabitur; verbi gratia, si in primo tono constituatur quarta species diapenthe regulariter attributa septimo, tunc appellabitur hic tonus primus septimo commixtus, ut hic patet :</p>
+
+<p>[CSIV:24,1] <a href="TINNAT_03GF.gif">[TINNAT 03GF]</a></p>
+
+<p>Pariformiter si in secundo tono ponatur tertia species diatessaron ut pars quartae speciei diapenthe, quae secundum regulgarem traditionem octavo assignatur, tunc tonus hic dicetur secundus octavo commixtus, ut hic probatur:</p>
+
+<p>[CSIV:24,2] <a href="TINNAT_03GF.gif">[TINNAT 03GF]</a></p>
+
+<p>Capitulum XIV.</p>
+
+<p>A quo tonus commixtus sit denominandus, ab authentico an a plagali?</p>
+
+<p>Sed hic dubium oriri posset quoniam aliqua species diapenthe aut diatessaron communis authentico et suo plagali tono alteri commiscatur a quo illorum tonus iste commixtus dicetur vel ab autentico vel a plagali. Credendum est quod si commixtio fiat ex specie diapenthe communi ab authentico, et si ex specie diatessaron etiam communi a plagali tonus ipse commixtus recte denominabitur, ut patet in duobus exemplis immediate praecedentibus. Dicuntur autem species diapenthe ac diatessaron <span class='pageNo'>[25]</span> communes illae quae sine medio supra finem cujuslibet toni constituuntur. Quae etenim diatessaron species supra ipsum commune diapenthe est autentico; quae vero infra, plagali appropriatur; unde fit ut si aliquis tonus specie diatessaron qua alius supra ipsum diapenthe commune formatur, fuerit commixtus, indistincte ab autentico denominanda erit hujusmodi commixtio. At si diatessaron species quae infra ejusdem commune diapenthe alium format tonum alii tono se commisceat a plagali sine distinctione tonus ille commixtus erit denominandus, ut hic patet:</p>
+
+<p>[CSIV:25,1; text: Exemplum tertii commixti septimo. Exemplum quarti toni commixti sexto.] <a href="TINNAT_04GF.gif">[TINNAT 04GF]</a></p>
+
+<p>Si vero ipsis speciebus diatessaron supra et infra diapenthe commune ambobus aliis tonis autentico et plagali sic attributis tonus alius commisceatur ut ab utroque simul talis tonus commixtus denominetur aequum et justum est, velut hic probatur:</p>
+
+<p>[CSIV:25,2; text: Exemplum septimi toni quinto et sexto commixti.] <a href="TINNAT_04GF.gif">[TINNAT 04GF]</a></p>
+
+<p>Capitulum XV.</p>
+
+<p>A quibus tonus commixtus diversis speciebus diapenthe aut diatessaron diversorum tonorum denominabitur.</p>
+
+<p>Praeterea dubitare quis poterit quoniam toni commixtio fiat ex diversis speciebus diapenthe et diatessaron diversorum tonorum a quibus potissimum tonus ipse denominabitur. Ad hoc dicendum est quod secundum speciem finalem diapenthe aut diatessaron hujusmodi toni commixti fiet commixtionis denominatio, quamvis totiens aut pluries repetantur per discursum ipsius toni species diapenthe aut diatessaron unius alterius aut plurium quam suae ut enim philosophus ait: "a fine denominatur res" et hoc patet in exemplo subsequenti quod est octavi toni commixti, quinto et tertio eo quod, licet saepius tertia et secunda speciebus diatessaron istis duobus tonis regulariter attributis commisceatur, finaliter per quartam speciem diapenthe sibi assignatam in finem reponatur:</p>
+
+<p>[CSIV:25,3; text: Exemplum.] <a href="TINNAT_04GF.gif">[TINNAT 04GF]</a></p>
+
+<p>Capitulum XVI.</p>
+
+<p>De simili judicio partis ac totius circa species diapenthe ac diatessaron in tonis denominandis.</p>
+
+<p>Nec ignorandum est hic idem esse judicium partis et totius id est si tonus in finem tantummodo deponatur per partem diapenthe aut diatessaron ut puta per dytonum, semidytonum, tonum aut semitonium secundum ipsam partem tonus hujusmodi judicabitur animadvertendo juxta ambitum et finalem <span class='pageNo'>[26]</span> locum, cujus speciei diapenthe aut diatessaron pars haec esse poterit aut debeat ut est exemplum in antiphona: "Nos qui vivimus", in finem per tonum, tanquam partem tertiae speciei diatessaron communis septimi et octavi deponitur. Inspectis enim ambitu et loco finali hujus antiphone qui regulariter octavo tono deputati sunt, quod tonus ille per quem deponitur in finem sit pars tertiae speciei diapenthe communis ex qua octavus ipse formatur, manifestissimum est. Unde haec antiphona octavi toni erit judicanda, commixti tamen sexto propter tertiam speciem diatessaron per b molle a B fa [sqb] mi acuto in FF fa ut grave ad evitandum tritonum descendentem ipsi sexto regulariter assignatam.</p>
+
+<p>[CSIV:26,1; text: Nos qui vivimus benedicamus Domino.] <a href="TINNAT_04GF.gif">[TINNAT 04GF]</a></p>
+
+<p>Neque, ut nonnulli contendunt, haec antiphona secundi toni irregularis est. Quando enim tonus regularis probari potest, irregularis judicari non debet. Confiteor tamen si ipsa antiphona inciperet in F ut ac in D sol re finiret, quod secundi toni regularis esset, tanquam ex prima specie diatessaron infra finem ejus et communi, prout sibi proprium est, formati, ut hic patet:</p>
+
+<p>[CSIV:26,2; text: Nos qui vivimus benedicamus Domino.] <a href="TINNAT_04GF.gif">[TINNAT 04GF]</a></p>
+
+<p>Capitulum XVII.</p>
+
+<p>Quod tonus unus pluribus ac omnibus poterit esse commixtus.</p>
+
+<p>Animadvertendum tamen est quod non solum, ut exemplariter praeostendimus, tonus unus, uno aut duobus, imo pluribus et omnibus poterit esse commixtus; non tamen autenticus suo plagali, neque plagalis suo autentico. Cujus ratio est eo quod commixtio unius toni nunquam fit nisi per species diapenthe et diatessaron alterius a suis differentes.</p>
+
+<p>Unde quoniam species diapenthe et diatessaron autentici et sui plagalis sint eaedem, impossibile est unum altero commisceri, et si ex hoc quaeratur quod tunc differentia inter autenticum et suum plagalem erit, respondeo quod prorsus nulla nisi quantum ad ordinationem istarum specierum supra et infra finem eorum ut, quando de medio tonorum loquemur, deo dante ostendemus.</p>
+
+<p>Capitulum XVIII.</p>
+
+<p>Quod commixtio toni interdum fit necessitate, ac interdum voluntate.</p>
+
+<p>Ultra scire debemus quod toni commixtio interdum fit necessitate, et interdum, voluntate; necessitate, quidem in fa contra mi in concordantia perfecta fiat, ut hic patet:</p>
+
+<p>[CSIV:26,3] <a href="TINNAT_04GF.gif">[TINNAT 04GF]</a></p>
+
+<p>Namque contrapunctus iste est secundi toni quarto commixti, eo quod per illud fa in [sqb] mi fictum et contra fa FF fa ut gravis positum concreatur secunda species diatessaron quarto tono, ut praevidimus, specificata.</p>
+
+<p>Voluntate vero fit toni commixtio sive in simplici sive in composito cantu; quando, praefata necessitate cessanti, compositor ea, uti voluerit, debet attamen accuratissime cavere quomodo eam ordinet; nihil enim est quod cantus distositos efficiat quam commixtio ipsa, si fuerit inordinata.</p>
+
+<p>Capitulum XIX.</p>
+
+<p>De principio tonorum.</p>
+
+<p>Declarato qualiter et quomodo nostri octo toni ex speciebus diapenthe et diatessaron formati sunt, <span class='pageNo'>[27]</span> restat super tribus in eis necessario considerandis tractare, videlicet de eorum principio, medio et fine; unde quo ad primum sciendum est quod principium toni accipitur hic pro loco in quo prima vox ipsius toni posita est. Invenio autem quemlibet tonum incipere posse in quovis loco sui ambitus. Sunt attamen singulis tonis loca alia aliis convenientora; namque primo tono D sol re, A la mi re acutum et D la sol re caeteris magis conveniunt; secundo, A re, D sol re et A la mi re acutum; tertio, E la mi grave, A la mi re, E la mi acuto; quarto, E la mi grave et A la mi re acutum; quinto, FF fa ut grave, C sol fa ut et FF fa ut acutum; sexto, C fa ut, F Fa ut grave et C sol fa ut; septimo, G sol re ut grave, D la sol re et G sol re ut acutum; octavo, D sol re, G sol re ut grave et D la sol re. Quodquidem dico praecipue quantum ad principia tonorum cantuum compositorum favore quorum primo et principaliter tractatum hunc agressus sum, et quamvis praedicta loca, quae singulis tonis assignavimus, prae caeteris sint eis magis convenientia, amplius tamen mihi compertum est quod ex quinquaginta compositis cantibus vix unus sit qui eo loco non incipiat quo et finiat.</p>
+
+<p>Fuerunt autem nonnulli qui postquam omnia principia simplicis cantus Gregoriani summa cum diligentia persecrutati fuissent, cuilibet tono sua principia certo numero reddiderunt, ut primo sex videlicet: C fa ut, D sol re, E la mi, FF fa ut, G sol re ut gravia et A la mi re acutum; secundo sex, videlicet: [Gamma] ut, A re, C fa ut, D sol re, E la mi et FF fa ut gravia; tertio quatuor, videlicet: E la mi, FF fa ut, G sol re ut gravia et C sol fa ut; quarto sex, videlicet: C fa ut, D sol re, E la mi, FF fa ut, G sol re ut gravia et A la mi re acutum quinto quatuor videlicet F Fa ut G sol re ut gravia, A la mi re acutum et C sol fa ut; sexto tria, videlicet: C fa ut, D sol re et FF fa ut grave; septimo sex, videlicet: FF fa ut, G sol re ut gravia, A la mi re, B fa [sqb] mi acuta, G sol fa ut et D la sol re; octavo quinque, videlicet: D sol re, FF fa ut, G sol re ut gravia, A la mi re acutum et C sol fa ut. Quorum quidem principiorum exemplis Antiphonaria et Gradualia plena sunt; praedicta vero de principiis tonorum regularium intelliguntur. Unde quantum ad principia irregularium, sciendum est quod omnes toni irregulares incipere debent in locis correspondentibus locis regularium; verbi gratia convenientiora loca primi toni regularis sunt D sol re, A la mi re acutum et D la sol re, ergo primi toni irregularis in D la sol re finientis loca erunt convenientiora D la sol re, A la mi re superacutum et D la sol et sic de aliis; verum tamen ipsi toni irregulares sicut et regulares in quovis loco sui ambitus possunt principiari.</p>
+
+<p>Capitulum XX.</p>
+
+<p>De medio tonorum.</p>
+
+<p>Quantum ad medium tonorum in primis notandum est ipsum medium dici ambitum qui nihil aliud est quam toni debitus aut possibilis ascensus et descensus.</p>
+
+<p>Placuit autem ipsorum tonorum institutoribus certam eis a suo fine ascendendi et descendendi limitare quantitatem quae quidem quantitas utraque redacta nona est. Sed haec aliter autenticis et aliter plagalibus dispensatur: autentici namque secundum eorum regulatam quantitatem supra finem eorum debent ascendere diapason, infra vero tonum aut semitonium descendere.</p>
+
+<p>At plagales infra finem eorum diatessaron ex debito descendunt et supra diapenthe cum tono aut semitonio ascendunt. Que diatessaron et diapason cum tono aut semitonio, similiter diapason cum semitonio aut tono nonam cuique optime numeranti praecise conficiunt, sicut hic per exempla probatur:</p>
+
+<p>[CSIV:27; text: Exemplum primi toni pro omnibus autenticis.] <a href="TINNAT_05GF.gif">[TINNAT 05GF]</a></p>
+
+<p><span class='pageNo'>[28]</span> [CSIV:28,1; text: Exemplum secundi toni pro omnibus plagalibus.] <a href="TINNAT_05GF.gif">[TINNAT 05GF]</a></p>
+
+<p>Capitulum XXI.</p>
+
+<p>De gradu tam autenticis quam plagulibus ex licentia concesso.</p>
+
+<p>Alterius concesserunt ex licentia tam autenticis quam plagalibus unum gradum: autenticis infra praedictum eorum descensum, et plagalibus supra praemissum eorum ascensum; quidquidem gradus conjunctio est toni aut semitonii. Unde autentici per hanc licentiam infra suum finem usque ad dytonum aut semidytonum possunt descendere, et plagales supra usque ad diapenthe cum dytono aut semidytono ascendere, ut hic patet:</p>
+
+<p>[CSIV:28,2; text: Exemplum tertii toni pro omnibus autenticis. Exemplum quarti toni pro omnibus plagalibus.] <a href="TINNAT_05GF.gif">[TINNAT 05GF]</a></p>
+
+<p>Sunt tamen aliqui asserentes si autenticus tonus modo praedicto descendat infra suum finem usque ad semidytonum aut dytonum quod mixtus efficitur, et similiter plagalis si supra usque ad diapenthe cum semidytono aut dytono ascendat, sed eorum opinio falsa mihi videtur. Tonus enim mixtus esse non potest, nisi, si fuerit autenticus, debitam quantitatem descensus sui plagalis, quae ditessaron est, attingat, aut nisi si fuerit plagalis debita quantitate autentici sui, quae diapason est, se misceat.</p>
+
+<p>Capitulum XXII.</p>
+
+<p>De mixtione tonorum.</p>
+
+<p>Hinc ut ipsa tonorum commixtio ex quo de eo loqui inceperimus clarius innotescat, sciendum est quod si tonus autenticus infra suum finem usque ad diatessaron descendat, mixtus esse dicitur, eo quod debita quantitas descensus infra finem specialiter plagali suo distributa, hoc est diatessaron, ei misceatur, ut hic patet:</p>
+
+<p>[CSIV:28,3; text: Exemplum quinti toni mixti pro omnibus autenticis.] <a href="TINNAT_05GF.gif">[TINNAT 05GF]</a></p>
+
+<p>Similiter si tonus plagalis supra finem suum diapason usque ascendat, erit mixtus ob hoc quod ad debitam quantitatem ascensus supra finem autentico limitatam, id est diapason, se miscendo perveniat, ut hic probatur:</p>
+
+<p>[CSIV:28,4; text: Exemplum sexti toni mixti pro omnibus plagalibus.] <a href="TINNAT_05GF.gif">[TINNAT 05GF]</a></p>
+
+<p>Capitulum XXIII.</p>
+
+<p>A quo tonus mixtus denominari debeat ab ascensu vel a descensu.</p>
+
+<p>Exsurgere vero hic dubium posset quoniam tonus ita mixtus ascendat ut autenticus, et descendat ut plagalis, a quo potius denominari debeat vel ab ascensu autenticus vel a descensu plagalis, dicendum est quod si tonus saepius ascendat a suo fine usque ad diapason quam descendat usque ad diatessaron, autenticus mixtus dicetur.</p>
+
+<p>Si vero frequentius infra finem suum usque ad <span class='pageNo'>[29]</span> diatessaron descendat quam supra usque ad diapason ascendat, plagalis mixtus appellabitur, ut patet per duo exempla superius immediate posita; sed si tonus ipse totiens praecise supra finem suum usque ad diapason ascenderit quotiens infra usque ad diatessaron descenderit, rationabile dico ut tanquam a digniori autenticus denominetur. Autenticus autem plagali dignior est, ut magister discipulo, non solum eo quod ille prior inventione sit, verum etiam quia numerus impar proprietatis nobilitate parem excedit.</p>
+
+<p>[CSIV:29; text: Exemplum septimi toni mixti pro omnibus autenticis.] <a href="TINNAT_05GF.gif">[TINNAT 05GF]</a></p>
+
+<p>Nonnulli tamen dicunt tantam esse virtutem speciei diapenthe consistentis ex uno intervallo, quod licet tonus etiam supra finem suum diapenthe non transcenderit et infra quantumvis descenderit, si bis aut ter ipsa species repercutiatur quod semper autenticus erit dicendus; adducunt quod in exemplum responsorium "Sint Lumbi" quibus, si credas, illud videas.</p>
+
+<p>Capitulum XXIV.</p>
+
+<p>Quae commixtio et mixtio tonorum non solum in cantu simplici, sed etiam in composito fiant.</p>
+
+<p>Denique notandum est quod commixtio et mixtio tonorum non solum fiunt in simplici cantu, verum etiam in composito, tali que modo ut si cantus sit cum duabus, tribus, quatuor aut pluribus partibus compositus, una pars erit unius toni altera alterius; una autentici, altera plagalis; una mixti altera commixti; unde quando missa aliqua vel cantilena vel quaevis alia compositio fuerit ex diversis partibus diversorum tonorum effecta, si quis peteret absolute cujus toni talis compositio esset, interrogatus, debet absolute respondere secundum qualitatem tenoris eo quod omnis compositionis sit pars principalis et fundamentum totius relationis, et si particulariter de qualibet parte hujusmodi compositionis cujus toni sit petatur, particulariter talis aut talis respondebit. Verbi gratia si quis universaliter mihi diceret: Tinctoris, peto abs te cujus toni sit carmen "Le Serviteur", responderem universaliter primi toni irregularis, quoniam tenor pars principalis ipsius carminis sit hujusmodi toni; si tamen particulariter peteret cujus toni esset Supremum aut Contratenor, particulariter responderem et illud et istum esse secundi toni etiam irregularis; ad particularem vero tenoris interrogationem respondendum esse sicut ad universalem, nullus est qui dubitat; et simili modo de caeteris accidentibus toni interrogatum respondere opportebit.</p>
+
+<p>Capitulum XXV.</p>
+
+<p>De quatuor differentiis inter commixtionem et mixtionem tonorum.</p>
+
+<p>Nunc autem eo quod de commixtione et mixtione tonorum disseruimus utilissimum fore arbitratus sum quatuor differentias inter se ex praedictis collectas more cujusdam epilogi breviter hic annotare. Prima quidem est quod commixtio interdum fit per necessitatem, mixtio vero nunquam. Secunda est quod commixtio unius toni fit alio quam suo plagali, si fuerit autenticus, et si plagalis fuerit, alio quam suo autentico. Mixtio autem toni autentici fit suo plagali ac non alio, et plagalis non alio quam suo autentico. Tertia ex quod commixtio unius toni fieri potest a pluribus, mixtio vero uno tantum. Quarta est quod commixtio unius toni fit per interpositionem specierum diapenthe aut diatessaron alterius. Mixtio autem per descensum plagalis si fuerit autenticus, et si plagalis, per ascensum autentici.</p>
+
+<p><span class='pageNo'>[30]</span> Capitulum XXVI.</p>
+
+<p>De perfectione, imperfectione et plusquam perfectione tonorum.</p>
+
+<p>Et quamvis, ut praetractum est, tonus autenticus regulariter ascendere debeat supra finem suum usque ad diapason infra que tantum usque ad semidytonum aut dytonum descendere possit, plagalis vero infra suum finem usque ad diatessaron descendere debet, supra tantum usque ad semidytonum aut dytonum possibiliter ascendat, plures tamen invenio tonos ab hujusmodi eorum regulata quantitate deficientes et aliquos ipsam quantitatem excedentes. Unde fit quod dicere possumus tonum alium esse perfectum, alium imperfectum, et alium plusquam perfectum. Tonus perfectus est ille qui praecise supra finem suum ascendit, infra que descendit tantum regulariter debet aut potest. Tonus imperfectus est qui minus quam debeat aut possit supra finem suum ascendit et infra descendit.</p>
+
+<p>Tonus plusquam perfectus est qui regulariter sibi deputatum supra finem suum transcendit ascensum et infra excedit descensum.</p>
+
+<p>Verumtamen hujusmodi tonorum perfectio, imperfectio et plusquam perfectio non solum eis contingit quam ad ascensum simul et descensum sed etiam quantum ad ascensum aut descensum tantum; unde super hiis ampliorem excogitavi distinctionem. Tonus enim aut est perfectus quo ad ascensum et descensum, aut perfectus quo ad ascensum et imperfectus quo ad descensum, aut perfectus quo ad descensum et imperfectus quo ad ascensum, aut perfectus quo ad ascensum et plusquam perfectus quo ad descensum, aut perfectus quo ad descensum et plusquam perfectus quo ad ascensum, aut imperfectus quo ad ascensum et descensum, aut imperfectus quo ad ascensum et plusquam perfectus quo ad descensum, aut imperfectus quo ad descensum et plusquam perfectus quo ad ascensum, aut plusquam perfectus quo ad ascensum et descensum.</p>
+
+<p>Capitulum XXVII.</p>
+
+<p>De tono perfecto quo ad ascensum et descensum.</p>
+
+<p>Tonus perfectus quo ad ascensum et descensum est ille qui si fuerit autenticus supra finem suum usque ad diapason ascendit et infra usque ad semitonium aut tonum vel semidytonum aut dytonum descendit; et si fuerit plagalis, qui infra suum finem usque ad diatessaron descendit ac supra usque ad diapenthe cum semitonio aut tono vel semidytono aut dytono ascendit, ut hic patet:</p>
+
+<p>[CSIV:30; text: Exempla primi toni pro omnibus autenticis. Exempla secundi toni pro omnibus plagalibus.] <a href="TINNAT_06GF.gif">[TINNAT 06GF]</a></p>
+
+<p>Capitulum XXVIII.</p>
+
+<p>De tono perfecto quo ad ascensum et imperfecto quo ad descensum.</p>
+
+<p>Tonus perfectus quo ad ascensum et imperfectus quo ad descensum est ille qui, si fuerit autenticus, ascendit supra finem suum usque ad diapason ac infra nihil descendit, et si fuerit plagalis, qui supra finem suum usque ad diatessaron non pervenit. Attamen supra diapenthe cum semitonio aut tono vel semidytono aut dytono attingit, ut hic probatur:</p>
+
+<p><span class='pageNo'>[31]</span> [CSIV:31,1; text: Exemplum tertii toni pro omnibus autenticis. Exempla quarti toni pro omnibus plagalibus.] <a href="TINNAT_06GF.gif">[TINNAT 06GF]</a></p>
+
+<p>Capitulum XXIX.</p>
+
+<p>De tono perfecto quo ad descensum et imperfecto quo ad ascensum.</p>
+
+<p>Tonus perfectus quo ad descensum et imperfectus quo ad ascensum est ille qui, si autenticus fuerit, infra suum finem usque ad semitonium aut tonum vel semidytonum aut dytonum descendit et supra usque ad diapason non pervenit, et si fuerit plagalis, si supra finem suum diapenthe non transcendit, infra vero usque ad diatessaron descendit.</p>
+
+<p>[CSIV:31,2; text: Exemplum quinti toni pro omnibus autenticis. Exemplum sexti pro omnibus plagalibus.] <a href="TINNAT_06GF.gif">[TINNAT 06GF]</a></p>
+
+<p>Capitulum XXX.</p>
+
+<p>De dubio orto ex similitudine ascensus ac descensus autentici imperfecti quo ad ascensum et perfecti quo ad desgensum, ac plagalis imperfecti quo ad descensum et perfecti quo ad ascensum.</p>
+
+<p>Sed ex praedictis dubium orire poterit, videlicet: quomodo tonus autenticus imperfectus quo ad ascensum et perfectus quo ad descensum ac plagalis perfectus quo ad ascensum et imperfectus quo ad descensum equaliter ascendere descendereque possint, ut puta supra finem eorum usque ad diapenthe, cum semitonio aut tono, vel semidytono aut dytono ac infra usque ad semidytonum aut tonum vel semidytonum aut dytonum qualis tonus esse potius; dicetur respondendum quod si tonus supra finem suum ascendat saepius usque ad diapenthe cum semidytono aut dytono quam infra descenbat usque ad semidytonum aut dytonum, autenticus nominabitur, ut patet in ultimo exemplo quinti toni posito supra capitulo proximo. Si vero e contra frequentius infra finem suum usque ad semidytonum aut dytonum descendat quam supra usque ad diapenthe cum semidytono aut dytono ascendat, plagalis appellabitur, ut videri potest in ultimo exemplo quarti toni posito supra capitulo penultimo; at si tonus ipse totiens supra finem suum usque ad praedictum diapenthe cum semidytono aut dytono ascenderit quotiens infra usque ad semidytonum aut dytonum descenderit, autentici nomen propter ejus praestantiam sortietur, ut hic probatur:</p>
+
+<p>[CSIV:31,3; text: Exemplum septimi toni pro omnibus autenticis.] <a href="TINNAT_06GF.gif">[TINNAT 06GF]</a></p>
+
+<p>Quando autem tonus supra finem suum usque ad diapenthe cum semidytono aut dytono ascendit et infra tantum usque ad semitonium aut tonum descendit, indistincte autenticus est, ut hic patet:</p>
+
+<p><span class='pageNo'>[32]</span> [CSIV:32,1; text: Exemplum primi toni pro omnibus autenticis.] <a href="TINNAT_07GF.gif">[TINNAT 07GF]</a></p>
+
+<p>Et si tonus ipse supra finem suum usque ad diapenthe cum semitonio aut tono ascendat ac infra usque ad semitonium aut tonum descendat, dicitur etiam autenticus, ut hic probatur:</p>
+
+<p>[CSIV:32,2; text: Exemplum tertii toni pro omnibus autenticis.] <a href="TINNAT_07GF.gif">[TINNAT 07GF]</a></p>
+
+<p>Volunt tamen aliqui quod si in hujusmodi tono ascendente supra finem suum usque ad diapenthe cum semitonio aut tono ac infra usque ad semitonium aut tonum descendente species communis diatessaron plures repercutiantur, plagalis erit judicandus, ut hic patet:</p>
+
+<p>[CSIV:32,3; text: Exemplum quarti toni pro onmibus plagalibus.] <a href="TINNAT_07GF.gif">[TINNAT 07GF]</a></p>
+
+<p>Sed si tonus supra finem suum usque ad diapenthe cum semitonio aut tono ascendens infra usque ad semidytonum aut dytonum descendat, sine exceptione plagalis esse dicetur, ut hic probatur:</p>
+
+<p>[CSIV:32,4; text: Exemplum sexti toni pro omnibus plagalibus.] <a href="TINNAT_07GF.gif">[TINNAT 07GF]</a></p>
+
+<p>Capitulum XXXI.</p>
+
+<p>De tono perfecto quo ad ascensum et plusquam perfecto quo ad descensum.</p>
+
+<p>Tonus perfectus quo ad ascensum et plusquam perfectus quo ad descensum est plagalis quando infra finem suum ultra diatessaron descendit ac supra usque ad diapenthe cum semitonio aut tono vel semidytono aut dytono ascendit, ut hic patet:</p>
+
+<p>[CSIV:32,5; text: Exempla octavi toni pro omnibus plagalibus.] <a href="TINNAT_07GF.gif">[TINNAT 07GF]</a></p>
+
+<p>Capitulum XXXII.</p>
+
+<p>De tono perfecto quo ad descensum et plusquam perfecto quo ad ascensum.</p>
+
+<p>Tonus perfectus quo ad descensum et plusquam perfectus quo ad ascensum est autenticus, quando intra finem suum usque ad semitonium aut tonum vel semidytonum aut dytonum descendit ac supra diapason transcendit, ut hic probatur:</p>
+
+<p>[CSIV:32,6; text: Exempla septimi toni pro omnibus autenticis.] <a href="TINNAT_07GF.gif">[TINNAT 07GF]</a></p>
+
+<p>Capitulum XXXIII.</p>
+
+<p>De tono imperfecto quo ad ascensum et descensum.</p>
+
+<p>Tonus imperfectus quo ad ascensum et descensum est ille qui, si fuerit autenticus, supra finem suum diapason non attingit, ac infra nihil descendit, et si plagalis fuerit, qui infra finem suum usque ad diatessaron non pervenit ac supra diapenthe non excedit, ut hic patet:</p>
+
+<p>[CSIV:32,7; text: Exemplum primi toni pro omnibus autenticis.] <a href="TINNAT_07GF.gif">[TINNAT 07GF]</a></p>
+
+<p><span class='pageNo'>[33]</span> [CSIV:33,1; text: Exemplum secundi toni pro omnibus plagalibus.] <a href="TINNAT_08GF.gif">[TINNAT 08GF]</a></p>
+
+<p>Capitulum XXXIV.</p>
+
+<p>De dubito orto ex similitudine ascensus autentici imperfecti quo ad ascensum et descensum, ac plagalis imperfecti quo ad descensum et perfecti quo ad ascensum.</p>
+
+<p>Ne hic dubitatur quoniam tonus autenticus imperfectus quo ad ascensum et descensum ac plagalis perfectus quo ad ascensum et imperfectus quo ad descensum infra suum finem nihil descendentes supra aequaliter ascendere posse videantur videlicet usque ad diapenthe cum semitonio aut tono vel semiditono aut ditono qualiter unus ab alio discernetur, dicendum quod si tonus infra finem suum nihil descendat et supra usque ad diapenthe cum semitonio aut tono vel semiditono aut ditono ascendat indistincte autenticus erit, ut hic probatur:</p>
+
+<p>[CSIV:33,2; text: Exempla tertii toni pro omnibus autenticis.] <a href="TINNAT_08GF.gif">[TINNAT 08GF]</a></p>
+
+<p>Dicunt attamen nonnulli quod si in tono ascendente supra finem suum usque ad diapenthe cum semitonio aut tono tantum, ac infra nihil descendente species communis diatessaron pluries repercussa fuerit, plagalis dicendus erit, ut hic patet:</p>
+
+<p>[CSIV:33,3; text: Exemplum sexti pro omnibus plagalibus.] <a href="TINNAT_08GF.gif">[TINNAT 08GF]</a></p>
+
+<p>Capitulum XXXV.</p>
+
+<p>De dubio orto ex similitudine ascensus autentici imperfecti quo ad ascensum et descensum ac plagalis etiam sic imperfecti.</p>
+
+<p>Praeterea tonus autenticus imperfectus quo ad ascensum et descensum ac plagalis etiam imperfectus quo ad ascensum et descensum, nihil infra finem eorum descendentes supra equaliter posse videntur ascendere videlicet usque ad diapenthe vel minus, a quo igitur unus ab altero cognoscetur? Respondeo quod si tonus infra finem suum nihil descendens supra diapenthe non transcendat et ipsum diapenthe totiens ac pluries quod diatessaron commune frequentet, autenticus dicetur; e contra vero plagalis, ut hic probatur:</p>
+
+<p>[CSIV:33,4; text: Exemplum septimi toni pro omnibus autenticis. Exemplum octavi toni pro omnibus plagalibus.] <a href="TINNAT_08GF.gif">[TINNAT 08GF]</a></p>
+
+<p>Quidam attamen dicunt quod in hujusmodi tono supra finem suum usque ad diapenthe tantum ascendente ac infra nihil descendente notae supra et infra cordam ejus existentes sunt numerandae, et si plures fuerint supra quam infra, autenticus erit judicandus; si vero tot aut minus, plagalis. Notandumque est notas quae in ipsa corda positae sunt, neque cum superioribus, neque cum inferioribus esse numerandas, ut hic patet:</p>
+
+<p>[CSIV:33,5; text: Exemplum primi toni pro omnibus autenticis. Exemplum secundi toni pro omnibus plagalibus.] <a href="TINNAT_08GF.gif">[TINNAT 08GF]</a></p>
+
+<p>Et quamvis istorum opinio non mihi vera omnino videatur propter complures antiphonas quas in oppositum, quisquis voluerit, in antiphonario invenire poterit, non tamen inutile sciri arbitror, quod corda cujuslibet toni dicitur locus ille qui a <span class='pageNo'>[34]</span> fine ipsius toni aut semiditono aut ditono distat; itaque F Fa ut grave regularis corda est primi toni et secundi; G sol re ut grave tertii et quarti; A la mi re acutum quinti et sexti; B fa [sqb] mi acutum septimi et octavi. Si vero tonus infra finem ejus nihil descendens supra usque ad diatessaron tantum aut minus aut nihil ascendat, sine exceptione plagalis est, ut hic probatur:</p>
+
+<p>[CSIV:34,1; text: Exempla secundi toni pro omnibus autenticis.] <a href="TINNAT_09GF.gif">[TINNAT 09GF]</a></p>
+
+<p>Capitulum XXXVI.</p>
+
+<p>De dubio orto ex similitudine ascensus ac descensus autentici imperfecti quo ad ascensum et perfecti quo ad descensum, ad plagalis imperfecti quo ad utrumque.</p>
+
+<p>Denique videtur quod tonus autenticus imperfectus quo ad ascensum et perfectus quo ad descensum, ac plagalis imperfectus quo ad ascensum et descensum simili modo supra finem eorum ascendere ac infra descendere possint, videlicet supra usque ad diapenthe vel minus et infra usque ad semitonium aut tonum aut semiditonum aut ditonum; quae igitur differentia unum ab altero secernet? dicendum quod si tonus totiens aut pluries frequentet diapenthe quam diatessaron supra finem suum usque ad semitonium aut tonum tantum infra descendens, autenticus erit, e contra vero plagalis, ut hic patet:</p>
+
+<p>[CSIV:34,2; text: Exemplum quinti toni pro omnibus autenticis. Exemplum sexti pro omnibus plagalibus.] <a href="TINNAT_09GF.gif">[TINNAT 09GF]</a></p>
+
+<p>Si vero tonus usque ad semiditonum aut ditonum infra finem suum descenderit, licet supra usque ad diapenthe ascendens illud frequentius attingat quam diatessaron, tamen plagalis erit, ut hic probatur:</p>
+
+<p>[CSIV:34,3; text: Exemplum octavi pro omnibus plagalibus.] <a href="TINNAT_09GF.gif">[TINNAT 09GF]</a></p>
+
+<p>Quando autem tonus ipse supra finem suum usque ad diatessaron tantum aut minus aut nihil ascendit sive infra usque ad semitonium aut tonum tantum, sive usque ad semiditonum aut ditonum descendat indistincte plagalis judicabitur, ut hic patet:</p>
+
+<p>[CSIV:34,4; text: Exempla quarti toni pro omnibus plagalibus.] <a href="TINNAT_09GF.gif">[TINNAT 09GF]</a></p>
+
+<p>Capitulum XXXVII.</p>
+
+<p>De tono imperfecto quo ad ascensum et plusquam perfecto quo ad descensum.</p>
+
+<p>Tonus imperfectus quo ad ascensum et plusquam perfectus quo ad descensum est plagalis tantum qui supra finem suum diapenthe non transcendit, et diatessaron infra excedit, ut hic probatur:</p>
+
+<p>[CSIV:34,5; text: Exemplum secundi toni pro omnibus plagalibus.] <a href="TINNAT_09GF.gif">[TINNAT 09GF]</a></p>
+
+<p><span class='pageNo'>[35]</span> Capitulum XXXVIII.</p>
+
+<p>De tono imperfecto quo ad descensum et plusquam perfecto quo ad ascensum.</p>
+
+<p>Tonus imperfectus quo ad descensum et plusquam perfectus quo ad ascensum, est autenticus solum qui infra finem suum nihil descendens, ultra diapason ab ipso fine ascendit, ut hic patet:</p>
+
+<p>[CSIV:35,1; text: Exemplum primi toni pro omnibus autenticis.] <a href="TINNAT_10GF.gif">[TINNAT 10GF]</a></p>
+
+<p>Capitulum XXXIX.</p>
+
+<p>De tono plusquam perfecto quo ad ascensum et descensum.</p>
+
+<p>Tonus plusquam perfectus quo ad ascensum et descensum est mixtus, sive fuerit autenticus sive plagalis qui a fine suo ultra diapason ascendit et infra eumdem finem ultra diatessaron descendit, ut hic probatur:</p>
+
+<p>[CSIV:35,2; text: Exemplum tertii toni mixti pro omnibus autenticis. Exemplum quarti mixti pro omnibus plagalibus.] <a href="TINNAT_10GF.gif">[TINNAT 10GF]</a></p>
+
+<p>Capitulum XL.</p>
+
+<p>De tono mixto quod ad ascensum ac descensum perfecto.</p>
+
+<p>Praeterea sciendum quod tonus mixtus sive autenticus, sive plagalis fuerit, potest esse perfectus quo ad ascensum ac descensum, hoc est quando supra finem suum usque ad diapason praecise ascendit et infra usque ad diatessaron descendit, ut hic patet:</p>
+
+<p>[CSIV:35,3; text: Exemplum quinti et sexti toni pro omnibus autenticis.] <a href="TINNAT_10GF.gif">[TINNAT 10GF]</a></p>
+
+<p>Capitulum XLI.</p>
+
+<p>De tono mixto perfecto quo ad ascensum et quo ad descensum plusquam perfecto.</p>
+
+<p>Item poterit ipse tonus mixtus, sive sit autenticus sive plagalis, esse perfectus quo ad ascensum et plusquam perfectus quo ad descensum, videlicet si supra finem suum usque ad diapason tantum ascenderit, et infra ultra diatessaron descenderit, ut hic probatur:</p>
+
+<p>[CSIV:35,4; text: Exemplum septimi toni mixti pro omnibus autenticis.] <a href="TINNAT_10GF.gif">[TINNAT 10GF]</a></p>
+
+<p><span class='pageNo'>[36]</span> [CSIV:36,1; text: Exemplum octavi toni mixti pro omnibus plagalibus.] <a href="TINNAT_11GF.gif">[TINNAT 11GF]</a></p>
+
+<p>Capitulum XLII.</p>
+
+<p>De tono mixto quo ad descensum perfecto et quo ac ascensum plusquam perfecto.</p>
+
+<p>Insuper tonus mixtus, sive autenticus sive plagalis, sit perfectus quo ad descensum et plusquam perfectus quo ad ascensum esse poterit, hoc quando infra finem suum usque ad diatessaron tantum descendit et supra ultra diapason ascendit, ut hic patet:</p>
+
+<p>[CSIV:36,2; text: Exemplum primi toni mixti pro omnibus autenticis. Exemplum secundi toni mixti pro omnibus plagalibus.] <a href="TINNAT_11GF.gif">[TINNAT 11GF]</a></p>
+
+<p>Capitulum XLIII.</p>
+
+<p>De dubio ex similitudine ascensus ac descensus autentici mixti ac plagalis.</p>
+
+<p>At eo quod istis quatuor ultimis modis tonus autenticus ac plagalis ascendere descendereque pariformiter posse videntur, notandum est si unum ab altero discernere voluerimus, quod si tonus pluries supra finem suum usque ad regulatam quantitatem autentici vel ultra ascenderit quam ad illam quae plagali regulata est vel ultra descenderit, autenticus vocabitur.</p>
+
+<p>E contra vero plagalis esse dicetur ut in praemissis patet exemplis. At si tonus ipse totiens supra finem suum ut vel autenticus debet vel ultra ascendat, quotiens infra juxta debitum plagalis vel ultra descendit ob excellentiam ac praeeminentiam autentici nomen sortietur, ut hic probatur:</p>
+
+<p>[CSIV:36,3; text: Exempla quinti toni mixti pro omnibus autenticis.] <a href="TINNAT_11GF.gif">[TINNAT 11GF]</a></p>
+
+<p>Capitulum XLIV.</p>
+
+<p>De fine tonorum.</p>
+
+<p>Superest finaliter de tonorum fine aliquantisper disserere; unde primo sciendum est quod finis hic sumitur pro loco in quo vox ultima toni ponitur. Placuit autem tonorum praeceptoribus cuilibet eorum copulae, hoc est, autentico cum suo plagali simul unum regularem finem attribuisse, videlicet primo et secundo D sol re; tertio et quarto E la mi grave; quinto et sexto FF fa ut grave; septimo et octavo G sol re ut grave, ut per supposita patet exempla:</p>
+
+<p><span class='pageNo'>[37]</span> [CSIV:37,1; text: Exemplum primi toni. Exemplum secundi toni. Exemplum tertii toni. Exemplum quarti toni. Exemplum quinti toni. Exemplum sexti toni. Exemplum sep imi toni. Exemplum octavi toni.] <a href="TINNAT_12GF.gif">[TINNAT 12GF]</a></p>
+
+<p>Capitulum XLV.</p>
+
+<p>De finibus irregularibus tonorum.</p>
+
+<p>At quamvis quatuor praedicta loca numeris octo tonis regulariter sint attributa, unde quando in eis finiunt regulares vocantur, ipsi tamen toni in omnibus locis aliis regularibus aut per veram aut per fictam musicam correspondentibus sive intra manum sive extra finire possunt, et tunc irregulares appellati sunt.</p>
+
+<p>Capitulum XLVI.</p>
+
+<p>De finibus irregularibus primi toni et secundi.</p>
+
+<p>Primus itaque tonus atque secundus intra manum irregulariter finire poterunt in G sol re ut gravi per b molle ac naturam et in C fa ut per conjunctas E la mi gravis ac [sqb] mi, et per b molle; extra manum autem in diapenthe sub [Gamma] ut per conjunctam [sqb] mi ac duas alias, unam positam in ditono et alteram in diapenthe cum tono sub ipso [Gamma] ut, tanquam in locis regulari eorum, hoc est D sol re, consonantibus. Namque ascendendo ac descendendo per conjunctas ac proprietates pretactas supra et infra praedicta loca ita inveniuntur primae species diapenthe ac diatessaron ex quibus isti toni formantur, sicut ascendendo et descendendo supra et infra D sol re, ut hic probatur:</p>
+
+<p>[CSIV:37,2; text: Exemplum primum toni primi irregularis. Exemplum primum secundi. Exemplum secundum primi. Exemplum secundum secundi.] <a href="TINNAT_12GF.gif">[TINNAT 12GF]</a></p>
+
+<p><span class='pageNo'>[38]</span> [CSIV:38,1; text: Exemplum tertii primi. Exemplum tertium secundi.] <a href="TINNAT_13GF.gif">[TINNAT 13GF]</a></p>
+
+<p>Capitulum XLVII.</p>
+
+<p>De finibus irregularibus tertii et quarti.</p>
+
+<p>Similiter tertius tonus et quartus per irregularitatem poterunt intra manum finire in A la mi re acuto per b molle ac naturam, et in D sol re per conjunctam E la mi gravis ac per b molle et per conjunctam [sqb] mi; extra manum vero in diatessaron sub [Gamma] ut per conjunctam [sqb] mi cum duabus aliis, una in ditono, altera in diapenthe cum tono sub praefato [Gamma] ut positis. Haec etenim loca eorum regulari, id est E la mi gravi, correspondent quoniam supra et infra ipsam per praedictas proprietates et conjunctas ascendendo et descendendo secundae species diapenthe ac diatessaron quae tonos istos formant, perinde reperiantur ac si supra et infra E la mi grave ascenderetur ac descenderetur, ut hic patet:</p>
+
+<p>[CSIV:38,2; text: Exemplum primum tertii toni irregularis. Exemplum primum quarti. Exemplum secundum tertii. Exemplum secundum quarti. Exemplum tertium tertii. Exemplum tertium quarti.] <a href="TINNAT_13GF.gif">[TINNAT 13GF]</a></p>
+
+<p>Capitulum XLVIII.</p>
+
+<p>De finibus irregularibus quinti ex sexti</p>
+
+<p>Quintus etiam tonus et sextus intra manum irregulariter finire poterunt in C fa ut per naturam et per [sqb] durum ac in B fa [sqb] mi acuto per b molle et per naturam ac per conjunctam E la mi acuti si ejus fuerit, extra manum autem in tono sub [Gamma] ut per [sqb] durum et per naturam ac per conjunctam [sqb] mi, quando necessarium erit, tanquam in locis regulari eorum, hoc est FF fa ut gravi consonantibus, namque ascendendo ac descendendo per conjunctas et proprietates praetactas supra et infra praedicta loca, ita inveniuntur tertia aut quarta species diapenthe et tertia species diatessaron ex quibus isti toni formantur sicut ascendendo et descendendo supra et infra FF fa ut grave, ut hic probatur:</p>
+
+<p>[CSIV:38,3; text: Exemplum primum quinti irregularis. Exemplum primum sexti.] <a href="TINNAT_13GF.gif">[TINNAT 13GF]</a></p>
+
+<p><span class='pageNo'>[39]</span> [CSIV:39,1; text: Exemplum secundum quinti. Exemplum secundum sexti. Exemplum tertium quinti. Exemplum tertium sexti.] <a href="TINNAT_14GF.gif">[TINNAT 14GF]</a></p>
+
+<p>Capitulum XLIX.</p>
+
+<p>De finibus irregularibus septimi et octavi.</p>
+
+<p>Pari modo septimus tonus et octavus per irregularitatem poterunt intra manum finire in FF fa ut grave per b molle et per conjunctam utriusque E la mi ac in C sol fa ut per naturam et per b molle. Extra manum vero in tono sub [Gamma] ut per conjunctas [sqb] mi et E la mi gravis ac per unam aliam in ditono sub praefato [Gamma] ut positam. Haec etenim loca eorum regulari id est G sol re ut gravi correspondent, quoniam supra et infra ipsa praedictas proprietates et conjunctas ascendendo et descendendo quarta species diapenthe et tertia diatessaron quae tonos istos formant perinde reperiantur ac si supra et infra G sol re ut grave ascenderetur ac descenderetur, ut hic patet:</p>
+
+<p>[CSIV:39,2; text: Exemplum primum septimi toni irregularis. Exemplum primum octavi. Exemplum secundum septimi. Exemplum secundum octavi. Exemplum tertium septimi. Exemplum tertium octavi.] <a href="TINNAT_14GF.gif">[TINNAT 14GF]</a></p>
+
+<p>Capitulum L.</p>
+
+<p>Quod plura irregularia locatam extra manum quam intra finibus tonorum cedere possunt.</p>
+
+<p>Plura denique alia irregularia loca intra manum et extra sunt in quibus ob convenientiam quam habent ad regularia nostri octo toni finire possunt. Verumtamen propter evitandam prolixitatem satis super mihi visum est tria cuilibet tono per exempla specificasse. Nihilominus eo quod aliquibus forsitan mirum videretur me nullam prorsus mentionem de finibus qui tonis extra manum a parte superiori contingere possunt fecisse ne putarent si id praemitterem ex ignoratione evenisse de duobus tantum hic disserere institui hoc est de fine sexti et de fine octavi.</p>
+
+<p>Sextus igitur tonus extra manum irregulariter finire poterit in semitonio supra E la per naturam <span class='pageNo'>[40]</span> et per [sqb] durum aut per b molle, si opus fuerit mediante conjuncta in diapenthe supra praedictum E la posita tanquam in loco ejus regulari, hoc est FF fa ut gravi correspondente. Namque ascendendo et descendendo per proprietates et conjunctam praetactas, supra et infra dictum locum ita inveniuntur tertia aut quarta species diapenthe, tertia species diatessaron ex quibus tonus iste formatur sicut ascendendo et descendendo supra et infra FF fa ut grave, ut hic probatur:</p>
+
+<p>[CSIV:40,1; text: Exemplum primum per naturam ac per [sqb] durum. Exemplum secundum per naturam ac per b molle.] <a href="TINNAT_14GF.gif">[TINNAT 14GF]</a></p>
+
+<p>Octavus autem tonus per irregularitatem etiam finire poterit extra manum in semiditono supra E la per naturam et per [sqb] durum. Hic enim locus regulari ejus, id est G sol re ut gravi, correspondet, quoniam supra et infra ipsum per proprietates praedictas ascendendo et descendendo quarta species diapenthe et prima species diatessaron quae tonum istum format perinde reperiantur ac si supra et infra G sol re ut grave ascenderetur et descenderetur, ut hic patet:</p>
+
+<p>[CSIV:40,2] <a href="TINNAT_14GF.gif">[TINNAT 14GF]</a></p>
+
+<p>Et quoniam praedicta duo loca ab E la semitonio et tono distantia FF fa ut et G sol re ut gravibus pro bidiapason correspondent, frustra et praeter artem ut in illo cantatur fa et in isto consequenter sol b mollis signum in proximo loco supra E la ponitur. Namque sicut fa et sol in FF fa ut et G sol re ut gravibus vere canuntur per naturam ex loco C fa ut ita in istis locis virtute corresponsionis fa et sol ex loco C sol fa etiam per naturam erunt canenda.</p>
+
+<p>Capitulum LI.</p>
+
+<p>Interpretatio quarumdam conjunctionum secundum communiorem loquendi modum.</p>
+
+<p>Quoniam vero hoc in opusculo quasdam conjunctiones graece, quasdam latine, scilicet vocabulis non vulgariter notis appellavimus eas (ut facilius in eo contenta intelligantur) secundum communiorem loquendi modum, interpretari mens est; unde primo:</p>
+
+<p>Ditonus supra diapason, id est decima perfecta.</p>
+
+<p>Semiditonus supra diapason, id est decima imperfecta.</p>
+
+<p>Diapason cum tono, id est nona perfecta.</p>
+
+<p>Diapason cum semitono, id est nona imperfecta.</p>
+
+<p>Diapason, id est octava.</p>
+
+<p>Diapenthe cum ditono, id est septima perfecta.</p>
+
+<p>Diapenthe cum semiditono, id est septima imperfecta.</p>
+
+<p>Diapason cum tono, id est sexta perfecta.</p>
+
+<p>Diapason cum semitono, id est sexta imperfecta.</p>
+
+<p>Diapenthe, id est quinta.</p>
+
+<p>Diatessaron, id est quarta.</p>
+
+<p>Ditonus, id est tertia perfecta.</p>
+
+<p>Semiditonus, id est tertia imperfecta.</p>
+
+<p>Tonus, id est secunda perfecta.</p>
+
+<p>Semitonium, id est secunda imperfecta.</p>
+
+<p>Conclusio.</p>
+
+<p>Nunc postquam de formatione principio, medio ac fine tonorum disseruimus ex quo facillime et natura et proprietas eorum innotescere potest, huic nostro opusculo finem imponere in animum venit.</p>
+
+<p>Supplico tandem cunctis istam traditionem inspicientibus <span class='pageNo'>[41]</span> ut me in amicitiam ac benevolentiam recipere dignentur quo Deus alpha et [Omega], hoc est principium et finis a quo originem duximus et in quem finaliter tendimus, mihi illorum orationibus adjuto tantum divini afflatus inspiret quod in dies magis ac magis profisciendo excellentissimae arti musicae, donec moriar, indulgeam ut, quoniam per artem hanc inventam ac infinitam meam excoluerim vitam, Dei infiniti largitate ad caelestia regna finis inscia valeam pervenire.</p>
+
+<p>Explicit liber de natura et proprietate tonorum a Magistro Joanne Tinctoris, ut praedictum est, compositus quem quoque Capellanus regius esset neapolis incepit et complevit anno 1476 die 6 Novembris. Quo quidem anno 15 novembris, Diva Beatrix Aragonia Ungarorum Regina coronata fuit.</p>
+
+<p>Deo gratias.</p>
+<!-- end text -->
+</div>
+</div>
+<!--</div>-->
+<br /><br />
+
+
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
+<div id="footer">
+  <div id="chmtl_logo">
+    <a href="https://chmtl.indiana.edu/">
+        <img src="_assets/img/chmtl_logo_trans.png" alt="CHMTL Logo" />
+    </a>
+  </div>
+  <div id="copyright">
+    <p>The <a href="https://chmtl.indiana.edu/">Center for the History of Music Theory and Literature</a> is a research center of the <a href="http://music.indiana.edu">Indiana University Jacobs School of Music</a>.</p>
+  </div>
+</div>
+
+<div id="iu_footer">
+    <hr />
+    <div id="copyright">
+        <div id="blockiu">
+            <a href="http://www.iub.edu" title="Indiana University">
+                <img alt="Block IU" height="28" src="https://chmtl.indiana.edu/tml/15th/_assets/img/blockiu_white.gif" width="22" />
+            </a>
+        </div>
+        <p id="statement">
+        <a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> © 2022 The Trustees of <a href="http://www.iu.edu" title="Indiana University">Indiana University</a> | <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> | <a href="https://music.indiana.edu/departments/offices/music-information-technology-services/privacy.shtml">Privacy Notice</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,811 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>TINEXP_TEXT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="_assets/css/tml/layout.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/css/common/chmtl_identity.css" />
+    <!--<link rel="stylesheet" type="text/css" href="_assets/css/w3.css" />-->
+    <link rel='stylesheet' type='text/css' href='_assets/css/fancybox.css' />
+    <script type= 'text/javascript' src='_assets/js/chmtl_file.min.js'></script>
+</head>
+
+<body>
+  <div id="chmtl-identity">
+    <div id="identity-spacer"></div>
+<!--    <p>A project of <a href="http://chmtl.indiana.edu">CHMTL</a></p>-->
+    <div id="chmtl-border">
+      <div id="chmtl-blue"></div>
+      <div id="chmtl-yellow"></div>
+      <div id="chmtl-gray"></div>
+      <div id="chmtl-red"></div>
+    </div>
+  </div>
+    <div id="identity">
+    <div id="menu-container">
+  <a><span class="menu-btn"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</span></a>
+  <a href="../index.html"><span class="home-link">Home</span></a>
+  <span class="search-short">
+    <a class="modal-tooltip" modal="search-tip">&nbsp;<i class="fa fa-info-circle" aria-hidden="true">
+      <span class="sr-only">Click for more information</span></i></a>
+    <form  action="TINEXP.html#" id="menuSearch"><input type="text" id="menuSearchText" placeholder="Quick search"/></form><span class="navSearchButton"><i class="fa fa-search"></i></span></span>
+  <a href="../copyright.html" target="_blank"><span class="copyright-short">Copyright Notice</span></a>
+</div>
+
+<div id="search-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="search-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+
+     <p>Use the &ldquo;Quick search&rdquo; if you want to search for <em>all documents</em> within the <em>whole archive</em> where words <em>matching or containing</em> the searched string are found.</p>
+     <p>For more specific queries (phrase searching, operators, and filters), visit the <a href="../quaero.html" target="_blank">full Search</a> page.</p>
+   </div>
+ </div>
+ </div>
+    </div>
+<div id="container" class="tml-file">
+  <nav id="sliding-left-nav" class="pushy pushy-left">
+    <ul class="push-menu">
+        <li class="pushy-submenu">
+            <a class="submenu-heading">ABOUT</a>
+            <ul>
+                <li class="pushy-link"><a href="../about/introduction.html">Introduction</a></li>
+                <li class="pushy-link"><a href="../about/content.html">Content</a></li>
+                <li class="pushy-link"><a href="../about/policies.html">Policies</a></li>
+                <li class="pushy-link"><a href="../about/howTo.html">How-To</a></li>
+                <li class="pushy-link"><a href="../about/future_plans.html">Future plans</a></li>
+                <li class="pushy-link"><a href="../about/people.html">People</a></li>
+                <li class="pushy-link"><a href="../about/contact.html">Contacts</a></li>
+            </ul>
+        </li>
+        <li class="pushy-submenu">
+          <a class="submenu-heading">BROWSE</a>
+          <ul>
+            <li class="pushy-link"><a href="../browse/authors.html">by author</a></li>
+            <li class="pushy-link"><a href="../browse/contributors.html">by contributor</a></li>
+            <li class="pushy-link"><a href="../browse/incipits.html">by incipit</a></li>
+            <li class="pushy-link"><a href="../browse/sources.html">by source</a></li>
+            <li class="pushy-link"><a href="../browse/titles.html">by title</a></li>
+            <li class="pushy-submenu">
+            <a class="centuryPushy">by century</a>
+                   <ul>
+                     <li class="pushy-link"><a href="../3rd-5th/index.html">3rd-5th</a></li>
+                     <li class="pushy-link"><a href="../6th-8th/index.html">6th-8th</a></li>
+                     <li class="pushy-link"><a href="../9th-11th/index.html">9th-11th</a></li>
+                     <li class="pushy-link"><a href="../12th/index.html">12th</a></li>
+                     <li class="pushy-link"><a href="../13th/index.html">13th</a></li>
+                     <li class="pushy-link"><a href="../14th/index.html">14th</a></li>
+                     <li class="pushy-link"><a href="index.html">15th</a></li>
+                     <li class="pushy-link"><a href="../16th/index.html">16th</a></li>
+                     <li class="pushy-link"><a href="../17th/index.html">17th</a></li>
+                   </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pushy-submenu"><a href="../quaero.html">SEARCH</a></li>
+        <li class="pushy-submenu">
+            <a class="submenu-heading">EXTRAS</a>
+            <ul>
+              <li class="pushy-submenu">
+                <a href="../concordances.html">Concordances</a>
+                  <ul>
+                    <li class="pushy-link"><a href="../concordances/lml.html"><em>Lexicon musicum Latinum</em></a></li>
+                    <li class="pushy-link"><a href="../concordances/grove_anonymous.html">Grove Anonymous</a></li>
+                  </ul>
+            </ul>
+        </li>
+     </ul>
+</nav>
+  <div class="site-overlay"></div>
+
+<div id="content">
+  <noscript>
+  <div  id="noScript" class="warning">
+    <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> JavaScript Required</p>
+    <p>In order to ensure the proper functining of this website, please enable JavaScript in your browser security preferences or use a device that supports it.</p>
+  </div>
+</noscript>
+<div id="header">
+    <div id="source" class="ft-text">
+        <p class="author">Tinctoris, Johannes</p>
+        <p class="title">Expositio manus</p>
+        <p class="tmlSource"><strong>Source</strong>: <i>Scriptorum de musica medii aevi nova series a Gerbertina altera</i>, 4 vols., ed. Edmond de Coussemaker (Paris: Durand, 1864-76; reprint ed., Hildesheim: Olms, 1963), 4:1–16.</p>
+                <p id="chmtl-staff">
+                    <span class="eca-span">Electronic version prepared by Stephen E. Hayes <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="entered">E</span></a>, Peter M. Lefferts, Luminita Florea Aluas <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="checked">C</span></a>, and Thomas J. Mathiesen <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="approved">A</span></a>
+              for the <i>Thesaurus Musicarum Latinarum</i>, 1992.
+            </p>
+              </div>
+
+</div> <!-- end header div -->
+<div id="entry-abbrv" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="entry-abbrv"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+     <p>The aforementioned individual(s) <span class="entered">E</span>ntered, <span class="checked">C</span>hecked, or <span class="approved">A</span>pproved the electronic transcription of the source document.</p>
+   </div>
+ </div>
+ </div>
+
+ <div id="entry-abbrv-short" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <a class="close-modal" modal="entry-abbrv-short"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+      <br />
+      <p><span class="checked">C</span>: Indicates the aforemententioned person(s) checked the transcription.</p>
+      <p><span class="approved">A</span>: Indicates the aforementioned person(s) approved the transcription for publication.</p>
+    </div>
+  </div>
+  </div>
+
+  <div id="multipart-tip" class="w3-modal">
+   <div class="w3-modal-content">
+     <div class="w3-container">
+       <a class="close-modal" modal="multipart-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+       <br />
+       <p>Historically, in the TML long texts were split into multiple files. These are now linked to each other for easier browsing. In a future version, they will be consolidated into a single view.</p>
+     </div>
+   </div>
+   </div>
+
+  <div id="metadata-contd">
+    <p class="text-sidebar-buttons"><button id="tml-notes" class="pure-button">TML notes</button>&nbsp;<button id="tml-concordances" class="pure-button">Concordances</button></p>
+
+  <div id="sidebar">
+      <div id="extras-wrapper">
+        <!---->
+        <div id="tml-canon-info">
+          <div class="extras-heading"><a class="close-modal repoToolbox" modal="tml-canon-info"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">TML Notes</i></span></div>
+          <p>Cf. <a href="TINEM.html">TINEM</a>. [TJM]</p>
+        </div>
+<div id="concordances">
+  <div class="extras-heading"><a class="close-modal repoToolbox" modal="concordances"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">Concordances</i></span></div>
+  
+      <div id="lml-info">
+          <p>&#8594; We have found the following concordances with the <i><a class="external" href="http://www.lml.badw-muenchen.de/" target="_blank">Lexicon musicum Latinum</a></i> and the <i>R&eacute;pertoire International des Sources Musicales</i></p>
+          <ul id="lml-entries">
+                        <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>IOH. TINCT. exp.</strong></span>
+             <div class="expando-data">
+                  <p>Iohannes Tinctoris: <i>Expositio manus</i></p>
+                                      <ul>
+                  <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>MSS (RISM)</strong></span>
+                      <div class="expando-data">
+                      <!--<ul class="lml-ms-list">-->
+                      <table>
+                                                        <tr><td><span class="lib-siglum">B-Br</span> II 4147, 1-9v</td>
+                                                          <td><span class="lib-siglum">E-VAu</span> 835, 2-14v</td>
+                                                          <td><span class="lib-siglum">I-Bu</span> 2573, 3-17v</td>
+                                                  </tr></table>
+                      <!--</ul>--></div>
+                  </li>
+              </ul>
+              </div> <!-- expando-data -->
+                            </li>
+                    </ul>
+      </div>
+  
+  </div>
+  <div style="clear: both"></div>
+    </div><!--extras-wrapper -->
+  </div><!--sidebar-->
+  </div><!--metadata-contd-->
+  <div style="clear: both"></div>
+
+<div id="text-toolbox-wrapper">
+  <div id='floatingBox'>
+    <div class="floating-toolbox">
+      <table>
+        <tr>
+          <th>Actions</th>
+        </tr>
+      </table>
+    </div>
+    <p id="backToTop"> <a href='TINEXP.html#top'>Back to top</a></p>
+  </div>
+
+<div id="tml-text">
+
+<!-- begin text -->
+<p><span class='pageNo'>[1]</span> Expositio manus secundum magistrum Johannem Tinctoris in legibus licentiatum ac Regis Sicilae capellanum.</p>
+
+<p>Prologus.</p>
+
+<p>Moribus optimis ac plerisque ingenuis artibus ornatissimo adolescenti Johanni de Lotinis, Johannes Tinctoris inter musicae professores minimus, fraternam benivolenciam. Cujusque artis praeceptor ordinatissimus, clarissime indolis adolescens, primo juventutibus erudiri cupientibus hoc, id est dulcedinem quorumdam facilium principiorum exhibet ne si fel, id est amaritudinem, difficilium ab initio praeberet, animos eorum per diffidentiam averteret. Hinc musicus quidam latinus, certi admodum ingenii, manum sapientissime composuit, ut primum arti sonore operam daturo tamquam traditio levis foret principium. Quamquidem manum eadem causa commoti, postmodum difficiliora tradere sperantes in primis leviter exponere proposuimus; et hanc ipsam expositionem tuo nomini gratiosissimo generosissimoque adscribendum censui, non ut suae manus ignaro cantori, quoniam te sciam in hac arte peritissimum, nec atrocior injuria musico dicta putetur, quam si manum suam nescire dicatur, sed ut amico consortique meo dilectissimo, supplicans obnixe quatenus opusculum hoc gratis accipere digneris, tamque benivolo perlegas animo quam tibi perlegendum offero.</p>
+
+<p><span class='pageNo'>[2]</span> Capitulum primum.</p>
+
+<p>De manus definitione et ejus distinctione.</p>
+
+<p>Manus est brevis et utilis doctrina ostendens compendiose qualitates vocum musicae. Dicitur autem hic manus ut continens pro contento; namque manus quaelibet, secundum physicos, humani corporis extremum officiale membrum brachio insitum, doctrinam istam continet suorum digitorum summitatibus et juncturis.</p>
+
+<p>In ipsa etenim corporea manu quinque sunt digiti, scilicet polex, index, medius, qui et magnus vulgariter dicitur, medicus et auricularis, qui parvus vulgo nominatur. Quorum primus, videlicet polex unam summitatem habet et duas juncturas; quilibet autem caeterorum unam summitatem et tres juncturas; qui, quoniam sint quatuor, et quater quatuor sexdecim faciunt, cum tribus praemissis novemdecim constituunt; qui novemdecim pariter existentes novemdecim locis per intresecam inspectionem attribuuntur: ultima vero junctura medii ultimo loco qui vicesimus est, per extrinsecam respectionem assignatur, ut infra clarius patebit. Et quamvis in qualibet manu haec doctrina constitui possit, tamen in sinistra ab omnibus rite constituitur; eo quod indice manus dextrae loca in ipsa manu sinistra aptius indicantur, licet nonnulli loca pollicis sinistrae manus indice ejusdem et loca caeterorum digitorum pollice similiter ejusdem aptissime indicent: quo fit ut unica manu scilicet sinistra, in traditione hujus modi doctrinae utantur. Atque manus hec doctrinalis, alio nomine gamma dicitur ab ista littera [Gamma] quae apud graecos gamma vocatur; nec sine causa, namque a digniori fit denominatio; sed quod praecedit dignius esse videtur. Ergo quoniam in manu gamma, id est G, praecedat, ab eo manus gamma recte nominatur. Quo nomine (ut equidem reor) hujus traditionis auctor eam nominari volens, ipsum nomen litterae graece solum assumpsit, ut honorem graecis exhiberet tanquam artis musicis auctoribus maximis, et a quibus latini artem ipsam acceperunt. In hac autem doctrina manuali septem veniunt consideranda scilicet loca, claves, voces, proprietates, deductiones, mutationes et conjunctiones, de quibus sigillatim faciliterque tractare proposuimus.</p>
+
+<p>Capitulum II.</p>
+
+<p>De locis.</p>
+
+<p>Quo ad primum, locus est vocum situs. Vigenti autem in manu nostra sunt loca, quae in summitatibus et juncturis digitorum, taliter ut sequitur, aptissime ordinantur:</p>
+
+<p>Primus est...[Gamma] ut in summitate pollicis.</p>
+
+<p>Secundus est...A re in secunda junctura pollicis.</p>
+
+<p>Tertius est...B mi in prima junctura pollicis.</p>
+
+<p>Quartus est...C fa ut in prima junctura indicis.</p>
+
+<p>Quintus est...D sol re in prima junctura indicis.</p>
+
+<p>Sextus est...E la mi grave in prima junctura medici.</p>
+
+<p>Septimus est...FF fa ut grave in prima junctura auricularis.</p>
+
+<p>Octavus est...G sol re ut grave in secunda junctura auricularis.</p>
+
+<p>Nonus est...A la mi re acutum in tertia junctura auricularis.</p>
+
+<p>Decimus est...B fa [sqb] mi acutum in summitate auricularis.</p>
+
+<p>Undecimus est...C sol fa ut in summitate medici.</p>
+
+<p>Duodecimus est...D la sol re in summitate medici.</p>
+
+<p>Tertiusdecimus est...E la mi acutum in summitate indicis.</p>
+
+<p><span class='pageNo'>[3]</span> Quartus decimus est...FF fa ut acutum in tertia junctura indicis.</p>
+
+<p>Quintus decimus est...G sol re ut acutum in secunda junctura indicis.</p>
+
+<p>Sextus decimus est...A la mi re superacutum in secunda junctura medii.</p>
+
+<p>Decimus septimus est...B la [sqb] mi superacutum in secunda junctura medici.</p>
+
+<p>Decimus octavus est...C sol fa in tertia junctura medici.</p>
+
+<p>Decimus nonus est...D la sol in tertia junctura medii.</p>
+
+<p>Vigentesimus est...E la supra eamdem juncturam scilicet tertiam medii ab extra, ut patet in sequenti figura:</p>
+
+<p>[CSIV:3; text: [Gamma] ut. A re. B mi. E la mi. F Fa ut. G sol. re ut. C fa ut. E la. D la sol. A la mi re. D sol re. C sol fa ut. C sol fa. B fa [sqb] mi. E la mi. B fa [sqb] mi. A la mi re. G sol re ut. F Fa ut.] <a href="TINEXP_01GF.gif">[TINEXP 01GF]</a></p>
+
+<p>Praemissorum autem viginti locorum decem sunt lineae decemque spatia, alternatim ordinata; et est linea locus pro tactu recto alicujus coloris effectus quae sepius hic regula nominatur eo quod regulariter protrahatur. Spatium est locus super vel infra lineam relictus. Hinc dicunt aliqui [Gamma] ut in linea, A re in spatio et sic de aliis alternatim. Verum ita dicere maximus est error, quia, quoniam [Gamma] ut ipsa linea sit et A re ipsum spatium, et ita de caeteris alternatim dici non possunt in linea vel in spatio locari. Sic igitur dicendum est:</p>
+
+<p>[Gamma] ut...est linea.</p>
+
+<p>A re...spatium.</p>
+
+<p>B mi...linea.</p>
+
+<p>C fa ut...spatium.</p>
+
+<p>D sol re...linea.</p>
+
+<p>E la mi grave...spatium.</p>
+
+<p>F Fa ut grave...linea.</p>
+
+<p>G sol re ut grave...spatium.</p>
+
+<p>A la mi re acutum...linea.</p>
+
+<p>B fa [sqb] mi acutum...spatium.</p>
+
+<p>C sol fa ut...linea.</p>
+
+<p>D la sol re...spatium</p>
+
+<p>E la mi acutum...linea.</p>
+
+<p>F fa ut acutum...spatium.</p>
+
+<p>G sol re ut acutum...linea.</p>
+
+<p>A la mi re superacutum...spatium.</p>
+
+<p>B fa [sqb] mi superacutum...linea.</p>
+
+<p>C sol fa...spatium.</p>
+
+<p>D la sol...linea.</p>
+
+<p>E la...spatium.</p>
+
+<p>Ac istorum vigenti locorum unicus est gravissimus, scilicet [Gamma] ut, quoniam in eo gravissima vox residet; septem gravia, videlicet illa quae sub primo perfecto ordine litterarum clavificarum continentur, ut ab A re inclusive usque ad A la mi re primum exclusive; sic dicta eo quod voces graves contineant, septem acuta, scilicet illa quae sub secundo perfecto ordine litterarum clavificarum continentur, ut ab A la mi re primo inclusive usque ad secundum exclusive; et acuta dicuntur, quoniam voces eorum acutae sunt; quinque super acuta, videlicet illa quae sub tertio quovis modo imperfecto litterarum clavicarum ordine contenta sunt, ut ab A la mi re secundo usque ad E la inclusive; superacutaque nominantur, quia in eis voces superacutae locantur; sed quia nonnulla istorum locorum sine adjectivis <span class='pageNo'>[4]</span> nomine sunt eadem ut F fa ut grave et F fa ut acutum; G sol re ut grave et G sol re ut acutum; A la mi re acutum et A la mi re superacutum; B fa [sqb] mi acutum et B fa [sqb] mi superacutum; ut aliquibus adjectivis differant communiter ab ignorantibus differentias gravim, acutorum et superacutorum E la mi, F fa ut et G sol re ut gravia, A la mi re et B fa [sqb] mi acuta dicuntur vulgariter bassa; E la mi vero F fa ut et G sol re ut acuta; A la mi re et B fa [sqb] mi superacuta vocantur alta, ut patet in sequenti figura:</p>
+
+<p>[CSIV:4; text: Loca. Superacuta. Acuta. Gravia. E la. D la sol. C sol fa. B fa [sqb] mi. A la mi re. G sol re ut. FF fa ut. E la mi. D la sol re. C sol fa ut. B fa [sqb] mi. A la mi re. G sol re ut. F fa ut. E la mi. D sol re. C fa ut. B mi. A re. [Gamma] ut. Alta vulgariter. Bassa vulgariter. Locus gravissimus.] <a href="TINEXP_02GF.gif">[TINEXP 02GF]</a></p>
+
+<p>Capitulum III.</p>
+
+<p>De clavibus.</p>
+
+<p>Quo ad secundum, clavis est signum loci lineae vel spatii. Habet enim unusquisque locorum nostrae manus clavem propriam nomine, loco aut forma ab aliis differentem. Sunt autem primae septem alphabeti litterae solumque hujusmodi claves efficiunt scilicet A B C D E F G; unde quoniam viginti loca habeamus, ut et viginti claves sint, ipse septem litterae semel omnes et postea quinque illarum per ordinem repetuntur; ultima vero scilicet G, quamvis sub alia forma alioque nomine, omnibus ex causa inferius dicenda praeponitur, quo fit si bis septem quinque et unum viginti faciant ut per praedictas repetitiones ipsae septem litterae viginti locis sint viginti claves. Primo igitur loco scilicet [Gamma] ut, est assignata pro clavi haec littera [Gamma] quae nomine et forma, eo quod graeca sit, a caeteris differt; diciturque clavis gravissima, quasi gravissimo loco appropriata.</p>
+
+<p>Secundo loco videlicet a re assignatur...A.</p>
+
+<p>Tertio scilicet B mi...B.</p>
+
+<p>Quarto videlicet C fa ut...C.</p>
+
+<p>Quinto videlicet D sol re...D.</p>
+
+<p>Sexto videlicet E la mi gravi...E.</p>
+
+<p>Septimo videlicet F fa ut gravi...FF.</p>
+
+<p>Octavo videlicet G sol re ut gravi...G.</p>
+
+<p>Quae quidem septem litterae sunt majusculae inter se differentes nomine, clavesque dicuntur graves ut locis gravibus deservientes.</p>
+
+<p>Nono deinde loco scilicet A la mi re acuto, per repetitionem appropriatur...A.</p>
+
+<p>Decimo videlicet B fa [sqb] mi acuto B [sqb] duplicis formae propter duplicem proprietatem vocum in eo concurrentium.</p>
+
+<p>Undecimo scilicet C sol fa ut...C.</p>
+
+<p>Duodecimo videlicet D la sol re...D.</p>
+
+<p>Tertio decimo scilicet E la mi acuto...E.</p>
+
+<p>Quarto decimo videlicet F fa ut acuto...FF.</p>
+
+<p>Quinto decimo scilicet G sol re ut...G.</p>
+
+<p>Quae quidem septem litterae primo repetitae etiam inter se differunt nomine, ab ipsis autem septem prepositis loco et non forma, quoniam istae sicut illae sunt majusculae; sed quae ibi lineis hic apponuntur spatiis, et e converso; dicunturque claves acutae tanquam acutis locis assignatae.</p>
+
+<p>Sexto decimo postmodum loco videlicet A la mi re superacuto per aliam repetitionem attribuitur...A.</p>
+
+<p><span class='pageNo'>[5]</span> Decimo septimo scilicet B fa [sqb] mi superacuto...B [sqb].</p>
+
+<p>Duplicis etiam formae propter duplicem proprietatem vocum in eo convenientium.</p>
+
+<p>Decimo octavo videlicet C sol fa...C.</p>
+
+<p>Decimo nono scilicet D la sol...D.</p>
+
+<p>Vicesimo videlicet E la...E.</p>
+
+<p>Quae quidem quinque litterae secundo repetitae sicut aliae inter se differunt nomine et a quinque primis ejusdem nominis forma differunt, quoniam illae majusculae istae vero minusculae sunt. Quae differentia formalis necessaria est, quoniam quae ibi lineis et spatiis apponuntur, hic etiam ordine simili lineis et spatiis appositae sunt A; quinque autem secundis ejusdem nominis istae et forma et loco differunt; namque illae ut primae sunt majusculae, istae minusculae, et quae ibi et lineis hic in spatiis inveniuntur et e converso atque claves superacutae dicuntur eo quod locis superacutis assignantur:</p>
+
+<p>[CSIV:5; text: Figura: Claves. Superacutae. e...E la. d... D la sol. c...C sol fa. b [sqb]...b fa [sqb] mi. a...A la mi re. Super acutum. Acutae. G...G sol re ut. FF...F fa ut. E...E la mi. Acutum. D...D la sol re. C...C sol fa ut. B [sqb]...B fa [sqb] mi. A...A la mi re. Acutum. Graves. G...G sol re ut. F...FF fa ut. Grave. E...E la mi. D...D sol re. C...C fa ut. B...B mi. A...A re. Clavis gravissima. [Gamma]...[Gamma] ut.] <a href="TINEXP_02GF.gif">[TINEXP 02GF]</a></p>
+
+<p>Verumtamen omnis istae claves quantum ad notationem non sunt in usu. Sufficit enim pro omnibus locis intelligendis, quantacunque sint, unius tantummodo clavis appositio, quoniam uno loco per suum signum cognito facillime caetera et supra et infra cognoscuntur, eo que ab uno ad alium certa fiat et ordinata progressio; et quanquam quisque compositor poterit, quod maluerit istarum vigenti clavium notando assumere, sex tamen solum in usu comperimus.</p>
+
+<p>Prima est [Gamma] pro [Gamma] ut, cujus nomen graecum est ut forma, sicut praedictum est, ob honorem graecis deferendum.</p>
+
+<p>Secunda [sqb] pro B mi et utriusque B fa [sqb] dum ibi canitur mi quod dicitur quadrum a sua forma eo quod sit inferius quadra. Sunt autem plerique clavem hanc figurantes taliter #, sed male, hoc enim signum est semitonii cromatici proprium.</p>
+
+<p>Tertia FF pro F fa ut gravi; quaquidem clavi veteres usi sunt propriam ipsius litterae assumentes formam, ut patet in vetustis codicibus, sed nescio quo motu. Moderni a majorum vestigiis declinantes clavem istam sic formant:</p>
+
+<p>[ClefF2 on staff3]</p>
+
+<p>Vel sic:</p>
+
+<p>[ClefF2 on staff3]</p>
+
+<p>et hoc communiter in cantu plano vel sic:</p>
+
+<p>[ClefF2 on staff3]</p>
+
+<p>etiam in cantu plano vel sic:</p>
+
+<p>[ClefF2 on staff3]</p>
+
+<p>maxime in re facta, quanquam frequentius vacua sit, ut hic:</p>
+
+<p>[ClefF2v on staff3]</p>
+
+<p><span class='pageNo'>[6]</span> non tamen refert si pro utraque parte vacua sit aut impleta ut istic et illic aut pro quavis altera parte, ut hic:</p>
+
+<p>[ClefF2,ClefF2v on staff3]</p>
+
+<p>Quarta b pro utroque B fa [sqb] mi dum ibi canitur fa quod rotundum dicitur a sua forma eo quod inferius sit rotunda. Differunt igitur b rotundum et [sqb] quadrum forma et nomine. Nec praetereundum est quod etiam ista clavi quarta scilicet b rotundo utimur in omni loco in quo fa irregulariter canitur, ut patet per universa pene compositorum opera.</p>
+
+<p>Quinta C pro C sol fa ut, cujus etiam litteralis forma nescio qua ratione mutata est; namque clavis est taliter in omni cantu praecipue in plano; si fuerit impleta figuratur, ut hic: [ClefC2 on staff3], si vero vacua in re facta, ut hic: [ClefC2v on staff3], quamvis non referat si hic vel ibi sit impleta aut vacua.</p>
+
+<p>Sexta G pro G sol re ut acuto; tamen usus ejus est rarus in re facta et rarior in cantu plano, quoniam locus ipse non signatur, nisi absente C sol fa ut, quod rarissime contingit; et ut breviter officium ipsarum litterarum clavificarum intelligatur, sic per ordinem diffiniantur.</p>
+
+<p>[Gamma] est clavis [Gamma] ut.</p>
+
+<p>A est clavis A re et utriusque A la mi re.</p>
+
+<p>[sqb] est clavis B mi et utriusque B fa [sqb] mi quod est duplex scilicet quadrum et rotundum.</p>
+
+<p>[sqb] quadrum est clavis B mi et utriusque B fa [sqb] mi designans ibi per [sqb] durum mi esse canendum.</p>
+
+<p>b rotundum est clavis utriusque B fa [sqb] mi designans ibi per b molle fa canendum esse.</p>
+
+<p>C est clavis C fa ut, C sol fa ut et C sol fa.</p>
+
+<p>D est clavis D sol re, D la sol re et D la sol.</p>
+
+<p>E est clavis utriusque E la mi et E la.</p>
+
+<p>FF est clavis utriusque F fa ut.</p>
+
+<p>G est clavis utriusque G sol re ut.</p>
+
+<p>Capitulum IV.</p>
+
+<p>De vocibus.</p>
+
+<p>Quo ad tertium, vox est sonus naturalibus aut artificialibus instrumentis formatus.</p>
+
+<p>Sex autem sunt voces universales scilicet: ut, re, mi, fa, sol, la, quas quidem per ordinem diffinire possumus.</p>
+
+<p>Ut est prima vox tono distans a secunda.</p>
+
+<p>Re est secunda vox tono distans a prima totidemque a tertia.</p>
+
+<p>Mi est tertia vox tono distans a secunda et semitonio minori a quarta.</p>
+
+<p>Fa est quarta vox distans a tertia minori semitonio et a quinta tono.</p>
+
+<p>Sol est quinta vox tono distans a quarta et a sexta totidem.</p>
+
+<p>La est sexta vox et ultima tono distans a quinta.</p>
+
+<p>Et quamvis, ut praediximus, sex tantum sint voces universales, tamen eo quod in multis locis nostrae manus multae voces per repetitionem locantur, fit quod in ipsa manu quadraginta duae voces inveniuntur.</p>
+
+<p>Una in [Gamma] ut, scilicet...ut</p>
+
+<p>Una in A re, scilicet...re</p>
+
+<p>Unae in B mi, scilicet...mi</p>
+
+<p>Duae in C fa ut, scilicet...fa et ut</p>
+
+<p>Duae in D sol re, scilicet...sol et re</p>
+
+<p>Duae in E la mi gravi, scilicet...la et mi</p>
+
+<p>Duae in F fa ut gravi, scilicet...fa et ut</p>
+
+<p>Tres in G sol re ut, scilicet...sol, re et ut</p>
+
+<p>Tres in A la mi re acuto, scilicet...la, mi et re</p>
+
+<p>Duae in B fa [sqb] mi acuto, scilicet...fa et mi</p>
+
+<p>Tres in C sol fa ut, scilicet...sol, fa et ut</p>
+
+<p>Tres in D la sol re, scilicet...la, sol et re</p>
+
+<p>Duae in E la mi acuto, scilicet...la et mi</p>
+
+<p>Duae in F fa ut acuto, scilicet...fa et ut</p>
+
+<p>Tres in G sol re ut acuto, scilicet...sol, re et ut</p>
+
+<p>Tres in A la mi re superacuto, scilicet...la, mi et re</p>
+
+<p>Duae in B fa [sqb] mi superacuto, scilicet...fa et mi</p>
+
+<p>Duae in C sol fa, scilicet...sol et fa</p>
+
+<p><span class='pageNo'>[7]</span> Duae in D la sol, scilicet...la et sol</p>
+
+<p>Una in E la, scilicet...la</p>
+
+<p>Istarum autem quadraginta duarum vocum unica est gravissima videlicet ut in [Gamma] ut, eo quod respectu caeterarum superiorum gravissime sonet; reliquae vero sunt graves, acutae vel superacutae.</p>
+
+<p>Graves sunt omnes illae quae in ipsa manu nostra ab A re inclusive usque ad A la mi re acuto exclusive continentur. Sic dictae eo quod respectu caeterarum superiorum graviter sonent.</p>
+
+<p>Acutae sunt omnes quae in ipsa manu nostra ab A la mi re acuto inclusive usque ad A la mi re superacutum exclusive continentur. Sic dictae eo quod respectu caeterarum inferiorum acute sonent.</p>
+
+<p>Superacutae sunt omnes quae in ipsa manu nostra ab A la mi re superacuto usque ad E la inclusive continentur; sic dictae eo quod acutis acutius sonent aut superacutis sint, ut patet in sequenti figura:</p>
+
+<p>[CSIV:7; text: E D C B [sqb] A G FF E D C B [sqb] A G FF E D C B A [Gamma] vox gravissima. Voces Superacutae. fa. la sol. sol fa. fa mi. la mi re. sol re ut. fa ut. Acutae. la mi. la sol re. sol fa ut. fa mi. la mi re. Graves. sol re ut. fa ut. la mi. sol re. fa ut. mi. re. ut.] <a href="TINEXP_03GF.gif">[TINEXP 03GF]</a></p>
+
+<p>Capitulum V.</p>
+
+<p>De proprietatibus.</p>
+
+<p>Quo ad quartum, proprietas est vocum deducendarum quaedam singularis qualitas. Tres autem sunt proprietates scilicet [sqb] durum, natura et b molle. [sqb] durum est prima proprietas per quam in omni loco cujus clavis est G ut canitur et ex eo aliae quinque voces per ordinem deducantur; et dicitur [sqb] durum, quoniam mi per eam in loco cujus clavis est [sqb] quadrum canitur; quod quidem mi durum, id est asperum, est respectu fa in ipso interdum loco per b molle canendi.</p>
+
+<p>Natura est secunda proprietas per quam in omni loco cujus clavis est C ut canitur, et ex eo aliae quinque voces per ordinem deducuntur. Dictaque natura est eo quod omnes ipsius proprietatis voces regulariter fixae manent et stabiles instar naturalium; unde quidam:</p>
+
+<p>Quod natura dedit, tollere nemo potest.</p>
+
+<p>B molle est tertia proprietas per quam in omni loco cujus clavis est F, ut canitur, et ex eo aliae quinque voces per ordinem deducuntur; et dicitur b molle quia per eam Fa in loco cujus clavis est b rotundum canitur, quod quidem fa molle, id est dulce, est respectu mi in ipso interdum loco per [sqb] durum canendi.</p>
+
+<p>Hinc ut istarum proprietatum claves fundamentales tenacius memoriae commendas, hunc adverte versum:</p>
+
+<p>C naturam dat FF b mol G quoque durum.</p>
+
+<p>Et hic notandum quod [sqb] quadrum et [sqb] durum, b rotundum et b molle multum differunt, namque [sqb] quadrum et b rotundum sunt nomina clavium, sic dicta ab eorum forma, ut supra in capitulo tertio patuit, sed [sqb] durum et b molle nomina sunt proprietatum sic dicta a qualitate vocum fa et mi in locis praedictarum clavium canendorum, ipsiusque litterae b forma communis videlicet rotunda inferius remanet b rotundo et b molli ratione duplici: primo quoniam molle per quod dulce intelligitur, dignius est duro, id est aspero; secundo <span class='pageNo'>[8]</span> quia b rotundo et [sqb] quadro in uno et eodem loco concurrentibus, scilicet in utroque B fa [sqb] mi, b rotundum procedit; congruentissimae vero rationis est ut dignius praepositum, quia primam occupet formam, ad cujus quidem formae communis ipsius litterae differentiam alia fuit inventa scilicet inferius quadra ut per diversas formas loca diversa ac diversae proprietates, quae per ipsam litteram designantur, clare cognoscerentur.</p>
+
+<p>[CSIV:8,1; text: Figura: Proprietas. 1a [sqb] durum... 2a natura... 3a b molle... cujus clavis fondamentalis... G. C. FF.] <a href="TINEXP_04GF.gif">[TINEXP 04GF]</a></p>
+
+<p>Capitulum VI.</p>
+
+<p>De deductionibus.</p>
+
+<p>Quo ad quintum, deductio est vocum de uno loco ad alium per aliquam proprietatum ordinata ductio. Et quoniam tres, ut praemisimus, sint proprietates, scilicet [sqb] durum cujus clavis fundamentalis est G; natura cujus clavis fundamentalis est C; et b molle cujus clavis fundamentalis est FF; et in manu nostra tria sint G videlicet [Gamma] quod est G latine, G de G sol re ut gravi, et G de G sol re ut acuto; duo C in quibus habetur ut, scilicet C de C fa ut et C de C sol fa ut; et duo F videlicet F de FF fa ut gravi, et F de FF fa ut acuto. Si tria et bis duo septem efficiant ut in ipsa manu nostra sint septem deductiones, necesse est scilicet tres [sqb] durales, duae naturales et duae b mollares.</p>
+
+<p>Prima itaque deductio est ab ut de [Gamma] ut usque ad la de E la mi grave inclusive; et haec est prima [sqb] duralis.</p>
+
+<p>Secunda ab ut de C fa ut usque ad la de A la mi re acuto inclusive, et haec est prima naturalis.</p>
+
+<p>Tertia ab ut de FF fa ut gravi usque ad la de D la sol re inclusive, et haec prima b mollaris.</p>
+
+<p>Quarta ab ut de G sol re ut gravi usque ad la de E la mi acuto inclusive, et haec est secunda [sqb] duralis.</p>
+
+<p>Quinta ab ut de C sol fa ut usque ad la de E la mi re superacuto inclusive, et haec est secunda naturalis.</p>
+
+<p>Sexta ab ut de FF fa ut acuto usque ad la de D la sol inclusive et haec est secunda b mollaris.</p>
+
+<p>Septima ab ut de G sol re ut acuto usque ad la de E la inclusive, et haec est tertia [sqb] duralis.</p>
+
+<p>Ut patet in sequenti figura:</p>
+
+<p>[CSIV:8,2; text: E....la. D....la. .sol. C....sol. .fa. B [sqb]....fa. .mi. A....la. .mi. .re. G....sol. .re. .ut. G....sol. .re. .ut. FF....fa. .ut. E....la. .mi. D....la. .sol. .re. C....sol. .fa. .ut. B [sqb]....fa. .mi. A....la. .mi. .re. G....sol. .re. .ut. FF....fa. .ut. E....la. .mi. D....sol. .re. C...fa. .ut. B [sqb]....mi. A....re. [Gamma]....ut. Per [sqb] durum primo Per naturam primo Per b molle primo Per [sqb] durum secundo Per naturam secundo Per b molle secundo Per [sqb] durum tertio Prima deductio. Secunda deductio, Tertia deductio, Quarta deductio, Quinta deductio, Sexta deductio, Septima deductio] <a href="TINEXP_04GF.gif">[TINEXP 04GF]</a></p>
+
+<p><span class='pageNo'>[9]</span> Porro voces omnes quae, ut praemissum est, per proprietatem [sqb] duri deducuntur per [sqb] durum cantari dicuntur. Quae vero per proprietatem naturae per naturam et quae per proprietatem b mollis, per b molle. Voces attamen radicales omnium deductionum ex locis propriis et aliae quinque sequentes ex locis ipsarum vocum radicalium. Hinc quoniam in praecedentibus divisim de locis, clavibus, vocibus, proprietatibus et deductionibus tractavimus, ut quamdam compendiosam cognitionem omnium istorum habeamus, taliter loca manus per ordinem diffiniamus.</p>
+
+<p>[Gamma] ut est linea cujus clavis est [Gamma] et in qua unica vox scilicet ut per [sqb] durum ex loco proprio canitur.</p>
+
+<p>A re est spatium cujus clavis est A et in quo unica vox scilicet re canitur per [sqb] durum ex loco [Gamma] ut.</p>
+
+<p>[sqb] mi est linea cujus clavis est [sqb] quadrum in quo unica vox scilicet mi canitur per [sqb] durum ex loco [Gamma] ut.</p>
+
+<p>C fa ut est spatium cujus clavis est C et in quo duae voces scilicet fa et ut canuntur, Fa per b durum ex loco [Gamma] ut et ut per naturam ex loco proprio.</p>
+
+<p>D sol re est linea cujus clavis est D et in quo loco duae voces scilicet sol et re canuntur, Sol per [sqb] durum ex loco [Gamma] ut et re per naturam ex loco C fa ut.</p>
+
+<p>E la mi grave est spatium cujus clavis est E et in quo duae voces scilicet la et mi canuntur, la per [sqb] durum ex loco [Gamma] ut et mi per naturam ex loco C fa ut.</p>
+
+<p>F Fa ut grave est linea cujus clavis est F et in quo duae voces scilicet fa et ut canuntur fa per naturam ex loco C fa ut et ut per b molle ex loco proprio.</p>
+
+<p>G sol re ut grave est spatium cujus clavis est G et in quo tres voces scilicet sol re et ut canuntur, sol per naturam ex loco C fa ut re per b molle ex loco F fa ut gravis et ut per b durum ex loco proprio.</p>
+
+<p>A la mi re acutum est linea cujus clavis est A et in quo tres voces scilicet la, mi et re canuntur, la per naturam ex loco C fa ut, mi per b molle ex loco F fa ut gravis, et re per [sqb] durum ex loco G sol re ut gravis.</p>
+
+<p>B fa [sqb] mi acutum est spatium cujus una clavis est b rotundum, altera [sqb] quadrum in quo duae voces scilicet fa et mi canuntur, Fa per b molle ex loco F fa ut gravis, et mi per [sqb] durum ex loco G sol re ut gravis.</p>
+
+<p>C sol fa ut est linea cujus clavis est C, et in qua tres voces scilicet sol, fa et ut canuntur, sol per b molle ex loco F fa ut gravis, fa per [sqb] durum ex loco G sol re ut gravis, et ut per naturam ex loco proprio.</p>
+
+<p>D la sol re est spatium cujus clavis est D, et in quo tres voces scilicet la sol et re canuntur, la per b molle ex loco FF fa ut gravis, sol per [sqb] durum ex loco G sol re ut gravis, et Re per naturam ex loco C sol fa ut.</p>
+
+<p>E la mi acutum est linea cujus clavis est E, et in quo duae voces scilicet la et mi canuntur, la per [sqb] durum ex loco G sol re ut gravis, et mi per naturam ex loco C sol fa ut.</p>
+
+<p>FF fa ut acutum est spatium cujus clavis est F, et in quo duae voces scilicet fa et ut canuntur, Fa per naturam ex loco C sol fa ut, et ut per b molle ex loco proprio.</p>
+
+<p>G sol re ut acutum est linea cujus clavis est G, et in quo tres voces scilicet sol re et ut canuntur, Sol per naturam ex loco C sol fa ut, Re per b molle ex loco F Fa ut acuti, et ut per [sqb] durum ex loco proprio.</p>
+
+<p>A la mi re superacutum est spatium cujus clavis est A, et in quo tres voces scilicet la mi et re canuntur, la per naturam ex loco C sol fa ut, mi per b molle ex loco FF fa ut acuti, et re per [sqb] durum ex loco G sol re ut acuto.</p>
+
+<p>B fa [sqb] mi superacutum est linea cujus una <span class='pageNo'>[10]</span> clavis est b rotundum, altera [sqb] quadrum, et in quo duae voces scilicet Fa et mi canuntur, fa per b molle ex loco FF fa ut acuti, et mi per [sqb] durum ex loco C sol re ut acuti.</p>
+
+<p>C sol fa est spatium cujus clavis est C, et in quo duae voces scilicet sol et fa canuntur, sol per b molle ex loco F fa ut acuti, et fa per [sqb] durum ex loco G sol re ut acuti.</p>
+
+<p>D la sol est linea cujus clavis est D, et in quo duae voces scilicet la et sol canuntur, la per b molle ex loco FF fa ut acuti, et sol per [sqb] durum ex loco G sol re ut acuti.</p>
+
+<p>E la est spatium cujus clavis est E, et in quo unica vox, scilicet la canitur per [sqb] durum ex loco G sol re ut acuti.</p>
+
+<p>Capitulum VII.</p>
+
+<p>De mutationibus.</p>
+
+<p>Quo ad sextum, mutatio est unius vocis in aliam variatio; omnes autem voces sunt mutabiles, sed aliae plus aliae minus.</p>
+
+<p>Ut etenim mutatur in tres voces, scilicet in re, in fa et in sol.</p>
+
+<p>Re in quatuor scilicet, in ut, in mi, in sol et in la.</p>
+
+<p>Mi in duas scilicet, in re et in la.</p>
+
+<p>Fa in duas scilicet, in ut et in sol.</p>
+
+<p>Sol in quatuor scilicet, in ut, in re, in fa, in la.</p>
+
+<p>La in tres scilicet, in re, in mi et in sol.</p>
+
+<p>Sunt igitur, ut intuenti patet, decem et octo mutationes universales, scilicet:</p>
+
+<p>Ut re, ut fa, ut sol.</p>
+
+<p>Re ut, re mi, re sol, re la.</p>
+
+<p>Mi re, mi la.</p>
+
+<p>Fa ut, fa sol.</p>
+
+<p>Sol ut, sol re, sol fa, sol la.</p>
+
+<p>La re, la mi, la sol.</p>
+
+<p>Quarum quidem decem et octo mutationum novem fiunt ad ascendendum ab una proprietate in aliam, et novem ad descendendum de una proprietate in aliam. Unde versus:</p>
+
+<p>Ad ascendendum</p>
+
+<p>Ut re, re ut, re mi cum mi re, Fa ut que sol ut que</p>
+
+<p>Sol re que la re, la mi Scanderet e faciunt.</p>
+
+<p>Ad descendendum</p>
+
+<p>Ut fa, ut sol, re sol cum re la, mi la que fa sol</p>
+
+<p>Sol fa que sol la, la sol, dum canis yma petunt.</p>
+
+<p>Omnis autem ascensus aut fit a [sqb] duro in naturam, aut a natura in b molle, aut a natura in [sqb] durum, aut a b molli in [sqb] durum, aut a [sqb] duro in b molle, aut a b molli in naturam.</p>
+
+<p>Omnisque descensus aut fit de natura in [sqb] durum, aut de b molli in naturam, aut de [sqb] duro in naturam, aut de [sqb] duro, in b molle; aut de b molli in [sqb] durum, aut de natura in b molle; et quamvis (ut praemisimus) decem et octo mutationes universales tantummodo sint, tamen eo quod omnes (licet aliae plus, aliae minus, propter multitudinem locorum, vocum et deductionum nostrae manus reiterentur) quinquaginta duae mutationes in ipsa manu nostra inveniuntur.</p>
+
+<p>Duae in C fa ut qui primus est mutationis locus, scilicet fa ut et ut fa; fa ut ad ascendendum a [sqb] duro in naturam, et ut fa ad descendendum de natura in [sqb] durum, ut hic :</p>
+
+<p>[CSIV:10,1; text: fa ut ut fa] <a href="TINEXP_05GF.gif">[TINEXP 05GF]</a></p>
+
+<p>Duae in D sol re scilicet sol re et re sol; Sol re ad ascendendum a [sqb] duro in naturam, et re sol ad descendendum de natura in [sqb] durum, ut hic:</p>
+
+<p>[CSIV:10,2; text: sol re re sol] <a href="TINEXP_05GF.gif">[TINEXP 05GF]</a></p>
+
+<p>Duae in E la mi gravi, scilicet la mi et mi la; <span class='pageNo'>[11]</span> la mi ad ascendendum a [sqb] duro in naturam, et mi la ad descendendum de natura in [sqb] duram, ut hic:</p>
+
+<p>[CSIV:11,1; text: la mi mi la] <a href="TINEXP_05GF.gif">[TINEXP 05GF]</a></p>
+
+<p>Duae in FF fa ut gravi, scilicet fa ut et ut fa; fa ut ad ascendendum a natura in b molle, et ut fa ad descendendum de b molli in natura, ut hic:</p>
+
+<p>[CSIV:11,2; text: fa ut ut fa] <a href="TINEXP_05GF.gif">[TINEXP 05GF]</a></p>
+
+<p>Sex in G sol re ut gravi, scilicet sol re, re sol; sol ut, ut sol; re ut, ut re; sol re ad ascendendum a natura in b molle, re sol ad descendendum de b molli in naturam; sol ut ad ascendendum a natura in [sqb] durum, ut sol ad descendendum de [sqb] duro in naturam; re ut ad ascendendum a b molli in [sqb] durum, et ut re ad ascendendum a [sqb] duro in b molle, ut hic :</p>
+
+<p>[CSIV:11,3; text: sol re re sol sol ut ut sol re ut ut re] <a href="TINEXP_05GF.gif">[TINEXP 05GF]</a></p>
+
+<p>Sex in A la mi re, scilicet la mi, mi la; la re, re la; mi re et re mi; la mi ad ascendendum a natura in b molle, mi la ad descendendum de b molli in naturam; la re ad ascendendum a natura in [sqb] durum, re la ad descendendum de [sqb] duro in naturam; mi re ad ascendendum a b molli in [sqb] durum, et re mi ad descendendum a [sqb] duro in b molle, ut hic:</p>
+
+<p>[CSIV:11,4; text: la mi mi la fa re re fa mi re re mi] <a href="TINEXP_05GF.gif">[TINEXP 05GF]</a></p>
+
+<p>Sex in C sol fa ut, scilicet sol fa, fa sol; sol ut, ut sol; fa ut, ut fa: sol fa ad descendendum de b molli in [sqb] durum; fa sol ad descendendum de [sqb] duro in b molle; sol ut ad ascendendum a b molli in naturam; ut sol ad descendendum de natura in b molle; fa ut ad ascendendum a [sqb] duro in naturam; ut fa ad descendendum de natura in [sqb] durum, ut hic patet:</p>
+
+<p>[CSIV:11,5; text: Exemplum. sol fa fa sol] <a href="TINEXP_05GF.gif">[TINEXP 05GF]</a></p>
+
+<p>Sex in D la sol re, scilicet la sol, sol la; la re, re la; sol re et re sol: la sol ad descendendum de b molli in [sqb] durum; sol la ad descendendum de [sqb] duro in b molle; la re ad ascendendum a b molli in naturam; re la ad descendendum de natura in b molle; sol re ad ascendendum a [sqb] duro in naturam; et re sol ad descendendum de natura in [sqb] durum, ut hic:</p>
+
+<p>[CSIV:11,6; text: la sol sol la la re re la sol re re sol] <a href="TINEXP_05GF.gif">[TINEXP 05GF]</a></p>
+
+<p>Duae in E la mi acuto, sicut in E la mi gravi, scilicet la mi et mi la: la mi ad ascendendum a [sqb] duro in naturam, et mi la ad descendendum de natura in [sqb] durum, ut hic:</p>
+
+<p><span class='pageNo'>[12]</span> [CSIV:12,1; text: la mi mi la] <a href="TINEXP_06GF.gif">[TINEXP 06GF]</a></p>
+
+<p>Duae in F fa ut acuto, sicut in F fa ut gravi, scilicet fa ut, ut fa: fa ut ad ascendendum a natura in b molle et ut fa ad descendendum de b molli in naturam, ut hic patet:</p>
+
+<p>[CSIV:12,2; text: fa ut ut fa] <a href="TINEXP_06GF.gif">[TINEXP 06GF]</a></p>
+
+<p>Sex in G sol re acuto, sicut in G sol re ut gravi, scilicet sol re, re sol; sol ut, ut sol; re ut, ut re; sol re ad ascendendum a natura in b molle; re sol ad descendendum de b molli in naturam; sol ut ad ascendendum a natura in [sqb] durum; ut sol ad descendendum de [sqb] duro in naturam; re ut ad ascendendum a b molli in [sqb] durum et ut re ad ascendendum a [sqb] duro in b molle, ut hic patet:</p>
+
+<p>[CSIV:12,3; text: sol re re sol sol ut ut sol re ut ut re] <a href="TINEXP_06GF.gif">[TINEXP 06GF]</a></p>
+
+<p>Sex in A la mi re superacuto, sicut in A la mi re acuto, scilicet la mi, mi la; la re, re la; mi re, re mi: la mi ad ascendendum a natura in b molle; mi la ad descendendum de b molli in naturam; la re ad ascendendum a natura in [sqb] durum; re la ad descendendum de [sqb] duro in naturam; mi re ad ascendendum a b molli in [sqb] durum, re mi ad ascendendum a [sqb] duro in b molle, ut hic patet:</p>
+
+<p>[CSIV:12,4; text: la mi mi la la re re la mi re re mi] <a href="TINEXP_06GF.gif">[TINEXP 06GF]</a></p>
+
+<p>Duae in C sol fa, scilicet sol fa et fa sol: sol fa ad descendendum de b molli in [sqb] durum; et fa sol ad descendendum de [sqb] duro in b molli, ut hic patet:</p>
+
+<p>[CSIV:12,5; text: sol fa fa sol] <a href="TINEXP_06GF.gif">[TINEXP 06GF]</a></p>
+
+<p>Duae in D la sol, scilicet la sol et sol la: la sol ad descendendum de b molli in [sqb] durum, et sol la ad descendendum de [sqb] duro in b molle, ut hic:</p>
+
+<p>[CSIV:12,6; text: la sol sol la] <a href="TINEXP_06GF.gif">[TINEXP 06GF]</a></p>
+
+<p>In [Gamma] ut autem, in A re, in [sqb] mi, et in E la, mutatio nulla fit, eo quod in quolibet ipsorum locorum sola vox est. Ubi vero sola vox est mutatio fieri non potest, quoniam in omni mutatione fienda duae voces requiruntur, scilicet una quae mutatur, et alia quae per ipsam mutationem assumitur. Praeterea in b fa [sqb] mi acuto et superacuto, nulta fit mutatio, quia mutatio habet fieri necessario per duas voces unisono convenientes, id est quod vox illa quae mutatur et alia quae per mutationem ipsam assumitur sint in uno et eodem sono, sicut fa et ut <span class='pageNo'>[13]</span> de C fa ut; sol et re de D sol re ut; et sic de aliis. Unde quoniam fa et mi in quovis loco nunquam sint in uno et eodem sono, ymmo ab invicem distent majori semitonio, est impossibile quod unum in alterum sit mutabile. Nec praetereundem est quod mutationes inventae sunt propter digressum unius proprietatis ad aliam. Unde postquam aliquam proprietatem ingressi sumus, ante finalem ejus vocem mutare nunquam debemus, et sic intelligitur quod rarius et tardius, ut fieri potest, mutandum est. Denique mutatio cujuslibet vocis non est soni, sed nominis ipsius. Unde quando solfisamus, tantum mutamus, quia tunc voces nominatim exprimimus; namque solfisatio est canendo vocum per sua nomina expositio. Hinc, ut officium cujusque mutationis compendiose intelligamus, per ordinem eas sic diffiniamus.</p>
+
+<p>Ut re est mutatio quae fit in utroque G sol re ut ad ascendendum a [sqb] duro in b molle.</p>
+
+<p>Ut fa est mutatio, quae fit in C fa ut et in C sol fa ut ad descendendum de natura in [sqb] durum, et in utroque FF fa ut ad descendendum de b molli in naturam.</p>
+
+<p>Ut sol est mutatio quae fit in utroque G sol re ut ad descendendum de [sqb] duro in naturam, et in C sol fa ut ad descendendum de natura in b molle.</p>
+
+<p>Re ut est mutatio quae fit in utroque C sol re ut ad ascendendum a b molli in [sqb] durum.</p>
+
+<p>Re mi est mutatio quae fit in utroque A la mi re ad ascendendum a [sqb] duro in b molle.</p>
+
+<p>Re sol est mutatio quae fit in D sol re et in D la sol re ad descendendum de natura in [sqb] durum et in utroque G sol re ut ad descendendum de b molli in naturam.</p>
+
+<p>Re la est mutatio quae fit in utroque A la mi re ad descendendum de [sqb] duro in naturam, et in D la sol re ad descendendum de natura in b molle.</p>
+
+<p>Mi re est mutatio quae fit in utroque A la mi re ad ascendendum a b molli in [sqb] durum.</p>
+
+<p>Mi la est mutatio quae fit in utroque E la mi ad descendendum de natura in [sqb] durum, et in utroque A la mi re ad descendendum de b molli in naturam.</p>
+
+<p>Fa ut est mutatio quae fit in C fa ut et C sol fa ut ad ascendendum a duro in naturam, et in utroque FF fa ut ad ascendendum a natura in b molli.</p>
+
+<p>Fa sol est mutatio quae fit in C sol fa ut et in C sol fa, ad descendendum de [sqb] duro in b molle.</p>
+
+<p>Sol ut est mutatio quae fit in utroque G sol re ut ad ascendendum e natura in [sqb] durum, et in C sol fa ut ad ascendendum a b molli in naturam.</p>
+
+<p>Sol re est mutatio quae fit in D sol re et in D la sol re ad ascendendum a [sqb] duro in naturam, et in utroque G sol re ut ad ascendendum a natura in b molle.</p>
+
+<p>Sol fa est mutatio quae fit in C sol fa ut et C sol fa ad descendendum de b molli in [sqb] durum.</p>
+
+<p>Sol la est mutatio quae fit in D la sol re ad descendendum a [sqb] duro in b molle.</p>
+
+<p>La re est mutatio quae fit in utroque A la mi re ad ascendendum a natura in [sqb] durum, et in D la sol re ad ascendendum a b molli in naturam.</p>
+
+<p>La mi est mutatio quae fit in utroque E la mi ad ascendendum a [sqb] duro in naturam, et in utroque A la mi re ad ascendendum a natura in b molle.</p>
+
+<p>La sol est mutatio quae fit in D la sol re et in D la sol ad descendendum a b molli in [sqb] durum.</p>
+
+<p>Finaliter notandum est quod in dispositione istarum mutationum divinus quidam ordo habetur qui per figuram sequentem facillime concipitur:</p>
+
+<p><span class='pageNo'>[14]</span> [CSIV:14; text: Mutatur...la in sol mi re sol in la fa re ut fa in sol ut mi in la ut re in la sol mi ut ut in sol fa re bis ter quater.] <a href="TINEXP_07GF.gif">[TINEXP 07GF]</a></p>
+
+<p><span class='pageNo'>[15]</span> Capitulum VIII.</p>
+
+<p>De conjunctionibus.</p>
+
+<p>Quo ad septimum, conjunctio est unius vocis post aliam immediata junctio. Omnis autem conjunctio fit per arsim id est elevationem, aut per thesim id est depositionem; unde sciendum quod in qualibet deductione sunt quindecim conjunctiones quae et elevari et deponi possunt, scilicet quatuor toni, unum semitonium minus, duo ditoni, duo semiditoni, tria diatesseron, duo diapenthe et unum diapenthe cum tono, ut hic patet:</p>
+
+<p>[CSIV:15,1] <a href="TINEXP_08GF.gif">[TINEXP 08GF]</a></p>
+
+<p>Hinc ut clare guiditates istarum conjunctionum concipiantur, per ordinem sic diffiniantur:</p>
+
+<p>Tonus est conjunctio ex distantia duorum semitoniorum minorum et unius comatis constituta, cujusmodi sunt ut re, re ut; re mi, mi re; fa sol, sol fa; sol la, la sol.</p>
+
+<p>Semitonium minus est conjunctio ex distantia duorum diacismatum constituta, cujusmodi sunt mi fa et fa mi, et dicitur semitonium a semus, a, um, id est imperfectus, a, um, et tono quasi imperfectus tonus; adjungiturque minus ad differentiam semitonii majoris quod ex duobus diacismatibus et uno comate constat.</p>
+
+<p>Ditonus est conjunctio ex distantia duorum tonorum constituta, cujusmodi sunt ut mi, mi ut; fa la, la fa; et dicitur dytonus a dy per y graecum quod est duo, et tonus quasi conjunctio constans ex duobus tonis.</p>
+
+<p>Semiditonus est conjunctio ex distantia toni et semitonii, vel econtra constituta, cujus modi sunt re fa, fa re; mi sol, sol mi; et dicitur semiditonus a semus quod, ut praedictum est, idem significat quod imperfectus, et ditonus quasi imperfectus ditonus.</p>
+
+<p>Diatessaron est conjunctio ex distantia toni et semiditoni vel econtra constituta. Cujusmodi sunt ut fa, fa ut; re sol, sol re; mi la, la mi. Et dicitur diatessaron a dia per i latinum, quod est per et tessaron id est quatuor, quasi conjunctio de quatuor effecta, eo quod quatuor occupet loca.</p>
+
+<p>Diapenthe est conjunctio ex distantia diatessaron et toni vel tritoni et semitonii constituta, cujusmodi sunt ut sol, sol ut; re la, la re; mi mi et fa fa, per elevationem et depositionem.</p>
+
+<p>Voces attamen cujuslibet istarum duarum ultimarum speciorum diapenthe, scilicet mi mi et fa fa, sive eleventur sive deponantur, in una et eadem deductione nunquam consistunt. Unde necessario diversarum proprietatum sunt, ut hic:</p>
+
+<p>[CSIV:15,2] <a href="TINEXP_08GF.gif">[TINEXP 08GF]</a></p>
+
+<p>Et dicitur diapenthe a dia per i latinum quod est per et penthe, quod est quinque, quasi conjunctio per quinque effecta, eo quod quinque occupet loca.</p>
+
+<p>Diapenthe cum tono est conjunctio ex distantia diapenthe et toni constituta; cujusmodi sunt ut la, la ut, et dicitur diapenthe cum tono eo quod in ipsa conjunctione cum tono ponitur diapenthe.</p>
+
+<p>Alia vero multa genera pluresque species conjunctionum in manu nostra reperiuntur [quae in <span class='pageNo'>[16]</span> Speculo nostro musices una cum istis distinctissime exponuntur]. Sed quoniam difficultas non modica in eis habetur, et faciliter hic procedere volumus, illas scire cupientes ad ipsius speculum remittimus.</p>
+
+<p>Capitulum IX.</p>
+
+<p>Operis conclusio</p>
+
+<p>Denique haec manus expositio juvenibus sufficiat, quos ego Tinctoris exhortor ut ei tanquam fundamento musices vehementer studeant. Nam ut optima quaeque ratio docet ubi fundamentum non est, ibi superaedificari non potest; quo fit ut sine manus cognitione neminem in ipsa musica praeclarum contingat evadere. Explicit:</p>
+
+<p>[CSIV:16; text: Kyrie bis Domine sed eleyson. Dei miserere. Tenor. Contra.] <a href="TINEXP_08GF.gif">[TINEXP 08GF]</a></p>
+<!-- end text -->
+</div>
+</div>
+<!--</div>-->
+<br /><br />
+
+
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
+<div id="footer">
+  <div id="chmtl_logo">
+    <a href="https://chmtl.indiana.edu/">
+        <img src="_assets/img/chmtl_logo_trans.png" alt="CHMTL Logo" />
+    </a>
+  </div>
+  <div id="copyright">
+    <p>The <a href="https://chmtl.indiana.edu/">Center for the History of Music Theory and Literature</a> is a research center of the <a href="http://music.indiana.edu">Indiana University Jacobs School of Music</a>.</p>
+  </div>
+</div>
+
+<div id="iu_footer">
+    <hr />
+    <div id="copyright">
+        <div id="blockiu">
+            <a href="http://www.iub.edu" title="Indiana University">
+                <img alt="Block IU" height="28" src="https://chmtl.indiana.edu/tml/15th/_assets/img/blockiu_white.gif" width="22" />
+            </a>
+        </div>
+        <p id="statement">
+        <a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> © 2022 The Trustees of <a href="http://www.iu.edu" title="Indiana University">Indiana University</a> | <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> | <a href="https://music.indiana.edu/departments/offices/music-information-technology-services/privacy.shtml">Privacy Notice</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,938 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <title>GUIRR_TEXT</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="_assets/css/tml/layout.css" />
+    <link rel="stylesheet" type="text/css" href="_assets/css/common/chmtl_identity.css" />
+    <!--<link rel="stylesheet" type="text/css" href="_assets/css/w3.css" />-->
+    <link rel='stylesheet' type='text/css' href='_assets/css/fancybox.css' />
+    <script type= 'text/javascript' src='_assets/js/chmtl_file.min.js'></script>
+</head>
+
+<body>
+  <div id="chmtl-identity">
+    <div id="identity-spacer"></div>
+<!--    <p>A project of <a href="http://chmtl.indiana.edu">CHMTL</a></p>-->
+    <div id="chmtl-border">
+      <div id="chmtl-blue"></div>
+      <div id="chmtl-yellow"></div>
+      <div id="chmtl-gray"></div>
+      <div id="chmtl-red"></div>
+    </div>
+  </div>
+    <div id="identity">
+    <div id="menu-container">
+  <a><span class="menu-btn"><i class="fa fa-bars"></i>&nbsp;&nbsp;Menu</span></a>
+  <a href="../index.html"><span class="home-link">Home</span></a>
+  <span class="search-short">
+    <a class="modal-tooltip" modal="search-tip">&nbsp;<i class="fa fa-info-circle" aria-hidden="true">
+      <span class="sr-only">Click for more information</span></i></a>
+    <form  action="GUIRR.html#" id="menuSearch"><input type="text" id="menuSearchText" placeholder="Quick search"/></form><span class="navSearchButton"><i class="fa fa-search"></i></span></span>
+  <a href="../copyright.html" target="_blank"><span class="copyright-short">Copyright Notice</span></a>
+</div>
+
+<div id="search-tip" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="search-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+
+     <p>Use the &ldquo;Quick search&rdquo; if you want to search for <em>all documents</em> within the <em>whole archive</em> where words <em>matching or containing</em> the searched string are found.</p>
+     <p>For more specific queries (phrase searching, operators, and filters), visit the <a href="../quaero.html" target="_blank">full Search</a> page.</p>
+   </div>
+ </div>
+ </div>
+    </div>
+<div id="container" class="tml-file">
+  <nav id="sliding-left-nav" class="pushy pushy-left">
+    <ul class="push-menu">
+        <li class="pushy-submenu">
+            <a class="submenu-heading">ABOUT</a>
+            <ul>
+                <li class="pushy-link"><a href="../about/introduction.html">Introduction</a></li>
+                <li class="pushy-link"><a href="../about/content.html">Content</a></li>
+                <li class="pushy-link"><a href="../about/policies.html">Policies</a></li>
+                <li class="pushy-link"><a href="../about/howTo.html">How-To</a></li>
+                <li class="pushy-link"><a href="../about/future_plans.html">Future plans</a></li>
+                <li class="pushy-link"><a href="../about/people.html">People</a></li>
+                <li class="pushy-link"><a href="../about/contact.html">Contacts</a></li>
+            </ul>
+        </li>
+        <li class="pushy-submenu">
+          <a class="submenu-heading">BROWSE</a>
+          <ul>
+            <li class="pushy-link"><a href="../browse/authors.html">by author</a></li>
+            <li class="pushy-link"><a href="../browse/contributors.html">by contributor</a></li>
+            <li class="pushy-link"><a href="../browse/incipits.html">by incipit</a></li>
+            <li class="pushy-link"><a href="../browse/sources.html">by source</a></li>
+            <li class="pushy-link"><a href="../browse/titles.html">by title</a></li>
+            <li class="pushy-submenu">
+            <a class="centuryPushy">by century</a>
+                   <ul>
+                     <li class="pushy-link"><a href="../3rd-5th/index.html">3rd-5th</a></li>
+                     <li class="pushy-link"><a href="../6th-8th/index.html">6th-8th</a></li>
+                     <li class="pushy-link"><a href="index.html">9th-11th</a></li>
+                     <li class="pushy-link"><a href="../12th/index.html">12th</a></li>
+                     <li class="pushy-link"><a href="../13th/index.html">13th</a></li>
+                     <li class="pushy-link"><a href="../14th/index.html">14th</a></li>
+                     <li class="pushy-link"><a href="../15th/index.html">15th</a></li>
+                     <li class="pushy-link"><a href="../16th/index.html">16th</a></li>
+                     <li class="pushy-link"><a href="../17th/index.html">17th</a></li>
+                   </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="pushy-submenu"><a href="../quaero.html">SEARCH</a></li>
+        <li class="pushy-submenu">
+            <a class="submenu-heading">EXTRAS</a>
+            <ul>
+              <li class="pushy-submenu">
+                <a href="../concordances.html">Concordances</a>
+                  <ul>
+                    <li class="pushy-link"><a href="../concordances/lml.html"><em>Lexicon musicum Latinum</em></a></li>
+                    <li class="pushy-link"><a href="../concordances/grove_anonymous.html">Grove Anonymous</a></li>
+                  </ul>
+            </ul>
+        </li>
+     </ul>
+</nav>
+  <div class="site-overlay"></div>
+
+<div id="content">
+  <noscript>
+  <div  id="noScript" class="warning">
+    <p><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> JavaScript Required</p>
+    <p>In order to ensure the proper functining of this website, please enable JavaScript in your browser security preferences or use a device that supports it.</p>
+  </div>
+</noscript>
+<div id="header">
+    <div id="source" class="ft-text">
+        <p class="author">Guido d'Arezzo </p>
+        <p class="title">Regulae rhythmicae in antiphonarii sui prologum prolatae</p>
+        <p class="tmlSource"><strong>Source</strong>: <i>Scriptores ecclesiastici de musica sacra potissimum</i>, 3 vols., ed. Martin Gerbert (St. Blaise: Typis San-Blasianis, 1784; reprint ed., Hildesheim: Olms, 1963), 2:25–34.</p>
+                <p id="chmtl-staff">
+                    <span class="eca-span">Electronic version prepared by Dolores Pesce <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="entered">E</span></a>, Angela Mariani, Bradley Jon Tucker <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="checked">C</span></a>, and Thomas J. Mathiesen <a class="modal-tooltip eca-modal" modal="entry-abbrv"><span class="approved">A</span></a>
+              for the <i>Thesaurus Musicarum Latinarum</i>, 1993.
+            </p>
+              </div>
+
+</div> <!-- end header div -->
+<div id="entry-abbrv" class="w3-modal">
+ <div class="w3-modal-content">
+   <div class="w3-container">
+     <a class="close-modal" modal="entry-abbrv"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+     <br />
+     <p>The aforementioned individual(s) <span class="entered">E</span>ntered, <span class="checked">C</span>hecked, or <span class="approved">A</span>pproved the electronic transcription of the source document.</p>
+   </div>
+ </div>
+ </div>
+
+ <div id="entry-abbrv-short" class="w3-modal">
+  <div class="w3-modal-content">
+    <div class="w3-container">
+      <a class="close-modal" modal="entry-abbrv-short"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+      <br />
+      <p><span class="checked">C</span>: Indicates the aforemententioned person(s) checked the transcription.</p>
+      <p><span class="approved">A</span>: Indicates the aforementioned person(s) approved the transcription for publication.</p>
+    </div>
+  </div>
+  </div>
+
+  <div id="multipart-tip" class="w3-modal">
+   <div class="w3-modal-content">
+     <div class="w3-container">
+       <a class="close-modal" modal="multipart-tip"><span class="w3-closebtn"><i class="fa fa-times" aria="hidden"></i></span></a>
+       <br />
+       <p>Historically, in the TML long texts were split into multiple files. These are now linked to each other for easier browsing. In a future version, they will be consolidated into a single view.</p>
+     </div>
+   </div>
+   </div>
+
+  <div id="metadata-contd">
+    <p class="text-sidebar-buttons"><button id="tml-notes" class="pure-button">TML notes</button>&nbsp;<button id="tml-concordances" class="pure-button">Concordances</button></p>
+
+  <div id="sidebar">
+      <div id="extras-wrapper">
+        <!---->
+        <div id="tml-canon-info">
+          <div class="extras-heading"><a class="close-modal repoToolbox" modal="tml-canon-info"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">TML Notes</i></span></div>
+          <p>The treatise is preceded by the short acrostic "Guidonis versus de musicae explanatione, suique nominis ordine" beginning: "Gliscunt corda meis hominum mollita Camenis, Una mihi virtus numeratos contulit ictus, ..." Cf. <a href="GUIRRH.html">GUIRRH</a> and <a href="GUIREG.html">GUIREG</a>. [TJM]</p>
+        </div>
+<div id="concordances">
+  <div class="extras-heading"><a class="close-modal repoToolbox" modal="concordances"><i class="fa fa-times" aria="hidden"></i></a>&nbsp;<span class="title">Concordances</i></span></div>
+  
+      <div id="lml-info">
+          <p>&#8594; We have found the following concordances with the <i><a class="external" href="http://www.lml.badw-muenchen.de/" target="_blank">Lexicon musicum Latinum</a></i> and the <i>R&eacute;pertoire International des Sources Musicales</i></p>
+          <ul id="lml-entries">
+                        <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>GUIDO reg.</strong></span>
+             <div class="expando-data">
+                  <p>Guido Aretinus: <i>Regulae rhythmicae</i></p>
+                                      <ul>
+                  <li><span class="expando closed"><span class="plus-minus">[+] </span><strong>MSS (RISM)</strong></span>
+                      <div class="expando-data">
+                      <!--<ul class="lml-ms-list">-->
+                      <table>
+                                                        <tr><td><span class="lib-siglum">A-Wn</span> Cod. 51, 41v-43</td>
+                                                          <td><span class="lib-siglum">A-Wn</span> Cod. 2502, 26 (Extraits)</td>
+                                                          <td><span class="lib-siglum">A-Wn</span> Cod. 2503, 17-23</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">B-Br</span> 10159, 62-85v</td>
+                                                          <td><span class="lib-siglum">B-Br</span> 10162/6, 20v-23 (32v-35)</td>
+                                                          <td><span class="lib-siglum">B-Br</span> II 784, 20v-26v</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">B-Br</span> II 4141, 54-58v</td>
+                                                          <td><span class="lib-siglum">B-Gu</span> 70 (71), 143 (Extraits)</td>
+                                                          <td><span class="lib-siglum">CH-BEb</span> A 91.20, 2r-3v (Fragments)</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">CH-BEb</span> A 91.21, 6r-v (Fragments)</td>
+                                                          <td><span class="lib-siglum">CH-CObodmer</span> 18845 (Ms. 77), 50-56v, 57r-v, 72-73, 81v</td>
+                                                          <td><span class="lib-siglum">D-B</span> Ms. lat. oct. 265, 8 (Extraits)</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">D-B</span> Mus. ms. theor. 325, 1, 5v-7v</td>
+                                                          <td><span class="lib-siglum">D-DS</span> 1988, 87v-92v</td>
+                                                          <td><span class="lib-siglum">D-EF</span> 8° 93, 57v-62</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">D-EF</span> 8° 94, 51v (Extraits)</td>
+                                                          <td><span class="lib-siglum">D-Gs</span> Ms. Philos. 84, 14-16</td>
+                                                          <td><span class="lib-siglum">D-KA</span> K 504, 69-72</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">D-Kl</span> 4° Ms. Math. 1, 10-12</td>
+                                                          <td><span class="lib-siglum">D-LEu</span> 431, 143v-146v, 149v-150v</td>
+                                                          <td><span class="lib-siglum">D-Mbs</span> Clm 9921, 17v-20</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">D-Mbs</span> Clm 13021, 157vb-159v</td>
+                                                          <td><span class="lib-siglum">D-Mbs</span> Clm 14523, 125v-127</td>
+                                                          <td><span class="lib-siglum">D-Mbs</span> Clm 14965a, 18v-21</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">D-Mbs</span> Clm 19421, 32-39</td>
+                                                          <td><span class="lib-siglum">D-Mbs</span> Clm 30057, 29-36</td>
+                                                          <td><span class="lib-siglum">D-Mu</span> 8° 375, 53-57v</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">D-PO</span> 2915, 15-20, 30v</td>
+                                                          <td><span class="lib-siglum">D-W</span> 4. 11. Aug. 4°, 96-98v</td>
+                                                          <td><span class="lib-siglum">D-W</span> 334 Gud. Lat. 8°, 33-41</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">F-AUT</span> 46 (olim 40 B), 65, 65v (Extraits)</td>
+                                                          <td><span class="lib-siglum">F-CA</span> 172, 19a (Extraits)</td>
+                                                          <td><span class="lib-siglum">F-Pn</span> Lat. 7211, 89-95</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">F-Pn</span> Lat. 7461, 7-9v</td>
+                                                          <td><span class="lib-siglum">F-Pn</span> Lat. 10508, 143-145</td>
+                                                          <td><span class="lib-siglum">F-Pn</span> Lat. 16664, 45v-46v</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">F-Pn</span> Nouv. acq. lat. 443, 36r-v</td>
+                                                          <td><span class="lib-siglum">GB-Ctc</span> O.9.29, 67v-71v, 85</td>
+                                                          <td><span class="lib-siglum">GB-Ctc</span> R.15.22, 117-121v</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">GB-Lbl</span> Add. 10335, 14v (Extraits)</td>
+                                                          <td><span class="lib-siglum">GB-Lbl</span> Add. 17808, 17-18v</td>
+                                                          <td><span class="lib-siglum">GB-Lbl</span> Arundel 339, 104-106</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">GB-Lbl</span> Harley 281, 4v, 16v-21</td>
+                                                          <td><span class="lib-siglum">GB-Lbl</span> Harley 3199, 55v-56 (Extraits)</td>
+                                                          <td><span class="lib-siglum">GB-Obac</span> 173A, 91v-94v</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">GB-Ojc</span> 150, 10-14</td>
+                                                          <td><span class="lib-siglum">GB-Ojc</span> 188, 73-77</td>
+                                                          <td><span class="lib-siglum">I-Fl</span> Ashburnham 1051, 57v-59v</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">I-Fl</span> Plut. XXIX. 48, 30-33v</td>
+                                                          <td><span class="lib-siglum">I-Fn</span> Conv. Soppr. F. III. 565, 23-26v, 29r-v, 33v</td>
+                                                          <td><span class="lib-siglum">I-Fn</span> Magliab. XIX. 36, 98v</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">I-Fr</span> 652, 25v-30v, 36v</td>
+                                                          <td><span class="lib-siglum">I-Ma</span> D. 5 inf., 18v-21</td>
+                                                          <td><span class="lib-siglum">I-Ma</span> D. 455 inf., 15 (Extraits)</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">I-MC</span> 318, 194-200</td>
+                                                          <td><span class="lib-siglum">I-PESo</span> 1336, 61r-v, 61v-66</td>
+                                                          <td><span class="lib-siglum">I-PS</span> 100, 25v (Extraits)</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">I-Rli</span> 2067, 21 (Extraits)</td>
+                                                          <td><span class="lib-siglum">I-Rv</span> B 81, 83r-v, 130-137v, 139 (Extraits)</td>
+                                                          <td><span class="lib-siglum">I-Rvat</span> Reg. lat. 598, 114, 114v (Extraits)</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">I-Rvat</span> Reg. lat. 1616, 11-14</td>
+                                                          <td><span class="lib-siglum">I-Sc</span> L.V.30, 120v-121 (Extraits)</td>
+                                                          <td><span class="lib-siglum">I-VEcap</span> 236, 24v-27</td>
+                                                        </tr><tr><tr><td><span class="lib-siglum">NZ-Wt</span> MSR-05, 93-97</td>
+                                                          <td><span class="lib-siglum">US-R</span> Ms. 92 1200, 59v-66</td>
+                                                          <td><span class="lib-siglum">US-Wc</span> ML 171 J 6 Case, 165-170v, 171v-172</td>
+                                                  </tr></table>
+                      <!--</ul>--></div>
+                  </li>
+              </ul>
+              </div> <!-- expando-data -->
+                            </li>
+                    </ul>
+      </div>
+  
+  </div>
+  <div style="clear: both"></div>
+    </div><!--extras-wrapper -->
+  </div><!--sidebar-->
+  </div><!--metadata-contd-->
+  <div style="clear: both"></div>
+
+<div id="text-toolbox-wrapper">
+  <div id='floatingBox'>
+    <div class="floating-toolbox">
+      <table>
+        <tr>
+          <th>Actions</th>
+        </tr>
+      </table>
+    </div>
+    <p id="backToTop"> <a href='GUIRR.html#top'>Back to top</a></p>
+  </div>
+
+<div id="tml-text">
+
+<!-- begin text -->
+<p><span class='pageNo'>[25]</span> Incipiunt Guidonis versus de musicae explanatione, suique nominis ordine.</p>
+
+<p>Gliscunt corda meis hominum mollita Camenis,</p>
+
+<p>Una mihi virtus numeratos contulit ictus,</p>
+
+<p>In coelis Summo gratissima carmina fundo,</p>
+
+<p>Dans aulae Christi munus cum voce magistri,</p>
+
+<p>Ordine me scripsi, primo qui carmina finxi.</p>
+
+<p>Incipiunt item Musicae Guidonis regulae rhythmicae in antiphonarii sui prologum prolatae.</p>
+
+<p>Musicorum et cantorum magna est distantia,</p>
+
+<p>Isti dicunt, illi sciunt, quae componit Musica.</p>
+
+<p>Nam qui facit, quod non sapit, diffinitur bestia.</p>
+
+<p>Caeterum tonantis vocis si laudent acumina,</p>
+
+<p>Superabit philomelam vel vocalis asina.</p>
+
+<p>Quare eis esse suum tollit dialectica.</p>
+
+<p>Hac de causa rusticorum multitudo plurima,</p>
+
+<p>Donec frustra vivit, mira laborat insania,</p>
+
+<p>Dum sine magistro nulla discitur antiphona.</p>
+
+<p>Notis ergo illis spretis, quibus vulgus utitur,</p>
+
+<p>Quod sine ductore nusquam, ut caecus, progreditur,</p>
+
+<p>Septem istas disce notas septem characteribus.</p>
+
+<p>[GSII:25; text: [Gamma]. A. B. C. D. E. F. G. a. b. c. d. e. f. g. aa. ut. re. mi. fa. sol re. la mi. sol ut. la re. fa ut. mi la. sol la. ] <a href="GUIRR_01GF.gif">[GUIRR 01GF]</a></p>
+
+<p>Namque aliae septenae, quae sequuntur postea,</p>
+
+<p>Non sunt aliae, sed una replicantur regula.</p>
+
+<p>Quia vocum, ut dierum, aeque fit hebdomada.</p>
+
+<p>Quas si, sicut audiuntur, vis videre oculis,</p>
+
+<p>Ore interim silente, manualis operis</p>
+
+<p>Argumentum fiat certis diffinitum numeris.</p>
+
+<p><span class='pageNo'>[26]</span> [Gamma] Gamma graecum quidam ponunt ante primam litteram,</p>
+
+<p>A quo passibus partitur novem tota linea.</p>
+
+<p>Ubi primus passus finit, prima erit littera.</p>
+
+<p>Modo simili a prima passus fiant totidem,</p>
+
+<p>Et secundae locus patet supradicto ordine:</p>
+
+<p>Quam concordiam sonorum tonum dicunt musici.</p>
+
+<p>Rursus totam Gammae chordam divide per quatuor,</p>
+
+<p>Tertia confestim canet secundae vicinior,</p>
+
+<p>Tantillum duobus tonis plus est diatessaron.</p>
+
+<p>Semitonium vocatur ipsum breve spatium,</p>
+
+<p>Tonus vero est, quem facit norma novem partium.</p>
+
+<p>De quaternis habet diatessaron vocabulum.</p>
+
+<p>Ipsi tonus si addatur, diapente oritur,</p>
+
+<p>Quod de quinque nomen Graecum in Latinum vertitur.</p>
+
+<p>Nam si passus ternos facit, quinque constat vocibus.</p>
+
+<p>Inde prima dabit quartae, quaternis indicium,</p>
+
+<p>Et secunda servit quintae per eumdem numerum.</p>
+
+<p>Tertia conducit sextam, neque mutat calculum,</p>
+
+<p>Causa septimae a Gamma fac totius medium,</p>
+
+<p>Tunc a prima sic octava locum sumit proprium.</p>
+
+<p>Imo prima fit a prima, neque mutat numerum.</p>
+
+<p>Sic secunda dat secundam, tertiaque tertiam,</p>
+
+<p>Quarta quartam, quinta quintam, quaeque suam litteram.</p>
+
+<p>Gravium acutam signat per eamdem litteram,</p>
+
+<p>Vocis primae ad octavam vel eamdem litteram.</p>
+
+<p>Hanc concordiam sonorum diapason nominant,</p>
+
+<p>Cuius nomen est de cunctis translatum ad litteram,</p>
+
+<p>Omnes quia habet voces, vel quia totam lineam</p>
+
+<p>Per duos partitur passus in eamdem litteram,</p>
+
+<p>Ea bisque geminata monochordum terminat.</p>
+
+<p>Quinque habet ipsa tonos, duo semitonia.</p>
+
+<p>Habet in se diapente, atque diatessaron.</p>
+
+<p>Maxima symphoniarum et vocum est unitas.</p>
+
+<p>Miror, quatuor quosdam fecisse signa vocibus,</p>
+
+<p>Quasi quintae sint eaedem, quarum quaedam dissonant,</p>
+
+<p>Quaedam, quamvis sint affines, non perfecte consonant.</p>
+
+<p>Item de divisionibus. </p>
+
+<p>Item Gamma de novenis passibus, quos diximus,</p>
+
+<p><span class='pageNo'>[27]</span> Sicut primam passus primus, sic dat quartam tertius,</p>
+
+<p>Primam quintus, quartam sextus, primam rursus septimus.</p>
+
+<p>Primae quoque passus primus ut secundam statuit,</p>
+
+<p>Sic et tertius in quinta finem suum terminat.</p>
+
+<p>Quintus item dat secundam, sextus quintam renovat.</p>
+
+<p>Primus quoque de quaternis Gammae dictis passibus</p>
+
+<p>Sicut tertiam demonstrat, sic secundus septimam.</p>
+
+<p>Tertius eamdem signat triplicatam septimam.</p>
+
+<p>Tertiam quoque quadrando, ut sextam efficimus.</p>
+
+<p>Sic mox altero in passu tertiam rescribimus,</p>
+
+<p>Quam quadrando rursus sextam alteram perficimus.</p>
+
+<p>Sunt, qui addunt in acutis iuxta primam litteram:</p>
+
+<p>Sed Gregorio non placet Patri haec lascivia.</p>
+
+<p>At moderni sapientes hanc neque commemorant.</p>
+
+<p>Quamvis ergo apud quosdam ipsa fiat vocula,</p>
+
+<p>Apud multos tamen iure dicitur superflua.</p>
+
+<p>Altera vero secunda semper est authentica.</p>
+
+<p>Nota caute, omnes toni novem fiunt passibus,</p>
+
+<p>Diatessaron quaternis, sicut supra diximus,</p>
+
+<p>Diapente semper tribus, Diapason duobus.</p>
+
+<p>Isto modo monochordum facile est fieri.</p>
+
+<p>At si cymbala formantur musicorum opere,</p>
+
+<p>Hae mensurae sunt cavendae maxime in pondere.</p>
+
+<p>His mensuris comparantur et canora organa,</p>
+
+<p>Et quaecumque rite fiunt musicorum vascula.</p>
+
+<p>His mensuris Deo canit tota nunc ecclesia.</p>
+
+<p>Omnis vox secundae sibi iungitur et tertiae,</p>
+
+<p>Quartae vero atque quintae non iunguntur aliter,</p>
+
+<p>Nisi diatessaron sit ibi vel diapente.</p>
+
+<p>Tono semitoniove vox secundae iungitur,</p>
+
+<p>Ditonus vero et semiditonus vocabitur</p>
+
+<p>Si qua vero vox ultra secundam tertiam adgreditur,</p>
+
+<p>Diatessaron habetur, cum ad quartam graditur;</p>
+
+<p>Diapente nominatur, quintae cum coniungitur.</p>
+
+<p>Nisi motibus his senis nulla vox movebitur.</p>
+
+<p>Omnis ergo cantilena quia his efficitur,</p>
+
+<p>Moneo te, prudens cantor, hos perfecte discere:</p>
+
+<p>Nam qui hos plene cognoscit, nil in cantu dubitat.</p>
+
+<p>Quae voces elevari vel gravari possint.</p>
+
+<p><span class='pageNo'>[28]</span> Ergo quater elevari vel gravari poterunt</p>
+
+<p>Prima, tertia et quarta, quinta atque septima;</p>
+
+<p>Sextae vero et secundae non est haec licentia.</p>
+
+<p>Nam secunda ad subquartam minime gravabitur,</p>
+
+<p>Atque usque super quintam numquam elevabitur.</p>
+
+<p>Superquartae et subquintae sexta non coniungitur.</p>
+
+<p>De vocum discriminibus.</p>
+
+<p>Semitonia et toni, quia dissimiliter</p>
+
+<p>Septem sonis coaptantur, septem sunt discrimina,</p>
+
+<p>Ut nullius vocis sonus idem sit in altera.</p>
+
+<p>Vocibus tamen in septem quaedam est concordia.</p>
+
+<p>Saepe enim, si non semper, eadem antiphona</p>
+
+<p>Diversis cantatur sonis, nec mutat harmoniam.</p>
+
+<p>De quatuor modis vocum.</p>
+
+<p>Nempe quatuor sunt modi in septenis voculis,</p>
+
+<p>Magna cura cognoscendi: quos Graecorum regula</p>
+
+<p>Protum, deuterum, tritum, ac tetrardum nominat:</p>
+
+<p>Protus primus, et secundus nominatur deuterus,</p>
+
+<p>Tritus tertius vocatur, quartus vero tetrardus.</p>
+
+<p>Ordinatim disponuntur taliter in vocibus.</p>
+
+<p>De Vicinitate vocum per quatuor modos.</p>
+
+<p>Namque prima vox et quarta primum modum exhibent;</p>
+
+<p>At secundam dat secunda, atque quinta pariter.</p>
+
+<p>Tertia collata sextae saepe cantat eadem.</p>
+
+<p>Quartum modum his adiungit singularis septima,</p>
+
+<p>Quae tamen in elevando sonat sicut tertia,</p>
+
+<p>Descendendo sibi quartam perhibet sororculam.</p>
+
+<p>De similitudine vocis primae et quintae.</p>
+
+<p>Est praeterea cum prima valde quinta similis,</p>
+
+<p>Sed in deponendo tantum; namque si notaveris</p>
+
+<p>Semitonia et tonos, hoc ut audis, videris.</p>
+
+<p>Reliquae iam vero voces sibi valde dissident,</p>
+
+<p>Suam quaeque facit neumam alteri dissimilem,</p>
+
+<p>Neque suae sedis locum dat neumae extraneae.</p>
+
+<p>Item de quatuor tropis in octo dispertitis.</p>
+
+<p>Aure tamen curiosa, valde erit utile,</p>
+
+<p>Si advertas et cognoscas, harmonia qualiter</p>
+
+<p>Quatuor canatur modis transformata facie:</p>
+
+<p>Quatuor ex quibus modis octo dehinc facimus,</p>
+
+<p><span class='pageNo'>[29]</span> Quia gravia et alta cantica discernimus,</p>
+
+<p>Cum authentos atque plagas more graeco diximus.</p>
+
+<p>Item de authentis et plagis.</p>
+
+<p>Alti cantus sunt authenti, graves plagas nominant.</p>
+
+<p>Dumque quatuor in tonis hoc utrumque supputant,</p>
+
+<p>Octo formulas tonorum vel modorum indicant.</p>
+
+<p>Protus est authentus primus, plagis proti secundus,</p>
+
+<p>Deuterus authentus extat, tertium quem dicimus.</p>
+
+<p>Quartus erit plagis eius, ordine qui sequitur.</p>
+
+<p>Quintus est authentus tritus, sextus est plagis ipsius.</p>
+
+<p>Hinc authentus est tetrardus, quem vocamus septimum.</p>
+
+<p>Plagis tetrardi octavus, septimum qui sequitur.</p>
+
+<p>Quorum duo unam vocem tenent, ut praediximus,</p>
+
+<p>Quia vocum in natura quatuor sunt verius,</p>
+
+<p>quos si sapis, hac in arte nihil est utilius.</p>
+
+<p>[GSII:29; text: I. II. III. IV. V. VI. VII. VIII. [Gamma]. A. B. C. D. E. F. G. a, b, c. d, e, f, g, aa, bb, cc, dd.] <a href="GUIRR_01GF.gif">[GUIRR 01GF]</a></p>
+
+<p>De Finalibus.</p>
+
+<p>Quamvis omnes voces cantus atque modos habeat,</p>
+
+<p>Eius tamen erit modi, quem finalis resonat.</p>
+
+<p>Nam ab ipso sumit normam, qualiter se habeat.</p>
+
+<p>Vocem quartam atque quintam, sextam atque septimam</p>
+
+<p>Finales habemus. Multi sine differentia</p>
+
+<p>Ubicumque ponunt fines sicut et principia.</p>
+
+<p>Quique cantus ad octavas salit regulariter,</p>
+
+<p>Et ad quintas a finali poterit descendere,</p>
+
+<p>Quando plagae et authentis non sunt differentiae.</p>
+
+<p>Quod si plagas ab authentis convenit discernere,</p>
+
+<p>Plagae saliunt ad quintas, nec vadunt ulterius,</p>
+
+<p>Et ad quintas declinando sibi satisfaciunt.</p>
+
+<p>At authenti ad octavas competenter saliunt</p>
+
+<p>A finali uno tono, neque cadunt amplius.</p>
+
+<p>Trito tonus cum non subsit, finis est gravissimus.</p>
+
+<p>Fini quoque debet esse consonum principium.</p>
+
+<p>Unde quintum a finali non excedat calculum,</p>
+
+<p>Plagae vero super quartas non tendant principium.</p>
+
+<p>Inter alias secunda vox iacet ignobilis,</p>
+
+<p><span class='pageNo'>[30]</span> Contra tertia et sexta frequentantur saepius;</p>
+
+<p>Cuius rei mihi testis sanctus est Gregorius;</p>
+
+<p>Principalem quoque esse, quia ipsam noluit.</p>
+
+<p>Deuterus authentus sumsit loco eius tertiam,</p>
+
+<p>Cuius finis, quamvis sexta, saepe ipsam inchoat.</p>
+
+<p>Multa autem usurpantur, nec tenentur regula,</p>
+
+<p>Quia tempore a multo desuevit musica,</p>
+
+<p>Dum invidia et torpor cuncta tollunt studia.</p>
+
+<p>Illud vero late patet, quod fiat de vocibus,</p>
+
+<p>Velut syllabae, et partes, cola atque commata.</p>
+
+<p>Concinuntque saepe versus arte sicut metrica.</p>
+
+<p>Solis litteris notare optimum probavimus,</p>
+
+<p>Quibus ad discendum cantum nihil est facilius,</p>
+
+<p>Si assidue utantur saltem tribus mensibus.</p>
+
+<p>[GSII:30; text: Sit nomen Domini benedictum in secula. Adiutorium nostrum in nomine Domini. D, F, G, c, d, e, a, [sqb]] <a href="GUIRR_01GF.gif">[GUIRR 01GF]</a></p>
+
+<p>Causa vero breviandi neumae solent fieri,</p>
+
+<p>Quae si curiosae fiant, habentur pro litteris,</p>
+
+<p>Hoc si modo disponantur litterae cum lineis.</p>
+
+<p>Dehinc studio crescente inter duas lineas,</p>
+
+<p>Vox interponatur una, nempe quaerit ratio,</p>
+
+<p>Variis ut sit in rebus varia positio.</p>
+
+<p>[Quidam ponunt duas voces duas inter lineas,</p>
+
+<p>Quidam ternas, quidam vero nullas habent lineas,</p>
+
+<p>Quibus labor cum sit gravis, error est gravissimus.</p>
+
+<p>Argumentum vero simplex quia cito capitur,</p>
+
+<p>Tonus tertius et sextus describuntur saepius, </p>
+
+<p>Quos frequenter repercussos mox cognoscit animus.</p>
+
+<p>Litterarum et neumarum usus sit assiduus.</p>
+
+<p>Quisque sonus quo sit loco facile colligitur,</p>
+
+<p>Etiamsi una (tantum) littera praefigitur.]</p>
+
+<p>Ut proprietas sonorum discernatur clarius,</p>
+
+<p>Quasdam lineas signamus variis coloribus:</p>
+
+<p>Ut quo loco quis sit sonus, mox discernat oculus. </p>
+
+<p><span class='pageNo'>[31]</span> Ordine tertiae vocis splendens crocus radiat,</p>
+
+<p>Sexta eius sed affinis flavo rubet minio:</p>
+
+<p>Est affinitas colorum reliquis indicio.</p>
+
+<p>At si littera vel color neumis non intererit,</p>
+
+<p>Tale erit, quasi funem dum non habet puteus:</p>
+
+<p>Cuius aquae, quamvis multae, nil prosunt videntibus.</p>
+
+<p>Illud quoque, quod praedixi, valde erit utile,</p>
+
+<p>Similis figurae neumas si cures inspicere,</p>
+
+<p>Locis variis et modis quam diverse resonent.</p>
+
+<p>Aptitudinem neumarum facile intelligis,</p>
+
+<p>Quo in loco quis sit sonus in diversis lineis,</p>
+
+<p>Usus tibi sit si frequens in modorum formulis.</p>
+
+<p>Cuiusmodi symphoniis symphonia concinit,</p>
+
+<p>Eiusmodi symphoniam ipsam esse noveris.</p>
+
+<p>Quare octomela cunctis subdimus antiphonis,</p>
+
+<p>Plures voces brevi fiant meta fit in spatio.</p>
+
+<p>Signum est sequentis neumae, quo loco ponenda sit.</p>
+
+<p>Suo loco ne ponatur, cum necesse fuerit.</p>
+
+<p>Quamvis autem quisque cantum personet memoriter,</p>
+
+<p>Si non cunctos eius motus vel sonos memoriter,</p>
+
+<p>Qui et quales sint, persentit, nil se dicat sapere.</p>
+
+<p>Hactenus latentes musas in lucem produximus,</p>
+
+<p>Et benevolis praestantes invidos offendimus,</p>
+
+<p>Ad honorem summi Dei, per quem sumus, vivimus,</p>
+
+<p>Constitutionum formas breviter aperiam.</p>
+
+<p>Aliquorum sic sonorum nominatur copula,</p>
+
+<p>Cum intensio est sola, vel contra remissio,</p>
+
+<p>De duobus erit sonis prima constitutio,</p>
+
+<p>Et secunda fit de tribus, tertia de quatuor.</p>
+
+<p>Quarta vero fit de quinta vocibus quibuslibet,</p>
+
+<p>Quarum prima extat simplex, duplicatur altera.</p>
+
+<p>Tertia varietates quatuor inclamitat.</p>
+
+<p>Quarta octo sonat modis diapente consonis.</p>
+
+<p>Uni constitutioni modulis in omnibus,</p>
+
+<p>Vox si una adiungatur, modi fiunt totidem.</p>
+
+<p>Tollas sonos si secundos, rursus fient totidem.</p>
+
+<p>Constitutio sic omnis nascitur ex altera.</p>
+
+<p><span class='pageNo'>[32]</span> Nam et prima dat secundam, et secunda tertiam,</p>
+
+<p>Tertiaque facit quartam; haec ut monstrat pagina.</p>
+
+<p>[GSII:32; text: Constitutiones et moduli vocis primae. Prima constitutio simplex est, Secunda constitutio habet duas formulas. Tertia constitutio habet formulas quatuor. Quarta constitutio habet modulos octo, et continet omnes superiores constitutiones. I. II. IIII. A, B, C, D, E, Prima, Secunda, Tertia, Quarta. Constitutiones et moduli vocis secundae. Constitutiones et moduli vocis tertiae. F, G] <a href="GUIRR_02GF.gif">[GUIRR 02GF]</a></p>
+
+<p><span class='pageNo'>[33]</span> Sonus est in quibuscumque regulae concordia,</p>
+
+<p>Constitutionum formas quaslibet associant,</p>
+
+<p>Donec spatia formarum diapason reprimat.</p>
+
+<p>Spatiosis namque formis maximeque vacuis</p>
+
+<p>Raro utimur in cantu: breviores spatio</p>
+
+<p>Atque minus interruptas frequens usus approbat.</p>
+
+<p>Cumque formae sint maiores factae de minoribus,</p>
+
+<p>Non est dubium, quod si quis minimas cognoverit,</p>
+
+<p>De maioribus nequaquam dubitare poterit.</p>
+
+<p>Rursus qualibet in forma magna fit varietas,</p>
+
+<p>Si vox quaelibet in cantu modo simplex resonat, </p>
+
+<p>Modo semet repercussa duplicat vel triplicat.</p>
+
+<p>Voces deinde affines quas demonstrat regula,</p>
+
+<p>Harum constitutionum non spernit concordia, </p>
+
+<p>Quin sit idem semper melum in una et altera.</p>
+
+<p>Feci regulas apertas, et antiphonarium</p>
+
+<p>Regulariter perfectum contuli cantoribus,</p>
+
+<p>Quale numquam habuerunt reliquis temporibus.</p>
+
+<p>Precor vos beati fratres pro tantis laboribus,</p>
+
+<p>Pro me misero Guidone, meisque adiutoribus</p>
+
+<p>Pium Deum exorate, nobis sit propitius.</p>
+
+<p>Operis quoque scriptorem adiuvate precibus.</p>
+
+<p>Pro magistro exorate, cuius adiutorio</p>
+
+<p>Auctor indiget et scriptor. Gloria sit Domino.</p>
+
+<p>Amen.</p>
+
+<p>Omnibus ecce modis descripta relatio vocis.</p>
+
+<p>Est tonus in numeris superantur ut octo novenis,</p>
+
+<p>Semitonus, cuius de nomine nomen ademit.</p>
+
+<p>Ditonus atque semis diatessaron omne tenebit.</p>
+
+<p>Idque facit notum quadro discrimine totum,</p>
+
+<p>Cui superadde tonum, videas diapente sonorum.</p>
+
+<p>Atque tribus fissum totum signabit idipsum,</p>
+
+<p>In medio summae diapason nectit utrumque.</p>
+
+<p>Namque sonum duplicem simplo sed reddit eumdem.</p>
+
+<p>Adde duplex senos videas notus diatriton,</p>
+
+<p>Ditonus et semis, quia ditonus alter habetur.</p>
+
+<p>Motibus his cursum faciet sine musica nullum.</p>
+
+<p>Est aliquid factum numero modulante relatum,</p>
+
+<p>Idque latet fixum patet intendendo remissum.</p>
+
+<p><span class='pageNo'>[34]</span> Est modus ad reliquos phthongi collatio phthongos.</p>
+
+<p>Dant collata modum sibimet discrimina vocum.</p>
+
+<p>Quam tonus et semis sequitur vox protus habetur.</p>
+
+<p>Deuterus et tritus quid sit, sapit ordo vicinus.</p>
+
+<p>Hisque tono tantum placuit differre tetrardum,</p>
+
+<p>Ditonus et semis cuius mox iura sequuntur.</p>
+
+<p>Musica vox horum nulla est sine lege modorum.</p>
+
+<p>Quos tantum vulgus sentit de fine petulcus.</p>
+
+<p>Quatuor authenti plagas geminantur adepti,</p>
+
+<p>Ni quartus simplex septem discrimina firmet;</p>
+
+<p>Unde poeta canit: septem discrimina vocum.</p>
+
+<p>Septimus octavo similis quapropter adhaesit.</p>
+
+<p>Ex quibus authenti grave sunt discrimen adepti,</p>
+
+<p>Cum plagae voces tenues cupiantque minores.</p>
+
+<p>In quibus ad modicum tamen et collatio distat.</p>
+
+<p>Quod si forte duos uni vis scribere voci,</p>
+
+<p>Quatuor in reliquis primatum delta tenebunt.</p>
+
+<p>Enthymema sonos claudit signatque remotos.</p>
+
+<p>Concordant flexu diatessaron addita nexum,</p>
+
+<p>Comparat intentos diapente relatio gressus.</p>
+
+<p>Ius tenet ambarum spatium diapason et harum</p>
+
+<p>Refert alterius cum suscipit altera vices,</p>
+
+<p>Quas tunc alterius cum suscipit altera vices,</p>
+
+<p>Unde duo signum variant loca cuius idipsum.</p>
+<!-- end text -->
+</div>
+</div>
+<!--</div>-->
+<br /><br />
+
+
+  </div> <!-- #content -->
+
+</div> <!-- #container -->
+
+<div id="footer">
+  <div id="chmtl_logo">
+    <a href="https://chmtl.indiana.edu/">
+        <img src="_assets/img/chmtl_logo_trans.png" alt="CHMTL Logo" />
+    </a>
+  </div>
+  <div id="copyright">
+    <p>The <a href="https://chmtl.indiana.edu/">Center for the History of Music Theory and Literature</a> is a research center of the <a href="http://music.indiana.edu">Indiana University Jacobs School of Music</a>.</p>
+  </div>
+</div>
+
+<div id="iu_footer">
+    <hr />
+    <div id="copyright">
+        <div id="blockiu">
+            <a href="http://www.iub.edu" title="Indiana University">
+                <img alt="Block IU" height="28" src="https://chmtl.indiana.edu/tml/9th-11th/_assets/img/blockiu_white.gif" width="22" />
+            </a>
+        </div>
+        <p id="statement">
+        <a href="http://www.indiana.edu/comments/copyright.shtml" title="Copyright">Copyright</a> © 2022 The Trustees of <a href="http://www.iu.edu" title="Indiana University">Indiana University</a> | <a href="http://www.indiana.edu/comments/complaint.shtml" title="Copyright Complaints">Copyright Complaints</a> | <a href="https://music.indiana.edu/departments/offices/music-information-technology-services/privacy.shtml">Privacy Notice</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
