@@ -7055,3 +7055,6 @@ p#multipart-file {
 #container.tml-file div#metadata-contd p.text-sidebar-buttons {
   margin:1em 0 1em 1em
 }
+#tml-text {
+  border-top: 1px dotted grey;
+}
